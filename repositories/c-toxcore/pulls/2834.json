@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,12 +183,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "be457d5d0b2333d9ce8fdb6e9ff95e0b4ebd68f6",
         "user": {
@@ -220,7 +220,7 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAttention: Patch coverage is `50.00000%` with `1 line` in your changes missing coverage. Please review.\n> Project coverage is 72.13%. Comparing base [(`aa64916`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/aa649165a57bd7941269ddac5b7f91b12447655a?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`edb4dfc`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/edb4dfc4869bdd1d1048c88842f9e1ae8bcd3c85?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n> Report is 3 commits behind head on master.\n\n| [Files with missing lines](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?dropdown=coverage&src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) | Patch % | Lines |\n|---|---|---|\n| [toxcore/bin\\_unpack.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?src=pr&el=tree&filepath=toxcore%2Fbin_unpack.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9iaW5fdW5wYWNrLmM=) | 50.00% | [1 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #2834      +/-   ##\n==========================================\n- Coverage   72.21%   72.13%   -0.09%     \n==========================================\n  Files         151      151              \n  Lines       31122    31136      +14     \n==========================================\n- Hits        22476    22461      -15     \n- Misses       8646     8675      +29     \n```\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
+            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAttention: Patch coverage is `50.00000%` with `1 line` in your changes missing coverage. Please review.\n> Project coverage is 72.13%. Comparing base [(`ebe150f`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/ebe150fc56413ad9794573e055d33ccd42cbec7e?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`edb4dfc`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/edb4dfc4869bdd1d1048c88842f9e1ae8bcd3c85?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n> Report is 44 commits behind head on master.\n\n| [Files with missing lines](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?dropdown=coverage&src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) | Patch % | Lines |\n|---|---|---|\n| [toxcore/bin\\_unpack.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?src=pr&el=tree&filepath=toxcore%2Fbin_unpack.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9iaW5fdW5wYWNrLmM=) | 50.00% | [1 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #2834      +/-   ##\n==========================================\n- Coverage   72.18%   72.13%   -0.05%     \n==========================================\n  Files         151      151              \n  Lines       31176    31136      -40     \n==========================================\n- Hits        22505    22461      -44     \n- Misses       8671     8675       +4     \n```\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/2834?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
             "created_at": "2025-01-19T15:10:42Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2834#issuecomment-2600900928",
             "id": 2600900928,
@@ -231,9 +231,6 @@
                 "created_at": "2016-09-25T14:18:27Z",
                 "description": "Codecov provides highly integrated tools to group, merge, archive and compare coverage reports. Whether your team is comparing changes in a pull request or reviewing a single commit, Codecov will improve the code review workflow and quality.\r\n\r\n## Code coverage done right.®\r\n\r\n1. Upload coverage reports from your CI builds.\r\n2. Codecov merges all builds and languages into one beautiful coherent report.\r\n3. Get commit statuses, pull request comments and coverage overlay via our browser extension.\r\n\r\nWhen Codecov merges your uploads it keeps track of the CI provider (inc. build details) and user specified context, e.g. `#unittest` ~ `#smoketest` or `#oldcode` ~ `#newcode`. You can track the `#unittest` coverage independently of other groups. [Learn more here](\r\nhttp://docs.codecov.io/docs/flags)\r\n\r\nThrough **Codecov's Browser Extension** reports overlay directly in GitHub UI to assist in code review in [Chrome](https://chrome.google.com/webstore/detail/codecov/gedikamndpbemklijjkncpnolildpbgo) or Firefox (https://addons.mozilla.org/en-US/firefox/addon/codecov/)\r\n\r\n*Highly detailed* **pull request comments** and *customizable* **commit statuses** will improve your team's workflow and code coverage incrementally.\r\n\r\n**File backed configuration** all through the `codecov.yml`. \r\n\r\n## FAQ\r\n- Do you **merge multiple uploads** to the same commit? **Yes**\r\n- Do you **support multiple languages** in the same project? **Yes**\r\n- Can you **group coverage reports** by project and/or test type? **Yes**\r\n- How does **pricing** work? Only paid users can view reports and post statuses/comments. ",
                 "events": [
-                    "check_run",
-                    "check_suite",
-                    "create",
                     "delete",
                     "fork",
                     "member",
@@ -285,7 +282,7 @@
                     "statuses": "write"
                 },
                 "slug": "codecov",
-                "updated_at": "2023-09-08T15:29:16Z"
+                "updated_at": "2025-03-20T19:12:59Z"
             },
             "reactions": {
                 "+1": 0,
@@ -299,7 +296,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2600900928/reactions"
             },
-            "updated_at": "2025-01-19T16:14:28Z",
+            "updated_at": "2025-03-03T17:14:22Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/2600900928",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
@@ -505,9 +502,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T20:59:53Z",
+            "pushed_at": "2026-02-03T13:05:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19513,
+            "size": 20804,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -526,7 +523,7 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T14:42:33Z",
+            "updated_at": "2026-02-03T12:58:03Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
@@ -599,8 +596,8 @@
         "user_view_type": "public"
     },
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 63,
+        "closed_at": "2025-05-15T19:52:19Z",
+        "closed_issues": 122,
         "created_at": "2024-03-28T15:24:05Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -630,10 +627,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50/labels",
         "node_id": "MI_kwDOA7zIGs4Ao_zV",
         "number": 50,
-        "open_issues": 7,
-        "state": "open",
+        "open_issues": 0,
+        "state": "closed",
         "title": "v0.2.21",
-        "updated_at": "2025-01-24T14:39:24Z",
+        "updated_at": "2025-05-15T19:52:19Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
     "node_id": "PR_kwDOA7zIGs6IRVKu",
@@ -648,7 +645,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/edb4dfc4869bdd1d1048c88842f9e1ae8bcd3c85",
     "title": "fix: Don't crash on malloc failures in bin_unpack.",
-    "updated_at": "2025-01-19T16:19:31Z",
+    "updated_at": "2025-03-03T17:14:22Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2834",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

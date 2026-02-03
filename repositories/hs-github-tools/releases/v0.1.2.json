@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-github-tools/releases/tag/v0.1.2",
     "id": 60300309,
+    "immutable": false,
     "mentions_count": 3,
     "name": "v0.1.2",
     "node_id": "RE_kwDOBB8D7M4DmBwV",
@@ -35,6 +36,7 @@
     "tag_name": "v0.1.2",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-github-tools/tarball/v0.1.2",
     "target_commitish": "refs/heads/master",
+    "updated_at": "2023-12-20T12:39:02Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-github-tools/releases/60300309/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-github-tools/releases/60300309",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-github-tools/zipball/v0.1.2"

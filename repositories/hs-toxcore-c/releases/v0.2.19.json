@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-toxcore-c/releases/tag/v0.2.19",
     "id": 189028581,
+    "immutable": false,
     "mentions_count": 2,
     "name": "v0.2.19",
     "node_id": "RE_kwDOBBTGr84LRFjl",
@@ -35,6 +36,7 @@
     "tag_name": "v0.2.19",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-toxcore-c/tarball/v0.2.19",
     "target_commitish": "refs/heads/master",
+    "updated_at": "2024-12-04T21:49:13Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-toxcore-c/releases/189028581/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-toxcore-c/releases/189028581",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-toxcore-c/zipball/v0.2.19"

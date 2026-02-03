@@ -8,7 +8,7 @@
     "closed_by": null,
     "comment_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "dont forget to establish a package registry ala https://github.com/zoff99/toxcore_custom_packets_registry",
             "created_at": "2024-01-11T14:17:39Z",
             "html_url": "https://github.com/TokTok/c-toxcore/issues/2544#issuecomment-1887269460",
@@ -53,7 +53,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "also i am using packages with these magic first 6 bytes already: 0x667788113435\r\nso mark those as \"already registered\" please.\r\ndepending on how many bytes it will be: 0x6677 if it will be the first 2",
             "created_at": "2024-01-11T14:19:20Z",
             "html_url": "https://github.com/TokTok/c-toxcore/issues/2544#issuecomment-1887275452",
@@ -186,9 +186,99 @@
                 "url": "https://api.github.com/users/Green-Sky",
                 "user_view_type": "public"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "its been a while, and new developments on this topic?",
+            "created_at": "2025-12-07T10:43:55Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/issues/2544#issuecomment-3621905430",
+            "id": 3621905430,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2544",
+            "node_id": "IC_kwDOA7zIGs7X4eQW",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3621905430/reactions"
+            },
+            "updated_at": "2025-12-07T10:43:55Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3621905430",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "Funny you should ask. 2 days ago I basically decided on static 16bit `A0`, with a reserved range for toktok.\n\n```\nkeep 0x0000 - 0x03FF free for offical business, handled by toktok (1024 range)\n\n0x8000 - 0x8FFF old green, dont use yet, still has some old users\n0x9000 - 0x90FF new green\n\n0x6677 zoff\n```\n\n^current state would look something like this then. I made the mistake of running with single byte ids for too long, so I will phase those out over 1-2years.\n\nedit: notation is first bytes in packet. so `0x6677` -> `0x66` `0x77`\n\n---\n\nIf there is no push back, I will go forward with that.",
+            "created_at": "2025-12-07T11:09:31Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/issues/2544#issuecomment-3621921638",
+            "id": 3621921638,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2544",
+            "node_id": "IC_kwDOA7zIGs7X4iNm",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3621921638/reactions"
+            },
+            "updated_at": "2025-12-07T22:25:29Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3621921638",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comments": 4,
+    "comments": 6,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2544/comments",
     "created_at": "2024-01-11T11:54:43Z",
     "event_data": [
@@ -719,6 +809,12 @@
     "events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2544/events",
     "html_url": "https://github.com/TokTok/c-toxcore/issues/2544",
     "id": 2076419208,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "1d76db",
@@ -743,7 +839,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 8,
         "created_at": "2018-03-09T13:13:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -773,10 +869,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28/labels",
         "node_id": "MDk6TWlsZXN0b25lMzE3NDEzMQ==",
         "number": 28,
-        "open_issues": 160,
+        "open_issues": 155,
         "state": "open",
         "title": "v0.2.x",
-        "updated_at": "2025-01-14T12:48:29Z",
+        "updated_at": "2026-01-15T13:55:44Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28"
     },
     "node_id": "I_kwDOA7zIGs57w6SI",
@@ -804,7 +900,8 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2544/timeline",
     "title": "RFC: Custom Packet differenciation (aka packet type ids) for NGC",
-    "updated_at": "2024-11-16T10:15:59Z",
+    "type": null,
+    "updated_at": "2025-12-07T22:25:29Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2544",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",

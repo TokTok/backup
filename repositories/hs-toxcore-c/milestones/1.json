@@ -1,5 +1,5 @@
 {
-    "closed_at": null,
+    "closed_at": "2025-02-17T17:18:05Z",
     "closed_issues": 41,
     "created_at": "2021-11-26T16:59:10Z",
     "creator": {
@@ -30,9 +30,9 @@
     "labels_url": "https://api.github.com/repos/TokTok/hs-toxcore-c/milestones/1/labels",
     "node_id": "MI_kwDOBBTGr84AcWzL",
     "number": 1,
-    "open_issues": 1,
-    "state": "open",
+    "open_issues": 0,
+    "state": "closed",
     "title": "v0.2.19",
-    "updated_at": "2025-01-20T12:30:58Z",
+    "updated_at": "2025-02-17T17:18:05Z",
     "url": "https://api.github.com/repos/TokTok/hs-toxcore-c/milestones/1"
 }

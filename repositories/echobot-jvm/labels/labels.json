@@ -99,6 +99,15 @@
         "url": "https://api.github.com/repos/TokTok/echobot-jvm/labels/invalid"
     },
     {
+        "color": "ffa221",
+        "default": false,
+        "description": "Pull requests that update java code",
+        "id": 8306842062,
+        "name": "java",
+        "node_id": "LA_kwDOBv2uic8AAAAB7yBZzg",
+        "url": "https://api.github.com/repos/TokTok/echobot-jvm/labels/java"
+    },
+    {
         "color": "256784",
         "default": false,
         "description": "Process related",

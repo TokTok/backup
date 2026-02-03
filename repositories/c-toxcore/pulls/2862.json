@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/206ea35304bd95f108cc3b6e88c439c9bf9d874e"
         }
     },
     "active_lock_reason": null,
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -95,8 +95,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 212,
-            "open_issues_count": 212,
+            "open_issues": 210,
+            "open_issues_count": 210,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-08T19:38:37Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 24739,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2341,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,14 +141,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-02-08T08:00:20Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2341,
-            "watchers_count": 2341,
+            "watchers": 2554,
+            "watchers_count": 2554,
             "web_commit_signoff_required": true
         },
-        "sha": "c53c30e09d996ceb6835287b4050841310a64e7c",
+        "sha": "7cefa93cf2974a47f43c068d47ed8a198781ec48",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -173,10 +173,56 @@
     },
     "body": "Instead of transitively loading them from dependencies, we should be explicit about what each object needs. The downside of this is that it's not clear whether the object and its dependency use the same common dependency. The upside is that we don't expose those getters of internal dependencies.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2862)\n<!-- Reviewable:end -->\n",
     "changed_files": 25,
-    "closed_at": null,
+    "closed_at": "2025-11-03T00:16:52Z",
     "comment_data": [],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_regular_data": [
+        {
+            "author_association": "MEMBER",
+            "body": "@iphydf needs restyled:\r\n\r\n```diff\r\ndiff --git a/toxcore/announce.h b/toxcore/announce.h\r\nindex f263584..2c1183c 100644\r\n--- a/toxcore/announce.h\r\n+++ b/toxcore/announce.h\r\n@@ -24,7 +24,8 @@ uint8_t announce_response_of_request_type(uint8_t request_type);\r\n \r\n typedef struct Announcements Announcements;\r\n \r\n-Announcements *_Nullable new_announcements(const Logger *_Nonnull log, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Mono_Time *_Nonnull mono_time, Forwarding *_Nonnull forwarding, DHT *_Nonnull dht, Networking_Core *_Nonnull net);\r\n+Announcements *_Nullable new_announcements(const Logger *_Nonnull log, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Mono_Time *_Nonnull mono_time, Forwarding *_Nonnull forwarding,\r\n+        DHT *_Nonnull dht, Networking_Core *_Nonnull net);\r\n \r\n /**\r\n  * @brief If data is stored, run `on_retrieve_callback` on it.\r\ndiff --git a/toxcore/forwarding.c b/toxcore/forwarding.c\r\nindex 776d2de..5b29c8e 100644\r\n--- a/toxcore/forwarding.c\r\n+++ b/toxcore/forwarding.c\r\n@@ -344,7 +344,7 @@ void set_callback_forward_reply(Forwarding *forwarding, forward_reply_cb *functi\r\n }\r\n \r\n Forwarding *_Nullable new_forwarding(const Logger *log, const Memory *mem, const Random *rng, const Mono_Time *mono_time, DHT *dht,\r\n-                           Networking_Core *net)\r\n+                                     Networking_Core *net)\r\n {\r\n     if (log == nullptr || mono_time == nullptr || dht == nullptr) {\r\n         return nullptr;\r\ndiff --git a/toxcore/forwarding.h b/toxcore/forwarding.h\r\nindex bdb8499..8cef884 100644\r\n--- a/toxcore/forwarding.h\r\n+++ b/toxcore/forwarding.h\r\n@@ -99,7 +99,7 @@ typedef bool forward_reply_cb(void *_Nullable object, const uint8_t *_Nullable s\r\n  */\r\n void set_callback_forward_reply(Forwarding *_Nonnull forwarding, forward_reply_cb *_Nullable function, void *_Nullable object);\r\n Forwarding *_Nullable new_forwarding(const Logger *_Nonnull log, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Mono_Time *_Nonnull mono_time, DHT *_Nonnull dht,\r\n-                           Networking_Core *_Nonnull net);\r\n+                                     Networking_Core *_Nonnull net);\r\n \r\n void kill_forwarding(Forwarding *_Nullable forwarding);\r\n #ifdef __cplusplus\r\ndiff --git a/toxcore/friend_connection.h b/toxcore/friend_connection.h\r\nindex aba378f..a6d09f0 100644\r\n--- a/toxcore/friend_connection.h\r\n+++ b/toxcore/friend_connection.h\r\n@@ -146,7 +146,7 @@ void set_friend_request_callback(Friend_Connections *_Nonnull fr_c, fr_request_c\r\n /** Create new friend_connections instance. */\r\n Friend_Connections *_Nullable new_friend_connections(const Logger *_Nonnull logger, const Memory *_Nonnull mem, const Mono_Time *_Nonnull mono_time, const Network *_Nonnull ns,\r\n         Onion_Client *_Nonnull onion_c, DHT *_Nonnull dht, Net_Crypto *_Nonnull net_crypto, Networking_Core *_Nonnull net,\r\n-    bool local_discovery_enabled);\r\n+        bool local_discovery_enabled);\r\n \r\n /** main friend_connections loop. */\r\n void do_friend_connections(Friend_Connections *_Nonnull fr_c, void *_Nonnull userdata);\r\ndiff --git a/toxcore/net_crypto.h b/toxcore/net_crypto.h\r\nindex b484078..f3270ad 100644\r\n--- a/toxcore/net_crypto.h\r\n+++ b/toxcore/net_crypto.h\r\n@@ -368,7 +368,8 @@ void load_secret_key(Net_Crypto *_Nonnull c, const uint8_t *_Nonnull sk);\r\n /** @brief Create new instance of Net_Crypto.\r\n  * Sets all the global connection variables to their default values.\r\n  */\r\n-Net_Crypto *_Nullable new_net_crypto(const Logger *_Nonnull log, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Network *_Nonnull ns, Mono_Time *_Nonnull mono_time, Networking_Core *_Nonnull net, DHT *_Nonnull dht,\r\n+Net_Crypto *_Nullable new_net_crypto(const Logger *_Nonnull log, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Network *_Nonnull ns, Mono_Time *_Nonnull mono_time,\r\n+                                     Networking_Core *_Nonnull net, DHT *_Nonnull dht,\r\n                                      const TCP_Proxy_Info *_Nonnull proxy_info, Net_Profile *_Nonnull tcp_np);\r\n \r\n /** return the optimal interval in ms for running do_net_crypto. */\r\ndiff --git a/toxcore/onion_announce.h b/toxcore/onion_announce.h\r\nindex 6082be9..fca6798 100644\r\n--- a/toxcore/onion_announce.h\r\n+++ b/toxcore/onion_announce.h\r\n@@ -125,7 +125,7 @@ typedef int pack_extra_data_cb(void *_Nonnull object, const Logger *_Nonnull log\r\n void onion_announce_extra_data_callback(Onion_Announce *_Nonnull onion_a, uint16_t extra_data_max_size, pack_extra_data_cb *_Nonnull extra_data_callback, void *_Nonnull extra_data_object);\r\n \r\n Onion_Announce *_Nullable new_onion_announce(const Logger *_Nonnull log, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Mono_Time *_Nonnull mono_time, DHT *_Nonnull dht,\r\n-                                   Networking_Core *_Nonnull net);\r\n+        Networking_Core *_Nonnull net);\r\n \r\n void kill_onion_announce(Onion_Announce *_Nullable onion_a);\r\n #endif /* C_TOXCORE_TOXCORE_ONION_ANNOUNCE_H */\r\ndiff --git a/toxcore/onion_client.h b/toxcore/onion_client.h\r\nindex 4b95572..a61e9ac 100644\r\n--- a/toxcore/onion_client.h\r\n+++ b/toxcore/onion_client.h\r\n@@ -191,7 +191,8 @@ typedef bool onion_group_announce_cb(Onion_Client *_Nonnull onion_c, uint32_t se\r\n void onion_group_announce_register(Onion_Client *_Nonnull onion_c, onion_group_announce_cb *_Nullable func, void *_Nullable user_data);\r\n void do_onion_client(Onion_Client *_Nonnull onion_c);\r\n \r\n-Onion_Client *_Nullable new_onion_client(const Logger *_Nonnull logger, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Mono_Time *_Nonnull mono_time, Net_Crypto *_Nonnull c, DHT *_Nonnull dht, Networking_Core *_Nonnull net);\r\n+Onion_Client *_Nullable new_onion_client(const Logger *_Nonnull logger, const Memory *_Nonnull mem, const Random *_Nonnull rng, const Mono_Time *_Nonnull mono_time, Net_Crypto *_Nonnull c,\r\n+        DHT *_Nonnull dht, Networking_Core *_Nonnull net);\r\n \r\n void kill_onion_client(Onion_Client *_Nullable onion_c);\r\n typedef enum Onion_Connection_Status {\r\n```",
+            "created_at": "2025-10-19T11:50:17Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2862#issuecomment-3419603425",
+            "id": 3419603425,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2862",
+            "node_id": "IC_kwDOA7zIGs7L0wHh",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3419603425/reactions"
+            },
+            "updated_at": "2025-10-19T11:50:35Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3419603425",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2862/comments",
     "commit_data": [
         {
@@ -201,7 +247,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/206ea35304bd95f108cc3b6e88c439c9bf9d874e/comments",
             "commit": {
                 "author": {
                     "date": "2025-02-05T11:11:31Z",
@@ -210,22 +256,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-08T11:48:18Z",
+                    "date": "2025-11-02T23:31:59Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Explicitly pass dependencies to constructors.\n\nInstead of transitively loading them from dependencies, we should be\nexplicit about what each object needs. The downside of this is that it's\nnot clear whether the object and its dependency use the same common\ndependency. The upside is that we don't expose those getters of internal\ndependencies.",
                 "tree": {
-                    "sha": "5f9bc87353ffaadff45e7343a16bbb9cd4d5a009",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5f9bc87353ffaadff45e7343a16bbb9cd4d5a009"
+                    "sha": "9a1cd3c58be5726c66ea1c7410670355130879bd",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/9a1cd3c58be5726c66ea1c7410670355130879bd"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/206ea35304bd95f108cc3b6e88c439c9bf9d874e",
                 "verification": {
-                    "payload": "tree 5f9bc87353ffaadff45e7343a16bbb9cd4d5a009\nparent c53c30e09d996ceb6835287b4050841310a64e7c\nauthor iphydf <iphydf@users.noreply.github.com> 1738753891 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1739015298 +0000\n\nrefactor: Explicitly pass dependencies to constructors.\n\nInstead of transitively loading them from dependencies, we should be\nexplicit about what each object needs. The downside of this is that it's\nnot clear whether the object and its dependency use the same common\ndependency. The upside is that we don't expose those getters of internal\ndependencies.\n",
+                    "payload": "tree 9a1cd3c58be5726c66ea1c7410670355130879bd\nparent 7cefa93cf2974a47f43c068d47ed8a198781ec48\nauthor iphydf <iphydf@users.noreply.github.com> 1738753891 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1762126319 +0000\n\nrefactor: Explicitly pass dependencies to constructors.\n\nInstead of transitively loading them from dependencies, we should be\nexplicit about what each object needs. The downside of this is that it's\nnot clear whether the object and its dependency use the same common\ndependency. The upside is that we don't expose those getters of internal\ndependencies.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmenRIIACgkQOFXbotdE\nA8k3NQf/XasBtFY5ikr/Re/DQjohEZxtSqXqTt6ZBrdnZkXLrWAOfewQ/+BGcc0d\nTUdkpbiFnpSXLFBiapwkaPnJWF00kI9dUVjlxl32TB2jVCej2Naq1j1s1kE1N67Q\n3k7SObFXW8CHzx/Rp62lIQT3oYfGiwf3MEjg+ML4ACOIUOrZxW8Lh83+X4iYG3yp\nUJiWbx2RkWaWINdjRQ4KwS6UGncjJZP/ysW67AxHuGhc4BfZwwNVoZq2F1y04E4U\ntcYtPbhZLDLtXCd6Qc4+UbjKsOsvAy8SXtc9zc2aVM+lXvRp1uIQ8AuFR1o7DRam\n7ARoe1IwkiiiU0w2kGOKFKmF6OrJ+Q==\n=4Lxf\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmkH6e8ACgkQOFXbotdE\nA8n6MwgAnLdSaNgXWffQBryzOa8phP9FBnSQkdi8bNZeszLUl+HNL5YuCCUWgzF+\nqNyJJQietnRSVyD91Wtx599DpFX+sPmzJsKTAPPpvF9ccJRVMLuxCV/YcyEBppTz\ny3EWySMV1gEj+pBMmao1vY2Pw0/fGq2tR4eNp29WQawB2Md8EH4DZ79MWTikwCXF\nEqDSkG6ZrG+I4TX8q1QAev04OVO/gPqxM9+JpfmE2jvY4aLdqFtA0LEAECOHzL8f\nM56w2+3VLvIkHGgHwt/q7DlEMKteKo9m+n+Wa/Dxor7Y57fGx0/Hl+R95ZZjeUwy\nbdOF2H498CQ2ZKvx9htleTTKc6bMwg==\n=tfYB\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-08T11:48:24Z"
+                    "verified_at": "2025-11-02T23:32:01Z"
                 }
             },
             "committer": {
@@ -249,23 +295,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
-            "node_id": "C_kwDOA7z7wtoAKGUwZjUxNjhkNmQyYjgzNzNjNzNkYzc1MGQ5N2UyZThhMDcyNzFjY2Y",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/206ea35304bd95f108cc3b6e88c439c9bf9d874e",
+            "node_id": "C_kwDOA7z7wtoAKDIwNmVhMzUzMDRiZDk1ZjEwOGNjM2I2ZTg4YzQzOWM5YmY5ZDg3NGU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/c53c30e09d996ceb6835287b4050841310a64e7c",
-                    "sha": "c53c30e09d996ceb6835287b4050841310a64e7c",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c53c30e09d996ceb6835287b4050841310a64e7c"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/7cefa93cf2974a47f43c068d47ed8a198781ec48",
+                    "sha": "7cefa93cf2974a47f43c068d47ed8a198781ec48",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/7cefa93cf2974a47f43c068d47ed8a198781ec48"
                 }
             ],
-            "sha": "e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf"
+            "sha": "206ea35304bd95f108cc3b6e88c439c9bf9d874e",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/206ea35304bd95f108cc3b6e88c439c9bf9d874e"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862/commits",
     "created_at": "2025-02-05T11:13:31Z",
-    "deletions": 131,
+    "deletions": 121,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2862.diff",
     "draft": false,
     "head": {
@@ -357,9 +403,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-08T11:48:22Z",
+            "pushed_at": "2026-02-03T13:05:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19136,
+            "size": 20804,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -378,14 +424,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-02-05T22:21:01Z",
+            "updated_at": "2026-02-03T12:58:03Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
+        "sha": "206ea35304bd95f108cc3b6e88c439c9bf9d874e",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -423,16 +469,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "f8e97e04a8e881a0154c7af758d925c5426f3af3",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "206ea35304bd95f108cc3b6e88c439c9bf9d874e",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-11-03T00:16:51Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 94,
         "created_at": "2025-01-14T11:12:45Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -462,25 +528,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/51/labels",
         "node_id": "MI_kwDOA7zIGs4AuZV7",
         "number": 51,
-        "open_issues": 21,
+        "open_issues": 2,
         "state": "open",
         "title": "v0.2.22",
-        "updated_at": "2025-02-06T12:43:41Z",
+        "updated_at": "2026-02-03T19:52:53Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/51"
     },
     "node_id": "PR_kwDOA7zIGs6KH8j7",
     "number": 2862,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/2862.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e0f5168d6d2b8373c73dc750d97e2e8a07271ccf",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/206ea35304bd95f108cc3b6e88c439c9bf9d874e",
     "title": "refactor: Explicitly pass dependencies to constructors.",
-    "updated_at": "2025-02-08T11:58:31Z",
+    "updated_at": "2026-01-01T11:23:06Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2862",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

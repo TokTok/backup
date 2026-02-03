@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-msgpack-binary/releases/tag/v0.0.16",
     "id": 59546997,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.0.16",
     "node_id": "RE_kwDOBAYG6s4DjJ11",
@@ -35,6 +36,7 @@
     "tag_name": "v0.0.16",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-msgpack-binary/tarball/v0.0.16",
     "target_commitish": "master",
+    "updated_at": "2022-02-14T20:24:32Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-msgpack-binary/releases/59546997/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-msgpack-binary/releases/59546997",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-msgpack-binary/zipball/v0.0.16"

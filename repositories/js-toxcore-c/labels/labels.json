@@ -108,6 +108,15 @@
         "url": "https://api.github.com/repos/TokTok/js-toxcore-c/labels/invalid"
     },
     {
+        "color": "168700",
+        "default": false,
+        "description": "Pull requests that update javascript code",
+        "id": 8233988969,
+        "name": "javascript",
+        "node_id": "LA_kwDOBChtbM8AAAAB6sizaQ",
+        "url": "https://api.github.com/repos/TokTok/js-toxcore-c/labels/javascript"
+    },
+    {
         "color": "256784",
         "default": false,
         "description": "Process related",

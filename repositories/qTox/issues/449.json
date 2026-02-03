@@ -178,11 +178,85 @@
             "node_id": "MIE_lADOA9gydM6mw5v0zwAAAAO8tcnN",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16050932173"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-03-07T12:03:42Z",
+            "event": "demilestoned",
+            "id": 16631552249,
+            "milestone": {
+                "title": "v1.18.4"
+            },
+            "node_id": "DEME_lADOA9gydM6mw5v0zwAAAAPfUVj5",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16631552249"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-03-07T12:03:42Z",
+            "event": "milestoned",
+            "id": 16631552253,
+            "milestone": {
+                "title": "v1.18.5"
+            },
+            "node_id": "MIE_lADOA9gydM6mw5v0zwAAAAPfUVj9",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16631552253"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/449/events",
     "html_url": "https://github.com/TokTok/qTox/issues/449",
     "id": 2797837300,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "84b6eb",
@@ -198,8 +272,8 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
-        "created_at": "2025-01-23T22:43:01Z",
+        "closed_issues": 4,
+        "created_at": "2025-03-07T12:02:21Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -223,19 +297,20 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/qTox/milestone/6",
-        "id": 12211725,
-        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/6/labels",
-        "node_id": "MI_kwDOA9gydM4AulYN",
-        "number": 6,
-        "open_issues": 7,
+        "html_url": "https://github.com/TokTok/qTox/milestone/8",
+        "id": 12458871,
+        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/8/labels",
+        "node_id": "MI_kwDOA9gydM4Avht3",
+        "number": 8,
+        "open_issues": 26,
         "state": "open",
-        "title": "v1.18.4",
-        "updated_at": "2025-01-23T22:44:03Z",
-        "url": "https://api.github.com/repos/TokTok/qTox/milestones/6"
+        "title": "v1.18.5",
+        "updated_at": "2026-02-03T16:48:04Z",
+        "url": "https://api.github.com/repos/TokTok/qTox/milestones/8"
     },
     "node_id": "I_kwDOA9gydM6mw5v0",
     "number": 449,
+    "parent_issue_url": "https://api.github.com/repos/TokTok/qTox/issues/461",
     "performed_via_github_app": null,
     "reactions": {
         "+1": 0,
@@ -259,7 +334,17 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/qTox/issues/449/timeline",
     "title": "[FR]: Make a non av conference",
-    "updated_at": "2025-01-23T22:44:03Z",
+    "type": {
+        "color": "blue",
+        "created_at": "2024-01-25T17:59:36Z",
+        "description": "A request, idea, or new functionality",
+        "id": 2333480,
+        "is_enabled": true,
+        "name": "Feature",
+        "node_id": "IT_kwDOAQnqk84AI5so",
+        "updated_at": "2024-10-08T09:59:59Z"
+    },
+    "updated_at": "2025-03-07T12:03:42Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/449",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/51246585?v=4",

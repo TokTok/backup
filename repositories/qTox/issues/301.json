@@ -2,7 +2,7 @@
     "active_lock_reason": null,
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "body": "### Contact Details (e.g. Tox ID or email)\n\n_No response_\n\n### qTox Version\n\nv1.18.0-rc.3-31-g54037341\n\n### Commit Hash\n\n5403734175b10740f281efa909f773be7732fcea\n\n### Toxcore Version\n\n0.2.20\n\n### Qt Version\n\n6.8.1\n\n### Steps to reproduce\n\n1. Start qTox.\r\n2. Wait and confirm to be online.\r\n\n\n### Observed Behavior\n\nThe qTox icon in the title bar/frame area remains grey, while it used to turn green (have not bisected yet).\r\n\n\n### Expected Behavior\n\nThe icon probably still should turn green.\r\n\n\n### Reproducibility\n\nAlways\n\n### Operating System\n\nLinux\n\n### Operating System version/distro/name/etc.\n\nGentoo Linux\n\n### Relevant log output\n\n_No response_",
     "closed_at": null,
     "closed_by": null,
@@ -98,7 +98,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Hmmm, looks like it actually never worked the same with the Qt 6 build for me, and for separate chat windows, the icon is different altogether.\r\n\r\nIn multiple window mode, the chat windows in Qt 5 build have a full green circle for online contacts, and the red circle for offline ones, same as in the contact list.\r\n",
             "created_at": "2024-12-25T21:29:56Z",
             "html_url": "https://github.com/TokTok/qTox/issues/301#issuecomment-2562003619",
@@ -666,11 +666,85 @@
             "node_id": "MIE_lADOA9gydM6kZgMdzwAAAAO8tckq",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16050932010"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-03-07T12:03:41Z",
+            "event": "demilestoned",
+            "id": 16631552083,
+            "milestone": {
+                "title": "v1.18.4"
+            },
+            "node_id": "DEME_lADOA9gydM6kZgMdzwAAAAPfUVhT",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16631552083"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-03-07T12:03:41Z",
+            "event": "milestoned",
+            "id": 16631552096,
+            "milestone": {
+                "title": "v1.18.5"
+            },
+            "node_id": "MIE_lADOA9gydM6kZgMdzwAAAAPfUVhg",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16631552096"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/301/events",
     "html_url": "https://github.com/TokTok/qTox/issues/301",
     "id": 2758148893,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "ee0701",
@@ -695,8 +769,8 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
-        "created_at": "2025-01-23T22:43:01Z",
+        "closed_issues": 4,
+        "created_at": "2025-03-07T12:02:21Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -720,19 +794,20 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/qTox/milestone/6",
-        "id": 12211725,
-        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/6/labels",
-        "node_id": "MI_kwDOA9gydM4AulYN",
-        "number": 6,
-        "open_issues": 7,
+        "html_url": "https://github.com/TokTok/qTox/milestone/8",
+        "id": 12458871,
+        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/8/labels",
+        "node_id": "MI_kwDOA9gydM4Avht3",
+        "number": 8,
+        "open_issues": 26,
         "state": "open",
-        "title": "v1.18.4",
-        "updated_at": "2025-01-23T22:44:03Z",
-        "url": "https://api.github.com/repos/TokTok/qTox/milestones/6"
+        "title": "v1.18.5",
+        "updated_at": "2026-02-03T16:48:04Z",
+        "url": "https://api.github.com/repos/TokTok/qTox/milestones/8"
     },
     "node_id": "I_kwDOA9gydM6kZgMd",
     "number": 301,
+    "parent_issue_url": "https://api.github.com/repos/TokTok/qTox/issues/462",
     "performed_via_github_app": null,
     "reactions": {
         "+1": 0,
@@ -756,7 +831,17 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/qTox/issues/301/timeline",
     "title": "[Bug]: title frame icon no longer turns green when online",
-    "updated_at": "2025-01-23T22:44:01Z",
+    "type": {
+        "color": "red",
+        "created_at": "2024-01-25T17:59:36Z",
+        "description": "An unexpected problem or behavior",
+        "id": 2333477,
+        "is_enabled": true,
+        "name": "Bug",
+        "node_id": "IT_kwDOAQnqk84AI5sl",
+        "updated_at": "2024-07-26T10:39:38Z"
+    },
+    "updated_at": "2025-03-07T12:03:41Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/301",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/9367616?v=4",

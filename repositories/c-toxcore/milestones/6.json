@@ -24,7 +24,7 @@
         "user_view_type": "public"
     },
     "description": "",
-    "due_on": "2032-01-01T08:00:00Z",
+    "due_on": "2032-01-01T00:00:00Z",
     "html_url": "https://github.com/TokTok/c-toxcore/milestone/6",
     "id": 2093325,
     "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/6/labels",
@@ -33,6 +33,6 @@
     "open_issues": 1,
     "state": "open",
     "title": "z-meta",
-    "updated_at": "2024-03-28T01:33:44Z",
+    "updated_at": "2026-01-24T13:26:25Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/6"
 }

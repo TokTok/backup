@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/go-toxcore-c/releases/tag/v0.2.17",
     "id": 54138793,
+    "immutable": false,
     "mentions_count": 5,
     "name": "v0.2.17",
     "node_id": "RE_kwDOBw_Qds4DOhep",
@@ -35,6 +36,7 @@
     "tag_name": "v0.2.17",
     "tarball_url": "https://api.github.com/repos/TokTok/go-toxcore-c/tarball/v0.2.17",
     "target_commitish": "master",
+    "updated_at": "2022-03-13T11:10:37Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/go-toxcore-c/releases/54138793/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/go-toxcore-c/releases/54138793",
     "zipball_url": "https://api.github.com/repos/TokTok/go-toxcore-c/zipball/v0.2.17"

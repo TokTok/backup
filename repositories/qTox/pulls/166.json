@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/166"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/b5bbb90ff9176fc79328d941c7a4054f4277ecf6"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/44435feed3d569b5c34acf2bbf8a0390b3e0ea55"
         }
     },
     "active_lock_reason": null,
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 12,
-            "forks_count": 12,
+            "forks": 29,
+            "forks_count": 29,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -95,8 +95,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 39,
-            "open_issues_count": 39,
+            "open_issues": 87,
+            "open_issues_count": 87,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2025-01-24T23:11:11Z",
+            "pushed_at": "2026-02-03T16:40:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 60945,
+            "size": 60870,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 56,
+            "stargazers_count": 270,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -137,14 +137,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:53:49Z",
+            "updated_at": "2026-02-03T14:56:04Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 56,
-            "watchers_count": 56,
+            "watchers": 270,
+            "watchers_count": 270,
             "web_commit_signoff_required": true
         },
-        "sha": "c6a75660827d670dc2ea84b4c9633d51059472c5",
+        "sha": "2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -185,9 +185,6 @@
                 "created_at": "2016-09-25T14:18:27Z",
                 "description": "Codecov provides highly integrated tools to group, merge, archive and compare coverage reports. Whether your team is comparing changes in a pull request or reviewing a single commit, Codecov will improve the code review workflow and quality.\r\n\r\n## Code coverage done right.®\r\n\r\n1. Upload coverage reports from your CI builds.\r\n2. Codecov merges all builds and languages into one beautiful coherent report.\r\n3. Get commit statuses, pull request comments and coverage overlay via our browser extension.\r\n\r\nWhen Codecov merges your uploads it keeps track of the CI provider (inc. build details) and user specified context, e.g. `#unittest` ~ `#smoketest` or `#oldcode` ~ `#newcode`. You can track the `#unittest` coverage independently of other groups. [Learn more here](\r\nhttp://docs.codecov.io/docs/flags)\r\n\r\nThrough **Codecov's Browser Extension** reports overlay directly in GitHub UI to assist in code review in [Chrome](https://chrome.google.com/webstore/detail/codecov/gedikamndpbemklijjkncpnolildpbgo) or Firefox (https://addons.mozilla.org/en-US/firefox/addon/codecov/)\r\n\r\n*Highly detailed* **pull request comments** and *customizable* **commit statuses** will improve your team's workflow and code coverage incrementally.\r\n\r\n**File backed configuration** all through the `codecov.yml`. \r\n\r\n## FAQ\r\n- Do you **merge multiple uploads** to the same commit? **Yes**\r\n- Do you **support multiple languages** in the same project? **Yes**\r\n- Can you **group coverage reports** by project and/or test type? **Yes**\r\n- How does **pricing** work? Only paid users can view reports and post statuses/comments. ",
                 "events": [
-                    "check_run",
-                    "check_suite",
-                    "create",
                     "delete",
                     "fork",
                     "member",
@@ -239,7 +236,7 @@
                     "statuses": "write"
                 },
                 "slug": "codecov",
-                "updated_at": "2023-09-08T15:29:16Z"
+                "updated_at": "2025-03-20T19:12:59Z"
             },
             "reactions": {
                 "+1": 0,
@@ -276,9 +273,141 @@
                 "url": "https://api.github.com/users/codecov%5Bbot%5D",
                 "user_view_type": "public"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "> [!TIP]\n> Preview URL:\n<!-- thollander/actions-comment-pull-request \"preview\" -->",
+            "created_at": "2026-02-03T16:52:43Z",
+            "html_url": "https://github.com/TokTok/qTox/pull/166#issuecomment-3842466422",
+            "id": 3842466422,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/166",
+            "node_id": "IC_kwDOA9gydM7lB2J2",
+            "performed_via_github_app": {
+                "client_id": "Iv1.05c79e9ad1f6bdfa",
+                "created_at": "2018-07-30T09:30:17Z",
+                "description": "Automate your workflow from idea to production",
+                "events": [
+                    "branch_protection_rule",
+                    "check_run",
+                    "check_suite",
+                    "create",
+                    "delete",
+                    "deployment",
+                    "deployment_status",
+                    "discussion",
+                    "discussion_comment",
+                    "fork",
+                    "gollum",
+                    "issues",
+                    "issue_comment",
+                    "label",
+                    "merge_group",
+                    "milestone",
+                    "page_build",
+                    "public",
+                    "pull_request",
+                    "pull_request_review",
+                    "pull_request_review_comment",
+                    "push",
+                    "registry_package",
+                    "release",
+                    "repository",
+                    "repository_dispatch",
+                    "status",
+                    "watch",
+                    "workflow_dispatch",
+                    "workflow_run"
+                ],
+                "external_url": "https://help.github.com/en/actions",
+                "html_url": "https://github.com/apps/github-actions",
+                "id": 15368,
+                "name": "GitHub Actions",
+                "node_id": "MDM6QXBwMTUzNjg=",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+                    "events_url": "https://api.github.com/users/github/events{/privacy}",
+                    "followers_url": "https://api.github.com/users/github/followers",
+                    "following_url": "https://api.github.com/users/github/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+                    "gravatar_id": "",
+                    "html_url": "https://github.com/github",
+                    "id": 9919,
+                    "login": "github",
+                    "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+                    "organizations_url": "https://api.github.com/users/github/orgs",
+                    "received_events_url": "https://api.github.com/users/github/received_events",
+                    "repos_url": "https://api.github.com/users/github/repos",
+                    "site_admin": false,
+                    "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+                    "type": "Organization",
+                    "url": "https://api.github.com/users/github",
+                    "user_view_type": "public"
+                },
+                "permissions": {
+                    "actions": "write",
+                    "administration": "read",
+                    "artifact_metadata": "write",
+                    "attestations": "write",
+                    "checks": "write",
+                    "contents": "write",
+                    "copilot_requests": "write",
+                    "deployments": "write",
+                    "discussions": "write",
+                    "issues": "write",
+                    "merge_queues": "write",
+                    "metadata": "read",
+                    "models": "read",
+                    "packages": "write",
+                    "pages": "write",
+                    "pull_requests": "write",
+                    "repository_hooks": "write",
+                    "repository_projects": "write",
+                    "security_events": "write",
+                    "statuses": "write",
+                    "vulnerability_alerts": "read"
+                },
+                "slug": "github-actions",
+                "updated_at": "2025-12-02T18:13:15Z"
+            },
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/3842466422/reactions"
+            },
+            "updated_at": "2026-02-03T17:02:02Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/3842466422",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-actions",
+                "id": 41898282,
+                "login": "github-actions[bot]",
+                "node_id": "MDM6Qm90NDE4OTgyODI=",
+                "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/166/comments",
     "commit_data": [
         {
@@ -303,7 +432,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/b5bbb90ff9176fc79328d941c7a4054f4277ecf6/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/44435feed3d569b5c34acf2bbf8a0390b3e0ea55/comments",
             "commit": {
                 "author": {
                     "date": "2024-11-27T20:26:17Z",
@@ -312,22 +441,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-01-20T11:16:53Z",
+                    "date": "2026-02-03T16:50:04Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Add network profiler view in debug tools.",
                 "tree": {
-                    "sha": "04e5a351f36329c79fc02240a1baa11049231f49",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/04e5a351f36329c79fc02240a1baa11049231f49"
+                    "sha": "16f9c6142e66023851d27ab68a2b1fe602811bd4",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/16f9c6142e66023851d27ab68a2b1fe602811bd4"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/b5bbb90ff9176fc79328d941c7a4054f4277ecf6",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/44435feed3d569b5c34acf2bbf8a0390b3e0ea55",
                 "verification": {
-                    "payload": "tree 04e5a351f36329c79fc02240a1baa11049231f49\nparent c6a75660827d670dc2ea84b4c9633d51059472c5\nauthor iphydf <iphydf@users.noreply.github.com> 1732739177 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1737371813 +0000\n\nfeat: Add network profiler view in debug tools.\n",
+                    "payload": "tree 16f9c6142e66023851d27ab68a2b1fe602811bd4\nparent 2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639\nauthor iphydf <iphydf@users.noreply.github.com> 1732739177 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770137404 +0000\n\nfeat: Add network profiler view in debug tools.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmeOMKUACgkQOFXbotdE\nA8nxjQf+MRZMTViaP2lW9tijtF6duAH4TMFpEgtJ0vr2+g0EofZsUYD3yFZLTfKX\nFzo/k3MhirCZ2XplDAsaw1p7oBIyW+d+IOi4dMfLygRwkFNnx99rKhNiX1nhNpyK\ntnAj+nC9GnoXQ/69z3wrBk1XWGhZGrKjt0ACwdhVaKYjAxTlAnt98ePzYI3wQoxg\nOAxs+r/qbo1ctjhn7PWe2i8M0oNagjwxKx4r0dGJFCb5Cv27+LF/bAFadCwK6VVV\n9cgWsrpg1uykFqAk3ORy/HYGcYSJQjuAYA3sHW3Y8D8UTUcOPBo1tvodvi6tqC6t\nMDTy5FsRpym66ZT38w8dOJCyEljwJg==\n=rBUI\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmCJzwACgkQOFXbotdE\nA8lYDgf/Y5AF7/WVLNOhrSzwq7dTsbs5pUubyCigsU55d4zHPyC1ITfnJZfa4Ccd\nQS+WQz5RIbNr6PnDc3tOQDeHjKiCXB30WT3wHFaoOtrtSQCy71v1/P5v9H/zWW8M\nOpgji6o7pBTk/2ljuDweRjJDeVJNaNYH8NyZSfpbAT7QB9FneZsUXfSjV4izBYVJ\ndA4vK+YPVA4Ya3asmo/libZ6B844byGCbBDvlXK9bWops2KW+23H7NM13gqgC/sz\naFNYqz2ldiCdMuSu6X8lncNfza0F7cyGUs2JQ8lDVb8cogWX/4cmZDvIdarrWj45\nBppnMwt9BwDW0cbQJ1azlD/x2cFK7g==\n=kWqE\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-01-20T11:16:56Z"
+                    "verified_at": "2026-02-03T16:52:17Z"
                 }
             },
             "committer": {
@@ -351,23 +480,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/b5bbb90ff9176fc79328d941c7a4054f4277ecf6",
-            "node_id": "C_kwDOBF7DatoAKGI1YmJiOTBmZjkxNzZmYzc5MzI4ZDk0MWM3YTQwNTRmNDI3N2VjZjY",
+            "html_url": "https://github.com/TokTok/qTox/commit/44435feed3d569b5c34acf2bbf8a0390b3e0ea55",
+            "node_id": "C_kwDOBF7DatoAKDQ0NDM1ZmVlZDNkNTY5YjVjMzRhY2YyYmJmOGEwMzkwYjNlMGVhNTU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/c6a75660827d670dc2ea84b4c9633d51059472c5",
-                    "sha": "c6a75660827d670dc2ea84b4c9633d51059472c5",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/c6a75660827d670dc2ea84b4c9633d51059472c5"
+                    "html_url": "https://github.com/TokTok/qTox/commit/2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639",
+                    "sha": "2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639"
                 }
             ],
-            "sha": "b5bbb90ff9176fc79328d941c7a4054f4277ecf6",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/b5bbb90ff9176fc79328d941c7a4054f4277ecf6"
+            "sha": "44435feed3d569b5c34acf2bbf8a0390b3e0ea55",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/44435feed3d569b5c34acf2bbf8a0390b3e0ea55"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/qTox/pulls/166/commits",
     "created_at": "2024-11-27T20:27:03Z",
-    "deletions": 9,
+    "deletions": 2,
     "diff_url": "https://github.com/TokTok/qTox/pull/166.diff",
     "draft": true,
     "head": {
@@ -459,9 +588,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
-            "pushed_at": "2025-01-24T23:11:04Z",
+            "pushed_at": "2026-02-03T16:52:26Z",
             "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
-            "size": 55405,
+            "size": 58751,
             "ssh_url": "git@github.com:iphydf/qTox.git",
             "stargazers_count": 2,
             "stargazers_url": "https://api.github.com/repos/iphydf/qTox/stargazers",
@@ -476,14 +605,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/qTox/git/trees{/sha}",
-            "updated_at": "2025-01-24T23:09:22Z",
+            "updated_at": "2026-02-03T17:02:42Z",
             "url": "https://api.github.com/repos/iphydf/qTox",
             "visibility": "public",
             "watchers": 2,
             "watchers_count": 2,
             "web_commit_signoff_required": false
         },
-        "sha": "b5bbb90ff9176fc79328d941c7a4054f4277ecf6",
+        "sha": "44435feed3d569b5c34acf2bbf8a0390b3e0ea55",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -522,15 +651,15 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": null,
-    "mergeable": false,
-    "mergeable_state": "dirty",
+    "merge_commit_sha": "3d154c89d1922a3ab638ee19d3714519aa62b4ba",
+    "mergeable": true,
+    "mergeable_state": "blocked",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 1,
         "created_at": "2024-11-17T16:33:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -560,25 +689,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/2/labels",
         "node_id": "MI_kwDOA9gydM4AtbMW",
         "number": 2,
-        "open_issues": 24,
+        "open_issues": 28,
         "state": "open",
         "title": "v1.18.x",
-        "updated_at": "2025-01-23T23:23:53Z",
+        "updated_at": "2026-02-03T16:47:58Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/2"
     },
     "node_id": "PR_kwDOA9gydM6DYbgu",
     "number": 166,
     "patch_url": "https://github.com/TokTok/qTox/pull/166.patch",
-    "rebaseable": false,
+    "rebaseable": true,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/166/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/b5bbb90ff9176fc79328d941c7a4054f4277ecf6",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/44435feed3d569b5c34acf2bbf8a0390b3e0ea55",
     "title": "feat: Add network profiler view in debug tools.",
-    "updated_at": "2025-01-20T11:17:08Z",
+    "updated_at": "2026-02-03T17:02:02Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/166",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

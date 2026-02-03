@@ -6,8 +6,54 @@
     "body": "Group chat / conference related issues",
     "closed_at": null,
     "closed_by": null,
-    "comment_data": [],
-    "comments": 0,
+    "comment_data": [
+        {
+            "author_association": "NONE",
+            "body": "**Issue:**\n\nWhen a new message arrives to a group chat, the group chat window doesn't open automatically.\n\n**OS:**\n\nWindows 10.\n\n**Steps to reproduce:**\n\nCreate a group chat, close all chat windows, hide the contact list to tray (I'm using separate windows), have a message sent to the group chat. The \"Notify via desktop notifications\" setting is disabled. The \"Open window\" option is enabled.\n\n**Current behavior:**\n\nThe contact list automatically opens when a message arrives. The tray icon flashes. The group chat window remains closed.\n\n**Expected behavior:**\n\nThe group chat window should automatically open as it does for 1-on-1 chats. Focus should not be set to the group chat window so that the taskbar button can flash until the message is read.",
+            "created_at": "2025-03-08T20:53:51Z",
+            "html_url": "https://github.com/TokTok/qTox/issues/461#issuecomment-2708483777",
+            "id": 2708483777,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/461",
+            "node_id": "IC_kwDOA9gydM6hcC7B",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2708483777/reactions"
+            },
+            "updated_at": "2025-03-08T20:53:51Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2708483777",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/154909993?v=4",
+                "events_url": "https://api.github.com/users/1472583610/events{/privacy}",
+                "followers_url": "https://api.github.com/users/1472583610/followers",
+                "following_url": "https://api.github.com/users/1472583610/following{/other_user}",
+                "gists_url": "https://api.github.com/users/1472583610/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/1472583610",
+                "id": 154909993,
+                "login": "1472583610",
+                "node_id": "U_kgDOCTu9KQ",
+                "organizations_url": "https://api.github.com/users/1472583610/orgs",
+                "received_events_url": "https://api.github.com/users/1472583610/received_events",
+                "repos_url": "https://api.github.com/users/1472583610/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/1472583610/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/1472583610/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/1472583610",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/461/comments",
     "created_at": "2025-01-21T16:01:19Z",
     "event_data": [
@@ -337,11 +383,80 @@
             "node_id": "MIE_lADOA9gydM6nBsZEzwAAAAO8uuzH",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16051268807"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-03-08T21:43:28Z",
+            "event": "locked",
+            "id": 16643205070,
+            "lock_reason": null,
+            "node_id": "LOE_lADOA9gydM6nBsZEzwAAAAPgAyfO",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16643205070"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-03-08T21:47:25Z",
+            "event": "sub_issue_added",
+            "id": 16643211631,
+            "node_id": "SIAE_lADOA9gydM6nBsZEzwAAAAPgA0Fv",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16643211631"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/461/events",
     "html_url": "https://github.com/TokTok/qTox/issues/461",
     "id": 2802239044,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "256784",
@@ -354,7 +469,7 @@
         }
     ],
     "labels_url": "https://api.github.com/repos/TokTok/qTox/issues/461/labels{/name}",
-    "locked": false,
+    "locked": true,
     "milestone": {
         "closed_at": null,
         "closed_issues": 0,
@@ -389,8 +504,8 @@
         "number": 7,
         "open_issues": 5,
         "state": "open",
-        "title": "meta",
-        "updated_at": "2025-01-23T23:23:53Z",
+        "title": "z-meta",
+        "updated_at": "2025-01-31T00:32:54Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/7"
     },
     "node_id": "I_kwDOA9gydM6nBsZE",
@@ -414,11 +529,12 @@
     "sub_issues_summary": {
         "completed": 0,
         "percent_completed": 0,
-        "total": 5
+        "total": 6
     },
     "timeline_url": "https://api.github.com/repos/TokTok/qTox/issues/461/timeline",
     "title": "Group chats and conferences",
-    "updated_at": "2025-01-23T23:23:52Z",
+    "type": null,
+    "updated_at": "2025-03-08T21:43:28Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/461",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

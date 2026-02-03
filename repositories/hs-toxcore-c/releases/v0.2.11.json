@@ -4,6 +4,7 @@
             "browser_download_url": "https://github.com/TokTok/hs-toxcore-c/releases/download/v0.2.11/toxcore-c-0.2.11.tar.gz",
             "content_type": "application/gzip",
             "created_at": "2020-03-27T00:56:30Z",
+            "digest": null,
             "download_count": 7,
             "id": 19047394,
             "label": "",
@@ -63,6 +64,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-toxcore-c/releases/tag/v0.2.11",
     "id": 24914366,
+    "immutable": false,
     "name": "0.2.11",
     "node_id": "MDc6UmVsZWFzZTI0OTE0MzY2",
     "prerelease": false,
@@ -70,6 +72,7 @@
     "tag_name": "v0.2.11",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-toxcore-c/tarball/v0.2.11",
     "target_commitish": "96fdcfc74cd5eefc1ae83a06b250bfbb327c2d07",
+    "updated_at": "2020-03-27T00:56:30Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-toxcore-c/releases/24914366/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-toxcore-c/releases/24914366",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-toxcore-c/zipball/v0.2.11"

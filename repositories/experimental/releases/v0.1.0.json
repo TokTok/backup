@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/experimental/releases/tag/v0.1.0",
     "id": 26165786,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.1.0 🌈",
     "node_id": "RE_kwDOD1vIN84Bj0Ia",
@@ -35,6 +36,7 @@
     "tag_name": "v0.1.0",
     "tarball_url": "https://api.github.com/repos/TokTok/experimental/tarball/v0.1.0",
     "target_commitish": "refs/heads/master",
+    "updated_at": "2024-11-06T22:44:11Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/experimental/releases/26165786/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/experimental/releases/26165786",
     "zipball_url": "https://api.github.com/repos/TokTok/experimental/zipball/v0.1.0"

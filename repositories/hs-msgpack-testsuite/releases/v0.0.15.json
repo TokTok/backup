@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-msgpack-testsuite/releases/tag/v0.0.15",
     "id": 59502880,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.0.15",
     "node_id": "RE_kwDOG13-Xs4Di_Eg",
@@ -35,6 +36,7 @@
     "tag_name": "v0.0.15",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-msgpack-testsuite/tarball/v0.0.15",
     "target_commitish": "master",
+    "updated_at": "2022-02-14T14:24:03Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-msgpack-testsuite/releases/59502880/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-msgpack-testsuite/releases/59502880",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-msgpack-testsuite/zipball/v0.0.15"

@@ -96,9 +96,54 @@
                 "url": "https://api.github.com/users/AndyTOX",
                 "user_view_type": "public"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "did we ever find the root cause of this, or have a workaround?\n@iphydf",
+            "created_at": "2025-12-07T18:12:00Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/issues/2178#issuecomment-3622730099",
+            "id": 3622730099,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2178",
+            "node_id": "IC_kwDOA7zIGs7X7nlz",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3622730099/reactions"
+            },
+            "updated_at": "2025-12-07T18:12:00Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3622730099",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comments": 2,
+    "comments": 3,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2178/comments",
     "created_at": "2022-03-25T18:13:21Z",
     "event_data": [
@@ -267,11 +312,79 @@
             "node_id": "MIE_lADOA7zIGs5GZg1SzwAAAAF4D7BP",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/6309261391"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-12-07T18:12:01Z",
+            "event": "mentioned",
+            "id": 21411595824,
+            "node_id": "MEE_lADOA7zIGs5GZg1SzwAAAAT8OwYw",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/21411595824"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-12-07T18:12:01Z",
+            "event": "subscribed",
+            "id": 21411595832,
+            "node_id": "SE_lADOA7zIGs5GZg1SzwAAAAT8OwY4",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/21411595832"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2178/events",
     "html_url": "https://github.com/TokTok/c-toxcore/issues/2178",
     "id": 1181093202,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "eeeeee",
@@ -296,7 +409,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 8,
         "created_at": "2018-03-09T13:13:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -326,10 +439,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28/labels",
         "node_id": "MDk6TWlsZXN0b25lMzE3NDEzMQ==",
         "number": 28,
-        "open_issues": 160,
+        "open_issues": 155,
         "state": "open",
         "title": "v0.2.x",
-        "updated_at": "2025-01-14T12:48:29Z",
+        "updated_at": "2026-01-15T13:55:44Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28"
     },
     "node_id": "I_kwDOA7zIGs5GZg1S",
@@ -357,7 +470,8 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2178/timeline",
     "title": "High CPU and network usage with 1000+ friends",
-    "updated_at": "2022-10-14T11:39:48Z",
+    "type": null,
+    "updated_at": "2025-12-07T18:12:00Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2178",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2387841?v=4",

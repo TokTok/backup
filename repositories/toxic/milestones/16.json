@@ -1,6 +1,6 @@
 {
     "closed_at": null,
-    "closed_issues": 1,
+    "closed_issues": 3,
     "created_at": "2024-11-29T13:43:17Z",
     "creator": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -30,9 +30,9 @@
     "labels_url": "https://api.github.com/repos/TokTok/toxic/milestones/16/labels",
     "node_id": "MI_kwDOBwym5c4AtqIr",
     "number": 16,
-    "open_issues": 8,
+    "open_issues": 4,
     "state": "open",
     "title": "v0.16.x",
-    "updated_at": "2025-01-23T10:38:59Z",
+    "updated_at": "2026-01-16T17:14:51Z",
     "url": "https://api.github.com/repos/TokTok/toxic/milestones/16"
 }

@@ -4,8 +4,28 @@
     "assignees": [],
     "author_association": "MEMBER",
     "body": "### Contact Details (e.g. Tox ID or email)\n\nfloppy\n\n### qTox Version\n\n1.18.2\n\n### Commit Hash\n\n_No response_\n\n### Toxcore Version\n\n_No response_\n\n### Qt Version\n\n_No response_\n\n### Steps to reproduce\n\n1. Start qTox and load/create a profile\n2. enable proxy and set the address to \"user:pw@127.0.0.1\"\n3. restart\n\n### Observed Behavior\n\n- watch it fail\n- be locked out of your profile, since you cant change the proxy setting without launching\n\n### Expected Behavior\n\n1. being able to change connection related settings upfront (eg another tab in the profile selector)\n2. dont allow setting a proxy that toxcore considers invalid\n\n\n### Reproducibility\n\nAlways\n\n### Operating System\n\nOther (please specify)\n\n### Operating System version/distro/name/etc.\n\n_No response_\n\n### Relevant log output\n\n```shell\nsrc/core/toxoptions.cpp:109 : Debug: Using proxy \"user:password@xx.xx.xx.xx\" : 1080\nsrc/core/core.cpp:171 : Critical: Bad proxy, error code: 5\nsrc/persistence/profile.cpp:249 : Debug: Failed to start Toxcore\n```",
-    "closed_at": null,
-    "closed_by": null,
+    "closed_at": "2025-02-12T12:25:48Z",
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -170,11 +190,49 @@
             "node_id": "MIE_lADOA9gydM6osp8MzwAAAAPEe4BB",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16181329985"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2025-02-12T12:25:48Z",
+            "event": "closed",
+            "id": 16280086834,
+            "node_id": "CE_lADOA9gydM6osp8MzwAAAAPKXmky",
+            "performed_via_github_app": null,
+            "state_reason": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/16280086834"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/493/events",
     "html_url": "https://github.com/TokTok/qTox/issues/493",
     "id": 2830278412,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "ee0701",
@@ -189,8 +247,8 @@
     "labels_url": "https://api.github.com/repos/TokTok/qTox/issues/493/labels{/name}",
     "locked": false,
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 49,
+        "closed_at": "2025-02-25T13:33:06Z",
+        "closed_issues": 104,
         "created_at": "2025-01-07T23:23:00Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -220,10 +278,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/5/labels",
         "node_id": "MI_kwDOA9gydM4AuSfj",
         "number": 5,
-        "open_issues": 8,
-        "state": "open",
+        "open_issues": 0,
+        "state": "closed",
         "title": "v1.18.3",
-        "updated_at": "2025-02-06T14:27:16Z",
+        "updated_at": "2025-02-25T13:33:07Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/5"
     },
     "node_id": "I_kwDOA9gydM6osp8M",
@@ -242,8 +300,8 @@
         "url": "https://api.github.com/repos/TokTok/qTox/issues/493/reactions"
     },
     "repository_url": "https://api.github.com/repos/TokTok/qTox",
-    "state": "open",
-    "state_reason": null,
+    "state": "closed",
+    "state_reason": "completed",
     "sub_issues_summary": {
         "completed": 0,
         "percent_completed": 0,
@@ -251,7 +309,17 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/qTox/issues/493/timeline",
     "title": "[Bug]: Setting an \"invalid\" proxy makes qtox fail to launch",
-    "updated_at": "2025-02-05T23:52:27Z",
+    "type": {
+        "color": "red",
+        "created_at": "2024-01-25T17:59:36Z",
+        "description": "An unexpected problem or behavior",
+        "id": 2333477,
+        "is_enabled": true,
+        "name": "Bug",
+        "node_id": "IT_kwDOAQnqk84AI5sl",
+        "updated_at": "2024-07-26T10:39:38Z"
+    },
+    "updated_at": "2025-02-12T12:25:49Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/493",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",

@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/toxic/releases/tag/v0.9.0",
     "id": 33956565,
+    "immutable": false,
     "name": "v0.9.0",
     "node_id": "MDc6UmVsZWFzZTMzOTU2NTY1",
     "prerelease": false,
@@ -34,6 +35,7 @@
     "tag_name": "v0.9.0",
     "tarball_url": "https://api.github.com/repos/TokTok/toxic/tarball/v0.9.0",
     "target_commitish": "master",
+    "updated_at": "2020-11-14T20:03:13Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/toxic/releases/33956565/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/toxic/releases/33956565",
     "zipball_url": "https://api.github.com/repos/TokTok/toxic/zipball/v0.9.0"

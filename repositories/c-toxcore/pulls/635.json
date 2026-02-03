@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +141,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "0fce3fc94cac81c8eb8eda52dfb281ccc992d5bf",
         "user": {
@@ -312,7 +312,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Do you think it makes sense to include a hash with the image like you did in the qTox repo? So that when the build scripts change, the image is automatically rebuilt.\n\n---\n\nReview status: 0 of 6 files reviewed at latest revision, all discussions resolved, some commit checks broke.\n\n---\n\n\n\n*Comments from [Reviewable](https://reviewable.io:443/reviews/toktok/c-toxcore/635#-:-L09Q2ZoBJP1QJmvgsI5:btmzg1z)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2017-12-12T11:12:38Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351020964",
@@ -357,7 +357,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "\n\n\n\nReview status: 0 of 6 files reviewed at latest revision, 1 unresolved discussion, some commit checks broke.\n\n---\n\n*[.travis.yml, line 24 at r1](https://reviewable.io:443/reviews/toktok/c-toxcore/635#-L09RHlkpHguwJwgdZDg:-L09RHlkpHguwJwgdZDh:b757iha) ([raw file](https://github.com/toktok/c-toxcore/blob/21cad79a9c635a05098d4da33ffd5b4acd50a858/.travis.yml#L24)):*\n> ```YAML\n>     sudo: required\n>     install:       other/travis/phase $JOB $ENV install       stage1\n>     script:        other/travis/phase $JOB $ENV script        stage1\n> ```\n\nI think this can be removed, along with the script that does nothing?\n\n---\n\n\n*Comments from [Reviewable](https://reviewable.io:443/reviews/toktok/c-toxcore/635)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2017-12-12T11:17:58Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351022091",
@@ -447,7 +447,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "\n\n\n\nReview status: 0 of 6 files reviewed at latest revision, 1 unresolved discussion, some commit checks broke.\n\n---\n\n*[.travis.yml, line 24 at r1](https://reviewable.io:443/reviews/toktok/c-toxcore/635#-L09RHlkpHguwJwgdZDg:-L0B9XXbkhXXdmWNAtcY:b-5at9nj) ([raw file](https://github.com/toktok/c-toxcore/blob/21cad79a9c635a05098d4da33ffd5b4acd50a858/.travis.yml#L24)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\nNo, neither of those can be removed. Without having `stage1` as an argument, the `phase` script wouldn't run the `freebsd-install-stage1` script. And the script with `exit 0` does something -- it terminates the `phase` script early, preventing it from running `toxcore-script`.\n</blockquote></details>\n\nI'm talking specifically about the `script` line. If it's not there it shouldn't call anything right? Or is there something I'm missing?\n\n---\n\n\n*Comments from [Reviewable](https://reviewable.io:443/reviews/toktok/c-toxcore/635)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2017-12-12T19:20:11Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351162691",
@@ -582,7 +582,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Is `toxcore-script` called by this line: https://github.com/nurupo/InsertProjectNameHere/blob/21cad79a9c635a05098d4da33ffd5b4acd50a858/.travis.yml#L68 if you don't do `exit 0`?",
             "created_at": "2017-12-12T20:08:48Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351178709",
@@ -717,7 +717,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": ">because the earlier script command overwrites the later ones.\r\n\r\nDidn't know that, now it's clear. Thx for the explanation :)",
             "created_at": "2017-12-12T20:56:37Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351191565",
@@ -807,7 +807,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "<img class=\"emoji\" title=\":lgtm_strong:\" alt=\":lgtm_strong:\" align=\"absmiddle\" src=\"https://reviewable.io/lgtm_strong.png\" height=\"20\" width=\"61\"/> from my side\n\n---\n\nReviewed 5 of 6 files at r1, 1 of 1 files at r2.\nReview status: all files reviewed at latest revision, all discussions resolved.\n\n---\n\n\n\n*Comments from [Reviewable](https://reviewable.io:443/reviews/toktok/c-toxcore/635#-:-L0BWtRt8A25WfifhRiB:bybplqg)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2017-12-12T21:00:59Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351192853",
@@ -1077,7 +1077,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "uh, wtf happens at the windows builds?",
             "created_at": "2017-12-13T09:52:12Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351339923",
@@ -1482,7 +1482,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Restarted one failing job, because it was a strange apt error.",
             "created_at": "2017-12-13T22:25:20Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-351544899",
@@ -1663,7 +1663,7 @@
         },
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=635) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=635) before we can accept your contribution.<br/>**2** out of **3** committers have signed the CLA.<br/><br/>:white_check_mark: Diadlo<br/>:white_check_mark: robinlinden<br/>:x: nurupo<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=635) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=635) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=635) before we can accept your contribution.<br/>**2** out of **3** committers have signed the CLA.<br/><br/>:white_check_mark: robinlinden<br/>:white_check_mark: Diadlo<br/>:x: nurupo<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=635) it.</sub>",
             "created_at": "2020-04-16T00:30:11Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/635#issuecomment-614346282",
             "id": 614346282,
@@ -1682,7 +1682,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/614346282/reactions"
             },
-            "updated_at": "2024-12-23T18:08:13Z",
+            "updated_at": "2025-10-24T18:59:43Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/614346282",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -2197,8 +2197,8 @@
             "downloads_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/downloads",
             "events_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/events",
             "fork": true,
-            "forks": 2,
-            "forks_count": 2,
+            "forks": 1,
+            "forks_count": 1,
             "forks_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/forks",
             "full_name": "nurupo/InsertProjectNameHere",
             "git_commits_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/git/commits{/sha}",
@@ -2261,9 +2261,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/pulls{/number}",
-            "pushed_at": "2024-11-07T10:43:02Z",
+            "pushed_at": "2025-02-22T04:46:42Z",
             "releases_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/releases{/id}",
-            "size": 18506,
+            "size": 19150,
             "ssh_url": "git@github.com:nurupo/InsertProjectNameHere.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/stargazers",
@@ -2382,7 +2382,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2017-08-24T07:00:00Z",
+        "due_on": "2017-08-24T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/26",
         "id": 2682929,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/26/labels",
@@ -2406,7 +2406,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e84aefe699a7e8959cea08fe428cafa981b6d85f",
     "title": "Separate FreeBSD Travis build in 2 stages",
-    "updated_at": "2024-12-23T18:08:13Z",
+    "updated_at": "2025-10-24T18:59:43Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/635",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",

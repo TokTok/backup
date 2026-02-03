@@ -1,6 +1,6 @@
 {
     "closed_at": null,
-    "closed_issues": 37,
+    "closed_issues": 39,
     "created_at": "2021-11-26T15:06:59Z",
     "creator": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -30,9 +30,9 @@
     "labels_url": "https://api.github.com/repos/TokTok/hs-toxcore/milestones/1/labels",
     "node_id": "MI_kwDOAxX9Lc4AcWv6",
     "number": 1,
-    "open_issues": 3,
+    "open_issues": 4,
     "state": "open",
     "title": "v0.2.12",
-    "updated_at": "2025-02-07T16:30:32Z",
+    "updated_at": "2026-01-23T22:14:07Z",
     "url": "https://api.github.com/repos/TokTok/hs-toxcore/milestones/1"
 }

@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +141,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "7d399cedcfd20f0d91a8caf386ae3c63f4dcf285",
         "user": {
@@ -178,7 +178,7 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=887) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=887) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=887) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=887) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=887) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=887) it.</sub>",
             "created_at": "2018-05-10T07:49:13Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/887#issuecomment-387979844",
             "id": 387979844,
@@ -197,7 +197,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/387979844/reactions"
             },
-            "updated_at": "2019-05-21T11:49:20Z",
+            "updated_at": "2025-07-05T13:09:33Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/387979844",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -267,7 +267,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "<img class=\"emoji\" title=\":lgtm_strong:\" alt=\":lgtm_strong:\" align=\"absmiddle\" src=\"https://reviewable.io/lgtm_strong.png\" height=\"20\" width=\"61\"/>\n\n---\n\nReviewed 1 of 1 files at r1.\nReview status: all files reviewed at latest revision, all discussions resolved.\n\n---\n\n\n\n*Comments from [Reviewable](https://reviewable.io/reviews/toktok/c-toxcore/887#-:-LC8sNhw4REKgrl1w5Nr:b-jbsf8z)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2018-05-10T11:48:31Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/887#issuecomment-388031282",
@@ -474,8 +474,8 @@
             "downloads_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/downloads",
             "events_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/events",
             "fork": true,
-            "forks": 2,
-            "forks_count": 2,
+            "forks": 1,
+            "forks_count": 1,
             "forks_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/forks",
             "full_name": "nurupo/InsertProjectNameHere",
             "git_commits_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/git/commits{/sha}",
@@ -538,9 +538,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/pulls{/number}",
-            "pushed_at": "2024-11-07T10:43:02Z",
+            "pushed_at": "2025-02-22T04:46:42Z",
             "releases_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/releases{/id}",
-            "size": 18506,
+            "size": 19150,
             "ssh_url": "git@github.com:nurupo/InsertProjectNameHere.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/nurupo/InsertProjectNameHere/stargazers",
@@ -640,7 +640,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2018-06-26T07:00:00Z",
+        "due_on": "2018-06-26T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/30",
         "id": 3336378,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/30/labels",
@@ -664,7 +664,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/e9629977ada4659dbe5ddcc1c769f46bcb283dc6",
     "title": "Fix FreeBSD build on Travis",
-    "updated_at": "2019-05-21T11:49:20Z",
+    "updated_at": "2025-07-05T13:09:33Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/887",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",

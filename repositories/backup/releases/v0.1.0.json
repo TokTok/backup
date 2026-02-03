@@ -27,6 +27,7 @@
     "draft": true,
     "html_url": "https://github.com/TokTok/backup/releases/tag/untagged-328889a7201bf524910a",
     "id": 143389516,
+    "immutable": false,
     "name": "v0.1.0",
     "node_id": "RE_kwDOLXEg1M4Ii_NM",
     "prerelease": false,
@@ -34,6 +35,7 @@
     "tag_name": "v0.1.0",
     "tarball_url": null,
     "target_commitish": "refs/heads/master",
+    "updated_at": "2024-03-25T18:06:30Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/backup/releases/143389516/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/backup/releases/143389516",
     "zipball_url": null

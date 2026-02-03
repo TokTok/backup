@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-cimple/releases/tag/v0.0.15",
     "id": 59244839,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.0.15",
     "node_id": "RE_kwDODyt2_s4DiAEn",
@@ -35,6 +36,7 @@
     "tag_name": "v0.0.15",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-cimple/tarball/v0.0.15",
     "target_commitish": "master",
+    "updated_at": "2022-02-17T17:29:46Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-cimple/releases/59244839/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-cimple/releases/59244839",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-cimple/zipball/v0.0.15"

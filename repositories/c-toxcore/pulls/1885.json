@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,12 +183,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "05abe083cb6dfacbe2f3fe04ca976c3dac7acf41",
         "user": {
@@ -243,7 +243,7 @@
             "original_position": 14,
             "original_start_line": null,
             "path": "toxcore/net_profile.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 853342885,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -381,7 +381,7 @@
             "original_position": 31,
             "original_start_line": null,
             "path": "toxcore/net_profile.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 853342885,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -519,7 +519,7 @@
             "original_position": 66,
             "original_start_line": null,
             "path": "toxcore/TCP_client.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 853342885,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -657,7 +657,7 @@
             "original_position": 230,
             "original_start_line": null,
             "path": "toxcore/tox_private.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 853342885,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -865,7 +865,7 @@
             "original_position": 165,
             "original_start_line": null,
             "path": "toxcore/tox.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 853492432,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1004,7 +1004,7 @@
             "original_position": 4,
             "original_start_line": null,
             "path": ".circleci/config.yml",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1754753978,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1073,7 +1073,7 @@
             "original_position": 82,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1211,7 +1211,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "auto_tests/onion_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1280,7 +1280,7 @@
             "original_position": 8,
             "original_start_line": null,
             "path": "toxcore/BUILD.bazel",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1349,7 +1349,7 @@
             "original_position": 19,
             "original_start_line": null,
             "path": "toxcore/net_crypto.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1418,7 +1418,7 @@
             "original_position": 16,
             "original_start_line": null,
             "path": "toxcore/net_profile.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1487,7 +1487,7 @@
             "original_position": 58,
             "original_start_line": null,
             "path": "toxcore/tox.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1556,7 +1556,7 @@
             "original_position": 20,
             "original_start_line": null,
             "path": "toxcore/tox.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1874481616,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1696,7 +1696,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "auto_tests/onion_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1875220081,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1766,7 +1766,7 @@
             "original_position": 82,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1875258056,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1835,7 +1835,7 @@
             "original_position": 73,
             "original_start_line": null,
             "path": "toxcore/BUILD.bazel",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1875691587,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1905,7 +1905,7 @@
             "original_position": 73,
             "original_start_line": null,
             "path": "toxcore/BUILD.bazel",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1875751444,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -1975,7 +1975,7 @@
             "original_position": 82,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1876036254,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -2045,7 +2045,7 @@
             "original_position": 82,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1876048606,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -2114,7 +2114,7 @@
             "original_position": 92,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2319812693,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -2183,7 +2183,7 @@
             "original_position": 11,
             "original_start_line": null,
             "path": "toxcore/tox.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2319812693,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -2597,7 +2597,7 @@
             "original_position": 48,
             "original_start_line": null,
             "path": "toxcore/network.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2319812693,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -2804,7 +2804,7 @@
             "original_position": 19,
             "original_start_line": null,
             "path": "toxcore/net_profile.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2465861952,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -2942,7 +2942,7 @@
             "original_position": 2,
             "original_start_line": null,
             "path": "toxcore/net_profile.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2465861952,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -3011,7 +3011,7 @@
             "original_position": 43,
             "original_start_line": null,
             "path": "toxcore/network.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2465861952,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -3151,7 +3151,7 @@
             "original_position": 19,
             "original_start_line": null,
             "path": "toxcore/net_profile.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2466210900,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -3291,7 +3291,7 @@
             "original_position": 11,
             "original_start_line": null,
             "path": "toxcore/tox.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2468308582,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -3849,7 +3849,7 @@
             "original_position": 2,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2507444402,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -3919,7 +3919,7 @@
             "original_position": 2,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2541112830,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -3989,7 +3989,7 @@
             "original_position": 2,
             "original_start_line": null,
             "path": "auto_tests/netprof_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2541188242,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
             "reactions": {
@@ -4036,7 +4036,7 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAttention: Patch coverage is `48.73418%` with `162 lines` in your changes missing coverage. Please review.\n> Project coverage is 72.21%. Comparing base [(`0b45eab`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/0b45eab25d65bb4bdf6c800f6338d14f367a03c1?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`aa64916`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/aa649165a57bd7941269ddac5b7f91b12447655a?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n> Report is 9 commits behind head on master.\n\n| [Files with missing lines](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?dropdown=coverage&src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) | Patch % | Lines |\n|---|---|---|\n| [toxcore/tox\\_api.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Ftox_api.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfYXBpLmM=) | 0.00% | [102 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/tox\\_private.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Ftox_private.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfcHJpdmF0ZS5j) | 57.40% | [46 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/TCP\\_server.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2FTCP_server.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9UQ1Bfc2VydmVyLmM=) | 64.28% | [5 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/net\\_profile.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Fnet_profile.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXRfcHJvZmlsZS5j) | 92.00% | [4 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/TCP\\_connection.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2FTCP_connection.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9UQ1BfY29ubmVjdGlvbi5j) | 84.61% | [2 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/net\\_crypto.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Fnet_crypto.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXRfY3J5cHRvLmM=) | 66.66% | [2 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/network.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Fnetwork.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXR3b3JrLmM=) | 93.33% | [1 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #1885      +/-   ##\n==========================================\n- Coverage   72.69%   72.21%   -0.49%     \n==========================================\n  Files         150      151       +1     \n  Lines       30780    31122     +342     \n==========================================\n+ Hits        22377    22476      +99     \n- Misses       8403     8646     +243     \n```\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
+            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\nAttention: Patch coverage is `48.73418%` with `162 lines` in your changes missing coverage. Please review.\n> Project coverage is 72.21%. Comparing base [(`0b45eab`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/0b45eab25d65bb4bdf6c800f6338d14f367a03c1?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) to head [(`aa64916`)](https://app.codecov.io/gh/TokTok/c-toxcore/commit/aa649165a57bd7941269ddac5b7f91b12447655a?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n> Report is 54 commits behind head on master.\n\n| [Files with missing lines](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?dropdown=coverage&src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) | Patch % | Lines |\n|---|---|---|\n| [toxcore/tox\\_api.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Ftox_api.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfYXBpLmM=) | 0.00% | [102 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/tox\\_private.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Ftox_private.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS90b3hfcHJpdmF0ZS5j) | 57.40% | [46 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/TCP\\_server.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2FTCP_server.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9UQ1Bfc2VydmVyLmM=) | 64.28% | [5 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/net\\_profile.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Fnet_profile.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXRfcHJvZmlsZS5j) | 92.00% | [4 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/TCP\\_connection.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2FTCP_connection.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9UQ1BfY29ubmVjdGlvbi5j) | 84.61% | [2 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/net\\_crypto.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Fnet_crypto.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXRfY3J5cHRvLmM=) | 66.66% | [2 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n| [toxcore/network.c](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&filepath=toxcore%2Fnetwork.c&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok#diff-dG94Y29yZS9uZXR3b3JrLmM=) | 93.33% | [1 Missing :warning: ](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?src=pr&el=tree&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) |\n\n<details><summary>Additional details and impacted files</summary>\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #1885      +/-   ##\n==========================================\n- Coverage   72.69%   72.21%   -0.49%     \n==========================================\n  Files         150      151       +1     \n  Lines       30780    31122     +342     \n==========================================\n+ Hits        22377    22476      +99     \n- Misses       8403     8646     +243     \n```\n\n</details>\n\n[:umbrella: View full report in Codecov by Sentry](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1885?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n",
             "created_at": "2022-01-15T00:13:44Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1885#issuecomment-1013555022",
             "id": 1013555022,
@@ -4055,7 +4055,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/1013555022/reactions"
             },
-            "updated_at": "2025-01-15T19:58:35Z",
+            "updated_at": "2025-03-03T16:41:35Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/1013555022",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
@@ -5028,8 +5028,8 @@
             "downloads_url": "https://api.github.com/repos/JFreegman/toxcore/downloads",
             "events_url": "https://api.github.com/repos/JFreegman/toxcore/events",
             "fork": true,
-            "forks": 3,
-            "forks_count": 3,
+            "forks": 4,
+            "forks_count": 4,
             "forks_url": "https://api.github.com/repos/JFreegman/toxcore/forks",
             "full_name": "JFreegman/toxcore",
             "git_commits_url": "https://api.github.com/repos/JFreegman/toxcore/git/commits{/sha}",
@@ -5092,9 +5092,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/JFreegman/toxcore/pulls{/number}",
-            "pushed_at": "2025-01-15T19:50:15Z",
+            "pushed_at": "2026-01-21T02:43:51Z",
             "releases_url": "https://api.github.com/repos/JFreegman/toxcore/releases{/id}",
-            "size": 23096,
+            "size": 24450,
             "ssh_url": "git@github.com:JFreegman/toxcore.git",
             "stargazers_count": 29,
             "stargazers_url": "https://api.github.com/repos/JFreegman/toxcore/stargazers",
@@ -5106,7 +5106,7 @@
             "teams_url": "https://api.github.com/repos/JFreegman/toxcore/teams",
             "topics": [],
             "trees_url": "https://api.github.com/repos/JFreegman/toxcore/git/trees{/sha}",
-            "updated_at": "2024-10-25T16:07:26Z",
+            "updated_at": "2025-10-04T13:56:23Z",
             "url": "https://api.github.com/repos/JFreegman/toxcore",
             "visibility": "public",
             "watchers": 29,
@@ -5179,8 +5179,8 @@
         "user_view_type": "public"
     },
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 63,
+        "closed_at": "2025-05-15T19:52:19Z",
+        "closed_issues": 122,
         "created_at": "2024-03-28T15:24:05Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -5210,10 +5210,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50/labels",
         "node_id": "MI_kwDOA7zIGs4Ao_zV",
         "number": 50,
-        "open_issues": 7,
-        "state": "open",
+        "open_issues": 0,
+        "state": "closed",
         "title": "v0.2.21",
-        "updated_at": "2025-01-24T14:39:24Z",
+        "updated_at": "2025-05-15T19:52:19Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
     "node_id": "PR_kwDOA7zIGs4xDWjO",
@@ -5228,7 +5228,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/aa649165a57bd7941269ddac5b7f91b12447655a",
     "title": "feat: Implement Tox network profiler",
-    "updated_at": "2025-01-15T20:01:22Z",
+    "updated_at": "2025-03-03T16:41:35Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1885",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",

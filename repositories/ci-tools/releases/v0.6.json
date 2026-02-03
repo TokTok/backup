@@ -4,6 +4,7 @@
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/v0.6/hs-tools-v0.6.tar.gz",
             "content_type": "application/gzip",
             "created_at": "2020-03-07T09:56:23Z",
+            "digest": null,
             "download_count": 280,
             "id": 18540352,
             "label": "",
@@ -63,6 +64,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/ci-tools/releases/tag/v0.6",
     "id": 24312890,
+    "immutable": false,
     "name": "Add `happy` to the tools.",
     "node_id": "MDc6UmVsZWFzZTI0MzEyODkw",
     "prerelease": false,
@@ -70,6 +72,7 @@
     "tag_name": "v0.6",
     "tarball_url": "https://api.github.com/repos/TokTok/ci-tools/tarball/v0.6",
     "target_commitish": "12ed35ec9e353e79410ab33db0610af652bad4ff",
+    "updated_at": "2020-03-07T09:56:25Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/ci-tools/releases/24312890/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/ci-tools/releases/24312890",
     "zipball_url": "https://api.github.com/repos/TokTok/ci-tools/zipball/v0.6"

@@ -1,6 +1,6 @@
 {
     "closed_at": null,
-    "closed_issues": 21,
+    "closed_issues": 25,
     "created_at": "2020-04-27T12:20:32Z",
     "creator": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -30,9 +30,9 @@
     "labels_url": "https://api.github.com/repos/TokTok/echobot-jvm/milestones/1/labels",
     "node_id": "MDk6TWlsZXN0b25lNTM1MzI2Ng==",
     "number": 1,
-    "open_issues": 5,
+    "open_issues": 3,
     "state": "open",
     "title": "master",
-    "updated_at": "2025-01-26T14:30:41Z",
+    "updated_at": "2025-04-14T11:40:00Z",
     "url": "https://api.github.com/repos/TokTok/echobot-jvm/milestones/1"
 }

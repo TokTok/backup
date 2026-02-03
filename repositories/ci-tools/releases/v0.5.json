@@ -4,6 +4,7 @@
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/v0.5/hs-tools-v0.5.tar.gz",
             "content_type": "application/gzip",
             "created_at": "2020-03-06T21:01:14Z",
+            "digest": null,
             "download_count": 8,
             "id": 18532155,
             "label": "",
@@ -63,6 +64,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/ci-tools/releases/tag/v0.5",
     "id": 24305014,
+    "immutable": false,
     "name": "Update stylish-haskell to 0.11.0.0.",
     "node_id": "MDc6UmVsZWFzZTI0MzA1MDE0",
     "prerelease": false,
@@ -70,6 +72,7 @@
     "tag_name": "v0.5",
     "tarball_url": "https://api.github.com/repos/TokTok/ci-tools/tarball/v0.5",
     "target_commitish": "ba937a2318be35b5f2b96ebe4d6972467836c7cf",
+    "updated_at": "2020-03-06T21:01:16Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/ci-tools/releases/24305014/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/ci-tools/releases/24305014",
     "zipball_url": "https://api.github.com/repos/TokTok/ci-tools/zipball/v0.5"

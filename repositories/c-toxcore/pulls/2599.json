@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2599"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/8e59161c197bd449595cfa5986ab9a38c64c21f6"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/f9391f255671802ce53b895cb5f46328810a11bb"
         }
     },
     "active_lock_reason": null,
-    "additions": 53,
+    "additions": 46,
     "assignee": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1855294?v=4",
         "events_url": "https://api.github.com/users/nurupo/events{/privacy}",
@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,14 +183,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
-        "sha": "4067628450744bb17b8ada1a11ad35480a386012",
+        "sha": "b66b8ded66a16745401400dea0eba4eb840f7fd4",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -214,7 +214,7 @@
         }
     },
     "body": "This allows code to be built from an un-installed toxcore repo the same way it's built from an installed toxcore. I.e. all `#include` directives will work the same inside the toxcore repo and on a system which has toxcore installed.\r\n\r\nPreviously, \"toxcore/tox.h\" was installed as \"tox/tox.h\", making `make install` a requirement for building any client code. Now, clients can be built directly from the repo source, which is especially nice for simple clients like echobots.\r\n\r\nOutput:\r\n```\r\n-- Installing: /usr/local/include/tox/tox.h\r\n-- Installing: /usr/local/include/toxcore/tox.h\r\n-- Installing: /usr/local/include/toxcore/tox_events.h\r\n-- Installing: /usr/local/include/toxcore/tox_dispatch.h\r\n-- Installing: /usr/local/include/toxcore/tox_private.h\r\n-- Installing: /usr/local/include/tox/toxav.h\r\n-- Installing: /usr/local/include/toxav/toxav.h\r\n-- Installing: /usr/local/include/tox/toxencryptsave.h\r\n-- Installing: /usr/local/include/toxencryptsave/toxencryptsave.h\r\n```\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2599)\n<!-- Reviewable:end -->\n",
-    "changed_files": 11,
+    "changed_files": 10,
     "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [
@@ -231,9 +231,6 @@
                 "created_at": "2016-09-25T14:18:27Z",
                 "description": "Codecov provides highly integrated tools to group, merge, archive and compare coverage reports. Whether your team is comparing changes in a pull request or reviewing a single commit, Codecov will improve the code review workflow and quality.\r\n\r\n## Code coverage done right.®\r\n\r\n1. Upload coverage reports from your CI builds.\r\n2. Codecov merges all builds and languages into one beautiful coherent report.\r\n3. Get commit statuses, pull request comments and coverage overlay via our browser extension.\r\n\r\nWhen Codecov merges your uploads it keeps track of the CI provider (inc. build details) and user specified context, e.g. `#unittest` ~ `#smoketest` or `#oldcode` ~ `#newcode`. You can track the `#unittest` coverage independently of other groups. [Learn more here](\r\nhttp://docs.codecov.io/docs/flags)\r\n\r\nThrough **Codecov's Browser Extension** reports overlay directly in GitHub UI to assist in code review in [Chrome](https://chrome.google.com/webstore/detail/codecov/gedikamndpbemklijjkncpnolildpbgo) or Firefox (https://addons.mozilla.org/en-US/firefox/addon/codecov/)\r\n\r\n*Highly detailed* **pull request comments** and *customizable* **commit statuses** will improve your team's workflow and code coverage incrementally.\r\n\r\n**File backed configuration** all through the `codecov.yml`. \r\n\r\n## FAQ\r\n- Do you **merge multiple uploads** to the same commit? **Yes**\r\n- Do you **support multiple languages** in the same project? **Yes**\r\n- Can you **group coverage reports** by project and/or test type? **Yes**\r\n- How does **pricing** work? Only paid users can view reports and post statuses/comments. ",
                 "events": [
-                    "check_run",
-                    "check_suite",
-                    "create",
                     "delete",
                     "fork",
                     "member",
@@ -285,7 +282,7 @@
                     "statuses": "write"
                 },
                 "slug": "codecov",
-                "updated_at": "2023-09-08T15:29:16Z"
+                "updated_at": "2025-03-20T19:12:59Z"
             },
             "reactions": {
                 "+1": 0,
@@ -459,7 +456,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@iphydf i think the autotools config was not updated to reflect the changes",
             "created_at": "2024-02-25T09:50:36Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2599#issuecomment-1962876353",
@@ -574,7 +571,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8e59161c197bd449595cfa5986ab9a38c64c21f6/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f9391f255671802ce53b895cb5f46328810a11bb/comments",
             "commit": {
                 "author": {
                     "date": "2024-01-25T14:48:04Z",
@@ -583,22 +580,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2024-11-08T14:25:02Z",
+                    "date": "2026-01-01T15:11:26Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Install headers into repo-equivalent directories.\n\nThis allows code to be built from an un-installed toxcore repo the same\nway it's built from an installed toxcore. I.e. all `#include` directives\nwill work the same inside the toxcore repo and on a system which has\ntoxcore installed.\n\nPreviously, \"toxcore/tox.h\" was installed as \"tox/tox.h\", making `make\ninstall` a requirement for building any client code. Now, clients can be\nbuilt directly from the repo source, which is especially nice for simple\nclients like echobots.\n\nOutput:\n```\n-- Installing: /usr/local/include/tox/tox.h\n-- Installing: /usr/local/include/toxcore/tox.h\n-- Installing: /usr/local/include/toxcore/tox_events.h\n-- Installing: /usr/local/include/toxcore/tox_dispatch.h\n-- Installing: /usr/local/include/toxcore/tox_private.h\n-- Installing: /usr/local/include/tox/toxav.h\n-- Installing: /usr/local/include/toxav/toxav.h\n-- Installing: /usr/local/include/tox/toxencryptsave.h\n-- Installing: /usr/local/include/toxencryptsave/toxencryptsave.h\n```",
                 "tree": {
-                    "sha": "963b76ef39dda43dafe017dbc2182e815fb03a20",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/963b76ef39dda43dafe017dbc2182e815fb03a20"
+                    "sha": "c79a0b885fc0ee6f189d11920625f37dc59230aa",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c79a0b885fc0ee6f189d11920625f37dc59230aa"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/8e59161c197bd449595cfa5986ab9a38c64c21f6",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/f9391f255671802ce53b895cb5f46328810a11bb",
                 "verification": {
-                    "payload": "tree 963b76ef39dda43dafe017dbc2182e815fb03a20\nparent 4067628450744bb17b8ada1a11ad35480a386012\nauthor iphydf <iphydf@users.noreply.github.com> 1706194084 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1731075902 +0000\n\nrefactor: Install headers into repo-equivalent directories.\n\nThis allows code to be built from an un-installed toxcore repo the same\nway it's built from an installed toxcore. I.e. all `#include` directives\nwill work the same inside the toxcore repo and on a system which has\ntoxcore installed.\n\nPreviously, \"toxcore/tox.h\" was installed as \"tox/tox.h\", making `make\ninstall` a requirement for building any client code. Now, clients can be\nbuilt directly from the repo source, which is especially nice for simple\nclients like echobots.\n\nOutput:\n```\n-- Installing: /usr/local/include/tox/tox.h\n-- Installing: /usr/local/include/toxcore/tox.h\n-- Installing: /usr/local/include/toxcore/tox_events.h\n-- Installing: /usr/local/include/toxcore/tox_dispatch.h\n-- Installing: /usr/local/include/toxcore/tox_private.h\n-- Installing: /usr/local/include/tox/toxav.h\n-- Installing: /usr/local/include/toxav/toxav.h\n-- Installing: /usr/local/include/tox/toxencryptsave.h\n-- Installing: /usr/local/include/toxencryptsave/toxencryptsave.h\n```\n",
+                    "payload": "tree c79a0b885fc0ee6f189d11920625f37dc59230aa\nparent b66b8ded66a16745401400dea0eba4eb840f7fd4\nauthor iphydf <iphydf@users.noreply.github.com> 1706194084 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1767280286 +0000\n\nrefactor: Install headers into repo-equivalent directories.\n\nThis allows code to be built from an un-installed toxcore repo the same\nway it's built from an installed toxcore. I.e. all `#include` directives\nwill work the same inside the toxcore repo and on a system which has\ntoxcore installed.\n\nPreviously, \"toxcore/tox.h\" was installed as \"tox/tox.h\", making `make\ninstall` a requirement for building any client code. Now, clients can be\nbuilt directly from the repo source, which is especially nice for simple\nclients like echobots.\n\nOutput:\n```\n-- Installing: /usr/local/include/tox/tox.h\n-- Installing: /usr/local/include/toxcore/tox.h\n-- Installing: /usr/local/include/toxcore/tox_events.h\n-- Installing: /usr/local/include/toxcore/tox_dispatch.h\n-- Installing: /usr/local/include/toxcore/tox_private.h\n-- Installing: /usr/local/include/tox/toxav.h\n-- Installing: /usr/local/include/toxav/toxav.h\n-- Installing: /usr/local/include/tox/toxencryptsave.h\n-- Installing: /usr/local/include/toxencryptsave/toxencryptsave.h\n```\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEyBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmcuH0AACgkQOFXbotdE\nA8naaAf4oX6m5Y+yMf+g56x59d/OlaMb66UNn+xWIQZFiXrmLq+3pWq/HUtRCI1L\nOv3gcUexgXJS9FOerb+wtlfbJe7G8ZG7LJtVwz/EPvcf0+mEJnd3BEKihHm0c81u\nVKOUgTOVyr2u06juf2Z8zERd37iKkTtyutaiWGIGGZoSL4gNAFq5PlKJtpFOKC6r\n2Vkgf0CuyCT8gNqwrhx7KUXBAUvOc7RnHG6RxHghoqy5YDP4wbTaEVnhNaQwfy9v\nhVqtIgdu1oCP4A/M1J82pnWGL/znmS0li2VejsUILvvk+3VCgxSne4PLYLr01LUE\nHi1ESPLsCZOkkwMO6ujn0WWbwLys\n=DI6e\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmlWjp4ACgkQOFXbotdE\nA8kG7gf/TJV8MzbXss3ENWvN34mYpDA4JZ8oeU4HB4GRLkJeLU/rQVNGsdho8+vD\nBIwu50n/rHqtmp+ZpEHc4EJW/4L/eZTDQbhFYZddIzDC8mQcAqsMf+nfhIbm3eY3\ncyDsZYFgWB3v0hmNUhpeQ/WM8ufjYc1VEWcxfxCnfhsx/d76M7TWxMevdBsx+TzY\nRewxAfyBK7iNA/OEwk0JJmsDREPdgA4mu8rxN+//rIrGosls4y/U/dDhb9xIYBtF\n2k6eMbh5goCue10JU3BB/b/w2YQV5NAntKj9ZBNhWOypnsXqJpJRLcTikKKVUGid\nSopyJtEkf0Ba0CpOw82T7wh3e6wEZA==\n=qYc/\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2024-11-08T14:25:15Z"
+                    "verified_at": "2026-01-01T15:52:08Z"
                 }
             },
             "committer": {
@@ -622,25 +619,25 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/8e59161c197bd449595cfa5986ab9a38c64c21f6",
-            "node_id": "C_kwDOA7z7wtoAKDhlNTkxNjFjMTk3YmQ0NDk1OTVjZmE1OTg2YWI5YTM4YzY0YzIxZjY",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/f9391f255671802ce53b895cb5f46328810a11bb",
+            "node_id": "C_kwDOA7z7wtoAKGY5MzkxZjI1NTY3MTgwMmNlNTNiODk1Y2I1ZjQ2MzI4ODEwYTExYmI",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/4067628450744bb17b8ada1a11ad35480a386012",
-                    "sha": "4067628450744bb17b8ada1a11ad35480a386012",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/4067628450744bb17b8ada1a11ad35480a386012"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/b66b8ded66a16745401400dea0eba4eb840f7fd4",
+                    "sha": "b66b8ded66a16745401400dea0eba4eb840f7fd4",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/b66b8ded66a16745401400dea0eba4eb840f7fd4"
                 }
             ],
-            "sha": "8e59161c197bd449595cfa5986ab9a38c64c21f6",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8e59161c197bd449595cfa5986ab9a38c64c21f6"
+            "sha": "f9391f255671802ce53b895cb5f46328810a11bb",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/f9391f255671802ce53b895cb5f46328810a11bb"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2599/commits",
     "created_at": "2024-01-25T14:52:09Z",
-    "deletions": 26,
+    "deletions": 29,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2599.diff",
-    "draft": false,
+    "draft": true,
     "head": {
         "label": "iphydf:include-install",
         "ref": "include-install",
@@ -730,9 +727,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T20:59:53Z",
+            "pushed_at": "2026-02-03T13:05:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19513,
+            "size": 20804,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -751,14 +748,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T14:42:33Z",
+            "updated_at": "2026-02-03T12:58:03Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "8e59161c197bd449595cfa5986ab9a38c64c21f6",
+        "sha": "f9391f255671802ce53b895cb5f46328810a11bb",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -805,7 +802,7 @@
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 8,
         "created_at": "2018-03-09T13:13:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -835,10 +832,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28/labels",
         "node_id": "MDk6TWlsZXN0b25lMzE3NDEzMQ==",
         "number": 28,
-        "open_issues": 160,
+        "open_issues": 155,
         "state": "open",
         "title": "v0.2.x",
-        "updated_at": "2025-01-14T12:48:29Z",
+        "updated_at": "2026-01-15T13:55:44Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28"
     },
     "node_id": "PR_kwDOA7zIGs5lEw-7",
@@ -851,9 +848,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2599/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/8e59161c197bd449595cfa5986ab9a38c64c21f6",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/f9391f255671802ce53b895cb5f46328810a11bb",
     "title": "refactor: Install headers into repo-equivalent directories.",
-    "updated_at": "2024-11-27T19:44:47Z",
+    "updated_at": "2026-01-17T18:35:26Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2599",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

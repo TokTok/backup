@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-msgpack-arbitrary/releases/tag/v0.1.1",
     "id": 59559329,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.1.1",
     "node_id": "RE_kwDOG1_eUs4DjM2h",
@@ -35,6 +36,7 @@
     "tag_name": "v0.1.1",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-msgpack-arbitrary/tarball/v0.1.1",
     "target_commitish": "master",
+    "updated_at": "2022-02-14T23:16:06Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-msgpack-arbitrary/releases/59559329/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-msgpack-arbitrary/releases/59559329",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-msgpack-arbitrary/zipball/v0.1.1"

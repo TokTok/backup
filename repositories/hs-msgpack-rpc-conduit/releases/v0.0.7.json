@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-msgpack-rpc-conduit/releases/tag/v0.0.7",
     "id": 26601545,
+    "immutable": false,
     "mentions_count": 3,
     "name": "v0.0.7",
     "node_id": "RE_kwDOBAvO9c4BlehJ",
@@ -35,6 +36,7 @@
     "tag_name": "v0.0.7",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-msgpack-rpc-conduit/tarball/v0.0.7",
     "target_commitish": "master",
+    "updated_at": "2022-02-12T15:26:09Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-msgpack-rpc-conduit/releases/26601545/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-msgpack-rpc-conduit/releases/26601545",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-msgpack-rpc-conduit/zipball/v0.0.7"

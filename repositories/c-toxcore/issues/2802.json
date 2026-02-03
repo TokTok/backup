@@ -251,9 +251,54 @@
                 "url": "https://api.github.com/users/Zig-VS-TypeScript-VS",
                 "user_view_type": "public"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "Can this be potentially an optional feature, and not a forced feature?",
+            "created_at": "2025-12-23T12:12:19Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/issues/2802#issuecomment-3686428803",
+            "id": 3686428803,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2802",
+            "node_id": "IC_kwDOA7zIGs7bunCD",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3686428803/reactions"
+            },
+            "updated_at": "2025-12-23T12:12:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3686428803",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/207868281?v=4",
+                "events_url": "https://api.github.com/users/nilFinx/events{/privacy}",
+                "followers_url": "https://api.github.com/users/nilFinx/followers",
+                "following_url": "https://api.github.com/users/nilFinx/following{/other_user}",
+                "gists_url": "https://api.github.com/users/nilFinx/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/nilFinx",
+                "id": 207868281,
+                "login": "nilFinx",
+                "node_id": "U_kgDODGPReQ",
+                "organizations_url": "https://api.github.com/users/nilFinx/orgs",
+                "received_events_url": "https://api.github.com/users/nilFinx/received_events",
+                "repos_url": "https://api.github.com/users/nilFinx/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/nilFinx/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/nilFinx/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/nilFinx",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comments": 5,
+    "comments": 6,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2802/comments",
     "created_at": "2024-11-30T12:07:24Z",
     "event_data": [
@@ -634,6 +679,12 @@
     "events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2802/events",
     "html_url": "https://github.com/TokTok/c-toxcore/issues/2802",
     "id": 2707277935,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "84b6eb",
@@ -684,8 +735,8 @@
     "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2802/labels{/name}",
     "locked": false,
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 83,
+        "closed_at": "2025-05-15T19:52:19Z",
+        "closed_issues": 122,
         "created_at": "2024-03-28T15:24:05Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -715,10 +766,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50/labels",
         "node_id": "MI_kwDOA7zIGs4Ao_zV",
         "number": 50,
-        "open_issues": 2,
-        "state": "open",
+        "open_issues": 0,
+        "state": "closed",
         "title": "v0.2.21",
-        "updated_at": "2025-02-01T20:49:23Z",
+        "updated_at": "2025-05-15T19:52:19Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/50"
     },
     "node_id": "I_kwDOA7zIGs6hXchv",
@@ -746,7 +797,8 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2802/timeline",
     "title": "Tox Multi-hop routing",
-    "updated_at": "2025-02-01T01:06:40Z",
+    "type": null,
+    "updated_at": "2025-12-23T12:12:19Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2802",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",

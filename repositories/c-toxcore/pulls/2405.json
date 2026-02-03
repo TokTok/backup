@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,12 +183,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "4d3c97f49d6694c60dbfa2e62ef01002336cb92c",
         "user": {
@@ -243,7 +243,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -312,7 +312,7 @@
             "original_position": 14,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -381,7 +381,7 @@
             "original_position": 23,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -450,7 +450,7 @@
             "original_position": 45,
             "original_start_line": 342,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -519,7 +519,7 @@
             "original_position": 48,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -588,7 +588,7 @@
             "original_position": 56,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -657,7 +657,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/tox-bootstrapd.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -726,7 +726,7 @@
             "original_position": 14,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/tox-bootstrapd.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1607807776,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -796,7 +796,7 @@
             "original_position": 14,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/tox-bootstrapd.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382574,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -866,7 +866,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/tox-bootstrapd.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382585,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -936,7 +936,7 @@
             "original_position": 56,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382596,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -1006,7 +1006,7 @@
             "original_position": 48,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382604,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -1076,7 +1076,7 @@
             "original_position": 45,
             "original_start_line": 342,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382611,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -1146,7 +1146,7 @@
             "original_position": 23,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382615,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -1216,7 +1216,7 @@
             "original_position": 14,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382624,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -1286,7 +1286,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/config.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1608382633,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
             "reactions": {
@@ -1918,9 +1918,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T20:59:53Z",
+            "pushed_at": "2026-02-03T13:05:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19513,
+            "size": 20804,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -1939,7 +1939,7 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T14:42:33Z",
+            "updated_at": "2026-02-03T12:58:03Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
@@ -2051,7 +2051,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/0c5b918e9fcf78820f2da407d53e8375f0f9b3a5",
     "title": "cleanup: Fix a few more clang-tidy warnings.",
-    "updated_at": "2023-09-07T07:22:47Z",
+    "updated_at": "2026-01-01T06:53:51Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2405",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

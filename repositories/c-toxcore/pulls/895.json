@@ -29,7 +29,7 @@
     "additions": 79,
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "auto_merge": null,
     "base": {
         "label": "TokTok:master",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -120,11 +120,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +141,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "36f0caaf072128623a4c70e6a614721249bb4c6b",
         "user": {
@@ -201,7 +201,7 @@
             "original_position": 4,
             "original_start_line": null,
             "path": "other/DHT_bootstrap.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 131420874,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/895",
             "reactions": {
@@ -256,7 +256,7 @@
                     "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/197781524"
                 }
             },
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "I found only 2 `print_log()`.\r\n\r\n1. [other/DHT_bootstrap.c: 98: `void print_log(...)`\r\n](https://github.com/cotox/c-toxcore/blob/4065638097f5aa496fac47fa00364398fd3d6481/other/DHT_bootstrap.c#L98)\r\n\r\n2. [other/bootstrap_daemon/src/tox-bootstrapd.c: 178: `void print_log(...)`](https://github.com/cotox/c-toxcore/blob/4065638097f5aa496fac47fa00364398fd3d6481/other/bootstrap_daemon/src/tox-bootstrapd.c#L178)\r\n\r\nWhere's the 3rd?",
             "commit_id": "2e4cae692e0895ce17e67fb2e1fd899c91fcb675",
             "created_at": "2018-06-25T12:44:47Z",
@@ -271,7 +271,7 @@
             "original_position": 4,
             "original_start_line": null,
             "path": "other/DHT_bootstrap.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 131589811,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/895",
             "reactions": {
@@ -326,7 +326,7 @@
                     "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/198056692"
                 }
             },
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Found the 3rd, in IRC chat. note it here.\r\n\r\nhttps://github.com/TokTok/c-toxcore/blob/ae7899cab8104fa3c3078a3e61ddfa58a826e39a/auto_tests/helpers.h#L48",
             "commit_id": "2e4cae692e0895ce17e67fb2e1fd899c91fcb675",
             "created_at": "2018-06-26T08:32:57Z",
@@ -341,7 +341,7 @@
             "original_position": 4,
             "original_start_line": null,
             "path": "other/DHT_bootstrap.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 131914587,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/895",
             "reactions": {
@@ -396,7 +396,7 @@
                     "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/199246285"
                 }
             },
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "~~Can we use the already exist argument `level` here? So that we don't need to declare a new variable.~~\r\n\r\nMy bad. The `level` is in type `LOGGER_LEVEL` not `LOG_LEVEL`. Sorry for bother.",
             "commit_id": "2e4cae692e0895ce17e67fb2e1fd899c91fcb675",
             "created_at": "2018-06-29T18:34:09Z",
@@ -410,7 +410,7 @@
             "original_position": 16,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/tox-bootstrapd.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 133334656,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/895",
             "reactions": {
@@ -480,7 +480,7 @@
             "original_position": 16,
             "original_start_line": null,
             "path": "other/bootstrap_daemon/src/tox-bootstrapd.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 133349381,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/895",
             "reactions": {
@@ -526,7 +526,7 @@
     ],
     "comment_regular_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nurupo I added the logger. It outputs something maybe interesting like, some log taged as error. I'm new in tox. Not sure is this feature useful. Any suggestion?",
             "created_at": "2018-05-21T17:59:26Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/895#issuecomment-390733154",
@@ -571,7 +571,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "I moved comment lines into commit to keep source code clean.",
             "created_at": "2018-05-22T06:12:27Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/895#issuecomment-390874526",
@@ -662,7 +662,7 @@
         },
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=895) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=895) before we can accept your contribution.<br/>**1** out of **2** committers have signed the CLA.<br/><br/>:white_check_mark: cotox<br/>:x: nurupo<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=895) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=895) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=895) before we can accept your contribution.<br/>**1** out of **2** committers have signed the CLA.<br/><br/>:white_check_mark: cotox<br/>:x: nurupo<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=895) it.</sub>",
             "created_at": "2018-06-29T01:05:20Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/895#issuecomment-401217408",
             "id": 401217408,
@@ -681,7 +681,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/401217408/reactions"
             },
-            "updated_at": "2019-05-10T20:26:08Z",
+            "updated_at": "2025-02-27T09:25:42Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/401217408",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -841,7 +841,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Hi @nurupo,\r\n\r\n> By default toxcore uses LOG_INFO log level and we don't want bootstrap programs to spit INFO+WARNING+ERROR logs by default, is that correct?\r\n\r\nYes.\r\n\r\n> Also removed 2 of your \"Merge branch 'master' into bootstrap-logger\" commits and...\r\n\r\nThank you, nurupo :-)\r\n\r\nI made this \"mistake\" by click on \"Update branch\" button on GitHub web. Which I want to make a response to @iphydf that I've read his message.\r\n\r\nI need more time to find the suitable file to place the logger function. That's why I didn't commit yet.\r\n\r\nBTW,  your c1bd6d0 is every cool :)",
             "created_at": "2018-06-29T18:38:28Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/895#issuecomment-401439366",
@@ -1611,7 +1611,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2018-10-07T07:00:00Z",
+        "due_on": "2018-10-07T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/36",
         "id": 3717986,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/36/labels",
@@ -1635,7 +1635,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/2e4cae692e0895ce17e67fb2e1fd899c91fcb675",
     "title": "Feature bootstrap trace/debug log output",
-    "updated_at": "2019-05-10T20:26:08Z",
+    "updated_at": "2025-02-27T09:25:42Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/895",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/39076296?v=4",

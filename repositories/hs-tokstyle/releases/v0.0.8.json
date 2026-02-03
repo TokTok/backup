@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-tokstyle/releases/tag/v0.0.8",
     "id": 55967857,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.0.8",
     "node_id": "RE_kwDOBBpw9M4DVgBx",
@@ -35,6 +36,7 @@
     "tag_name": "v0.0.8",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-tokstyle/tarball/v0.0.8",
     "target_commitish": "master",
+    "updated_at": "2021-12-25T02:14:19Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-tokstyle/releases/55967857/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-tokstyle/releases/55967857",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-tokstyle/zipball/v0.0.8"

@@ -24,7 +24,7 @@
         "user_view_type": "public"
     },
     "description": "",
-    "due_on": "2018-08-30T07:00:00Z",
+    "due_on": "2018-08-30T00:00:00Z",
     "html_url": "https://github.com/TokTok/c-toxcore/milestone/35",
     "id": 3611175,
     "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/35/labels",

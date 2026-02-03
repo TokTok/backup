@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,12 +183,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2554,
+            "watchers_count": 2554,
+            "web_commit_signoff_required": true
         },
         "sha": "2457125aa8ceddd950a40278abe4a93c5b81c53c",
         "user": {
@@ -243,7 +243,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "other/event_tooling/generate_event_c.cpp",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1925181938,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2732",
             "reactions": {
@@ -313,7 +313,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "other/event_tooling/generate_event_c.cpp",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 1925295973,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2732",
             "reactions": {
@@ -371,9 +371,6 @@
                 "created_at": "2016-09-25T14:18:27Z",
                 "description": "Codecov provides highly integrated tools to group, merge, archive and compare coverage reports. Whether your team is comparing changes in a pull request or reviewing a single commit, Codecov will improve the code review workflow and quality.\r\n\r\n## Code coverage done right.®\r\n\r\n1. Upload coverage reports from your CI builds.\r\n2. Codecov merges all builds and languages into one beautiful coherent report.\r\n3. Get commit statuses, pull request comments and coverage overlay via our browser extension.\r\n\r\nWhen Codecov merges your uploads it keeps track of the CI provider (inc. build details) and user specified context, e.g. `#unittest` ~ `#smoketest` or `#oldcode` ~ `#newcode`. You can track the `#unittest` coverage independently of other groups. [Learn more here](\r\nhttp://docs.codecov.io/docs/flags)\r\n\r\nThrough **Codecov's Browser Extension** reports overlay directly in GitHub UI to assist in code review in [Chrome](https://chrome.google.com/webstore/detail/codecov/gedikamndpbemklijjkncpnolildpbgo) or Firefox (https://addons.mozilla.org/en-US/firefox/addon/codecov/)\r\n\r\n*Highly detailed* **pull request comments** and *customizable* **commit statuses** will improve your team's workflow and code coverage incrementally.\r\n\r\n**File backed configuration** all through the `codecov.yml`. \r\n\r\n## FAQ\r\n- Do you **merge multiple uploads** to the same commit? **Yes**\r\n- Do you **support multiple languages** in the same project? **Yes**\r\n- Can you **group coverage reports** by project and/or test type? **Yes**\r\n- How does **pricing** work? Only paid users can view reports and post statuses/comments. ",
                 "events": [
-                    "check_run",
-                    "check_suite",
-                    "create",
                     "delete",
                     "fork",
                     "member",
@@ -425,7 +422,7 @@
                     "statuses": "write"
                 },
                 "slug": "codecov",
-                "updated_at": "2023-09-08T15:29:16Z"
+                "updated_at": "2025-03-20T19:12:59Z"
             },
             "reactions": {
                 "+1": 0,
@@ -510,10 +507,10 @@
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/aebbfabe2601dea91a459dcc7efb30d68e6e156a",
                 "verification": {
                     "payload": "tree b241b0cf509bd29b9297e32d096d0b35fd137be7\nparent 2457125aa8ceddd950a40278abe4a93c5b81c53c\nauthor Green Sky <green@g-s.xyz> 1709892502 +0100\ncommitter Green Sky <green@g-s.xyz> 1709916694 +0100\n\ncleanup: event length naming inconsistencies\n",
-                    "reason": "unverified_email",
+                    "reason": "valid",
                     "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAAhcAAAAHc3NoLXJzYQAAAAMBAAEAAAIBAKgXLklhJVc5L/ZM0SujWN\ns596XSF/gY5yoy0hyl2uw9bUE1c/WybmbLq3ftaA4to07GY4vKBAsroq99MsESm1V+ylLz\nGGYKn3oXpKdN2iuSolUJYIoQkXhKIOtrk1it/Ll7fzXO8fW9NWjWclTmdHlXV4xmDV71ku\n2bm6VDaSKz7liQNNXL7jQ7TyPROPKImI4GZ9v12zPLyMO+L7hyH6Pu2bDginIKoUWAFFHD\n11ZwKv8J0PDS9l/Bi+X7ySDwrZOeaDFZBCVMk5GlgEfhijwvtV/SoUJyy4qfoNPLmyP+Ke\n0LkeY3OChKpjqb8Z6EqEc90tW9zm0vqJvHrcYig/cuVrU1R/C65VdGRlQn3K52H1X6rbv6\nR6/2OWot1SGRgDUoBWA8PCqJunvsbhpluowlTzyF6afiWIlNcp9/xMoJZPGEzSKtqZQ6N7\nSEP5KvMmONfAMuudhJsjXOL8d7CtGh1dzBTn0ur6fwJr+pcb+rGGZWfYSwX6s1t33OylFE\n0f2u9cEYWNcSa6/8k0Jb/Nskely4gtDSuphG8z8PFzQQgpsa8WApfYhfmOahltKNPjWvrQ\nDNH6FenaD7k1FkDI4FyAOJgquMqzchZVIlPfjpe2vo5jAwIhcsEjpopvofUhkqPBciSp7z\nxnx6hWQF4iH9qG1BYLPTb0+99yivx3ZrAAAAA2dpdAAAAAAAAAAGc2hhNTEyAAACFAAAAA\nxyc2Etc2hhMi01MTIAAAIAaiSIztyu6PsHn1QK9a+sRuM+piq7N4ukR0O6JYgXLmUE0ZJk\nShHqnC/FJtTc6oXlzLQ6PC294Z05AGoUZiU2VhuPGhdEMjhWx/Pb4xjQOa+CGT0ifelagV\n0hxQb+JmIN5Njp5ANhU1QZbEzUWl/qNF4cr8b6dPPMUF/ZpWiGpYO9Eaq2w8yMShAfoPNY\nIae30wEyprQnr5hx856eZ/Ns21JBtL2NoJgwzFC9qaqd6bEOJDkYzZFqtYepGkFAN60Fp8\n0EejGGDWWiY1pc23BLWZg+M0A9cnWfih/CZG6Aqh7UAhuIO2NKmz7wCewne68+jPm2BnAM\nShKuNkTwgZNxjlwWCdIfCOBLHdGjF1rm2UQ+JBg/wcJA5LnejfADxU/oq6f7JcGczvwkR1\ntSTjTiFaaowG6SBYMaLrrF2LOvNww8z1+Jyibyx1/AMgyg2Jlohhu4sCicfFk7ks0w8u67\nbJ6YR2OvAKIfXI0J5mMyrZ7znbMxgBWj0bYMuDx9p/8ML1ogoBbPlHPxrDSGSpLMrpeNLX\nnRzg78YEK0bk4OPvsfCu4yb629mve40AIlYwclz23qEhHmXvYIj1INgrVsRBI8MFNyzjCu\noI1SbzdseoDB8U5s3ahQIPb4aTTHDulz33+uRTAvhoSyTIY12t+HTbDQV3GG+cbaCA90JR\n1yMwU=\n-----END SSH SIGNATURE-----",
-                    "verified": false,
-                    "verified_at": null
+                    "verified": true,
+                    "verified_at": "2024-11-06T09:08:32Z"
                 }
             },
             "committer": {
@@ -592,10 +589,10 @@
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/0199c0f17fd13b7f13ae6154a4f0629a47d4998e",
                 "verification": {
                     "payload": "tree 032ce32524bc1e21d4be306e4144507d97fcfba4\nparent aebbfabe2601dea91a459dcc7efb30d68e6e156a\nauthor Green Sky <green@g-s.xyz> 1709916455 +0100\ncommitter Green Sky <green@g-s.xyz> 1709918102 +0100\n\ncleanup: apply the same scheme to types\n",
-                    "reason": "unverified_email",
+                    "reason": "valid",
                     "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAAhcAAAAHc3NoLXJzYQAAAAMBAAEAAAIBAKgXLklhJVc5L/ZM0SujWN\ns596XSF/gY5yoy0hyl2uw9bUE1c/WybmbLq3ftaA4to07GY4vKBAsroq99MsESm1V+ylLz\nGGYKn3oXpKdN2iuSolUJYIoQkXhKIOtrk1it/Ll7fzXO8fW9NWjWclTmdHlXV4xmDV71ku\n2bm6VDaSKz7liQNNXL7jQ7TyPROPKImI4GZ9v12zPLyMO+L7hyH6Pu2bDginIKoUWAFFHD\n11ZwKv8J0PDS9l/Bi+X7ySDwrZOeaDFZBCVMk5GlgEfhijwvtV/SoUJyy4qfoNPLmyP+Ke\n0LkeY3OChKpjqb8Z6EqEc90tW9zm0vqJvHrcYig/cuVrU1R/C65VdGRlQn3K52H1X6rbv6\nR6/2OWot1SGRgDUoBWA8PCqJunvsbhpluowlTzyF6afiWIlNcp9/xMoJZPGEzSKtqZQ6N7\nSEP5KvMmONfAMuudhJsjXOL8d7CtGh1dzBTn0ur6fwJr+pcb+rGGZWfYSwX6s1t33OylFE\n0f2u9cEYWNcSa6/8k0Jb/Nskely4gtDSuphG8z8PFzQQgpsa8WApfYhfmOahltKNPjWvrQ\nDNH6FenaD7k1FkDI4FyAOJgquMqzchZVIlPfjpe2vo5jAwIhcsEjpopvofUhkqPBciSp7z\nxnx6hWQF4iH9qG1BYLPTb0+99yivx3ZrAAAAA2dpdAAAAAAAAAAGc2hhNTEyAAACFAAAAA\nxyc2Etc2hhMi01MTIAAAIAkcjLJ4FbOdRFR3QZMeex/WppvjXIVHZsT8hddII74ojAVsYt\nV7CdXpPrUbgrBY+ndmwgc7sELjWY3srQ0TRI4CcF7KMffudywYhNhUPmGxdzqkAx3nREUP\ndCAhoUTV2STnOfECrhVmZVWbB5aDygOUGdWPwyYSQx6iuPwdTZr3t304Dc7kRi+ZLgVSoe\nkRp11JqdRwF0uffcNVEhYDDyP77TSCTgjEwkNokMPW7vbba6WuLUSLawTEkeXlGW331hfJ\n8RO/6mxYLFgsw3weL+ktk9RwqNN3g3PrZ/roX/oXAYFsbCq/oUSqpM85FDRoAJiTqUs7qE\nWsr5mvgmDHBrZ3NjV4cP8o4fMAFLqf4LAKrkJxZQexOrGPHZuGOjn9xoK/3JN4y5Rkweim\nHusaJqrzct/FIsA7Js+/s6jxMX8M0DNgBOmiSOI7RAXJcLO6s9Btc5nXDfuzf5yA+/pqLP\n23Od5n3zGso2ww2UqwEzzcPxnRKIKZ2/+qKv07pSLjTnd3XdJmxxWVmIuoNmbFKc7yTiLg\nVsAUIHeL9Vsi4WPsB+/J0xf2r5n/IIcdjY4WsCNCWQmO8EvjkXGGbj/p/rwAaKuzk+qZCm\ntHXtoKpkbEO34KFnbsyJQuKgga+B2rNzBRfvpXRkIOlEdsFB/WjpdK7I5ioT9FjfvfeDb3\n9ekrQ=\n-----END SSH SIGNATURE-----",
-                    "verified": false,
-                    "verified_at": null
+                    "verified": true,
+                    "verified_at": "2024-11-06T09:08:32Z"
                 }
             },
             "committer": {
@@ -663,8 +660,8 @@
             "downloads_url": "https://api.github.com/repos/Green-Sky/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/Green-Sky/c-toxcore/events",
             "fork": true,
-            "forks": 0,
-            "forks_count": 0,
+            "forks": 1,
+            "forks_count": 1,
             "forks_url": "https://api.github.com/repos/Green-Sky/c-toxcore/forks",
             "full_name": "Green-Sky/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/Green-Sky/c-toxcore/git/commits{/sha}",
@@ -727,9 +724,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/Green-Sky/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-04T12:14:11Z",
+            "pushed_at": "2026-02-01T13:23:45Z",
             "releases_url": "https://api.github.com/repos/Green-Sky/c-toxcore/releases{/id}",
-            "size": 24064,
+            "size": 25743,
             "ssh_url": "git@github.com:Green-Sky/c-toxcore.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/Green-Sky/c-toxcore/stargazers",
@@ -741,7 +738,7 @@
             "teams_url": "https://api.github.com/repos/Green-Sky/c-toxcore/teams",
             "topics": [],
             "trees_url": "https://api.github.com/repos/Green-Sky/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-04T12:14:15Z",
+            "updated_at": "2026-02-01T12:07:22Z",
             "url": "https://api.github.com/repos/Green-Sky/c-toxcore",
             "visibility": "public",
             "watchers": 0,
@@ -853,7 +850,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/0199c0f17fd13b7f13ae6154a4f0629a47d4998e",
     "title": "cleanup: event length naming inconsistencies",
-    "updated_at": "2024-03-08T21:58:02Z",
+    "updated_at": "2025-05-16T09:48:20Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2732",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",

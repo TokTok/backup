@@ -1,6 +1,6 @@
 {
     "closed_at": null,
-    "closed_issues": 17,
+    "closed_issues": 19,
     "created_at": "2021-11-26T14:25:03Z",
     "creator": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -23,16 +23,16 @@
         "url": "https://api.github.com/users/iphydf",
         "user_view_type": "public"
     },
-    "description": null,
+    "description": "",
     "due_on": null,
     "html_url": "https://github.com/TokTok/go-toxcore-c/milestone/1",
     "id": 7433136,
     "labels_url": "https://api.github.com/repos/TokTok/go-toxcore-c/milestones/1/labels",
     "node_id": "MI_kwDOBw_Qds4AcWuw",
     "number": 1,
-    "open_issues": 3,
+    "open_issues": 4,
     "state": "open",
-    "title": "0.2.x",
-    "updated_at": "2025-01-22T20:13:11Z",
+    "title": "v0.2.21",
+    "updated_at": "2025-02-16T20:32:38Z",
     "url": "https://api.github.com/repos/TokTok/go-toxcore-c/milestones/1"
 }

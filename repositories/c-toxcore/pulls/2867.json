@@ -22,52 +22,52 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/55c88bf1fc1b62f039ec325f43ea02a075921376"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/390f7db060ac6dab6b58db1ee74df88435f073af"
         }
     },
     "active_lock_reason": null,
-    "additions": 792,
+    "additions": 771,
     "assignee": {
-        "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
-        "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
-        "followers_url": "https://api.github.com/users/Green-Sky/followers",
-        "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
-        "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
         "gravatar_id": "",
-        "html_url": "https://github.com/Green-Sky",
-        "id": 2938071,
-        "login": "Green-Sky",
-        "node_id": "MDQ6VXNlcjI5MzgwNzE=",
-        "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
-        "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
-        "repos_url": "https://api.github.com/users/Green-Sky/repos",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
         "site_admin": false,
-        "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/Green-Sky",
+        "url": "https://api.github.com/users/iphydf",
         "user_view_type": "public"
     },
     "assignees": [
         {
-            "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
-            "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
-            "followers_url": "https://api.github.com/users/Green-Sky/followers",
-            "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+            "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+            "followers_url": "https://api.github.com/users/iphydf/followers",
+            "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+            "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
             "gravatar_id": "",
-            "html_url": "https://github.com/Green-Sky",
-            "id": 2938071,
-            "login": "Green-Sky",
-            "node_id": "MDQ6VXNlcjI5MzgwNzE=",
-            "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
-            "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
-            "repos_url": "https://api.github.com/users/Green-Sky/repos",
+            "html_url": "https://github.com/iphydf",
+            "id": 10647936,
+            "login": "iphydf",
+            "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+            "organizations_url": "https://api.github.com/users/iphydf/orgs",
+            "received_events_url": "https://api.github.com/users/iphydf/received_events",
+            "repos_url": "https://api.github.com/users/iphydf/repos",
             "site_admin": false,
-            "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+            "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
             "type": "User",
-            "url": "https://api.github.com/users/Green-Sky",
+            "url": "https://api.github.com/users/iphydf",
             "user_view_type": "public"
         }
     ],
@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 305,
+            "forks_count": 305,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -137,8 +137,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 212,
-            "open_issues_count": 212,
+            "open_issues": 210,
+            "open_issues_count": 210,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -162,11 +162,11 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-08T19:38:37Z",
+            "pushed_at": "2026-02-03T19:52:57Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 24739,
+            "size": 23338,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2341,
+            "stargazers_count": 2554,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,14 +183,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-02-08T08:00:20Z",
+            "updated_at": "2026-02-03T15:32:01Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2341,
-            "watchers_count": 2341,
+            "watchers": 2554,
+            "watchers_count": 2554,
             "web_commit_signoff_required": true
         },
-        "sha": "c53c30e09d996ceb6835287b4050841310a64e7c",
+        "sha": "6f7f5155449316b01251ba55cf855cc5feec8f75",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -214,8 +214,8 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2867)\n<!-- Reviewable:end -->\n",
-    "changed_files": 66,
-    "closed_at": null,
+    "changed_files": 65,
+    "closed_at": "2025-10-08T18:37:56Z",
     "comment_data": [
         {
             "_links": {
@@ -243,7 +243,7 @@
             "original_position": 36,
             "original_start_line": null,
             "path": "toxcore/os_memory.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2600234786,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
             "reactions": {
@@ -313,7 +313,7 @@
             "original_position": 36,
             "original_start_line": null,
             "path": "toxcore/os_memory.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 2600290224,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
             "reactions": {
@@ -355,10 +355,335 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948240816"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948240816"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I am not sure which platforms actually use the CSPRNG, since it is only used as a fallback.\r\n\r\nLinux uses the getrandom syscall, fallsback to /dev/random (or /dev/urandom)\r\nWindows uses the RtlGenRandom syscall, which we dont know the details off, but on wine this falls back to /dev/random (or 0 if those devices dont exist) and on reactos they use a LCG with current time, which they even say is absolutely not usable for crypto.\r\nNot sure about other platform.",
+            "commit_id": "390f7db060ac6dab6b58db1ee74df88435f073af",
+            "created_at": "2025-02-09T21:11:18Z",
+            "diff_hunk": "@@ -0,0 +1,26 @@\n+/* SPDX-License-Identifier: GPL-3.0-or-later\n+ * Copyright © 2022-2025 The TokTok team.\n+ */\n+\n+#ifndef C_TOXCORE_TOXCORE_OS_RANDOM_H\n+#define C_TOXCORE_TOXCORE_OS_RANDOM_H\n+\n+#include \"tox_random.h\"\n+\n+#ifdef __cplusplus\n+extern \"C\" {\n+#endif\n+\n+extern const Tox_Random os_random_obj;\n+\n+/** @brief System random number generator.\n+ *\n+ * Uses libsodium's CSPRNG (on Linux, `/dev/urandom`).",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948240816",
+            "id": 1948240816,
+            "line": 18,
+            "node_id": "PRRC_kwDOA7zIGs50H8uw",
+            "original_commit_id": "55c88bf1fc1b62f039ec325f43ea02a075921376",
+            "original_line": 18,
+            "original_position": 18,
+            "original_start_line": null,
+            "path": "toxcore/os_random.h",
+            "position": 18,
+            "pull_request_review_id": 2604459029,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948240816/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-02-09T21:11:18Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948240816",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948250335"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948250335"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "getrandom:\r\n> These bytes can be used to seed user-space random number generators or for cryptographic purposes.\r\n\r\nIf it can be used for cryptographic purposes, I think it can be considered a CSPRNG.\r\n\r\n/dev/random:\r\n> In Unix-like operating systems, /dev/random and /dev/urandom are special files that serve as cryptographically secure pseudorandom number generators (CSPRNGs).\r\n\r\nWindows: ack.\r\n\r\nUltimately though, for this comment it doesn't matter, because libsodium claims it's a CSPRNG, so it is. If it's not, it's a libsodium bug and you should file one. From libsodium docs:\r\n> The library provides a set of functions to generate unpredictable data, suitable for creating secret keys.",
+            "commit_id": "390f7db060ac6dab6b58db1ee74df88435f073af",
+            "created_at": "2025-02-09T22:05:22Z",
+            "diff_hunk": "@@ -0,0 +1,26 @@\n+/* SPDX-License-Identifier: GPL-3.0-or-later\n+ * Copyright © 2022-2025 The TokTok team.\n+ */\n+\n+#ifndef C_TOXCORE_TOXCORE_OS_RANDOM_H\n+#define C_TOXCORE_TOXCORE_OS_RANDOM_H\n+\n+#include \"tox_random.h\"\n+\n+#ifdef __cplusplus\n+extern \"C\" {\n+#endif\n+\n+extern const Tox_Random os_random_obj;\n+\n+/** @brief System random number generator.\n+ *\n+ * Uses libsodium's CSPRNG (on Linux, `/dev/urandom`).",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948250335",
+            "id": 1948250335,
+            "in_reply_to_id": 1948240816,
+            "line": 18,
+            "node_id": "PRRC_kwDOA7zIGs50H_Df",
+            "original_commit_id": "55c88bf1fc1b62f039ec325f43ea02a075921376",
+            "original_line": 18,
+            "original_position": 18,
+            "original_start_line": null,
+            "path": "toxcore/os_random.h",
+            "position": 18,
+            "pull_request_review_id": 2604469463,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948250335/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-02-09T22:05:23Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948250335",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948250478"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948250478"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I guess unless you consider \"[a function] [...] suitable for creating secret keys\" not to be cryptographically secure, in which case I'd like to know what you do consider such.",
+            "commit_id": "390f7db060ac6dab6b58db1ee74df88435f073af",
+            "created_at": "2025-02-09T22:06:26Z",
+            "diff_hunk": "@@ -0,0 +1,26 @@\n+/* SPDX-License-Identifier: GPL-3.0-or-later\n+ * Copyright © 2022-2025 The TokTok team.\n+ */\n+\n+#ifndef C_TOXCORE_TOXCORE_OS_RANDOM_H\n+#define C_TOXCORE_TOXCORE_OS_RANDOM_H\n+\n+#include \"tox_random.h\"\n+\n+#ifdef __cplusplus\n+extern \"C\" {\n+#endif\n+\n+extern const Tox_Random os_random_obj;\n+\n+/** @brief System random number generator.\n+ *\n+ * Uses libsodium's CSPRNG (on Linux, `/dev/urandom`).",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948250478",
+            "id": 1948250478,
+            "in_reply_to_id": 1948240816,
+            "line": 18,
+            "node_id": "PRRC_kwDOA7zIGs50H_Fu",
+            "original_commit_id": "55c88bf1fc1b62f039ec325f43ea02a075921376",
+            "original_line": 18,
+            "original_position": 18,
+            "original_start_line": null,
+            "path": "toxcore/os_random.h",
+            "position": 18,
+            "pull_request_review_id": 2604469702,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948250478/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-02-09T22:06:26Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948250478",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948254967"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948254967"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "> I guess unless you consider \"[a function] [...] suitable for creating secret keys\" not to be cryptographically secure, in which case I'd like to know what you do consider such.\r\n\r\nRight. Did not think this part all the way through.",
+            "commit_id": "390f7db060ac6dab6b58db1ee74df88435f073af",
+            "created_at": "2025-02-09T22:29:19Z",
+            "diff_hunk": "@@ -0,0 +1,26 @@\n+/* SPDX-License-Identifier: GPL-3.0-or-later\n+ * Copyright © 2022-2025 The TokTok team.\n+ */\n+\n+#ifndef C_TOXCORE_TOXCORE_OS_RANDOM_H\n+#define C_TOXCORE_TOXCORE_OS_RANDOM_H\n+\n+#include \"tox_random.h\"\n+\n+#ifdef __cplusplus\n+extern \"C\" {\n+#endif\n+\n+extern const Tox_Random os_random_obj;\n+\n+/** @brief System random number generator.\n+ *\n+ * Uses libsodium's CSPRNG (on Linux, `/dev/urandom`).",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2867#discussion_r1948254967",
+            "id": 1948254967,
+            "in_reply_to_id": 1948240816,
+            "line": 18,
+            "node_id": "PRRC_kwDOA7zIGs50IAL3",
+            "original_commit_id": "55c88bf1fc1b62f039ec325f43ea02a075921376",
+            "original_line": 18,
+            "original_position": 18,
+            "original_start_line": null,
+            "path": "toxcore/os_random.h",
+            "position": 18,
+            "pull_request_review_id": 2604475212,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948254967/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2025-02-09T22:29:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/1948254967",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_regular_data": [
+        {
+            "author_association": "MEMBER",
+            "body": "@iphydf needs a rebase.",
+            "created_at": "2025-10-01T14:13:54Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2867#issuecomment-3356555217",
+            "id": 3356555217,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2867",
+            "node_id": "IC_kwDOA7zIGs7IEPfR",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3356555217/reactions"
+            },
+            "updated_at": "2025-10-01T14:13:54Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/3356555217",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2867/comments",
     "commit_data": [
         {
@@ -383,7 +708,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/55c88bf1fc1b62f039ec325f43ea02a075921376/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/390f7db060ac6dab6b58db1ee74df88435f073af/comments",
             "commit": {
                 "author": {
                     "date": "2025-02-06T12:43:08Z",
@@ -392,22 +717,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-02-06T23:56:08Z",
+                    "date": "2025-10-08T10:59:32Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Move random and memory OS-specifics to `os_*` files.",
                 "tree": {
-                    "sha": "5ac82ca7f9eea69e59106666eb791266f692f908",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/5ac82ca7f9eea69e59106666eb791266f692f908"
+                    "sha": "e2c15e84e8715538a3ee03690503a0ae84cad20c",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/e2c15e84e8715538a3ee03690503a0ae84cad20c"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/55c88bf1fc1b62f039ec325f43ea02a075921376",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/390f7db060ac6dab6b58db1ee74df88435f073af",
                 "verification": {
-                    "payload": "tree 5ac82ca7f9eea69e59106666eb791266f692f908\nparent c53c30e09d996ceb6835287b4050841310a64e7c\nauthor iphydf <iphydf@users.noreply.github.com> 1738845788 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1738886168 +0000\n\nrefactor: Move random and memory OS-specifics to `os_*` files.\n",
+                    "payload": "tree e2c15e84e8715538a3ee03690503a0ae84cad20c\nparent 6f7f5155449316b01251ba55cf855cc5feec8f75\nauthor iphydf <iphydf@users.noreply.github.com> 1738845788 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1759921172 +0000\n\nrefactor: Move random and memory OS-specifics to `os_*` files.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmelTBgACgkQOFXbotdE\nA8lnoAf9HCetlFhJXaE42kQD5M4b+XtaESFxjzPUMCYyqaw0IYoNI+SPn9MFEUkS\nfN5hze1srKpsq+3ia3WnaLUaZPC9OrndZrVecdOlcyhlKQoucaCWMjsnb7hrHIvv\n0oDzbKBJa6BvkTRQtfNq9vVMKVBob6gtg1OWMDtI83GwYBholi3H1VdyxP7sea8d\nsF7RBDVa1cuGtYvPdgtBiaNTm3umtGEHNvVoxex0dbjMrKJgtReSUhWPhOcX8YVt\nACb2vHERjOo1zNsWxuZEwsqSZeVpdSdGeaeeAPiCvcZuWVyn442oviH2A3LyjLNK\nhEFirp8vW/3/1a6U3fjnD1gJXrJs0w==\n=9p6h\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmjmRBQACgkQOFXbotdE\nA8lobgf9HMHoJ4RB1+EI/8Z2jGY52VnIlfAmI1YxJLYe5tS3/a54efXtkS5i9DAx\nixHZxh493LThjC9jziPPwDu1gWPzVGh3f+jX+Mw3iPojM1gyKW4SGW+G7vGnmtEX\nPk6KROO3J0Re8dE/bNFjC5mECqrfuz1wIbiK8Rr0Whm3Gw3zCifGJEvhD+kK98aM\nspWFADiIJqmm+YA+ZKNIMaGcr1BpBbeUFbOi6PLztvGzlzy5GCK+yyGhmiy4QFhs\nctbFFeHG5YNPWgtqiHyd+bfhm3kgnda24rOMdD+Y7TJE88+EUr2FJ5RV3fsphQ6E\nf8OWJqCDGucNSyPzSO6gB6itC9Hq9w==\n=Mr1/\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-02-06T23:56:13Z"
+                    "verified_at": "2025-10-08T10:59:34Z"
                 }
             },
             "committer": {
@@ -431,23 +756,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/55c88bf1fc1b62f039ec325f43ea02a075921376",
-            "node_id": "C_kwDOA7z7wtoAKDU1Yzg4YmYxZmMxYjYyZjAzOWVjMzI1ZjQzZWEwMmEwNzU5MjEzNzY",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/390f7db060ac6dab6b58db1ee74df88435f073af",
+            "node_id": "C_kwDOA7z7wtoAKDM5MGY3ZGIwNjBhYzZkYWI2YjU4ZGIxZWU3NGRmODg0MzVmMDczYWY",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/c53c30e09d996ceb6835287b4050841310a64e7c",
-                    "sha": "c53c30e09d996ceb6835287b4050841310a64e7c",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/c53c30e09d996ceb6835287b4050841310a64e7c"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/6f7f5155449316b01251ba55cf855cc5feec8f75",
+                    "sha": "6f7f5155449316b01251ba55cf855cc5feec8f75",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/6f7f5155449316b01251ba55cf855cc5feec8f75"
                 }
             ],
-            "sha": "55c88bf1fc1b62f039ec325f43ea02a075921376",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/55c88bf1fc1b62f039ec325f43ea02a075921376"
+            "sha": "390f7db060ac6dab6b58db1ee74df88435f073af",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/390f7db060ac6dab6b58db1ee74df88435f073af"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867/commits",
     "created_at": "2025-02-06T12:43:41Z",
-    "deletions": 261,
+    "deletions": 252,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2867.diff",
     "draft": false,
     "head": {
@@ -539,9 +864,9 @@
             },
             "private": false,
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-02-08T11:48:22Z",
+            "pushed_at": "2026-02-03T13:05:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 19136,
+            "size": 20804,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -560,14 +885,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-02-05T22:21:01Z",
+            "updated_at": "2026-02-03T12:58:03Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "55c88bf1fc1b62f039ec325f43ea02a075921376",
+        "sha": "390f7db060ac6dab6b58db1ee74df88435f073af",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -605,16 +930,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "06de28e1a15020a31b628465777d434e1ccafcab",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "390f7db060ac6dab6b58db1ee74df88435f073af",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2025-10-08T18:37:56Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 94,
         "created_at": "2025-01-14T11:12:45Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -644,25 +989,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/51/labels",
         "node_id": "MI_kwDOA7zIGs4AuZV7",
         "number": 51,
-        "open_issues": 21,
+        "open_issues": 2,
         "state": "open",
         "title": "v0.2.22",
-        "updated_at": "2025-02-06T12:43:41Z",
+        "updated_at": "2026-02-03T19:52:53Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/51"
     },
     "node_id": "PR_kwDOA7zIGs6KRc-d",
     "number": 2867,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/2867.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 2,
+    "review_comments": 6,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/55c88bf1fc1b62f039ec325f43ea02a075921376",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/390f7db060ac6dab6b58db1ee74df88435f073af",
     "title": "refactor: Move random and memory OS-specifics to `os_*` files.",
-    "updated_at": "2025-02-06T23:58:15Z",
+    "updated_at": "2025-10-08T18:38:00Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2867",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

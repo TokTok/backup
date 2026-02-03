@@ -27,6 +27,7 @@
     "draft": false,
     "html_url": "https://github.com/TokTok/hs-msgpack-types/releases/tag/v0.3.2",
     "id": 59564903,
+    "immutable": false,
     "mentions_count": 1,
     "name": "v0.3.2",
     "node_id": "RE_kwDOBLPiZM4DjONn",
@@ -35,6 +36,7 @@
     "tag_name": "v0.3.2",
     "tarball_url": "https://api.github.com/repos/TokTok/hs-msgpack-types/tarball/v0.3.2",
     "target_commitish": "master",
+    "updated_at": "2022-02-15T01:52:02Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/hs-msgpack-types/releases/59564903/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/hs-msgpack-types/releases/59564903",
     "zipball_url": "https://api.github.com/repos/TokTok/hs-msgpack-types/zipball/v0.3.2"

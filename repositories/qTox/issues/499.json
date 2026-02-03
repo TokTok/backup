@@ -6,8 +6,54 @@
     "body": "### Contact Details (e.g. Tox ID or email)\n\nfloppy\n\n### Feature Description\n\nThe safest way to get the IP address of a domain is to use a DoH/DoT resolver, but the DoH/DoT resolver's IP address also needs to be determined.\nWe need the ability to specify DoH/DoT resolver and to check that its own IP address is correct somehow.\nAs an option we can resolve it using the system's DNS resolver, and show it's IP address, so that the user can check it.\nOr we need to specify it's IP address independently if for some reasons the user can not trust system's DNS resolver.\nAfter that, http/socks with domain names should be available for use. Those domain names will be resolved with DoH/DoT only.\n\n### Contribution\n\n- [ ] I would like to contribute to this feature",
     "closed_at": null,
     "closed_by": null,
-    "comment_data": [],
-    "comments": 0,
+    "comment_data": [
+        {
+            "author_association": "NONE",
+            "body": "Given that at least one standard of secure DNS lookup is available on all OS platforms that qTox supports (Windows, Linux, Android, and macOS) including using separate settings per network connection if desired, why should secure DNS functionality also be incorporated into qTox?\n\n> We need the ability to specify DoH/DoT resolver and to check that its own IP address is correct somehow.\n\nWhy not use the system/OS's DNS functionality?  It already does this.  If the DNS request is successfully returned, the system specified DNS server(s) are correct.\n\n>if for some reasons the user can not trust system's DNS resolver.\n\nUnder what real world scenario is that an issue?  By definition DoT and DoH are secure connections to the DNS server.  There is no reason not to trust it.  If you don't already have trust in the PC and the OS running on it, you should not be using qTox on it.  That's what Live OS/boot discs are for.  And, if you are worried about regular unsecure DNS being used, disable fallback mode in the system's DNS settings so that unsecure DNS will never be used.\n\nI am all for adding features to qTox, but those features should be related to qTox's core competency not duplicating something which is already available in or easily run on the OS itself.  Given that qTox is open source, someone else could do it, but I think qTox has much more pressing needs.",
+            "created_at": "2025-03-28T02:48:44Z",
+            "html_url": "https://github.com/TokTok/qTox/issues/499#issuecomment-2760043140",
+            "id": 2760043140,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/499",
+            "node_id": "IC_kwDOA9gydM6kguqE",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2760043140/reactions"
+            },
+            "updated_at": "2025-03-28T02:58:37Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/2760043140",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/72340531?v=4",
+                "events_url": "https://api.github.com/users/uploadersoasis/events{/privacy}",
+                "followers_url": "https://api.github.com/users/uploadersoasis/followers",
+                "following_url": "https://api.github.com/users/uploadersoasis/following{/other_user}",
+                "gists_url": "https://api.github.com/users/uploadersoasis/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/uploadersoasis",
+                "id": 72340531,
+                "login": "uploadersoasis",
+                "node_id": "MDQ6VXNlcjcyMzQwNTMx",
+                "organizations_url": "https://api.github.com/users/uploadersoasis/orgs",
+                "received_events_url": "https://api.github.com/users/uploadersoasis/received_events",
+                "repos_url": "https://api.github.com/users/uploadersoasis/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/uploadersoasis/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/uploadersoasis/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/uploadersoasis",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/499/comments",
     "created_at": "2025-02-05T23:44:09Z",
     "event_data": [
@@ -84,6 +130,12 @@
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/499/events",
     "html_url": "https://github.com/TokTok/qTox/issues/499",
     "id": 2834185569,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
     "labels": [
         {
             "color": "84b6eb",
@@ -99,7 +151,7 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 1,
         "created_at": "2024-11-17T16:33:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -129,10 +181,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/2/labels",
         "node_id": "MI_kwDOA9gydM4AtbMW",
         "number": 2,
-        "open_issues": 25,
+        "open_issues": 28,
         "state": "open",
         "title": "v1.18.x",
-        "updated_at": "2025-02-05T23:52:26Z",
+        "updated_at": "2026-02-03T16:47:58Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/2"
     },
     "node_id": "I_kwDOA9gydM6o7j1h",
@@ -160,7 +212,17 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/qTox/issues/499/timeline",
     "title": "[FR]: add support for custom DoH/DoT/DNS resolvers",
-    "updated_at": "2025-02-05T23:52:26Z",
+    "type": {
+        "color": "blue",
+        "created_at": "2024-01-25T17:59:36Z",
+        "description": "A request, idea, or new functionality",
+        "id": 2333480,
+        "is_enabled": true,
+        "name": "Feature",
+        "node_id": "IT_kwDOAQnqk84AI5so",
+        "updated_at": "2024-10-08T09:59:59Z"
+    },
+    "updated_at": "2025-03-28T02:58:38Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/499",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
