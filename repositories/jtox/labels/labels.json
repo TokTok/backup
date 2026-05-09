@@ -90,6 +90,15 @@
         "url": "https://api.github.com/repos/TokTok/jtox/labels/help%20wanted"
     },
     {
+        "color": "ffa221",
+        "default": false,
+        "description": "Pull requests that update java code",
+        "id": 10838102404,
+        "name": "java",
+        "node_id": "LA_kwDOBvlVgM8AAAAChgBRhA",
+        "url": "https://api.github.com/repos/TokTok/jtox/labels/java"
+    },
+    {
         "color": "256784",
         "default": false,
         "description": "Process related",

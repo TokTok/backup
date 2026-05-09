@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/87"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/c32d30309bf765a1bced54f1e984d5af28bd66e9"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090"
         }
     },
     "active_lock_reason": null,
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 29,
-            "forks_count": 29,
+            "forks": 37,
+            "forks_count": 37,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": true,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": true,
             "homepage": "https://qtox.github.io/",
             "hooks_url": "https://api.github.com/repos/TokTok/qTox/hooks",
@@ -95,8 +96,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 87,
-            "open_issues_count": 87,
+            "open_issues": 111,
+            "open_issues_count": 111,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2026-02-03T16:40:05Z",
+            "pushed_at": "2026-05-09T01:05:19Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 60870,
+            "size": 62278,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 270,
+            "stargazers_count": 343,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -137,14 +139,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2026-02-03T14:56:04Z",
+            "updated_at": "2026-05-09T06:09:51Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 270,
-            "watchers_count": 270,
+            "watchers": 343,
+            "watchers_count": 343,
             "web_commit_signoff_required": true
         },
-        "sha": "2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639",
+        "sha": "28ccc49bea90bc5885e4e52da6e200aeee35c9d6",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -169,7 +171,7 @@
     },
     "body": "Also some unnecessary member initialisers.\r\n\r\n```sh\r\nrun-clang-tidy -p _build -fix \\\r\n  $(find . -name \"*.h\" -or -name \"*.cpp\" -or -name \"*.c\" | grep -v \"/_build/\") \\\r\n  -checks=\"-*,readability-redundant-member-init\"\r\n```\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/qTox/87)\n<!-- Reviewable:end -->\n",
     "changed_files": 8,
-    "closed_at": null,
+    "closed_at": "2026-02-11T00:00:52Z",
     "comment_data": [],
     "comment_regular_data": [
         {
@@ -248,6 +250,7 @@
                     "artifact_metadata": "write",
                     "attestations": "write",
                     "checks": "write",
+                    "code_quality": "write",
                     "contents": "write",
                     "copilot_requests": "write",
                     "deployments": "write",
@@ -266,7 +269,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2025-12-02T18:13:15Z"
+                "updated_at": "2026-05-05T14:51:38Z"
             },
             "reactions": {
                 "+1": 0,
@@ -280,7 +283,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/3842464249/reactions"
             },
-            "updated_at": "2026-02-03T17:01:27Z",
+            "updated_at": "2026-02-10T23:45:34Z",
             "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/3842464249",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
@@ -330,7 +333,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/c32d30309bf765a1bced54f1e984d5af28bd66e9/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090/comments",
             "commit": {
                 "author": {
                     "date": "2024-11-18T01:27:03Z",
@@ -339,22 +342,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-03T16:49:41Z",
+                    "date": "2026-02-10T23:30:46Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "cleanup: Remove redundant base initialisers.\n\nAlso some unnecessary member initialisers.\n\n```sh\nrun-clang-tidy -p _build -fix \\\n  $(find . -name \"*.h\" -or -name \"*.cpp\" -or -name \"*.c\" | grep -v \"/_build/\") \\\n  -checks=\"-*,readability-redundant-member-init\"\n```",
                 "tree": {
-                    "sha": "c2914c59650c39e9736abce61d75622df710352e",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/c2914c59650c39e9736abce61d75622df710352e"
+                    "sha": "7da7f1a783acb14f5f36902b5136a99e6023666a",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/7da7f1a783acb14f5f36902b5136a99e6023666a"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/c32d30309bf765a1bced54f1e984d5af28bd66e9",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090",
                 "verification": {
-                    "payload": "tree c2914c59650c39e9736abce61d75622df710352e\nparent 2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639\nauthor iphydf <iphydf@users.noreply.github.com> 1731893223 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770137381 +0000\n\ncleanup: Remove redundant base initialisers.\n\nAlso some unnecessary member initialisers.\n\n```sh\nrun-clang-tidy -p _build -fix \\\n  $(find . -name \"*.h\" -or -name \"*.cpp\" -or -name \"*.c\" | grep -v \"/_build/\") \\\n  -checks=\"-*,readability-redundant-member-init\"\n```\n",
+                    "payload": "tree 7da7f1a783acb14f5f36902b5136a99e6023666a\nparent 28ccc49bea90bc5885e4e52da6e200aeee35c9d6\nauthor iphydf <iphydf@users.noreply.github.com> 1731893223 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770766246 +0000\n\ncleanup: Remove redundant base initialisers.\n\nAlso some unnecessary member initialisers.\n\n```sh\nrun-clang-tidy -p _build -fix \\\n  $(find . -name \"*.h\" -or -name \"*.cpp\" -or -name \"*.c\" | grep -v \"/_build/\") \\\n  -checks=\"-*,readability-redundant-member-init\"\n```\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmCJyUACgkQOFXbotdE\nA8lamAf+NL19v2AGty3WHWNj8pppAe/EWaAoaJTOftQb2digYk8ZC/NGnVGaoiRz\nK8rCBAXUUWstRHJl636KpCquMeVkudMANPA2V46Jjxi/ouA7wxOwMjVfXe0ybJ1n\nbX3QCj+JdO9v1kgzzFMOr2YV+nnmFKhDrPILiLJ00vBbiAO/pUwwiYuIjXhzKJ/x\n1GhGrMVgZ5CMGzFgSFyp4utKpthcMpITAtOJHSu8/JbiDcumabp4XUoAgXA315WG\nHakCh4SKHXVLIeckFmlV5AGv2qZ47lZmkQlq+NvhvXi3Bwt9YEaKYqBYlSVPbWV9\n6eoXOQnGEDlSy/cD/1jecCu5AFmN4A==\n=MZr9\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmLv6cACgkQOFXbotdE\nA8nhawf/U/tQ2qKXQAdwhSIaFruDyP88JzPrY8V3Uckooe93dBh3sgUL7r9JSePV\n83ETWNBVzaERYJHvQksUBYiWXbQVtXdqYE5ptm+b5ttSqh8eLLv0n0tEE3bpuJVz\nAc4PzaDqfWmHXtoQXgmCiO+QzvBsRJdj3BsSlSTX//9un/B++M63C4LJx5zaTY1Y\nPT34wRdebQzr+UrChz2xAFdtf/U8MRHkmlQaXdfEhZvA2PcM9y6okwNCWt2sxj/y\nJ7lqY7tuQZugrHm56zINxDPvNnff4Q2vD04KsVnQnk2QHXdzCQsSDQODBBMHM32F\nwv1fds4H8DKKIVRhilVYJt4+g3hjpg==\n=UfVJ\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-03T16:52:07Z"
+                    "verified_at": "2026-02-10T23:30:53Z"
                 }
             },
             "committer": {
@@ -378,17 +381,17 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/c32d30309bf765a1bced54f1e984d5af28bd66e9",
-            "node_id": "C_kwDOBF7DatoAKGMzMmQzMDMwOWJmNzY1YTFiY2VkNTRmMWU5ODRkNWFmMjhiZDY2ZTk",
+            "html_url": "https://github.com/TokTok/qTox/commit/91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090",
+            "node_id": "C_kwDOBF7DatoAKDkxYjlmYzI3YTc2NDRkMGRhYzkyYjVlOWNkOWE5OWQ0ZjUxZWIwOTA",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639",
-                    "sha": "2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/2b8ff7af1fde1d3c8a1cf02c6d3c596b275cc639"
+                    "html_url": "https://github.com/TokTok/qTox/commit/28ccc49bea90bc5885e4e52da6e200aeee35c9d6",
+                    "sha": "28ccc49bea90bc5885e4e52da6e200aeee35c9d6",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/28ccc49bea90bc5885e4e52da6e200aeee35c9d6"
                 }
             ],
-            "sha": "c32d30309bf765a1bced54f1e984d5af28bd66e9",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/c32d30309bf765a1bced54f1e984d5af28bd66e9"
+            "sha": "91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090"
         }
     ],
     "commits": 1,
@@ -396,7 +399,7 @@
     "created_at": "2024-11-18T01:28:05Z",
     "deletions": 20,
     "diff_url": "https://github.com/TokTok/qTox/pull/87.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:base-init",
         "ref": "base-init",
@@ -422,8 +425,8 @@
             "downloads_url": "https://api.github.com/repos/iphydf/qTox/downloads",
             "events_url": "https://api.github.com/repos/iphydf/qTox/events",
             "fork": true,
-            "forks": 0,
-            "forks_count": 0,
+            "forks": 1,
+            "forks_count": 1,
             "forks_url": "https://api.github.com/repos/iphydf/qTox/forks",
             "full_name": "iphydf/qTox",
             "git_commits_url": "https://api.github.com/repos/iphydf/qTox/git/commits{/sha}",
@@ -435,6 +438,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://qtox.github.io/",
             "hooks_url": "https://api.github.com/repos/iphydf/qTox/hooks",
@@ -485,12 +489,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
-            "pushed_at": "2026-02-03T16:52:26Z",
+            "pushed_at": "2026-03-06T00:14:31Z",
             "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
-            "size": 58751,
+            "size": 60291,
             "ssh_url": "git@github.com:iphydf/qTox.git",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/iphydf/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/iphydf/qTox/subscribers",
@@ -503,14 +508,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/qTox/git/trees{/sha}",
-            "updated_at": "2026-02-03T17:02:42Z",
+            "updated_at": "2026-03-26T20:16:56Z",
             "url": "https://api.github.com/repos/iphydf/qTox",
             "visibility": "public",
-            "watchers": 2,
-            "watchers_count": 2,
+            "watchers": 3,
+            "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "c32d30309bf765a1bced54f1e984d5af28bd66e9",
+        "sha": "91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -548,17 +553,37 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "28631cfb1078648118cff9fd26e2efe7573dfe75",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-02-11T00:00:52Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 1,
-        "created_at": "2024-11-17T16:33:48Z",
+        "closed_at": "2026-02-24T22:48:48Z",
+        "closed_issues": 91,
+        "created_at": "2025-01-23T22:43:01Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -580,32 +605,32 @@
             "url": "https://api.github.com/users/iphydf",
             "user_view_type": "public"
         },
-        "description": null,
+        "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/qTox/milestone/2",
-        "id": 11907862,
-        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/2/labels",
-        "node_id": "MI_kwDOA9gydM4AtbMW",
-        "number": 2,
-        "open_issues": 28,
-        "state": "open",
-        "title": "v1.18.x",
-        "updated_at": "2026-02-03T16:47:58Z",
-        "url": "https://api.github.com/repos/TokTok/qTox/milestones/2"
+        "html_url": "https://github.com/TokTok/qTox/milestone/6",
+        "id": 12211725,
+        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/6/labels",
+        "node_id": "MI_kwDOA9gydM4AulYN",
+        "number": 6,
+        "open_issues": 0,
+        "state": "closed",
+        "title": "v1.18.4",
+        "updated_at": "2026-03-05T10:12:28Z",
+        "url": "https://api.github.com/repos/TokTok/qTox/milestones/6"
     },
     "node_id": "PR_kwDOA9gydM6CLdKi",
     "number": 87,
     "patch_url": "https://github.com/TokTok/qTox/pull/87.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/87/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/c32d30309bf765a1bced54f1e984d5af28bd66e9",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/91b9fc27a7644d0dac92b5e9cd9a99d4f51eb090",
     "title": "cleanup: Remove redundant base initialisers.",
-    "updated_at": "2026-02-03T17:01:27Z",
+    "updated_at": "2026-02-11T00:00:53Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/87",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

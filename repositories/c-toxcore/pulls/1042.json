@@ -29,7 +29,7 @@
     "additions": 112,
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "auto_merge": null,
     "base": {
         "label": "TokTok:master",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +143,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2636,
+            "watchers_count": 2636,
+            "web_commit_signoff_required": true
         },
         "sha": "4ed6e5999226f9061f546108c5be72fe6f21a775",
         "user": {
@@ -201,7 +203,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "toxcore/tox.api.h",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 143380844,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1042",
             "reactions": {
@@ -270,7 +272,7 @@
             "original_position": 6,
             "original_start_line": null,
             "path": "toxcore/group.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 143380856,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1042",
             "reactions": {
@@ -339,7 +341,7 @@
             "original_position": 6,
             "original_start_line": null,
             "path": "toxcore/tox.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 143380907,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1042",
             "reactions": {
@@ -394,7 +396,7 @@
                     "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/209458334"
                 }
             },
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Done",
             "commit_id": "d56ab5aaff5fab7ac707a5c914d3701f43eb2ba3",
             "created_at": "2018-08-12T15:02:00Z",
@@ -409,7 +411,7 @@
             "original_position": 6,
             "original_start_line": null,
             "path": "toxcore/group.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 145477546,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1042",
             "reactions": {
@@ -456,7 +458,7 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1042) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1042) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=1042) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1042) <br/>All committers have signed the CLA.",
             "created_at": "2018-08-02T18:30:16Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1042#issuecomment-410024458",
             "id": 410024458,
@@ -475,7 +477,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/410024458/reactions"
             },
-            "updated_at": "2018-08-12T20:48:50Z",
+            "updated_at": "2026-03-18T05:23:22Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/410024458",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -500,7 +502,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": ">Perhaps in the docs for \"invite\", explain in what state it's valid to \n>call \"invite\", and when it stops being valid.\n\nDone\n",
             "created_at": "2018-08-10T18:10:37Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1042#issuecomment-412162538",
@@ -720,6 +722,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/zugz/c-toxcore/hooks",
@@ -770,6 +773,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/zugz/c-toxcore/pulls{/number}",
             "pushed_at": "2022-07-10T15:28:21Z",
             "releases_url": "https://api.github.com/repos/zugz/c-toxcore/releases{/id}",
@@ -873,7 +877,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2018-08-16T07:00:00Z",
+        "due_on": "2018-08-16T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/34",
         "id": 3569334,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/34/labels",
@@ -897,7 +901,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/d56ab5aaff5fab7ac707a5c914d3701f43eb2ba3",
     "title": "Add callback for successful connection to a conference",
-    "updated_at": "2018-08-14T17:23:15Z",
+    "updated_at": "2026-03-18T05:23:22Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1042",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/590069?v=4",

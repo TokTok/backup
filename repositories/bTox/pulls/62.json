@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/bTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/bTox/events",
             "fork": false,
-            "forks": 6,
-            "forks_count": 6,
+            "forks": 7,
+            "forks_count": 7,
             "forks_url": "https://api.github.com/repos/TokTok/bTox/forks",
             "full_name": "TokTok/bTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/bTox/git/commits{/sha}",
@@ -111,6 +111,7 @@
             "has_issues": true,
             "has_pages": true,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/TokTok/bTox/hooks",
@@ -161,10 +162,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/bTox/pulls{/number}",
-            "pushed_at": "2026-02-03T16:39:51Z",
+            "pushed_at": "2026-05-05T12:11:47Z",
             "releases_url": "https://api.github.com/repos/TokTok/bTox/releases{/id}",
-            "size": 3844,
+            "size": 3907,
             "ssh_url": "git@github.com:TokTok/bTox.git",
             "stargazers_count": 17,
             "stargazers_url": "https://api.github.com/repos/TokTok/bTox/stargazers",
@@ -186,7 +188,7 @@
                 "web"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/bTox/git/trees{/sha}",
-            "updated_at": "2025-11-25T04:39:49Z",
+            "updated_at": "2026-02-10T18:38:48Z",
             "url": "https://api.github.com/repos/TokTok/bTox",
             "visibility": "public",
             "watchers": 17,
@@ -297,6 +299,7 @@
                     "artifact_metadata": "write",
                     "attestations": "write",
                     "checks": "write",
+                    "code_quality": "write",
                     "contents": "write",
                     "copilot_requests": "write",
                     "deployments": "write",
@@ -315,7 +318,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2025-12-02T18:13:15Z"
+                "updated_at": "2026-05-05T14:51:38Z"
             },
             "reactions": {
                 "+1": 0,
@@ -484,6 +487,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/iphydf/btox/hooks",
@@ -534,10 +538,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/btox/pulls{/number}",
-            "pushed_at": "2025-03-27T15:31:49Z",
+            "pushed_at": "2026-02-10T18:39:01Z",
             "releases_url": "https://api.github.com/repos/iphydf/btox/releases{/id}",
-            "size": 3578,
+            "size": 3041,
             "ssh_url": "git@github.com:iphydf/btox.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/btox/stargazers",
@@ -559,7 +564,7 @@
                 "web"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/btox/git/trees{/sha}",
-            "updated_at": "2025-03-27T15:31:43Z",
+            "updated_at": "2026-02-10T18:38:55Z",
             "url": "https://api.github.com/repos/iphydf/btox",
             "visibility": "public",
             "watchers": 0,
@@ -633,7 +638,7 @@
     },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 82,
+        "closed_issues": 85,
         "created_at": "2022-01-31T00:50:02Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -666,7 +671,7 @@
         "open_issues": 1,
         "state": "open",
         "title": "v0.0.1",
-        "updated_at": "2025-07-06T09:11:13Z",
+        "updated_at": "2026-02-10T18:38:45Z",
         "url": "https://api.github.com/repos/TokTok/bTox/milestones/1"
     },
     "node_id": "PR_kwDOGwPtrc6Kr4OE",
@@ -681,7 +686,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/bTox/statuses/be03cdbf945b6cf372e315d59d24331f4b2eb17b",
     "title": "feat: Add an icon for bTox.",
-    "updated_at": "2025-02-19T08:18:59Z",
+    "updated_at": "2026-02-09T22:30:18Z",
     "url": "https://api.github.com/repos/TokTok/bTox/pulls/62",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/614"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/87f1f842b2f7796231ac1c27f0c2fd4166e00fa3"
         }
     },
     "active_lock_reason": null,
-    "additions": 14,
+    "additions": 13,
     "assignee": null,
     "assignees": [],
     "author_association": "NONE",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 29,
-            "forks_count": 29,
+            "forks": 37,
+            "forks_count": 37,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": true,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": true,
             "homepage": "https://qtox.github.io/",
             "hooks_url": "https://api.github.com/repos/TokTok/qTox/hooks",
@@ -95,8 +96,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 87,
-            "open_issues_count": 87,
+            "open_issues": 111,
+            "open_issues_count": 111,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2026-02-03T16:40:05Z",
+            "pushed_at": "2026-05-09T01:05:19Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 60870,
+            "size": 62278,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 270,
+            "stargazers_count": 343,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -137,14 +139,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2026-02-03T14:56:04Z",
+            "updated_at": "2026-05-09T06:09:51Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 270,
-            "watchers_count": 270,
+            "watchers": 343,
+            "watchers_count": 343,
             "web_commit_signoff_required": true
         },
-        "sha": "c4eba9d36732aa03f70cc97ac6d3702e15a1e223",
+        "sha": "1de1b72ed63fa2f7c5fb5c26dda61e4dddbf4b96",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -168,8 +170,8 @@
         }
     },
     "body": "The previous URLs for macOS 10.12 (both ARM and Intel architectures) were pointing to an incorrect location, resulting in 404 errors.\r\n\r\nThis commit updates the download URLs to the correct path in the releases section, where the files actually reside.\r\n\r\nFixes #609 \r\n\r\n<!-- Reviewable:start -->\r\n- - -\r\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/qTox/614)\r\n<!-- Reviewable:end -->\r\n",
-    "changed_files": 3,
-    "closed_at": null,
+    "changed_files": 2,
+    "closed_at": "2026-02-05T22:15:05Z",
     "comment_data": [],
     "comment_regular_data": [
         {
@@ -248,6 +250,7 @@
                     "artifact_metadata": "write",
                     "attestations": "write",
                     "checks": "write",
+                    "code_quality": "write",
                     "contents": "write",
                     "copilot_requests": "write",
                     "deployments": "write",
@@ -266,7 +269,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2025-12-02T18:13:15Z"
+                "updated_at": "2026-05-05T14:51:38Z"
             },
             "reactions": {
                 "+1": 0,
@@ -280,7 +283,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/3622609728/reactions"
             },
-            "updated_at": "2026-01-14T23:37:31Z",
+            "updated_at": "2026-02-05T22:04:14Z",
             "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/3622609728",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
@@ -600,7 +603,7 @@
                 "url": "https://api.github.com/users/EssEnemiGz",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/87f1f842b2f7796231ac1c27f0c2fd4166e00fa3/comments",
             "commit": {
                 "author": {
                     "date": "2025-12-07T17:23:05Z",
@@ -609,62 +612,62 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-01-14T23:27:46Z",
-                    "email": "biscenp@gmail.com",
-                    "name": "EssEnemiGz"
+                    "date": "2026-02-05T21:52:11Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
                 },
-                "message": "fix(downloads): Correct 404 download links for macOS 10.12 files\n\nThe previous URLs for macOS 10.12 (both ARM and Intel architectures)\nwere pointing to an incorrect location, resulting in 404 errors.\n\nThis commit updates the download URLs to the correct path in the\nreleases section, where the files actually reside.\n\ndocs(qtox): Add macOS Gatekeeper troubleshooting to qTox downloads\n\nAdds note about 'xattr' command solution for users downloading qTox on macOS who encounter the \"damaged and can't be opened\" error.\n\nchore(ci): remove macos-13 and add macos-15-intel",
+                "message": "fix(downloads): Correct 404 download links for macOS 10.12 files\n\nThe previous URLs for macOS 10.12 (both ARM and Intel architectures)\nwere pointing to an incorrect location, resulting in 404 errors.\n\nThis commit updates the download URLs to the correct path in the\nreleases section, where the files actually reside.",
                 "tree": {
-                    "sha": "10be2787001efe3f8f6e6406f3aca979abf58e10",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/10be2787001efe3f8f6e6406f3aca979abf58e10"
+                    "sha": "305c6c7d935bfb6a2d9908a79da6a7481479d5d7",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/305c6c7d935bfb6a2d9908a79da6a7481479d5d7"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/87f1f842b2f7796231ac1c27f0c2fd4166e00fa3",
                 "verification": {
-                    "payload": "tree 10be2787001efe3f8f6e6406f3aca979abf58e10\nparent 2bdce5d7a42155236c38173915f6e3d1e8d64bb6\nauthor EssEnemiGz <biscenp@gmail.com> 1765128185 -0400\ncommitter EssEnemiGz <biscenp@gmail.com> 1768433266 -0400\n\nfix(downloads): Correct 404 download links for macOS 10.12 files\n\nThe previous URLs for macOS 10.12 (both ARM and Intel architectures)\nwere pointing to an incorrect location, resulting in 404 errors.\n\nThis commit updates the download URLs to the correct path in the\nreleases section, where the files actually reside.\n\ndocs(qtox): Add macOS Gatekeeper troubleshooting to qTox downloads\n\nAdds note about 'xattr' command solution for users downloading qTox on macOS who encounter the \"damaged and can't be opened\" error.\n\nchore(ci): remove macos-13 and add macos-15-intel\n",
+                    "payload": "tree 305c6c7d935bfb6a2d9908a79da6a7481479d5d7\nparent 1de1b72ed63fa2f7c5fb5c26dda61e4dddbf4b96\nauthor EssEnemiGz <biscenp@gmail.com> 1765128185 -0400\ncommitter iphydf <iphydf@users.noreply.github.com> 1770328331 +0000\n\nfix(downloads): Correct 404 download links for macOS 10.12 files\n\nThe previous URLs for macOS 10.12 (both ARM and Intel architectures)\nwere pointing to an incorrect location, resulting in 404 errors.\n\nThis commit updates the download URLs to the correct path in the\nreleases section, where the files actually reside.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEL5IIYmK7zl4v8U5hnMAYdEAo1pkFAmloJnsACgkQnMAYdEAo\n1pmGpA/8D1LBsbuj/3pP0trDAw/Mi4PqfVCi/1N83q72S9HYSn+9pqGkfM7bpqKI\nc76L659Uc3IK2vL4Jsm32WVN3SXTCWFhD4oFLDBiTryiBydQKWbpDQo+LGf75guF\nN+vI8pbmP5K8tO1w+SokbDbEfloSg5KcIiRmRST2hnHBpE1HfCyPLRrq3SAK2zKf\n5oDpTqNIcb/Z/9wVWpV94kJZPxY3ZJY6RRBQzUX/94wGcnSR0JlEb6xjdM3hIcv+\n5o7xcbkPg+hEBdSFrHOkDLCTGKim+uWykQNIiS2Q1VKTfiCF5nq0s1kQyHwoNSRk\n/gbV9GcgESdeL1hspy7BtnFdsWuBfDaNOIeEGo2niYewHTuIYH19N4RhNLM9EV1D\nP+Nb0AHWLaK4G0/4Y8nwmLYFrs8lb3XZSx3qZE2fyRJ6+BRw9uDE0AQVCcND+NT+\nZWQEg80DY2p5afy69ZYHeL/D4AcuZ+5c69GPtlxtDOjBg5N0LNwVWGkv6oWUAAow\nJ8cAnJN5TNB1F5wcQFXfOmqc+ATTMDSYdjdkj5QydCihT8Jbf5+Kb5i2hdzhHNOH\nU7LbyjtNx0rt57L69QVD5sM+V/tVG/Wodq/+kTxaSZhX4r4nPUkzslAS6hyPnX0q\nd+Px+Rk5YzriW09qO01fOeZW3DdMn0Fx+aZvxdxt8W+vUcwg9uE=\n=ky48\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmFERgACgkQOFXbotdE\nA8mCJQf/U2azMO0unqMhsTR5bUow3Fivi+mzOI0jhW07F67bJCa4EyWmlzcKxdV9\n9bSR11D7mFF8ejd8zc0eRANu2PlXXiaUkcsZHjdN/6BdU+Pv/SizSO1C8JRTqCHG\n8aiS3DBDH8s8GsJ+ovw1mSOdCCat/PAlnhtO9Eo4fcUlw2BzwC8UcgBr8ox2HI09\nJDC9xhMDxw9aaMUbpktNcL3+xwF9KrwTmh2u6RM5YRaJkg7DpTd4ol/xjucZ3BYN\nQZniSsl26zogBBm5sziSJpLCW+gmznrVATzw2h8sqpllaZ06olEKKrRNwQKTbsLF\n3fJPJ7jYPQPPhQrqpzBJzVfB/WekTQ==\n=sBgV\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-01-14T23:28:12Z"
+                    "verified_at": "2026-02-05T21:54:29Z"
                 }
             },
             "committer": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/75174446?v=4",
-                "events_url": "https://api.github.com/users/EssEnemiGz/events{/privacy}",
-                "followers_url": "https://api.github.com/users/EssEnemiGz/followers",
-                "following_url": "https://api.github.com/users/EssEnemiGz/following{/other_user}",
-                "gists_url": "https://api.github.com/users/EssEnemiGz/gists{/gist_id}",
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
                 "gravatar_id": "",
-                "html_url": "https://github.com/EssEnemiGz",
-                "id": 75174446,
-                "login": "EssEnemiGz",
-                "node_id": "MDQ6VXNlcjc1MTc0NDQ2",
-                "organizations_url": "https://api.github.com/users/EssEnemiGz/orgs",
-                "received_events_url": "https://api.github.com/users/EssEnemiGz/received_events",
-                "repos_url": "https://api.github.com/users/EssEnemiGz/repos",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
                 "site_admin": false,
-                "starred_url": "https://api.github.com/users/EssEnemiGz/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/EssEnemiGz/subscriptions",
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
                 "type": "User",
-                "url": "https://api.github.com/users/EssEnemiGz",
+                "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008",
-            "node_id": "C_kwDOQkTX3toAKGJkZjBjYjNjZTliNmNlYWU4NDFlMTFjNjlhOGE5YjFlNzdmMjgwMDg",
+            "html_url": "https://github.com/TokTok/qTox/commit/87f1f842b2f7796231ac1c27f0c2fd4166e00fa3",
+            "node_id": "C_kwDOQkTX3toAKDg3ZjFmODQyYjJmNzc5NjIzMWFjMWMyN2YwYzJmZDQxNjZlMDBmYTM",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/qTox/commit/2bdce5d7a42155236c38173915f6e3d1e8d64bb6",
-                    "sha": "2bdce5d7a42155236c38173915f6e3d1e8d64bb6",
-                    "url": "https://api.github.com/repos/TokTok/qTox/commits/2bdce5d7a42155236c38173915f6e3d1e8d64bb6"
+                    "html_url": "https://github.com/TokTok/qTox/commit/1de1b72ed63fa2f7c5fb5c26dda61e4dddbf4b96",
+                    "sha": "1de1b72ed63fa2f7c5fb5c26dda61e4dddbf4b96",
+                    "url": "https://api.github.com/repos/TokTok/qTox/commits/1de1b72ed63fa2f7c5fb5c26dda61e4dddbf4b96"
                 }
             ],
-            "sha": "bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008"
+            "sha": "87f1f842b2f7796231ac1c27f0c2fd4166e00fa3",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/87f1f842b2f7796231ac1c27f0c2fd4166e00fa3"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/qTox/pulls/614/commits",
     "created_at": "2025-12-07T17:26:59Z",
-    "deletions": 3,
+    "deletions": 2,
     "diff_url": "https://github.com/TokTok/qTox/pull/614.diff",
     "draft": false,
     "head": {
@@ -705,6 +708,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": true,
             "homepage": "https://qtox.github.io/",
             "hooks_url": "https://api.github.com/repos/EssEnemiGz/qTox/hooks",
@@ -755,10 +759,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/EssEnemiGz/qTox/pulls{/number}",
-            "pushed_at": "2026-01-14T23:28:12Z",
+            "pushed_at": "2026-02-05T21:54:28Z",
             "releases_url": "https://api.github.com/repos/EssEnemiGz/qTox/releases{/id}",
-            "size": 57144,
+            "size": 58085,
             "ssh_url": "git@github.com:EssEnemiGz/qTox.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/EssEnemiGz/qTox/stargazers",
@@ -777,7 +782,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": true
         },
-        "sha": "bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008",
+        "sha": "87f1f842b2f7796231ac1c27f0c2fd4166e00fa3",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/75174446?v=4",
             "events_url": "https://api.github.com/users/EssEnemiGz/events{/privacy}",
@@ -815,16 +820,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "8971bdf60c26f8cccaa6db7c4aa012847123d19c",
-    "mergeable": true,
-    "mergeable_state": "behind",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "87f1f842b2f7796231ac1c27f0c2fd4166e00fa3",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-02-05T22:15:05Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 28,
+        "closed_at": "2026-02-24T22:48:48Z",
+        "closed_issues": 91,
         "created_at": "2025-01-23T22:43:01Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -854,16 +879,16 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/6/labels",
         "node_id": "MI_kwDOA9gydM4AulYN",
         "number": 6,
-        "open_issues": 8,
-        "state": "open",
+        "open_issues": 0,
+        "state": "closed",
         "title": "v1.18.4",
-        "updated_at": "2026-02-03T14:48:21Z",
+        "updated_at": "2026-03-05T10:12:28Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/6"
     },
     "node_id": "PR_kwDOA9gydM63irwn",
     "number": 614,
     "patch_url": "https://github.com/TokTok/qTox/pull/614.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [
         {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
@@ -891,10 +916,10 @@
     "review_comment_url": "https://api.github.com/repos/TokTok/qTox/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/614/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/bdf0cb3ce9b6ceae841e11c69a8a9b1e77f28008",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/87f1f842b2f7796231ac1c27f0c2fd4166e00fa3",
     "title": "fix(downloads): Correct 404 download links for macOS 10.12 files",
-    "updated_at": "2026-01-15T01:09:47Z",
+    "updated_at": "2026-02-05T22:15:05Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/614",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/75174446?v=4",

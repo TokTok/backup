@@ -78,6 +78,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/560",
             "node_id": "IC_kwDOA9gydM7emHZ5",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -484,6 +485,74 @@
             "performed_via_github_app": null,
             "state_reason": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/21970383731"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-02-21T21:49:36Z",
+            "event": "demilestoned",
+            "id": 22973029110,
+            "milestone": {
+                "title": "v1.18.5"
+            },
+            "node_id": "DEME_lADOA9gydM6rjXOtzwAAAAVZTJr2",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/22973029110"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-02-21T21:49:36Z",
+            "event": "milestoned",
+            "id": 22973029116,
+            "milestone": {
+                "title": "v1.18.4"
+            },
+            "node_id": "MIE_lADOA9gydM6rjXOtzwAAAAVZTJr8",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/22973029116"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/560/events",
@@ -509,9 +578,9 @@
     "labels_url": "https://api.github.com/repos/TokTok/qTox/issues/560/labels{/name}",
     "locked": false,
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 4,
-        "created_at": "2025-03-07T12:02:21Z",
+        "closed_at": "2026-02-24T22:48:48Z",
+        "closed_issues": 91,
+        "created_at": "2025-01-23T22:43:01Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -535,21 +604,22 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/qTox/milestone/8",
-        "id": 12458871,
-        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/8/labels",
-        "node_id": "MI_kwDOA9gydM4Avht3",
-        "number": 8,
-        "open_issues": 26,
-        "state": "open",
-        "title": "v1.18.5",
-        "updated_at": "2026-02-03T16:48:04Z",
-        "url": "https://api.github.com/repos/TokTok/qTox/milestones/8"
+        "html_url": "https://github.com/TokTok/qTox/milestone/6",
+        "id": 12211725,
+        "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/6/labels",
+        "node_id": "MI_kwDOA9gydM4AulYN",
+        "number": 6,
+        "open_issues": 0,
+        "state": "closed",
+        "title": "v1.18.4",
+        "updated_at": "2026-03-05T10:12:28Z",
+        "url": "https://api.github.com/repos/TokTok/qTox/milestones/6"
     },
     "node_id": "I_kwDOA9gydM6rjXOt",
     "number": 560,
     "parent_issue_url": "https://api.github.com/repos/TokTok/qTox/issues/463",
     "performed_via_github_app": null,
+    "pinned_comment": null,
     "reactions": {
         "+1": 0,
         "-1": 0,
@@ -582,7 +652,7 @@
         "node_id": "IT_kwDOAQnqk84AI5sl",
         "updated_at": "2024-07-26T10:39:38Z"
     },
-    "updated_at": "2026-01-11T13:34:20Z",
+    "updated_at": "2026-02-21T21:49:36Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/560",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/13730509?v=4",

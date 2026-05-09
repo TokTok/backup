@@ -29,7 +29,7 @@
     "additions": 260,
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "auto_merge": null,
     "base": {
         "label": "TokTok:master",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +143,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2636,
+            "watchers_count": 2636,
+            "web_commit_signoff_required": true
         },
         "sha": "3a4987da18b165d5a5297ddaf64f1336958bb3c7",
         "user": {
@@ -177,7 +179,7 @@
     "comment_data": [],
     "comment_regular_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "* Sunday, 2018-07-29 at 17:13 +0000 - iphydf <notifications@github.com>:\n\n>You can write `for (Message_Info *i = ...) {` and instead of `break`, \n>write `return i` and instead of `return nullptr`, write `break`, and at \n>the bottom `return nullptr`.\n\nThat doesn't work, sadly - we're also interested in the case that the \ncondition in the 'for' fails.\n\nDone the rest, except for fixing the other conference tests.\n",
             "created_at": "2018-07-29T18:25:37Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1035#issuecomment-408696044",
@@ -222,7 +224,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "* Sunday, 2018-07-29 at 21:34 +0000 - iphydf <notifications@github.com>:\n\n>*[toxcore/group.c, line 2143 at r3](https://reviewable.io/reviews/toktok/c-toxcore/1035#-LIbxWo1AMSHkR82qOPX:-LIbxWo1AMSHkR82qOPY:bllger9) ([raw file](https://github.com/toktok/c-toxcore/blob/ed89dc79aaac37132a21dd5eb8a4e2b681366235/toxcore/group.c#L2143)):*\n>> ```C\n>>\n>>     uint32_t message_number;\n>>     memcpy(&message_number, data + sizeof(uint16_t), sizeof(message_number));\n>> ```\n>\n>Can you use `net_unpack_u32` here?\n\nThis was existing code, just moved. I can change it, but maybe it would \nmake more sense to convert the whole codebase to use net_unpack_* in one \ngo, in a separate PR?\n",
             "created_at": "2018-07-31T20:56:04Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1035#issuecomment-409365007",
@@ -268,7 +270,7 @@
         },
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1035) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1035) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=1035) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1035) <br/>All committers have signed the CLA.",
             "created_at": "2018-07-31T21:01:43Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1035#issuecomment-409366632",
             "id": 409366632,
@@ -287,7 +289,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/409366632/reactions"
             },
-            "updated_at": "2018-08-02T21:08:32Z",
+            "updated_at": "2026-03-29T23:25:07Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/409366632",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -312,7 +314,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "* Wednesday, 2018-08-01 at 19:35 +0000 - Robin Lindén <notifications@github.com>:\n\n>Nit: no space between cast and variable.\n\nDone.\n\nAlso improved connectedness detetection, and signed the commit.\n",
             "created_at": "2018-08-02T18:06:01Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1035#issuecomment-410017247",
@@ -487,6 +489,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/zugz/c-toxcore/hooks",
@@ -537,6 +540,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/zugz/c-toxcore/pulls{/number}",
             "pushed_at": "2022-07-10T15:28:21Z",
             "releases_url": "https://api.github.com/repos/zugz/c-toxcore/releases{/id}",
@@ -640,7 +644,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2018-08-11T07:00:00Z",
+        "due_on": "2018-08-11T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/33",
         "id": 3516869,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/33/labels",
@@ -664,7 +668,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/aa63c1330c49ee1c4b675037e2e54516950203a2",
     "title": "Fix problems with initial connections and name-setting in conferences",
-    "updated_at": "2018-08-04T13:15:05Z",
+    "updated_at": "2026-03-29T23:25:07Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1035",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/590069?v=4",

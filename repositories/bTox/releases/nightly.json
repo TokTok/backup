@@ -3,16 +3,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-android.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2025-03-27T15:42:01Z",
-            "digest": null,
-            "download_count": 40,
-            "id": 241319806,
+            "created_at": "2026-02-10T18:50:10Z",
+            "digest": "sha256:ce6f0d6601dc214ee56de08d041cb650199d323459834cf22971e39ddd6c52e0",
+            "download_count": 56,
+            "id": 353761687,
             "label": "",
             "name": "btox-android.apk",
-            "node_id": "RA_kwDOGwPtrc4OYj9-",
-            "size": 41977311,
+            "node_id": "RA_kwDOGwPtrc4VFfmX",
+            "size": 86025574,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:42:03Z",
+            "updated_at": "2026-02-10T18:50:14Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -34,21 +34,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241319806"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353761687"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-ios.ipa",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:43:55Z",
-            "digest": null,
-            "download_count": 6,
-            "id": 241320200,
+            "created_at": "2026-02-10T18:51:46Z",
+            "digest": "sha256:476c0074a05921f768e4475955ca1778b202fc1831b4bfc5494420bfcff2c630",
+            "download_count": 0,
+            "id": 353762338,
             "label": "",
             "name": "btox-ios.ipa",
-            "node_id": "RA_kwDOGwPtrc4OYkEI",
-            "size": 30336122,
+            "node_id": "RA_kwDOGwPtrc4VFfwi",
+            "size": 11422577,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:43:57Z",
+            "updated_at": "2026-02-10T18:51:47Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -70,21 +70,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241320200"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353762338"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-linux.png",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:35:32Z",
-            "digest": null,
-            "download_count": 1042,
-            "id": 241318517,
+            "created_at": "2026-02-10T18:43:06Z",
+            "digest": "sha256:8286889b92dbfc93bbb56798e0ae362276a9a18c574c757dcaed51b8aa4697ef",
+            "download_count": 373,
+            "id": 353758279,
             "label": "",
             "name": "btox-linux.png",
-            "node_id": "RA_kwDOGwPtrc4OYjp1",
-            "size": 35656,
+            "node_id": "RA_kwDOGwPtrc4VFexH",
+            "size": 35669,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:35:32Z",
+            "updated_at": "2026-02-10T18:43:06Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -106,21 +106,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241318517"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353758279"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-linux.tar.gz",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:34:50Z",
-            "digest": null,
+            "created_at": "2026-02-10T18:42:26Z",
+            "digest": "sha256:325d6295f86d7f71a622a4d815430b0e8f17e28e9b1f010aae9541e6657ee337",
             "download_count": 5,
-            "id": 241318347,
+            "id": 353758018,
             "label": "",
             "name": "btox-linux.tar.gz",
-            "node_id": "RA_kwDOGwPtrc4OYjnL",
-            "size": 15970479,
+            "node_id": "RA_kwDOGwPtrc4VFetC",
+            "size": 22196871,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:34:51Z",
+            "updated_at": "2026-02-10T18:42:27Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -142,21 +142,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241318347"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353758018"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-macos.png",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:38:14Z",
-            "digest": null,
-            "download_count": 2,
-            "id": 241319062,
+            "created_at": "2026-02-10T18:45:21Z",
+            "digest": "sha256:5f3bb79cb8b1b759dd783a61ef5c0f823d769cb37bc04777cee8f3f3d07a886b",
+            "download_count": 0,
+            "id": 353759401,
             "label": "",
             "name": "btox-macos.png",
-            "node_id": "RA_kwDOGwPtrc4OYjyW",
-            "size": 2924470,
+            "node_id": "RA_kwDOGwPtrc4VFfCp",
+            "size": 203222,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:38:15Z",
+            "updated_at": "2026-02-10T18:45:22Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -178,21 +178,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241319062"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353759401"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-macos.tar.gz",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:37:41Z",
-            "digest": null,
-            "download_count": 2,
-            "id": 241318920,
+            "created_at": "2026-02-10T18:44:43Z",
+            "digest": "sha256:a6f7ddf336cb231e30a3003411f949d1e37e5faac87b77e78088bf4b5ab82e6d",
+            "download_count": 0,
+            "id": 353759123,
             "label": "",
             "name": "btox-macos.tar.gz",
-            "node_id": "RA_kwDOGwPtrc4OYjwI",
-            "size": 27637939,
+            "node_id": "RA_kwDOGwPtrc4VFe-T",
+            "size": 25408896,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:37:43Z",
+            "updated_at": "2026-02-10T18:44:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -214,14 +214,14 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241318920"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353759123"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-windows-x64.exe",
             "content_type": "raw",
             "created_at": "2025-02-21T23:24:48Z",
             "digest": null,
-            "download_count": 10,
+            "download_count": 12,
             "id": 231449878,
             "label": "",
             "name": "btox-windows-x64.exe",
@@ -255,16 +255,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-windows-x64.tar.gz",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:43:22Z",
-            "digest": null,
-            "download_count": 4,
-            "id": 241320101,
+            "created_at": "2026-02-10T18:44:29Z",
+            "digest": "sha256:01dae14a53d23142071d465e5dbba63c1e517ed3c29bec26a74b510bf098faa5",
+            "download_count": 0,
+            "id": 353759038,
             "label": "",
             "name": "btox-windows-x64.tar.gz",
-            "node_id": "RA_kwDOGwPtrc4OYkCl",
-            "size": 15561798,
+            "node_id": "RA_kwDOGwPtrc4VFe8-",
+            "size": 16450010,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:43:23Z",
+            "updated_at": "2026-02-10T18:44:30Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -286,21 +286,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241320101"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353759038"
         },
         {
             "browser_download_url": "https://github.com/TokTok/bTox/releases/download/nightly/btox-windows.png",
             "content_type": "raw",
-            "created_at": "2025-03-27T15:43:52Z",
-            "digest": null,
-            "download_count": 8,
-            "id": 241320183,
+            "created_at": "2026-02-10T18:45:08Z",
+            "digest": "sha256:ffafb1bc286bc607cf9d1265f5c1c81ac968e1cefd7560bed41c07e803551c09",
+            "download_count": 3,
+            "id": 353759294,
             "label": "",
             "name": "btox-windows.png",
-            "node_id": "RA_kwDOGwPtrc4OYkD3",
-            "size": 132796,
+            "node_id": "RA_kwDOGwPtrc4VFfA-",
+            "size": 185171,
             "state": "uploaded",
-            "updated_at": "2025-03-27T15:43:52Z",
+            "updated_at": "2026-02-10T18:45:09Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -322,7 +322,7 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/241320183"
+            "url": "https://api.github.com/repos/TokTok/bTox/releases/assets/353759294"
         }
     ],
     "assets_url": "https://api.github.com/repos/TokTok/bTox/releases/201757348/assets",
@@ -348,7 +348,7 @@
         "user_view_type": "public"
     },
     "body": "",
-    "created_at": "2025-03-24T03:41:37Z",
+    "created_at": "2026-02-10T17:57:59Z",
     "draft": false,
     "html_url": "https://github.com/TokTok/bTox/releases/tag/nightly",
     "id": 201757348,
@@ -360,7 +360,7 @@
     "tag_name": "nightly",
     "tarball_url": "https://api.github.com/repos/TokTok/bTox/tarball/nightly",
     "target_commitish": "master",
-    "updated_at": "2025-03-27T15:43:57Z",
+    "updated_at": "2026-02-10T18:51:47Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/bTox/releases/201757348/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/bTox/releases/201757348",
     "zipball_url": "https://api.github.com/repos/TokTok/bTox/zipball/nightly"

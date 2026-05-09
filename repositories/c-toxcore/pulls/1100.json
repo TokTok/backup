@@ -29,7 +29,7 @@
     "additions": 73,
     "assignee": null,
     "assignees": [],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "auto_merge": null,
     "base": {
         "label": "TokTok:master",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +143,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2636,
+            "watchers_count": 2636,
+            "web_commit_signoff_required": true
         },
         "sha": "e32e0b3402006dabfc44e9a3eb1e806d9d3fc00d",
         "user": {
@@ -178,7 +180,7 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1100) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1100) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=1100) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1100) <br/>All committers have signed the CLA.",
             "created_at": "2018-08-19T11:59:35Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1100#issuecomment-414123017",
             "id": 414123017,
@@ -197,7 +199,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/414123017/reactions"
             },
-            "updated_at": "2018-08-19T21:43:59Z",
+            "updated_at": "2026-03-20T02:46:02Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/414123017",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -352,6 +354,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/zugz/c-toxcore/hooks",
@@ -402,6 +405,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/zugz/c-toxcore/pulls{/number}",
             "pushed_at": "2022-07-10T15:28:21Z",
             "releases_url": "https://api.github.com/repos/zugz/c-toxcore/releases{/id}",
@@ -505,7 +509,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2018-08-30T07:00:00Z",
+        "due_on": "2018-08-30T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/35",
         "id": 3611175,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/35/labels",
@@ -529,7 +533,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/14484c6879ff5796d962b49aa76a7f3e04c2319c",
     "title": "Make Mono_Time an argument to current_time_monotonic",
-    "updated_at": "2018-08-30T20:08:49Z",
+    "updated_at": "2026-03-20T02:46:02Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1100",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/590069?v=4",

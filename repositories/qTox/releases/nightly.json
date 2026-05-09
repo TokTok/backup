@@ -3,16 +3,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-AppImage-x86_64.png",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:54Z",
+            "created_at": "2026-03-03T19:49:03Z",
             "digest": "sha256:a68036ab630fb5b85779ed42ecb9acf25e5a8486d1dc98aa54d54d3a82029a33",
-            "download_count": 0,
-            "id": 350083610,
+            "download_count": 7,
+            "id": 366267139,
             "label": "",
             "name": "qTox-AppImage-x86_64.png",
-            "node_id": "RA_kwDOA9gydM4U3doa",
+            "node_id": "RA_kwDOA9gydM4V1MsD",
             "size": 26639,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:54Z",
+            "updated_at": "2026-03-03T19:49:04Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -34,21 +34,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083610"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366267139"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-macos-arm64-10.15.png",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:29:49Z",
-            "digest": "sha256:f6d20195cfaaf8bc50fa5e2f732c3e6225e8d6cf03c361094ba08a178931094f",
-            "download_count": 6,
-            "id": 298894341,
+            "created_at": "2026-03-03T19:48:31Z",
+            "digest": "sha256:f5ea388164616643d2eb62b1379e25df20dbb07354ae85b875b7b80e15ac0e71",
+            "download_count": 2,
+            "id": 366266991,
             "label": "",
             "name": "qTox-macos-arm64-10.15.png",
-            "node_id": "RA_kwDOA9gydM4R0MQF",
-            "size": 27407,
+            "node_id": "RA_kwDOA9gydM4V1Mpv",
+            "size": 27439,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:29:49Z",
+            "updated_at": "2026-03-03T19:48:32Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -70,21 +70,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298894341"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266991"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-macos-arm64-12.0.png",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:29:48Z",
+            "created_at": "2026-03-03T19:48:33Z",
             "digest": "sha256:ef4ed39039c1085fd55a327394809b3cb55956c459528fb2e54056a4490cf7da",
-            "download_count": 28425,
-            "id": 298894335,
+            "download_count": 11855,
+            "id": 366266995,
             "label": "",
             "name": "qTox-macos-arm64-12.0.png",
-            "node_id": "RA_kwDOA9gydM4R0MP_",
+            "node_id": "RA_kwDOA9gydM4V1Mpz",
             "size": 27760,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:29:49Z",
+            "updated_at": "2026-03-03T19:48:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -106,21 +106,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298894335"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266995"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-macos-x86_64-10.15.png",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:30:11Z",
-            "digest": "sha256:9e9bdc37218a5e93a5447b94730b513106e9bd538a8af799acc07642e0138788",
-            "download_count": 5,
-            "id": 298894420,
+            "created_at": "2026-03-03T19:48:52Z",
+            "digest": "sha256:bb4d10fc83bacd0c16556aff1a7b8c87559001ec8e452996e329afde1a3d925a",
+            "download_count": 3,
+            "id": 366267077,
             "label": "",
             "name": "qTox-macos-x86_64-10.15.png",
-            "node_id": "RA_kwDOA9gydM4R0MRU",
-            "size": 27439,
+            "node_id": "RA_kwDOA9gydM4V1MrF",
+            "size": 27421,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:30:11Z",
+            "updated_at": "2026-03-03T19:48:52Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -142,21 +142,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298894420"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366267077"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-macos-x86_64-12.0.png",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:29:59Z",
-            "digest": "sha256:af8922d47e10317e4f437bfd60bd38db7d3b9fe0939539201c3f3d8b59f05245",
+            "created_at": "2026-03-03T19:48:58Z",
+            "digest": "sha256:8e5778bf5791ed1ded75e6bb8f57cf6a559a5c25eb95cc35a1b0ac75d0810969",
             "download_count": 4,
-            "id": 298894369,
+            "id": 366267110,
             "label": "",
             "name": "qTox-macos-x86_64-12.0.png",
-            "node_id": "RA_kwDOA9gydM4R0MQh",
-            "size": 27792,
+            "node_id": "RA_kwDOA9gydM4V1Mrm",
+            "size": 27772,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:30:00Z",
+            "updated_at": "2026-03-03T19:48:58Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -178,21 +178,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298894369"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366267110"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-10.15.dmg",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:16:17Z",
-            "digest": "sha256:3976b0cf5bee07bd5cbe6be0e6cc2b3e7d0543cccac3c210f39afa1d05ca3c33",
-            "download_count": 3,
-            "id": 350080948,
+            "created_at": "2026-03-03T19:42:57Z",
+            "digest": "sha256:4c32745622b0d0a2de22ba741226f048a1d98a53b62f9c62678714155a1ce2f4",
+            "download_count": 246,
+            "id": 366264616,
             "label": "",
             "name": "qTox-nightly-arm64-10.15.dmg",
-            "node_id": "RA_kwDOA9gydM4U3c-0",
-            "size": 21062727,
+            "node_id": "RA_kwDOA9gydM4V1MEo",
+            "size": 21148736,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:18Z",
+            "updated_at": "2026-03-03T19:42:59Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -214,21 +214,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350080948"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264616"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-10.15.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:16:19Z",
-            "digest": "sha256:152684c20656106dd7d3714b817c6dc06b19adc1b77c3007778ba3a0c74b63b3",
-            "download_count": 0,
-            "id": 350080954,
+            "created_at": "2026-03-03T19:43:00Z",
+            "digest": "sha256:66dc2ff08ca384eb59575c63891cead833bb9cc522c62346ff39d732f31ce5cd",
+            "download_count": 2,
+            "id": 366264638,
             "label": "",
             "name": "qTox-nightly-arm64-10.15.dmg.sha256",
-            "node_id": "RA_kwDOA9gydM4U3c-6",
+            "node_id": "RA_kwDOA9gydM4V1ME-",
             "size": 87,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:19Z",
+            "updated_at": "2026-03-03T19:43:00Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -250,21 +250,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350080954"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264638"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-12.0.dmg",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:16:06Z",
-            "digest": "sha256:fe18ee97a4f6d5963f43a8052638449d61ef82905b1ae67fc5946a93445c962f",
-            "download_count": 1,
-            "id": 350080892,
+            "created_at": "2026-03-03T19:43:39Z",
+            "digest": "sha256:bab80e05fc0d47cda68398d9f1fd497c32544913e343a06b46070c30c9fb54dc",
+            "download_count": 326,
+            "id": 366264957,
             "label": "",
             "name": "qTox-nightly-arm64-12.0.dmg",
-            "node_id": "RA_kwDOA9gydM4U3c98",
-            "size": 21364283,
+            "node_id": "RA_kwDOA9gydM4V1MJ9",
+            "size": 21457634,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:07Z",
+            "updated_at": "2026-03-03T19:43:40Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -286,21 +286,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350080892"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264957"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-12.0.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:16:08Z",
-            "digest": "sha256:2f6b593015db490b6ec22d83bbfae8fe2976fbf3c4d5750410df41430de0e1b0",
-            "download_count": 0,
-            "id": 350080903,
+            "created_at": "2026-03-03T19:43:41Z",
+            "digest": "sha256:78d2fa85057cfe2cf968ab56da48de3159b252f8f2f9d78c56787968cdf2e78a",
+            "download_count": 2,
+            "id": 366264966,
             "label": "",
             "name": "qTox-nightly-arm64-12.0.dmg.sha256",
-            "node_id": "RA_kwDOA9gydM4U3c-H",
+            "node_id": "RA_kwDOA9gydM4V1MKG",
             "size": 86,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:08Z",
+            "updated_at": "2026-03-03T19:43:41Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -322,21 +322,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350080903"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264966"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-v8a-debug-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:16:26Z",
-            "digest": "sha256:52159cdf6c34d42ae793abb1fcb63995b2f32a90f23b6ae9a6bb674533c48093",
-            "download_count": 0,
-            "id": 350080998,
+            "created_at": "2026-03-03T19:42:41Z",
+            "digest": "sha256:8c57b1a00ae141db62e7ff4e79033aaf34b44a588e80a4b2a34ec73dc8e3ab3a",
+            "download_count": 4,
+            "id": 366264520,
             "label": "",
             "name": "qTox-nightly-arm64-v8a-debug-6.2.4.apk",
-            "node_id": "RA_kwDOA9gydM4U3c_m",
-            "size": 30606163,
+            "node_id": "RA_kwDOA9gydM4V1MDI",
+            "size": 30689995,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:28Z",
+            "updated_at": "2026-03-03T19:42:43Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -358,21 +358,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350080998"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264520"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-v8a-debug-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:22:37Z",
-            "digest": "sha256:036b6257b622d21df9040e5802234bd6b5d0d7d5a939ddc6c773f41820093335",
-            "download_count": 0,
-            "id": 350083119,
+            "created_at": "2026-03-03T19:43:55Z",
+            "digest": "sha256:ad38db2a6b004342f3be803dd818e31145efe9aa6ac2c6024a511f965d2e4d3f",
+            "download_count": 3,
+            "id": 366265048,
             "label": "",
             "name": "qTox-nightly-arm64-v8a-debug-6.8.1.apk",
-            "node_id": "RA_kwDOA9gydM4U3dgv",
-            "size": 35945116,
+            "node_id": "RA_kwDOA9gydM4V1MLY",
+            "size": 36018844,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:22:39Z",
+            "updated_at": "2026-03-03T19:43:57Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -394,21 +394,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083119"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366265048"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-v8a-release-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:16:40Z",
-            "digest": "sha256:f8c3a4f2abc6effbbe90b802b7c540a6b978f9a72bcf43c8d41ef8f6e361e5c5",
-            "download_count": 0,
-            "id": 350081075,
+            "created_at": "2026-03-03T19:45:24Z",
+            "digest": "sha256:0e0acfb3ba5fa0d0f0758170e9f7c29401206fcaa0eb475b69ca749ce2ffbedb",
+            "download_count": 11,
+            "id": 366265616,
             "label": "",
             "name": "qTox-nightly-arm64-v8a-release-6.2.4.apk",
-            "node_id": "RA_kwDOA9gydM4U3dAz",
-            "size": 21706139,
+            "node_id": "RA_kwDOA9gydM4V1MUQ",
+            "size": 21772475,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:42Z",
+            "updated_at": "2026-03-03T19:45:25Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -430,21 +430,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350081075"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366265616"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-arm64-v8a-release-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:17:39Z",
-            "digest": "sha256:5d970ffee897d13439d27dceb82a5b5eefbe40ff904d057e20bb58ca7313480c",
-            "download_count": 0,
-            "id": 350081433,
+            "created_at": "2026-03-03T19:42:51Z",
+            "digest": "sha256:580e7677b0df4e49259f008f564e87141835e5375850f7266fa07cf786c0d793",
+            "download_count": 25,
+            "id": 366264597,
             "label": "",
             "name": "qTox-nightly-arm64-v8a-release-6.8.1.apk",
-            "node_id": "RA_kwDOA9gydM4U3dGZ",
-            "size": 22606024,
+            "node_id": "RA_kwDOA9gydM4V1MEV",
+            "size": 22671560,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:17:40Z",
+            "updated_at": "2026-03-03T19:42:53Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -466,21 +466,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350081433"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264597"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-armeabi-v7a-debug-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:16:39Z",
-            "digest": "sha256:47c4e9d7dbc4514a10a2a162b01be07aa5ce2034a8f7f61ae0932ca67460479f",
-            "download_count": 0,
-            "id": 350081070,
+            "created_at": "2026-03-03T19:42:32Z",
+            "digest": "sha256:5ed2e8c34e5ae041a2fac198cff87292526974a27c7f2749271404ce8d0ce842",
+            "download_count": 3,
+            "id": 366264450,
             "label": "",
             "name": "qTox-nightly-armeabi-v7a-debug-6.2.4.apk",
-            "node_id": "RA_kwDOA9gydM4U3dAu",
-            "size": 25045233,
+            "node_id": "RA_kwDOA9gydM4V1MCC",
+            "size": 25122593,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:40Z",
+            "updated_at": "2026-03-03T19:42:34Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -502,21 +502,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350081070"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264450"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-armeabi-v7a-debug-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:16:33Z",
-            "digest": "sha256:c2a066e841d2dc9cee0d7dafc74edd5993d5019328fb8924a9c78273582bfa24",
-            "download_count": 0,
-            "id": 350081045,
+            "created_at": "2026-03-03T19:43:07Z",
+            "digest": "sha256:cd5a88fbae93caa95ad1631cdcf0d5b4dafd87c929aee78f10f6390b39b8f375",
+            "download_count": 2,
+            "id": 366264688,
             "label": "",
             "name": "qTox-nightly-armeabi-v7a-debug-6.8.1.apk",
-            "node_id": "RA_kwDOA9gydM4U3dAV",
-            "size": 28936926,
+            "node_id": "RA_kwDOA9gydM4V1MFw",
+            "size": 29010654,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:16:34Z",
+            "updated_at": "2026-03-03T19:43:08Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -538,21 +538,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350081045"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264688"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-armeabi-v7a-release-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:21:06Z",
-            "digest": "sha256:bd88b1b10e4b324d42b8e505abd020c48bd62c7bafffdd80d85cbbd0a05cdaee",
-            "download_count": 0,
-            "id": 350082487,
+            "created_at": "2026-03-03T19:42:21Z",
+            "digest": "sha256:43c928197608777b2d0cfbb8775604c18175048a4e87977687c70b893a402edb",
+            "download_count": 4,
+            "id": 366264359,
             "label": "",
             "name": "qTox-nightly-armeabi-v7a-release-6.2.4.apk",
-            "node_id": "RA_kwDOA9gydM4U3dW3",
-            "size": 19133165,
+            "node_id": "RA_kwDOA9gydM4V1MAn",
+            "size": 19203725,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:21:07Z",
+            "updated_at": "2026-03-03T19:42:22Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -574,21 +574,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350082487"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264359"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-armeabi-v7a-release-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-02-03T15:17:12Z",
-            "digest": "sha256:175cd48b423f1cee72e738c4fc69e2f7c1813ee690c8a42f9294da019d15b088",
-            "download_count": 0,
-            "id": 350081306,
+            "created_at": "2026-03-03T19:43:37Z",
+            "digest": "sha256:3f8382f771b6ba2b92a9dcfc468bc5bb3310757b6ab54d4c419bbff0f985713f",
+            "download_count": 8,
+            "id": 366264946,
             "label": "",
             "name": "qTox-nightly-armeabi-v7a-release-6.8.1.apk",
-            "node_id": "RA_kwDOA9gydM4U3dEa",
-            "size": 19919114,
+            "node_id": "RA_kwDOA9gydM4V1MJy",
+            "size": 19980554,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:17:13Z",
+            "updated_at": "2026-03-03T19:43:38Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -610,21 +610,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350081306"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366264946"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-i686-Debug.zip",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:20:22Z",
-            "digest": "sha256:f88b8025f1f6ac7fb3e03d00e50d16b9731c480fdfa8366fdfa63e6542106571",
-            "download_count": 0,
-            "id": 350082200,
+            "created_at": "2026-03-04T10:45:20Z",
+            "digest": "sha256:00dcfa4ed9c5b9111726f6b7e5fed78bdf828a06c4335c41da75f501c56b8b55",
+            "download_count": 2,
+            "id": 366704998,
             "label": "",
             "name": "qtox-nightly-i686-Debug.zip",
-            "node_id": "RA_kwDOA9gydM4U3dSY",
-            "size": 96772136,
+            "node_id": "RA_kwDOA9gydM4V23lm",
+            "size": 96852383,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:20:26Z",
+            "updated_at": "2026-03-04T10:45:24Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -646,21 +646,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350082200"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704998"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-i686-Debug.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:20:27Z",
-            "digest": "sha256:f0020f689bfd3144d6d62025aa84e819f7d38ffcc75f0851613d2b2811c9bbf7",
-            "download_count": 0,
-            "id": 350082235,
+            "created_at": "2026-03-04T10:45:24Z",
+            "digest": "sha256:d1c272637ef96f989a68b98df82b17303e85c527a18dcf357004fccbf6e3525e",
+            "download_count": 1,
+            "id": 366705027,
             "label": "",
             "name": "qtox-nightly-i686-Debug.zip.sha256",
-            "node_id": "RA_kwDOA9gydM4U3dS7",
+            "node_id": "RA_kwDOA9gydM4V23mD",
             "size": 94,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:20:27Z",
+            "updated_at": "2026-03-04T10:45:24Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -682,21 +682,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350082235"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366705027"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-i686-Release.exe",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:05Z",
-            "digest": "sha256:10e9c3c2a546719c7d680a48e57e7ee246f50d3d000054aafb2408de2c62745d",
-            "download_count": 1,
-            "id": 350083282,
+            "created_at": "2026-03-04T10:44:47Z",
+            "digest": "sha256:cc6b66b1063715f8adb84fbea4580e283ce68e62ca50d051fc548e1a043bdc4f",
+            "download_count": 59,
+            "id": 366704458,
             "label": "",
             "name": "qtox-nightly-i686-Release.exe",
-            "node_id": "RA_kwDOA9gydM4U3djS",
-            "size": 21194825,
+            "node_id": "RA_kwDOA9gydM4V23dK",
+            "size": 21267925,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:06Z",
+            "updated_at": "2026-03-04T10:44:48Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -718,21 +718,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083282"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704458"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-i686-Release.exe.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:06Z",
-            "digest": "sha256:35cfe3d23fc21ca17f4aa50befdf8e2113b002632d19d9151172324802396d89",
-            "download_count": 0,
-            "id": 350083290,
+            "created_at": "2026-03-04T10:44:48Z",
+            "digest": "sha256:17c1fcdaff84c5ee23716733cdf3ed9073c8d28c97eabcce293aa629a4dabf43",
+            "download_count": 2,
+            "id": 366704485,
             "label": "",
             "name": "qtox-nightly-i686-Release.exe.sha256",
-            "node_id": "RA_kwDOA9gydM4U3dja",
+            "node_id": "RA_kwDOA9gydM4V23dl",
             "size": 96,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:06Z",
+            "updated_at": "2026-03-04T10:44:48Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -754,21 +754,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083290"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704485"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-i686-Release.zip",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:00Z",
-            "digest": "sha256:650fcb27e53c0a3dffa3d30f8c1d5e8a2c3a5749cf29c68c2d304e4862eb5d41",
-            "download_count": 0,
-            "id": 350083256,
+            "created_at": "2026-03-04T10:44:42Z",
+            "digest": "sha256:048c9a0b1e7268c9970f579de294bb37096342d0cbf31af116b589e76dde637a",
+            "download_count": 183,
+            "id": 366704364,
             "label": "",
             "name": "qtox-nightly-i686-Release.zip",
-            "node_id": "RA_kwDOA9gydM4U3di4",
-            "size": 28631682,
+            "node_id": "RA_kwDOA9gydM4V23bs",
+            "size": 28705636,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:01Z",
+            "updated_at": "2026-03-04T10:44:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -790,21 +790,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083256"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704364"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-i686-Release.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:02Z",
-            "digest": "sha256:6bf3cffd5c82d2351710134e35d70191a6417b2c33b4982a5105e0a7abdc8214",
-            "download_count": 0,
-            "id": 350083267,
+            "created_at": "2026-03-04T10:44:44Z",
+            "digest": "sha256:e3774a803690d6696f45f627e37a273b867135d4df3bbc7c4b367e278cb47a41",
+            "download_count": 2,
+            "id": 366704421,
             "label": "",
             "name": "qtox-nightly-i686-Release.zip.sha256",
-            "node_id": "RA_kwDOA9gydM4U3djD",
+            "node_id": "RA_kwDOA9gydM4V23cl",
             "size": 96,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:02Z",
+            "updated_at": "2026-03-04T10:44:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -826,21 +826,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083267"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704421"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64-10.15.dmg",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:29:09Z",
-            "digest": "sha256:0bd3ec9f01dbe5515380d3e657ae31b9c54fc3d6c1c63d1b2cd30d39c3e26346",
-            "download_count": 449,
-            "id": 298894150,
+            "created_at": "2026-03-03T19:47:47Z",
+            "digest": "sha256:f36096da299a9a9a323aed113b58a240c7d03f0bf53f6a5153f7a7f2e9b5929d",
+            "download_count": 184,
+            "id": 366266680,
             "label": "",
             "name": "qTox-nightly-x86_64-10.15.dmg",
-            "node_id": "RA_kwDOA9gydM4R0MNG",
-            "size": 22548404,
+            "node_id": "RA_kwDOA9gydM4V1Mk4",
+            "size": 22461025,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:29:11Z",
+            "updated_at": "2026-03-03T19:47:49Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -862,21 +862,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298894150"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266680"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64-10.15.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:29:11Z",
-            "digest": "sha256:357e6c7feb647774eb43f560f4cf2527298858e3fff74f91b57ae81eff3cbe92",
-            "download_count": 0,
-            "id": 298894158,
+            "created_at": "2026-03-03T19:47:49Z",
+            "digest": "sha256:e31dfe269dffe0cca56dccb2819f4c82ad585b5afe95117f8bd316994c6540d5",
+            "download_count": 2,
+            "id": 366266708,
             "label": "",
             "name": "qTox-nightly-x86_64-10.15.dmg.sha256",
-            "node_id": "RA_kwDOA9gydM4R0MNO",
+            "node_id": "RA_kwDOA9gydM4V1MlU",
             "size": 88,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:29:11Z",
+            "updated_at": "2026-03-03T19:47:49Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -898,21 +898,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298894158"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266708"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64-12.0.dmg",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:26:13Z",
-            "digest": "sha256:d2cc4db62f1dc724b351729ffdc17d57dc89126505d8025193fd3174dace4893",
-            "download_count": 514,
-            "id": 298893248,
+            "created_at": "2026-03-03T19:46:05Z",
+            "digest": "sha256:fb4916ff9f2796dec9acf8ac6cf91a92a67252297626c8c096a1fd50020e080e",
+            "download_count": 156,
+            "id": 366265895,
             "label": "",
             "name": "qTox-nightly-x86_64-12.0.dmg",
-            "node_id": "RA_kwDOA9gydM4R0L_A",
-            "size": 23047124,
+            "node_id": "RA_kwDOA9gydM4V1MYn",
+            "size": 23006508,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:26:14Z",
+            "updated_at": "2026-03-03T19:46:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -934,21 +934,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298893248"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366265895"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64-12.0.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2025-09-30T12:26:14Z",
-            "digest": "sha256:13160d866bbbb7e354f12cbba1680b985c7fbaf64586f4dde553a88eebfacf08",
-            "download_count": 0,
-            "id": 298893258,
+            "created_at": "2026-03-03T19:46:08Z",
+            "digest": "sha256:f70878c7acf8f575e4f44862783cfd9077c7251843cb08660864f5636d7508cb",
+            "download_count": 2,
+            "id": 366265914,
             "label": "",
             "name": "qTox-nightly-x86_64-12.0.dmg.sha256",
-            "node_id": "RA_kwDOA9gydM4R0L_K",
+            "node_id": "RA_kwDOA9gydM4V1MY6",
             "size": 87,
             "state": "uploaded",
-            "updated_at": "2025-09-30T12:26:15Z",
+            "updated_at": "2026-03-03T19:46:08Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -970,21 +970,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/298893258"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366265914"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-x86_64-Debug.zip",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:25:46Z",
-            "digest": "sha256:2fd5c5d032bc9102cb810674b89c4ff246b29bef10dfa5d83481b4ac565985ba",
-            "download_count": 0,
-            "id": 350084466,
+            "created_at": "2026-03-04T10:45:23Z",
+            "digest": "sha256:9f29f95f67cee921cef490f9f6eb85f4b9c5b0e710a546e8ef5ae6b7d98437df",
+            "download_count": 4,
+            "id": 366705013,
             "label": "",
             "name": "qtox-nightly-x86_64-Debug.zip",
-            "node_id": "RA_kwDOA9gydM4U3d1y",
-            "size": 98480881,
+            "node_id": "RA_kwDOA9gydM4V23l1",
+            "size": 98552957,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:25:49Z",
+            "updated_at": "2026-03-04T10:45:25Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1006,21 +1006,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350084466"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366705013"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-x86_64-Debug.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:25:50Z",
-            "digest": "sha256:9a517305ecbf97486bc73efb94c69b8fe4602cd0f2fb1424163c2eb80a267480",
-            "download_count": 0,
-            "id": 350084488,
+            "created_at": "2026-03-04T10:45:26Z",
+            "digest": "sha256:2fe174589c206534910a424226392bb04d6b75adbe36cb5ac8237af7fe4cc6ef",
+            "download_count": 1,
+            "id": 366705045,
             "label": "",
             "name": "qtox-nightly-x86_64-Debug.zip.sha256",
-            "node_id": "RA_kwDOA9gydM4U3d2I",
+            "node_id": "RA_kwDOA9gydM4V23mV",
             "size": 96,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:25:50Z",
+            "updated_at": "2026-03-04T10:45:26Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1042,21 +1042,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350084488"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366705045"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-x86_64-Release.exe",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:26Z",
-            "digest": "sha256:620345d955d0087c53ace4d591565c83ff5ead94cce0b7dbe9d836caade59622",
-            "download_count": 15,
-            "id": 350083431,
+            "created_at": "2026-03-04T10:44:47Z",
+            "digest": "sha256:0d709540c847895fd6c8149d37f9b140e1950fd1a76e9794f49fb3c2cc253bdd",
+            "download_count": 251,
+            "id": 366704464,
             "label": "",
             "name": "qtox-nightly-x86_64-Release.exe",
-            "node_id": "RA_kwDOA9gydM4U3dln",
-            "size": 21273075,
+            "node_id": "RA_kwDOA9gydM4V23dQ",
+            "size": 21341084,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:27Z",
+            "updated_at": "2026-03-04T10:44:49Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1078,21 +1078,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083431"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704464"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-x86_64-Release.exe.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:27Z",
-            "digest": "sha256:72e005e44c2545d707817e46f4b966596c9caadedc9646fb934a3f233c0828ba",
-            "download_count": 0,
-            "id": 350083442,
+            "created_at": "2026-03-04T10:44:49Z",
+            "digest": "sha256:1c17ddcd4482b40e007d33cbf97adc0c998724980141a41dcfae7b7eea99c7a1",
+            "download_count": 2,
+            "id": 366704490,
             "label": "",
             "name": "qtox-nightly-x86_64-Release.exe.sha256",
-            "node_id": "RA_kwDOA9gydM4U3dly",
+            "node_id": "RA_kwDOA9gydM4V23dq",
             "size": 98,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:28Z",
+            "updated_at": "2026-03-04T10:44:49Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1114,21 +1114,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083442"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704490"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-x86_64-Release.zip",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:22Z",
-            "digest": "sha256:5a53abada5f80f6285fb57f541b2e844fd7f4f6d3ba6dd7e578590931444b5ac",
-            "download_count": 8,
-            "id": 350083406,
+            "created_at": "2026-03-04T10:44:41Z",
+            "digest": "sha256:73786a0860fe57f826fbff7abc16d5fac1ca3c77c72cd6071dd9fb706e128094",
+            "download_count": 417,
+            "id": 366704339,
             "label": "",
             "name": "qtox-nightly-x86_64-Release.zip",
-            "node_id": "RA_kwDOA9gydM4U3dlO",
-            "size": 28720094,
+            "node_id": "RA_kwDOA9gydM4V23bT",
+            "size": 28787579,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:23Z",
+            "updated_at": "2026-03-04T10:44:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1150,21 +1150,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083406"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704339"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qtox-nightly-x86_64-Release.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:23Z",
-            "digest": "sha256:8e11414bfc2515115c47ba94bd38c8d1508bb6ff84d35ad5253a84efebc9632d",
-            "download_count": 0,
-            "id": 350083417,
+            "created_at": "2026-03-04T10:44:44Z",
+            "digest": "sha256:8de621285144222eb046b31620c3db1eba0f413c28b73b4dfb0bd4af49937fa2",
+            "download_count": 1,
+            "id": 366704423,
             "label": "",
             "name": "qtox-nightly-x86_64-Release.zip.sha256",
-            "node_id": "RA_kwDOA9gydM4U3dlZ",
+            "node_id": "RA_kwDOA9gydM4V23cn",
             "size": 98,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:23Z",
+            "updated_at": "2026-03-04T10:44:45Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1186,21 +1186,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083417"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366704423"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64.AppImage",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:02Z",
-            "digest": "sha256:486956aea3d60f66f5c5477d1c9e33b38f44d14801c95f6a067203a410337822",
-            "download_count": 2,
-            "id": 350083271,
+            "created_at": "2026-03-03T19:48:18Z",
+            "digest": "sha256:eff2d7c97afdaa7cb5ecc2e23de282f6b698c6d2ca2f21b6487e7e76beaf72f0",
+            "download_count": 328,
+            "id": 366266886,
             "label": "",
             "name": "qTox-nightly-x86_64.AppImage",
-            "node_id": "RA_kwDOA9gydM4U3djH",
-            "size": 64921912,
+            "node_id": "RA_kwDOA9gydM4V1MoG",
+            "size": 64999736,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:04Z",
+            "updated_at": "2026-03-03T19:48:21Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1222,21 +1222,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083271"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266886"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64.AppImage.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:05Z",
-            "digest": "sha256:fda5da3e8e3075f80cc519ee9ba1ae2b05290cf78197ade8c63e7f87edca8c01",
-            "download_count": 0,
-            "id": 350083281,
+            "created_at": "2026-03-03T19:48:21Z",
+            "digest": "sha256:c7ab9c4fc4028b85fd8f231d1e1761d086702340d1f30f7788a59334cf2c66bb",
+            "download_count": 2,
+            "id": 366266901,
             "label": "",
             "name": "qTox-nightly-x86_64.AppImage.sha256",
-            "node_id": "RA_kwDOA9gydM4U3djR",
+            "node_id": "RA_kwDOA9gydM4V1MoV",
             "size": 95,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:05Z",
+            "updated_at": "2026-03-03T19:48:21Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1258,21 +1258,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083281"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266901"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly-x86_64.AppImage.zsync",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:23:06Z",
-            "digest": "sha256:609dfd1aaaca749d678dfb556c442fd207475574722706f40bf5d5ee976099a3",
-            "download_count": 0,
-            "id": 350083288,
+            "created_at": "2026-03-03T19:48:22Z",
+            "digest": "sha256:88025138f56db2dac2c9918f46e952b31cbcc3b3b90059a5deace8e695a36d6a",
+            "download_count": 12,
+            "id": 366266902,
             "label": "",
             "name": "qTox-nightly-x86_64.AppImage.zsync",
-            "node_id": "RA_kwDOA9gydM4U3djY",
-            "size": 222154,
+            "node_id": "RA_kwDOA9gydM4V1MoW",
+            "size": 222420,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:23:06Z",
+            "updated_at": "2026-03-03T19:48:22Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1294,21 +1294,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350083288"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366266902"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly.flatpak",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:26:50Z",
-            "digest": "sha256:354d5f47d0a0918d6624dcbb806021ab5dde1b89f5d079a32ec7b57d7d481294",
-            "download_count": 3,
-            "id": 350084893,
+            "created_at": "2026-03-04T10:40:32Z",
+            "digest": "sha256:13fa1fb4b759cefbb3fadd89eccf2808773c5eaf0d8122b89d7496ffb7720e26",
+            "download_count": 271,
+            "id": 366699964,
             "label": "",
             "name": "qTox-nightly.flatpak",
-            "node_id": "RA_kwDOA9gydM4U3d8d",
-            "size": 5315168,
+            "node_id": "RA_kwDOA9gydM4V22W8",
+            "size": 5431104,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:26:51Z",
+            "updated_at": "2026-03-04T10:40:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1330,21 +1330,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350084893"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366699964"
         },
         {
             "browser_download_url": "https://github.com/TokTok/qTox/releases/download/nightly/qTox-nightly.flatpak.sha256",
             "content_type": "raw",
-            "created_at": "2026-02-03T15:26:51Z",
-            "digest": "sha256:678f1e30f51b844aa704778cf8c73f0addb72922e4c6a935f1fe0741cf6cf13f",
-            "download_count": 0,
-            "id": 350084909,
+            "created_at": "2026-03-04T10:40:33Z",
+            "digest": "sha256:8c330621c46afed8799f3447f21b585e9d92f67478d16be76d11009e78f71146",
+            "download_count": 2,
+            "id": 366699972,
             "label": "",
             "name": "qTox-nightly.flatpak.sha256",
-            "node_id": "RA_kwDOA9gydM4U3d8t",
+            "node_id": "RA_kwDOA9gydM4V22XE",
             "size": 79,
             "state": "uploaded",
-            "updated_at": "2026-02-03T15:26:52Z",
+            "updated_at": "2026-03-04T10:40:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1366,7 +1366,7 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/350084909"
+            "url": "https://api.github.com/repos/TokTok/qTox/releases/assets/366699972"
         }
     ],
     "assets_url": "https://api.github.com/repos/TokTok/qTox/releases/185543508/assets",
@@ -1392,7 +1392,7 @@
         "user_view_type": "public"
     },
     "body": "Automatically built off the the last commit pushed. Please report any issues found.\r\n\r\nWarning: may upgrade your chat history and settings in a backwards incompatible way. Backup your chat history and .ini settings files prior to testing so that you can revert to the last release version in the case of issues.",
-    "created_at": "2026-02-03T13:26:53Z",
+    "created_at": "2026-03-03T17:02:38Z",
     "draft": false,
     "html_url": "https://github.com/TokTok/qTox/releases/tag/nightly",
     "id": 185543508,
@@ -1402,7 +1402,7 @@
     "prerelease": true,
     "published_at": "2024-11-15T00:39:25Z",
     "reactions": {
-        "+1": 2,
+        "+1": 6,
         "-1": 0,
         "confused": 0,
         "eyes": 0,
@@ -1410,13 +1410,13 @@
         "hooray": 0,
         "laugh": 0,
         "rocket": 0,
-        "total_count": 2,
+        "total_count": 6,
         "url": "https://api.github.com/repos/TokTok/qTox/releases/185543508/reactions"
     },
     "tag_name": "nightly",
     "tarball_url": "https://api.github.com/repos/TokTok/qTox/tarball/nightly",
     "target_commitish": "master",
-    "updated_at": "2026-02-03T15:26:52Z",
+    "updated_at": "2026-03-04T10:45:26Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/qTox/releases/185543508/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/qTox/releases/185543508",
     "zipball_url": "https://api.github.com/repos/TokTok/qTox/zipball/nightly"

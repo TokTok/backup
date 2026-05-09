@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +143,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2636,
+            "watchers_count": 2636,
+            "web_commit_signoff_required": true
         },
         "sha": "3036cc1f23cef20885db3652972c102e7405d178",
         "user": {
@@ -201,7 +203,7 @@
             "original_position": 5,
             "original_start_line": null,
             "path": "auto_tests/file_saving_test.c",
-            "position": null,
+            "position": 1,
             "pull_request_review_id": 145863790,
             "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1085",
             "reactions": {
@@ -248,7 +250,7 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1085) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1085) before we can accept your contribution.<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=1085) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1085) <br/>All committers have signed the CLA.",
             "created_at": "2018-08-13T03:33:51Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1085#issuecomment-412400370",
             "id": 412400370,
@@ -267,7 +269,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/412400370/reactions"
             },
-            "updated_at": "2018-08-16T09:57:56Z",
+            "updated_at": "2026-03-28T05:34:32Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/412400370",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -474,7 +476,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2018-08-16T07:00:00Z",
+        "due_on": "2018-08-16T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/34",
         "id": 3569334,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/34/labels",
@@ -498,7 +500,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/006b4f4e5c3579428ff02ab954bf78a913df9e5a",
     "title": "Prune long long warnings.",
-    "updated_at": "2018-08-16T20:31:12Z",
+    "updated_at": "2026-03-28T05:34:32Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1085",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",

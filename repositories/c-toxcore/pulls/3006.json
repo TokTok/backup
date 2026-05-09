@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/530760d8d5a3377807b5479b1d4eec1484527e37"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/19736406249b589383c237740085202ebda27594"
         }
     },
     "active_lock_reason": null,
-    "additions": 89,
+    "additions": 967,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 305,
-            "forks_count": 305,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-02-03T19:52:57Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23338,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2554,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,14 +143,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-02-03T15:32:01Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2554,
-            "watchers_count": 2554,
+            "watchers": 2636,
+            "watchers_count": 2636,
             "web_commit_signoff_required": true
         },
-        "sha": "de30cf3ad94c4f19dd7339a2574878ed30dc46cd",
+        "sha": "dbb652239a228c7536ac473856bee42b6e3698c2",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -172,9 +174,497 @@
         }
     },
     "body": "E.g. where they are present on the function declaration, they don't need to also be added to the definition.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/3006)\n<!-- Reviewable:end -->\n",
-    "changed_files": 13,
-    "closed_at": null,
-    "comment_data": [],
+    "changed_files": 86,
+    "closed_at": "2026-02-22T14:42:08Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807565233"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807565233"
+                }
+            },
+            "author_association": "NONE",
+            "body": "There are no nullability annotations on the declarations for some of these static functions.",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T15:03:27Z",
+            "diff_hunk": "@@ -1310,7 +1310,7 @@ static void callback_bwc(BWController *bwc, Tox_Friend_Number friend_number, flo\n     pthread_mutex_unlock(call->av->mutex);\n }\n \n-static int callback_invite(void *_Nonnull object, MSICall *_Nonnull call)\n+static int callback_invite(void *object, MSICall *call)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807565233",
+            "id": 2807565233,
+            "line": 1314,
+            "node_id": "PRRC_kwDOA7zIGs6nWAux",
+            "original_commit_id": "1da5773d57480cb7798ff173f4ce462ee44d1fc8",
+            "original_line": 1313,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "toxav/toxav.c",
+            "position": 339,
+            "pull_request_review_id": 3801939538,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807565233/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T15:05:54Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807565233",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+                "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+                "followers_url": "https://api.github.com/users/robinlinden/followers",
+                "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+                "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/robinlinden",
+                "id": 8304462,
+                "login": "robinlinden",
+                "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+                "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+                "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+                "repos_url": "https://api.github.com/users/robinlinden/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/robinlinden",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807853435"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807853435"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Added the rest of the nullability changes to this branch.",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T19:54:34Z",
+            "diff_hunk": "@@ -1310,7 +1310,7 @@ static void callback_bwc(BWController *bwc, Tox_Friend_Number friend_number, flo\n     pthread_mutex_unlock(call->av->mutex);\n }\n \n-static int callback_invite(void *_Nonnull object, MSICall *_Nonnull call)\n+static int callback_invite(void *object, MSICall *call)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807853435",
+            "id": 2807853435,
+            "in_reply_to_id": 2807565233,
+            "line": 1314,
+            "node_id": "PRRC_kwDOA7zIGs6nXHF7",
+            "original_commit_id": "1da5773d57480cb7798ff173f4ce462ee44d1fc8",
+            "original_line": 1313,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "toxav/toxav.c",
+            "position": 339,
+            "pull_request_review_id": 3802442941,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807853435/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T19:54:35Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807853435",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807855323"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855323"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "This one does have nullability annotations. Which ones don't?",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T19:56:25Z",
+            "diff_hunk": "@@ -1310,7 +1310,7 @@ static void callback_bwc(BWController *bwc, Tox_Friend_Number friend_number, flo\n     pthread_mutex_unlock(call->av->mutex);\n }\n \n-static int callback_invite(void *_Nonnull object, MSICall *_Nonnull call)\n+static int callback_invite(void *object, MSICall *call)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807855323",
+            "id": 2807855323,
+            "in_reply_to_id": 2807565233,
+            "line": 1314,
+            "node_id": "PRRC_kwDOA7zIGs6nXHjb",
+            "original_commit_id": "1da5773d57480cb7798ff173f4ce462ee44d1fc8",
+            "original_line": 1313,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "toxav/toxav.c",
+            "position": 339,
+            "pull_request_review_id": 3802448135,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855323/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T19:56:25Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855323",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807855818"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855818"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Poorly documented large function\n\nPoorly documented function: fewer than 2% comments for a function of 114 lines.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/103)",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T19:56:50Z",
+            "diff_hunk": "@@ -35,7 +35,7 @@\n     return data;\n }\n \n-static const char *net_packet_type_name(Net_Packet_Type type)\n+static const char *_Nonnull net_packet_type_name(Net_Packet_Type type)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807855818",
+            "id": 2807855818,
+            "line": 38,
+            "node_id": "PRRC_kwDOA7zIGs6nXHrK",
+            "original_commit_id": "889c3523b08805842185d1ed69f5f556019a2bd4",
+            "original_line": 38,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "toxcore/net_log.c",
+            "position": 5,
+            "pull_request_review_id": 3802449448,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855818/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T19:56:51Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855818",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807855822"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855822"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Poorly documented large function\n\nPoorly documented function: fewer than 2% comments for a function of 335 lines.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/104)",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T19:56:51Z",
+            "diff_hunk": "@@ -635,7 +637,7 @@\n                       length - cookie_len, STATE_COOKIE_TYPE);\n }\n \n-static Tox *tox_new_system(const struct Tox_Options *_Nullable options, Tox_Err_New *_Nullable error, const Tox_System *_Nullable sys)\n+static Tox *_Nullable tox_new_system(const struct Tox_Options *_Nullable options, Tox_Err_New *_Nullable error, const Tox_System *_Nullable sys)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807855822",
+            "id": 2807855822,
+            "line": 638,
+            "node_id": "PRRC_kwDOA7zIGs6nXHrO",
+            "original_commit_id": "889c3523b08805842185d1ed69f5f556019a2bd4",
+            "original_line": 640,
+            "original_position": 260,
+            "original_start_line": null,
+            "path": "toxcore/tox.c",
+            "position": 251,
+            "pull_request_review_id": 3802449448,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855822/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T19:56:51Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807855822",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807880880"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807880880"
+                }
+            },
+            "author_association": "NONE",
+            "body": "None of the msi callbacks, including this one?\r\n\r\n<img width=\"750\" height=\"256\" alt=\"image\" src=\"https://github.com/user-attachments/assets/515758b7-af38-48e4-817c-a88823ad1591\" />\r\n",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T20:23:05Z",
+            "diff_hunk": "@@ -1310,7 +1310,7 @@ static void callback_bwc(BWController *bwc, Tox_Friend_Number friend_number, flo\n     pthread_mutex_unlock(call->av->mutex);\n }\n \n-static int callback_invite(void *_Nonnull object, MSICall *_Nonnull call)\n+static int callback_invite(void *object, MSICall *call)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807880880",
+            "id": 2807880880,
+            "in_reply_to_id": 2807565233,
+            "line": 1314,
+            "node_id": "PRRC_kwDOA7zIGs6nXNyw",
+            "original_commit_id": "1da5773d57480cb7798ff173f4ce462ee44d1fc8",
+            "original_line": 1313,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "toxav/toxav.c",
+            "position": 339,
+            "pull_request_review_id": 3802534644,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807880880/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T20:23:05Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807880880",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8304462?v=4",
+                "events_url": "https://api.github.com/users/robinlinden/events{/privacy}",
+                "followers_url": "https://api.github.com/users/robinlinden/followers",
+                "following_url": "https://api.github.com/users/robinlinden/following{/other_user}",
+                "gists_url": "https://api.github.com/users/robinlinden/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/robinlinden",
+                "id": 8304462,
+                "login": "robinlinden",
+                "node_id": "MDQ6VXNlcjgzMDQ0NjI=",
+                "organizations_url": "https://api.github.com/users/robinlinden/orgs",
+                "received_events_url": "https://api.github.com/users/robinlinden/received_events",
+                "repos_url": "https://api.github.com/users/robinlinden/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/robinlinden/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/robinlinden/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/robinlinden",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807883378"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807883378"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Fixed in the follow-up commit.",
+            "commit_id": "19736406249b589383c237740085202ebda27594",
+            "created_at": "2026-02-14T20:26:10Z",
+            "diff_hunk": "@@ -1310,7 +1310,7 @@ static void callback_bwc(BWController *bwc, Tox_Friend_Number friend_number, flo\n     pthread_mutex_unlock(call->av->mutex);\n }\n \n-static int callback_invite(void *_Nonnull object, MSICall *_Nonnull call)\n+static int callback_invite(void *object, MSICall *call)",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/3006#discussion_r2807883378",
+            "id": 2807883378,
+            "in_reply_to_id": 2807565233,
+            "line": 1314,
+            "node_id": "PRRC_kwDOA7zIGs6nXOZy",
+            "original_commit_id": "1da5773d57480cb7798ff173f4ce462ee44d1fc8",
+            "original_line": 1313,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "toxav/toxav.c",
+            "position": 339,
+            "pull_request_review_id": 3802545504,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807883378/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-14T20:26:10Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2807883378",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
     "comment_regular_data": [],
     "comments": 0,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/3006/comments",
@@ -201,7 +691,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/530760d8d5a3377807b5479b1d4eec1484527e37/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/36a5b77a79b61eed1ae37456bef161ba345c766d/comments",
             "commit": {
                 "author": {
                     "date": "2026-02-03T08:54:57Z",
@@ -210,22 +700,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-03T08:56:54Z",
+                    "date": "2026-02-15T22:11:26Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "cleanup: Remove redundant nullability annotations.\n\nE.g. where they are present on the function declaration, they don't need\nto also be added to the definition.",
                 "tree": {
-                    "sha": "c4eb3148c801e4ee098a137b5dec7cea4cc281e2",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c4eb3148c801e4ee098a137b5dec7cea4cc281e2"
+                    "sha": "1aff12286022c1030ae18460cf8cdbb8ed6d89ca",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/1aff12286022c1030ae18460cf8cdbb8ed6d89ca"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/530760d8d5a3377807b5479b1d4eec1484527e37",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/36a5b77a79b61eed1ae37456bef161ba345c766d",
                 "verification": {
-                    "payload": "tree c4eb3148c801e4ee098a137b5dec7cea4cc281e2\nparent de30cf3ad94c4f19dd7339a2574878ed30dc46cd\nauthor iphydf <iphydf@users.noreply.github.com> 1770108897 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770109014 +0000\n\ncleanup: Remove redundant nullability annotations.\n\nE.g. where they are present on the function declaration, they don't need\nto also be added to the definition.\n",
+                    "payload": "tree 1aff12286022c1030ae18460cf8cdbb8ed6d89ca\nparent dbb652239a228c7536ac473856bee42b6e3698c2\nauthor iphydf <iphydf@users.noreply.github.com> 1770108897 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1771193486 +0000\n\ncleanup: Remove redundant nullability annotations.\n\nE.g. where they are present on the function declaration, they don't need\nto also be added to the definition.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmBuH0ACgkQOFXbotdE\nA8mb+Af/cmqqroRgTAOai4InKLVCIGYFdzpGfbtNyFaimmtzRADojbJa/HNJDJBK\nxpOtwQh3RFd4TBLbzNn1MeuaB65eYhVvF6pXwb7rJQMUzMM/P8vEGpATQicBpnOD\nWxinWDzBCzbt49bqRwerNc0Y+/jcfR/o3LtE9ZmyO5yHTX3BLS8+a1qXD5jdOIzJ\nCxXOOBFsVt0fsWofmki5tNpodBfykKenEsg/waMRcV/b8RxennWmcmIlKhwC8p8T\nDT0S0GcH1ftWolGJLIyOaTJ5FmgmsWH8h0OceyzWSOQlEMNBgAP6KhX4FV3b2wnM\n0jqNm+QJmTVbhhCj6VLAPTrRhFq0Hw==\n=cnpM\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmSRI4ACgkQOFXbotdE\nA8njuwf/cPkaiDeIv3cc/q1tmfH6dC1j47FVnNPTnkx2w95+QIieLMw2i1ib9pI8\n66UrCveEkroC9d8NR9xt9QqD5TGDzoMZLgypxfcCQdbNPNf09LfoG/p3nVHi46NF\n0oVbJhm8k4evVFymPybsgc0Fy4uScLAw80v7F1jXDYz823rz/pFJUeGkY3kX1bbr\nA40Uqv622CWcSBE73M3xMYlciue+X8aWmdqt9V3GlhNq8Is3ywpnYm/nVkQz2D0R\nSbXD4swPl2uKdFLVkBawRw9JEhbfmpd75Tss1rSOvrMf/ZJgGCSCTBVAEa5eyyKV\neG6xDpJ9GVsuI0nkFqha2pvXBo7+Tg==\n=FjSZ\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-03T08:57:55Z"
+                    "verified_at": "2026-02-15T22:15:03Z"
                 }
             },
             "committer": {
@@ -249,25 +739,107 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/530760d8d5a3377807b5479b1d4eec1484527e37",
-            "node_id": "C_kwDOA7z7wtoAKDUzMDc2MGQ4ZDVhMzM3NzgwN2I1NDc5YjFkNGVlYzE0ODQ1MjdlMzc",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/36a5b77a79b61eed1ae37456bef161ba345c766d",
+            "node_id": "C_kwDOA7z7wtoAKDM2YTViNzdhNzliNjFlZWQxYWUzNzQ1NmJlZjE2MWJhMzQ1Yzc2NmQ",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/de30cf3ad94c4f19dd7339a2574878ed30dc46cd",
-                    "sha": "de30cf3ad94c4f19dd7339a2574878ed30dc46cd",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/de30cf3ad94c4f19dd7339a2574878ed30dc46cd"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/dbb652239a228c7536ac473856bee42b6e3698c2",
+                    "sha": "dbb652239a228c7536ac473856bee42b6e3698c2",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/dbb652239a228c7536ac473856bee42b6e3698c2"
                 }
             ],
-            "sha": "530760d8d5a3377807b5479b1d4eec1484527e37",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/530760d8d5a3377807b5479b1d4eec1484527e37"
+            "sha": "36a5b77a79b61eed1ae37456bef161ba345c766d",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/36a5b77a79b61eed1ae37456bef161ba345c766d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/19736406249b589383c237740085202ebda27594/comments",
+            "commit": {
+                "author": {
+                    "date": "2026-02-03T12:46:23Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2026-02-15T22:11:31Z",
+                    "email": "iphydf@users.noreply.github.com",
+                    "name": "iphydf"
+                },
+                "message": "cleanup: Add nullability to more function params and return types.",
+                "tree": {
+                    "sha": "9f4b4062a0102877cb5fc11ceaa3fcb96dd4d0da",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/9f4b4062a0102877cb5fc11ceaa3fcb96dd4d0da"
+                },
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/19736406249b589383c237740085202ebda27594",
+                "verification": {
+                    "payload": "tree 9f4b4062a0102877cb5fc11ceaa3fcb96dd4d0da\nparent 36a5b77a79b61eed1ae37456bef161ba345c766d\nauthor iphydf <iphydf@users.noreply.github.com> 1770122783 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1771193491 +0000\n\ncleanup: Add nullability to more function params and return types.\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmSRJMACgkQOFXbotdE\nA8myYwf/Yb5kSNAgj43x53Imd3mlkwC51Bq6HvOdzU8K0KSYeM5B1in21XBdCylv\nIhAmULU6HRuNfQoO/8gqpuu+EwuBiWsgVDFKZr/znxtZb4HEZUJblWwtSo6rXUH6\nM+28tlG3NtRvSg7ZQGf0dLhag6pKfu3JPtTUn3yq/ss0hFUbTubPx3PKpmu5GeWy\nhqrvJIQHXTT11JtqzOwLE55/i52jKNrak01IIRH+UNsKn8I28Mcbsn6ifaQ8zQTq\nk5GiJK44F/AkFIP8aInjQfkpig/ALSQh8PI1Eo5XG6I7qWHtcpsDSBGdToxjIJai\n8SVIMZ/gCfNXqZt9ZNdR0y1jkdHTNA==\n=XvSn\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2026-02-15T22:15:03Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/19736406249b589383c237740085202ebda27594",
+            "node_id": "C_kwDOA7z7wtoAKDE5NzM2NDA2MjQ5YjU4OTM4M2MyMzc3NDAwODUyMDJlYmRhMjc1OTQ",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/36a5b77a79b61eed1ae37456bef161ba345c766d",
+                    "sha": "36a5b77a79b61eed1ae37456bef161ba345c766d",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/36a5b77a79b61eed1ae37456bef161ba345c766d"
+                }
+            ],
+            "sha": "19736406249b589383c237740085202ebda27594",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/19736406249b589383c237740085202ebda27594"
         }
     ],
-    "commits": 1,
+    "commits": 2,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006/commits",
     "created_at": "2026-02-03T08:58:16Z",
-    "deletions": 89,
+    "deletions": 968,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/3006.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:null-annot",
         "ref": "null-annot",
@@ -306,6 +878,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/iphydf/c-toxcore/hooks",
@@ -356,10 +929,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-02-03T13:05:20Z",
+            "pushed_at": "2026-03-04T22:53:59Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 20804,
+            "size": 20662,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -378,14 +952,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-02-03T12:58:03Z",
+            "updated_at": "2026-03-02T23:07:56Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "530760d8d5a3377807b5479b1d4eec1484527e37",
+        "sha": "19736406249b589383c237740085202ebda27594",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -423,16 +997,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "7b2c7aae6aa20f9af473a645ea9b79491e57ddd2",
-    "mergeable": true,
-    "mergeable_state": "behind",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "19736406249b589383c237740085202ebda27594",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-02-22T14:42:08Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 2,
+        "closed_issues": 18,
         "created_at": "2025-05-15T19:52:30Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
@@ -462,25 +1056,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52/labels",
         "node_id": "MI_kwDOA7zIGs4AxOU2",
         "number": 52,
-        "open_issues": 21,
+        "open_issues": 2,
         "state": "open",
         "title": "v0.2.23",
-        "updated_at": "2026-02-03T13:05:20Z",
+        "updated_at": "2026-05-09T08:07:11Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52"
     },
     "node_id": "PR_kwDOA7zIGs7BISxz",
     "number": 3006,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/3006.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 0,
+    "review_comments": 7,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/530760d8d5a3377807b5479b1d4eec1484527e37",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/19736406249b589383c237740085202ebda27594",
     "title": "cleanup: Remove redundant nullability annotations.",
-    "updated_at": "2026-02-03T08:58:28Z",
+    "updated_at": "2026-02-22T14:42:09Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3006",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

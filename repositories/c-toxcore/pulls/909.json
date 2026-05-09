@@ -71,7 +71,7 @@
             "user_view_type": "public"
         }
     ],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "auto_merge": null,
     "base": {
         "label": "TokTok:master",
@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -111,6 +111,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -137,8 +138,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -161,12 +162,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,14 +185,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2636,
+            "watchers_count": 2636,
+            "web_commit_signoff_required": true
         },
-        "sha": "87bcc4322d50d2ae7714e734b6468ef43dd818a7",
+        "sha": "123650c600ebb8bdf64e17ee6b83406b070dffbb",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -219,7 +221,7 @@
     "comment_data": [],
     "comment_regular_data": [
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "Is removing `const` allowed without breaking the API?",
             "created_at": "2018-06-14T22:30:10Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-397457833",
@@ -309,7 +311,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "\n\n\n\nReview status: 0 of 1 LGTMs obtained\n\n---\n\n*[toxcore/tox.h, line 625 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-tDTTBxBQAao1ncqP:-LF2x34K8YUn8zHiHMgw:b-59b0d8) ([raw file](https://github.com/toktok/c-toxcore/blob/adca70111f0dd2e73cb972c99582239b3788d8e3/toxcore/tox.h#L625)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\nShould be kept as const.\n</blockquote></details>\n\nIf I leave this const, I get the same error as here: https://travis-ci.org/TokTok/c-toxcore/builds/392474765#L1419 since `free()` apparently can't work on const pointers?\n\n---\n\n*[toxcore/tox.h, line 692 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-q2X-EJyRSM4flpZB:-LF2xDFUEpRKqU6I2fqe:b-oxggkk) ([raw file](https://github.com/toktok/c-toxcore/blob/adca70111f0dd2e73cb972c99582239b3788d8e3/toxcore/tox.h#L692)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\nThis `const` should not be removed. The function returns a pointer to the internal data, we want to return it as const, we don't want the user to modify the internal data of the `Tox_Options` struct. The user can make a copy if they need to modify it.\n</blockquote></details>\n\nThis was not intentional, but I have no idea how to tell apidsl to make getters return a const pointer, even if the struct member is not const.\n\n---\n\n*[toxcore/tox.h, line 694 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-pGnw6TOrox-luIhG:-LF2xSaWDajZQU30ti71:bb7od0r) ([raw file](https://github.com/toktok/c-toxcore/blob/adca70111f0dd2e73cb972c99582239b3788d8e3/toxcore/tox.h#L694)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\nThis `const` should not be removed. It just says that the function won't modify `data` array.\n</blockquote></details>\n\nsame\n\n---\n\n*[toxcore/tox.api.h, line 565 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-qXIVEUiRWATGJtlj:-LF2xUH447RI41S-9BTX:byz25x7) ([raw file](https://github.com/toktok/c-toxcore/blob/adca70111f0dd2e73cb972c99582239b3788d8e3/toxcore/tox.api.h#L565)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\nThis should remain const.\n</blockquote></details>\n\nSee the above issue with free\n\n---\n\n*[toxcore/tox_api.c, line 66 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-rsNODxhrgWwpNqLJ:-LF2xWxf2x03O4feN6gw:b-bxoem4) ([raw file](https://github.com/toktok/c-toxcore/blob/3e3924ea3d55420add76a8cac624de3c2b2bbfa9/toxcore/tox_api.c#L66)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\n`calloc` can fail. Perhaps we should add an error enum to the function arguments to indicate success/failure of the function call to the user.\n</blockquote></details>\n\nagreed, but I think this breaks the API right? or at minimum the clients need to check additional things then\n\n---\n\n*[toxcore/tox_api.c, line 79 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-sYsn00t7CvbqJK9W:-LF2xdISCAZ1t7dWwGbT:bb7od0r) ([raw file](https://github.com/toktok/c-toxcore/blob/3e3924ea3d55420add76a8cac624de3c2b2bbfa9/toxcore/tox_api.c#L79)):*\n<details><summary><i>Previously, nurupo wrote…</i></summary><blockquote>\n\n`malloc` can fail. Perhaps we should add an error enum to the function arguments to indicate success/failure of the function call to the user.\n</blockquote></details>\n\nsame\n\n---\n\n\n*Comments from [Reviewable](https://reviewable.io/reviews/toktok/c-toxcore/909)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2018-06-15T15:00:54Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-397649498",
@@ -444,7 +446,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "I think now this is not possible without breaking the API and should be postponed until the next API break.\n\n---\n\nReview status: 0 of 1 LGTMs obtained\n\n---\n\n*[toxcore/tox.h, line 625 at r1](https://reviewable.io/reviews/toktok/c-toxcore/909#-LF-tDTTBxBQAao1ncqP:-LF4wXpDElCaGpXiZNTy:b-apu206) ([raw file](https://github.com/toktok/c-toxcore/blob/adca70111f0dd2e73cb972c99582239b3788d8e3/toxcore/tox.h#L625)):*\n>  but is used directly? \n\nNo, my intention was that `savedata_data` is allocated by toxcore and the data copied from the user supplied pointer.\n\n---\n\n\n*Comments from [Reviewable](https://reviewable.io/reviews/toktok/c-toxcore/909#-:-LF4wrV-2jpPTKhFZzEX:bq7p1d2)*\n<!-- Sent from Reviewable.io -->\n",
             "created_at": "2018-06-16T00:17:35Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-397771727",
@@ -534,7 +536,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@iphydf updated, but I'm not sure how we should do the error handling in setters for malloc. I forgot to think about this in the last PR. I'm also not sure how the semantics of this function should be in case the user wants to unset the proxy.",
             "created_at": "2021-12-25T22:25:24Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1001078978",
@@ -714,7 +716,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "I've found a problem around `tox_options_default(...)`, it seems this can not be implemented with the current semantics, because it's allowed in docs to pass an uninitialized struct. So we can not free the malloced `savedata_data` and `proxy_host`, because the pointers are uninitialized. But if we can't free them, it might leak memory, when resetting a `Tox_Options` struct, as is done by multiple tests.\r\n\r\nIMO the `tox_options_default(...)` function should be removed and `tox_options_new(...)` should always provide a default initialized struct, which must be freed by `tox_options_free(...)`. Client impact should be minimal, since `tox_options_new(...)` should be used anywa.\r\n\r\n@iphydf @JFreegman anything I missed that speaks against this?",
             "created_at": "2021-12-29T10:23:25Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1002522633",
@@ -849,7 +851,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nurupo have you also read the linked discussions in https://github.com/TokTok/c-toxcore/issues/908? AFAICT there we agreed on the exact opposite of what you're saying now.\r\n\r\nThe problem I see with not deep-copying the data into `Tox_Options` is that the user has to track the lifetime of multiple objects (`savedata_data`, `proxy_host`) instead of just the `Tox_Options` struct, which easily leads to mistakes. Since the goal is to make `Tox_Options` opaque anyway, `*_new(...)` and `_free(...)` are needed anyway so I don't see any reason not to do things like in this PR.",
             "created_at": "2021-12-30T09:29:24Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1002944063",
@@ -939,7 +941,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "> but only after we make Tox_Options struct opaque, as this is incompatible with the user being able to set the struct fields directly. So this PR can't be merged until that's done (presumably in a separate PR).\r\n\r\nTrue, I'll look into what prevents making `Tox_Options` opaque.\r\n\r\n> user has to track the lifetimes until passing Tox_Options into tox_new(), at which point toxcore would make a copy of the data and the user is free to do whatever they want\r\n\r\nTBH this is the first time I'm hearing that this is the intended behavior, because this not documented in `tox.h`. So far I assumed the `Tox_Options` object must outlive the `Tox` options object in all cases.\r\n\r\n> Also, when Tox_Options does become opaque, even though we could do such a change, it warrants a discussion if we really should do such a change, as it's rather breaking.\r\n\r\nI think doing this change with the transition to an opaque pointer is the perfect time, since the API changes anyway I'd rather break it once and make it future proof.\r\n\r\n> Can you give an example of such a mistake?\r\n\r\nqTox was not honoring the (undocumented) lifetime requirement that the `proxy_host` string must outlive the `Tox_Options` object, by storing that string on the stack, which led to Tox silently ignoring the proxy settings. Unarchived the full story: https://github.com/qTox/qTox/issues/4934 IMHO this is quite an easy mistake to make.\r\n\r\nThe main argument I see for making copies of data passed via setters is simplicity and reliability. The user doesn't need to care about the lifetime of the parameters they set after calling a setter. Additionally all synchronization points are well defined by the functions `tox_options_new(...)` , `tox_options_free` and `tox_new(...)`\r\n\r\nAs for making `Tox_Options` opaque, it's already discouraged in the header to manipulate it directly, so I think we should make it opaque in the next API breaking release and then also apply this PR.",
             "created_at": "2021-12-30T14:41:26Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1003058120",
@@ -1029,7 +1031,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "> Sounds like the documentation should be improved then.\r\n\r\nAs always :D\r\n\r\nAs for strange things that could happen with current code:\r\n\r\n```\r\nchar host[] = \"127.0.0.1\";\r\ntox_options_set_proxy_host(opt1, host);\r\nhost[8] = '2';\r\ntox_options_set_proxy_host(opt2, host);\r\nstrcmp(tox_options_get_proxy_host(opt1),  tox_options_get_proxy_host(opt2)); // huh? equal?!\r\n```\r\n\r\nAnother problem is passing a `char[]` on the stack, returning from the function and then calling `tox_new(...)` as seen in qTox. IMHO these errors are more common and easier to make than comparing the pointers as in your example.\r\n\r\nThe problem is that in C there is no way to describe the concept that data is deep copied or just the reference stored in the function signature (see ownership transfer in Rust or modern C++). So we need to document the way we handle it and ideally be consistent throughout our own API. To be consistent with other setters which handle only integral types I'd implement this for strings in a similar \"fire and forget\" way.",
             "created_at": "2021-12-30T21:40:55Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1003189842",
@@ -1119,7 +1121,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "True, but whether you use a setter or assign the value directly to the struct doesn't matter for this kind of problem. I'd even argue that before making `Tox_Options` opaque, deep copying would have been more effort, but now that using the getters and setters is mandatory I see no drawbacks and consider it the better way. Why do you think it's worse?",
             "created_at": "2021-12-31T10:44:40Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1003341461",
@@ -1209,7 +1211,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@nurupo Thanks for listing everything in a structured manner.\r\n\r\n@iphydf @JFreegman I interpreted your comments on this PR in favor of this change, but before I put any more work into it: do you still support changing the API to deep copying `Tox_Options` parameter values?",
             "created_at": "2022-01-01T23:56:48Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/909#issuecomment-1003638026",
@@ -1466,6 +1468,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/sudden6/c-toxcore/hooks",
@@ -1516,6 +1519,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/sudden6/c-toxcore/pulls{/number}",
             "pushed_at": "2023-01-03T23:21:37Z",
             "releases_url": "https://api.github.com/repos/sudden6/c-toxcore/releases{/id}",
@@ -1615,10 +1619,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/10/labels",
         "node_id": "MDk6TWlsZXN0b25lMjExMDc5NA==",
         "number": 10,
-        "open_issues": 30,
+        "open_issues": 27,
         "state": "open",
         "title": "v0.3.0",
-        "updated_at": "2025-01-19T15:13:31Z",
+        "updated_at": "2025-02-02T21:09:18Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/10"
     },
     "node_id": "MDExOlB1bGxSZXF1ZXN0MTk1MDI5OTIw",
@@ -1633,7 +1637,7 @@
     "state": "open",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/1c0d934fb84ddf6dcc694c15e9e72f5bca5830af",
     "title": "WIP: copy proxy_host and savedata_data",
-    "updated_at": "2024-01-13T01:18:45Z",
+    "updated_at": "2026-03-01T19:13:52Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/909",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",

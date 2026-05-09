@@ -16,6 +16,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2904",
             "node_id": "IC_kwDOA7zIGs6lTLqW",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 2,
                 "-1": 0,
@@ -51,9 +52,55 @@
                 "url": "https://api.github.com/users/nurupo",
                 "user_view_type": "public"
             }
+        },
+        {
+            "author_association": "NONE",
+            "body": "any news on that issue?",
+            "created_at": "2026-05-08T15:24:46Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/issues/2904#issuecomment-4407606259",
+            "id": 4407606259,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2904",
+            "node_id": "IC_kwDOA7zIGs8AAAABBra78w",
+            "performed_via_github_app": null,
+            "pin": null,
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/4407606259/reactions"
+            },
+            "updated_at": "2026-05-08T15:24:46Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/4407606259",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6833516?v=4",
+                "events_url": "https://api.github.com/users/zoff99/events{/privacy}",
+                "followers_url": "https://api.github.com/users/zoff99/followers",
+                "following_url": "https://api.github.com/users/zoff99/following{/other_user}",
+                "gists_url": "https://api.github.com/users/zoff99/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/zoff99",
+                "id": 6833516,
+                "login": "zoff99",
+                "node_id": "MDQ6VXNlcjY4MzM1MTY=",
+                "organizations_url": "https://api.github.com/users/zoff99/orgs",
+                "received_events_url": "https://api.github.com/users/zoff99/received_events",
+                "repos_url": "https://api.github.com/users/zoff99/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/zoff99/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/zoff99/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/zoff99",
+                "user_view_type": "public"
+            }
         }
     ],
-    "comments": 1,
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2904/comments",
     "created_at": "2025-04-02T10:59:10Z",
     "event_data": [
@@ -243,15 +290,16 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28/labels",
         "node_id": "MDk6TWlsZXN0b25lMzE3NDEzMQ==",
         "number": 28,
-        "open_issues": 155,
+        "open_issues": 156,
         "state": "open",
         "title": "v0.2.x",
-        "updated_at": "2026-01-15T13:55:44Z",
+        "updated_at": "2026-03-03T11:32:55Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28"
     },
     "node_id": "I_kwDOA7zIGs6wyc7s",
     "number": 2904,
     "performed_via_github_app": null,
+    "pinned_comment": null,
     "reactions": {
         "+1": 0,
         "-1": 0,
@@ -284,7 +332,7 @@
         "node_id": "IT_kwDOAQnqk84AI5so",
         "updated_at": "2024-10-08T09:59:59Z"
     },
-    "updated_at": "2025-04-02T17:36:41Z",
+    "updated_at": "2026-05-08T15:24:46Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2904",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",

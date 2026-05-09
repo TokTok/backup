@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/229"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/e287a3d828839e8fc3d584c93a4616363139c487"
+            "href": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f"
         }
     },
     "active_lock_reason": null,
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/hs-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/hs-toxcore/events",
             "fork": false,
-            "forks": 16,
-            "forks_count": 16,
+            "forks": 15,
+            "forks_count": 15,
             "forks_url": "https://api.github.com/repos/TokTok/hs-toxcore/forks",
             "full_name": "TokTok/hs-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://toktok.ltd/spec",
             "hooks_url": "https://api.github.com/repos/TokTok/hs-toxcore/hooks",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls{/number}",
-            "pushed_at": "2026-01-23T22:57:35Z",
+            "pushed_at": "2026-03-01T08:38:34Z",
             "releases_url": "https://api.github.com/repos/TokTok/hs-toxcore/releases{/id}",
-            "size": 1040,
+            "size": 991,
             "ssh_url": "git@github.com:TokTok/hs-toxcore.git",
-            "stargazers_count": 42,
+            "stargazers_count": 43,
             "stargazers_url": "https://api.github.com/repos/TokTok/hs-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/hs-toxcore/subscribers",
@@ -139,11 +141,11 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees{/sha}",
-            "updated_at": "2026-01-23T22:12:52Z",
+            "updated_at": "2026-03-01T08:26:45Z",
             "url": "https://api.github.com/repos/TokTok/hs-toxcore",
             "visibility": "public",
-            "watchers": 42,
-            "watchers_count": 42,
+            "watchers": 43,
+            "watchers_count": 43,
             "web_commit_signoff_required": true
         },
         "sha": "03464ea3085a617d41b205910dda90504c9bd1b9",
@@ -171,7 +173,7 @@
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/hs-toxcore/229)\n<!-- Reviewable:end -->\n",
     "changed_files": 8,
-    "closed_at": null,
+    "closed_at": "2026-02-20T10:56:56Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
@@ -199,7 +201,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/e287a3d828839e8fc3d584c93a4616363139c487/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f/comments",
             "commit": {
                 "author": {
                     "date": "2026-01-23T20:28:39Z",
@@ -208,22 +210,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-01-23T22:57:21Z",
+                    "date": "2026-02-17T19:11:54Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Add a DHT node program to connect to the tox DHT.",
                 "tree": {
-                    "sha": "0ea60c3fbf894a26e359306ba556efa5b8a5d5c9",
-                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/0ea60c3fbf894a26e359306ba556efa5b8a5d5c9"
+                    "sha": "b5acc282b4e4793b8901ebc734e0e31b61f74148",
+                    "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/trees/b5acc282b4e4793b8901ebc734e0e31b61f74148"
                 },
-                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/e287a3d828839e8fc3d584c93a4616363139c487",
+                "url": "https://api.github.com/repos/TokTok/hs-toxcore/git/commits/7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f",
                 "verification": {
-                    "payload": "tree 0ea60c3fbf894a26e359306ba556efa5b8a5d5c9\nparent 03464ea3085a617d41b205910dda90504c9bd1b9\nauthor iphydf <iphydf@users.noreply.github.com> 1769200119 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1769209041 +0000\n\nfeat: Add a DHT node program to connect to the tox DHT.\n",
+                    "payload": "tree b5acc282b4e4793b8901ebc734e0e31b61f74148\nparent 03464ea3085a617d41b205910dda90504c9bd1b9\nauthor iphydf <iphydf@users.noreply.github.com> 1769200119 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1771355514 +0000\n\nfeat: Add a DHT node program to connect to the tox DHT.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmlz/NIACgkQOFXbotdE\nA8mlWQf6AzSM/qJ18uEqEXRBjxaIs4cUVYtnBpoiON9gm76FXxjxgAX5LhQcbkz8\n0wRDGn3QkzSWO0fpaOSn2PQgGb8Uy8PSWuXbfOuZgRgPw1LZWCb1ya/nGqNkN0Xm\n1zP5FycuD8RjdxyJ1hJ3OkOKXecjVOBlBjio8QRFeLGoX+NuJ1Lun59YaZJ810hi\nuaZWh/web9OsB19DgWhxZ+p9EQ/YkaBtctZVEulArWQ7RPh1UD8jN5fOHDxKT0uN\niaY0xEWqCGZi3RLw7w0EMo2MG8evbi5pvaKB63CvQdfIwRy5zO/2Qeozh82bsDZz\nAoq0V0wlKDzfUrc1m2v+J4VDMowvqw==\n=07lk\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmUvXsACgkQOFXbotdE\nA8meXggAhSdoPb5m2TqdyuuwGa8oZF00iYqoxO+Nhtf7oI0O7d+9b5KxXyLlXH7a\ntjDbTm9pgRG7Z884vN8HUrpkGL4Tp1kUd/daPXhT9y49RKK+LyPwDl6PIIakwRZX\ntU8PdrAQ+KWqIavmIeg3igoGi5nvU+c2NRMZhrcRZJdA/FkAEeRn2DEQ0HNUwC+M\nJHo1glKpEZ7SAOZTScelOCwopEI1R9HhgYk26rscKbuf5CKBtDjUSUGpS+dhTZx9\npBhvD21+AItACE1RKRtaDstPTKQCNKPaR4r4UkmpZeEBmiB0fMhTbd5Yv/M0TnGP\n8SrvfVuClbHPYM1H7W1+JXKVauMhFQ==\n=RRYH\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-01-23T22:57:28Z"
+                    "verified_at": "2026-02-17T19:12:01Z"
                 }
             },
             "committer": {
@@ -247,8 +249,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/hs-toxcore/commit/e287a3d828839e8fc3d584c93a4616363139c487",
-            "node_id": "C_kwDOA7wXTtoAKGUyODdhM2Q4Mjg4MzllOGZjM2Q1ODRjOTNhNDYxNjM2MzEzOWM0ODc",
+            "html_url": "https://github.com/TokTok/hs-toxcore/commit/7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f",
+            "node_id": "C_kwDOA7wXTtoAKDdiZDY0ZTY4NTFhMzYzNTVjMmRjZGQxZTAyOGFiOGY3Y2RiODU0MmY",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/hs-toxcore/commit/03464ea3085a617d41b205910dda90504c9bd1b9",
@@ -256,8 +258,8 @@
                     "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/03464ea3085a617d41b205910dda90504c9bd1b9"
                 }
             ],
-            "sha": "e287a3d828839e8fc3d584c93a4616363139c487",
-            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/e287a3d828839e8fc3d584c93a4616363139c487"
+            "sha": "7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f",
+            "url": "https://api.github.com/repos/TokTok/hs-toxcore/commits/7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f"
         }
     ],
     "commits": 1,
@@ -265,7 +267,7 @@
     "created_at": "2026-01-23T22:14:07Z",
     "deletions": 1,
     "diff_url": "https://github.com/TokTok/hs-toxcore/pull/229.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:dht-node",
         "ref": "dht-node",
@@ -304,6 +306,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://toktok.ltd/spec",
             "hooks_url": "https://api.github.com/repos/iphydf/hs-toxcore/hooks",
@@ -354,10 +357,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/hs-toxcore/pulls{/number}",
-            "pushed_at": "2026-01-23T22:57:26Z",
+            "pushed_at": "2026-03-01T08:38:26Z",
             "releases_url": "https://api.github.com/repos/iphydf/hs-toxcore/releases{/id}",
-            "size": 1021,
+            "size": 1068,
             "ssh_url": "git@github.com:iphydf/hs-toxcore.git",
             "stargazers_count": 2,
             "stargazers_url": "https://api.github.com/repos/iphydf/hs-toxcore/stargazers",
@@ -374,14 +378,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/hs-toxcore/git/trees{/sha}",
-            "updated_at": "2026-01-23T22:13:25Z",
+            "updated_at": "2026-03-01T08:26:52Z",
             "url": "https://api.github.com/repos/iphydf/hs-toxcore",
             "visibility": "public",
             "watchers": 2,
             "watchers_count": 2,
             "web_commit_signoff_required": false
         },
-        "sha": "e287a3d828839e8fc3d584c93a4616363139c487",
+        "sha": "7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -419,16 +423,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "5e4763ffd56772eac0435ebf789782ada4768c7f",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-02-20T10:56:56Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 39,
+        "closed_issues": 45,
         "created_at": "2021-11-26T15:06:59Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -461,22 +485,22 @@
         "open_issues": 4,
         "state": "open",
         "title": "v0.2.12",
-        "updated_at": "2026-01-23T22:14:07Z",
+        "updated_at": "2026-03-01T08:29:36Z",
         "url": "https://api.github.com/repos/TokTok/hs-toxcore/milestones/1"
     },
     "node_id": "PR_kwDOAxX9Lc6_CakS",
     "number": 229,
     "patch_url": "https://github.com/TokTok/hs-toxcore/pull/229.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/229/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/e287a3d828839e8fc3d584c93a4616363139c487",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/hs-toxcore/statuses/7bd64e6851a36355c2dcdd1e028ab8f7cdb8542f",
     "title": "feat: Add a DHT node program to connect to the tox DHT.",
-    "updated_at": "2026-01-23T22:57:39Z",
+    "updated_at": "2026-02-20T10:56:57Z",
     "url": "https://api.github.com/repos/TokTok/hs-toxcore/pulls/229",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

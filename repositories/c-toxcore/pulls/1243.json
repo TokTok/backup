@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,14 +143,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2636,
+            "watchers_count": 2636,
+            "web_commit_signoff_required": true
         },
-        "sha": "87bcc4322d50d2ae7714e734b6468ef43dd818a7",
+        "sha": "123650c600ebb8bdf64e17ee6b83406b070dffbb",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -222,7 +224,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@zugz wrote:\r\n```\r\nWhat is the purpose of the TOX_CAPABILITY_BASIC flag?\r\nWhat does it mean if it is set to false? I don't think we should\r\nactually reserve flags for anything yet where we can't specify\r\nexactly what it will mean, as is the case at least for the PGC flag.\r\nSeparately: perhaps it would make sense to reserve the first bit for\r\nfuture expansion - if it's set, it means \"ignore this bitmap, and look\r\ninstead at the successor method of specifying capabilities\"\r\n(whatever that turns out to be).\r\n```\r\n\r\n",
             "created_at": "2019-05-03T21:15:03Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489242154",
@@ -267,7 +269,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "@zugz \r\nit's a define, not a flag:\r\n\r\nthis means no special capabilities, in other words clients that are older\r\nand did not implement this feature yet\r\n\r\n#define TOX_CAPABILITY_BASIC 0",
             "created_at": "2019-05-03T21:16:03Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489242370",
@@ -312,7 +314,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "perhaps it would make sense to reserve the first bit for\r\nfuture expansion\r\n-->\r\nthat is: TOX_CAPABILITY_NEXT_IMPLEMENTATION",
             "created_at": "2019-05-03T21:18:37Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489243003",
@@ -357,7 +359,7 @@
             }
         },
         {
-            "author_association": "MEMBER",
+            "author_association": "NONE",
             "body": "* Friday, 2019-05-03 at 14:16 -0700 - Zoff <notifications@github.com>:\n\n>@zugz\n>it's a define, not a flag:\n\nSorry, it looks like I meant `TOX_CAPABILITY_CAPABILITIES`. What would \nit mean if a client sent us a capabilities packet with this flag unset?\n\nWhat could make sense is to use this bit rather than the highest bit to \ndeal with future expansion. So this lowest bit being set would mean \n\"interpret this uint64_t as describing my capabilities\", while leaving \nit unset would indicate that another (as yet undetermined) system for \ndescribing capabilities is being used instead.\n\nBut generally, I don't think we should add these capabilities packets \nwhile we have no use for them. As it is, it would be complicating the \nprotocol for no benefit. It's good to have a protocal and implementation \nup our sleeve in case we find we want to use it one day, and forks can \nuse it if they want to, but I don't see why we would want to merge it \nnow.\n\n\nAbout the code:\n\n* Need to check length of data when handling PACKET_ID_CAPABILITIES.\n\n* Now we process packets from a non-online peer rather than returning -1 \nas before. Presumably this was an accident?\n\n* Why are we no longer sending an online packet in response to an online \npacket? Are you sure that wasn't there for a reason?\n",
             "created_at": "2019-05-04T08:01:30Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1243#issuecomment-489305132",
@@ -2259,6 +2261,7 @@
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/hugbubby/c-toxcore/hooks",
@@ -2309,6 +2312,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/hugbubby/c-toxcore/pulls{/number}",
             "pushed_at": "2019-05-03T21:20:48Z",
             "releases_url": "https://api.github.com/repos/hugbubby/c-toxcore/releases{/id}",
@@ -2368,7 +2372,7 @@
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 8,
         "created_at": "2018-03-09T13:13:48Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -2398,10 +2402,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28/labels",
         "node_id": "MDk6TWlsZXN0b25lMzE3NDEzMQ==",
         "number": 28,
-        "open_issues": 160,
+        "open_issues": 156,
         "state": "open",
         "title": "v0.2.x",
-        "updated_at": "2025-01-14T12:48:29Z",
+        "updated_at": "2026-03-03T11:32:55Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/28"
     },
     "node_id": "MDExOlB1bGxSZXF1ZXN0MjI4MTkwMjA4",
@@ -2416,7 +2420,7 @@
     "state": "open",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/20c404bb508447c41e592d2ab78c1fe7e083a828",
     "title": "WIP: Capabilities Packet",
-    "updated_at": "2024-01-13T01:18:45Z",
+    "updated_at": "2026-03-01T19:13:53Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1243",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/37486450?v=4",

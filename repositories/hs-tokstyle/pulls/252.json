@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/hs-tokstyle/pulls/252"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/hs-tokstyle/statuses/5607418664219a8fc9dfecc89cbdca2257f543ba"
+            "href": "https://api.github.com/repos/TokTok/hs-tokstyle/statuses/77e74d67387c43e89cf6d59e3bc63060bd5bfd5f"
         }
     },
     "active_lock_reason": null,
-    "additions": 93,
+    "additions": 285,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/hs-tokstyle/downloads",
             "events_url": "https://api.github.com/repos/TokTok/hs-tokstyle/events",
             "fork": false,
-            "forks": 5,
-            "forks_count": 5,
+            "forks": 6,
+            "forks_count": 6,
             "forks_url": "https://api.github.com/repos/TokTok/hs-tokstyle/forks",
             "full_name": "TokTok/hs-tokstyle",
             "git_commits_url": "https://api.github.com/repos/TokTok/hs-tokstyle/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://toktok.ltd/",
             "hooks_url": "https://api.github.com/repos/TokTok/hs-tokstyle/hooks",
@@ -95,8 +96,8 @@
             "name": "hs-tokstyle",
             "node_id": "MDEwOlJlcG9zaXRvcnk2ODg0MTcxNg==",
             "notifications_url": "https://api.github.com/repos/TokTok/hs-tokstyle/notifications{?since,all,participating}",
-            "open_issues": 3,
-            "open_issues_count": 3,
+            "open_issues": 2,
+            "open_issues_count": 2,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,10 +120,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/hs-tokstyle/pulls{/number}",
-            "pushed_at": "2026-01-25T18:27:06Z",
+            "pushed_at": "2026-02-06T15:33:25Z",
             "releases_url": "https://api.github.com/repos/TokTok/hs-tokstyle/releases{/id}",
-            "size": 864,
+            "size": 936,
             "ssh_url": "git@github.com:TokTok/hs-tokstyle.git",
             "stargazers_count": 4,
             "stargazers_url": "https://api.github.com/repos/TokTok/hs-tokstyle/stargazers",
@@ -138,14 +140,14 @@
                 "style"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/hs-tokstyle/git/trees{/sha}",
-            "updated_at": "2026-01-25T18:27:09Z",
+            "updated_at": "2026-02-06T15:33:28Z",
             "url": "https://api.github.com/repos/TokTok/hs-tokstyle",
             "visibility": "public",
             "watchers": 4,
             "watchers_count": 4,
             "web_commit_signoff_required": true
         },
-        "sha": "0cec33f5c3493dc18d74cc467bd43c15d31b05ff",
+        "sha": "3546386bcfb90a11ca97a80680b641ec2156045c",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -170,7 +172,7 @@
     },
     "body": "Also works on `memcmp`.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/hs-tokstyle/252)\n<!-- Reviewable:end -->\n",
     "changed_files": 5,
-    "closed_at": null,
+    "closed_at": "2026-02-05T12:46:51Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
@@ -198,7 +200,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/hs-tokstyle/commits/5607418664219a8fc9dfecc89cbdca2257f543ba/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/hs-tokstyle/commits/77e74d67387c43e89cf6d59e3bc63060bd5bfd5f/comments",
             "commit": {
                 "author": {
                     "date": "2024-02-12T10:18:06Z",
@@ -207,22 +209,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2025-08-11T23:58:01Z",
+                    "date": "2026-02-05T12:19:04Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Add `-Wmemcpy`, checking compatibility of `dst` and `src`.\n\nAlso works on `memcmp`.",
                 "tree": {
-                    "sha": "d92965e7ff92a73c886bd455b627f7f0951c0b4e",
-                    "url": "https://api.github.com/repos/TokTok/hs-tokstyle/git/trees/d92965e7ff92a73c886bd455b627f7f0951c0b4e"
+                    "sha": "1049dd102a7648d6c56020931ee5549cfadfba70",
+                    "url": "https://api.github.com/repos/TokTok/hs-tokstyle/git/trees/1049dd102a7648d6c56020931ee5549cfadfba70"
                 },
-                "url": "https://api.github.com/repos/TokTok/hs-tokstyle/git/commits/5607418664219a8fc9dfecc89cbdca2257f543ba",
+                "url": "https://api.github.com/repos/TokTok/hs-tokstyle/git/commits/77e74d67387c43e89cf6d59e3bc63060bd5bfd5f",
                 "verification": {
-                    "payload": "tree d92965e7ff92a73c886bd455b627f7f0951c0b4e\nparent 0cec33f5c3493dc18d74cc467bd43c15d31b05ff\nauthor iphydf <iphydf@users.noreply.github.com> 1707733086 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1754956681 +0000\n\nfeat: Add `-Wmemcpy`, checking compatibility of `dst` and `src`.\n\nAlso works on `memcmp`.\n",
+                    "payload": "tree 1049dd102a7648d6c56020931ee5549cfadfba70\nparent 3546386bcfb90a11ca97a80680b641ec2156045c\nauthor iphydf <iphydf@users.noreply.github.com> 1707733086 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770293944 +0000\n\nfeat: Add `-Wmemcpy`, checking compatibility of `dst` and `src`.\n\nAlso works on `memcmp`.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmiag4kACgkQOFXbotdE\nA8nI+wgAmB4aErCH9YLdhICpnI/twHphv3pJGVQrH9F/Uskr51RAicZHonrxXhsh\nMJpTTgUD5hihhX7O51/k7YIJHhh5WLR7LzDJ/ITN2YlSa6DiKbv9TZ46dIkrvyqY\nYsFkVfCY2st0jYGXApLjohmrk15Gk8lsjj2M8CCSMh4ryIrtnTs6XKjrkxY/N/jI\nDz360pdfDUpoc7F2YqSyj4J0CNTyV/iYp4helCOTtQOfQuf6agA3gBEJqqaVk8cU\nykNmvADRMBRDpar9eLZGfLU2MWAu1wwHAigbjU9heiWplrtPi7Kpn5Gbj4uVfc7w\nQB5rfDGipcpLTlrdRUa3+nifPk0RVQ==\n=rQur\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmEirkACgkQOFXbotdE\nA8mXcAf+JZOKLzdevLJwq/IhT2+OD22rck3NOuY7F2n2kKpSCZEagQOjGmHP9GQR\nfApJXIY8v/V1Di7CIcfNZWn96uLEwTuuzSfUwc0T4dk1yAuj8uWu4eBd+jYukwWr\nUK/sKqmdRRyE4Sy79Msr16SuDbi2n/Yfz6b7AMndP4lyg1KuU5R0vRiru6Y0qw4V\noLnwjJvgbKzoXHfnVNgYo7ozhei3VpOvBb+BsEu2hYCwAii5/Tuen4OLkI0YDkdV\no5IO4ijxd1Ky/cznWkDVJ+iLe2eRsdwiesxw/jMSEqJyRCIGdC7zzscyJuZgG0Hq\nLf14m9TNkNnH1JukihpfRSddgm+Wog==\n=6kiB\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2025-08-11T23:58:03Z"
+                    "verified_at": "2026-02-05T12:19:12Z"
                 }
             },
             "committer": {
@@ -246,23 +248,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/hs-tokstyle/commit/5607418664219a8fc9dfecc89cbdca2257f543ba",
-            "node_id": "C_kwDOBFTjI9oAKDU2MDc0MTg2NjQyMTlhOGZjOWRmZWNjODljYmRjYTIyNTdmNTQzYmE",
+            "html_url": "https://github.com/TokTok/hs-tokstyle/commit/77e74d67387c43e89cf6d59e3bc63060bd5bfd5f",
+            "node_id": "C_kwDOBFTjI9oAKDc3ZTc0ZDY3Mzg3YzQzZTg5Y2Y2ZDU5ZTNiYzYzMDYwYmQ1YmZkNWY",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/hs-tokstyle/commit/0cec33f5c3493dc18d74cc467bd43c15d31b05ff",
-                    "sha": "0cec33f5c3493dc18d74cc467bd43c15d31b05ff",
-                    "url": "https://api.github.com/repos/TokTok/hs-tokstyle/commits/0cec33f5c3493dc18d74cc467bd43c15d31b05ff"
+                    "html_url": "https://github.com/TokTok/hs-tokstyle/commit/3546386bcfb90a11ca97a80680b641ec2156045c",
+                    "sha": "3546386bcfb90a11ca97a80680b641ec2156045c",
+                    "url": "https://api.github.com/repos/TokTok/hs-tokstyle/commits/3546386bcfb90a11ca97a80680b641ec2156045c"
                 }
             ],
-            "sha": "5607418664219a8fc9dfecc89cbdca2257f543ba",
-            "url": "https://api.github.com/repos/TokTok/hs-tokstyle/commits/5607418664219a8fc9dfecc89cbdca2257f543ba"
+            "sha": "77e74d67387c43e89cf6d59e3bc63060bd5bfd5f",
+            "url": "https://api.github.com/repos/TokTok/hs-tokstyle/commits/77e74d67387c43e89cf6d59e3bc63060bd5bfd5f"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/hs-tokstyle/pulls/252/commits",
     "created_at": "2024-02-12T10:19:06Z",
-    "deletions": 2,
+    "deletions": 1,
     "diff_url": "https://github.com/TokTok/hs-tokstyle/pull/252.diff",
     "draft": false,
     "head": {
@@ -303,6 +305,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://toktok.ltd/",
             "hooks_url": "https://api.github.com/repos/iphydf/hs-tokstyle/hooks",
@@ -353,10 +356,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/hs-tokstyle/pulls{/number}",
-            "pushed_at": "2026-01-25T18:33:54Z",
+            "pushed_at": "2026-02-06T15:33:31Z",
             "releases_url": "https://api.github.com/repos/iphydf/hs-tokstyle/releases{/id}",
-            "size": 831,
+            "size": 905,
             "ssh_url": "git@github.com:iphydf/hs-tokstyle.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/hs-tokstyle/stargazers",
@@ -372,14 +376,14 @@
                 "style"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/hs-tokstyle/git/trees{/sha}",
-            "updated_at": "2026-01-25T18:27:16Z",
+            "updated_at": "2026-02-06T15:33:34Z",
             "url": "https://api.github.com/repos/iphydf/hs-tokstyle",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "5607418664219a8fc9dfecc89cbdca2257f543ba",
+        "sha": "77e74d67387c43e89cf6d59e3bc63060bd5bfd5f",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -417,16 +421,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": null,
-    "mergeable": false,
-    "mergeable_state": "dirty",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "77e74d67387c43e89cf6d59e3bc63060bd5bfd5f",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-02-05T12:46:51Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 181,
+        "closed_issues": 186,
         "created_at": "2021-12-25T02:17:28Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -456,25 +480,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/hs-tokstyle/milestones/7/labels",
         "node_id": "MI_kwDOBBpw9M4AcrXw",
         "number": 7,
-        "open_issues": 3,
+        "open_issues": 2,
         "state": "open",
         "title": "v0.0.9",
-        "updated_at": "2026-01-25T18:27:07Z",
+        "updated_at": "2026-02-06T15:33:26Z",
         "url": "https://api.github.com/repos/TokTok/hs-tokstyle/milestones/7"
     },
     "node_id": "PR_kwDOBBpw9M5mnlpA",
     "number": 252,
     "patch_url": "https://github.com/TokTok/hs-tokstyle/pull/252.patch",
-    "rebaseable": false,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/hs-tokstyle/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/hs-tokstyle/pulls/252/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/hs-tokstyle/statuses/5607418664219a8fc9dfecc89cbdca2257f543ba",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/hs-tokstyle/statuses/77e74d67387c43e89cf6d59e3bc63060bd5bfd5f",
     "title": "feat: Add `-Wmemcpy`, checking compatibility of `dst` and `src`.",
-    "updated_at": "2025-08-11T23:58:11Z",
+    "updated_at": "2026-02-05T12:46:53Z",
     "url": "https://api.github.com/repos/TokTok/hs-tokstyle/pulls/252",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

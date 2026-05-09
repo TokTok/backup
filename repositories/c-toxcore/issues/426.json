@@ -89,7 +89,27 @@
     "author_association": "NONE",
     "body": "Hello,\r\n\r\nI found this source code confusingly written (and downright scary at times) and the [specification](https://toktok.github.io/spec) woefully underspecified and inexplicit, so it's entirely possible my understanding of the handshake is _inaccurate_. But on the off-chance that 5 minutes of source code review at 4am yielded something accurate, here is my understanding of the handshake:\r\n\r\nPeer A (Alice) has the longterm static keypair `(S_A^{pub}, S_A^{priv})`. Peer A has the session-generated ephemeral keypair `(E_A^{pub}, E_A^{priv})`. Peer B (Bob) has the longterm static keypair `(S_B^{pub}, S_B^{priv})`. Peer B has the session-generated ephemeral keypair `(E_B^{pub}, E_B^{priv})`.\r\n\r\nMessage 1: A -> B\r\n```\r\nXAEAD(key=ECDH(S_A^{priv}, S_B^{pub}), payload=E_A^{pub})\r\n```\r\n\r\nMessage 2: B -> A\r\n```\r\nXAEAD(key=ECDH(S_B^{priv}, S_A^{pub}), payload=E_B^{pub})\r\n```\r\n\r\nSession Key Derivation\r\n```\r\nECDH(E_A^{priv}, E_B^{pub}) = ECDH(E_B^{priv}, E_A^{pub})\r\n```\r\n\r\nIs this an accurate representation of the handshake? If so, keep reading. If not, you may safely stop reading here, close the issue, and accept my apologies for the misunderstanding.\r\n\r\nThe issue is that this naive handshake is vulnerable to key-compromise impersonation, something that basically all modern authenticated key exchanges (AKEs) are designed to protect against. Concretely, the issue is that if A's longterm static private key is stolen, an attacker can impersonate anybody to A without A realizing. Let's say that Mallory, M, has stolen A's private key and wants to pretend to be B:\r\n\r\nMessage 1: M -> A\r\n```\r\nXAEAD(key=ECDH(S_A^{priv}, S_B^{pub}), payload=E_M^{pub})\r\n```\r\n\r\nMessage 2: A -> M\r\n```\r\nXAEAD(key=ECDH(S_A^{priv}, S_B^{pub}), payload=E_A^{pub})\r\n```\r\n\r\nSession Key Derivation\r\n```\r\nECDH(E_A^{priv}, E_M^{pub}) = ECDH(E_M^{priv}, E_A^{pub})\r\n```\r\n\r\nA now thinks he is talking to B, but is actually talking to M.\r\n\r\nPerhaps Tox doesn't care about this, or about many of the threat models that modern AKEs are designed to protect against, in which case, probably it's fine to continue using your homebrewed crypto. But if you actually desire some kind of high assurance security, I strongly recommend not building your own protocols and instead use something designed by an educated expert, such as [Noise](http://noiseprotocol.org/).\r\n\r\nThis is just what immediately leaped out at me after a few short minutes of review. I haven't even begun to look at key derivation and other interesting aspects (are you guys really just using raw ECDH results as keys?).\r\n\r\nAgain, apologies if this doesn't actually represent the handshake you're using; I'm not 100% certain. But in case it does, then let this be a wake-up call to developers not to roll your own crypto, as well as a wake-up call to users not to rely on crypto software written by non-experts.",
     "closed_at": null,
-    "closed_by": null,
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "comment_data": [
         {
             "author_association": "MEMBER",
@@ -100,6 +120,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjQ4MDc5Mg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 7,
                 "-1": 0,
@@ -145,6 +166,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjQ4MjEwMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 38,
                 "-1": 0,
@@ -190,6 +212,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjQ4NTE1NA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -235,6 +258,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjQ5NzQ1Mg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 2,
                 "-1": 0,
@@ -280,6 +304,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjQ5ODkxOA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 26,
                 "-1": 8,
@@ -325,6 +350,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUwNTAxNA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 3,
                 "-1": 0,
@@ -370,6 +396,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUwNjI5Mg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 17,
                 "-1": 13,
@@ -415,6 +442,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUwODQ2NA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 10,
                 "-1": 0,
@@ -460,6 +488,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUwOTAwMA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 4,
                 "-1": 25,
@@ -505,6 +534,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUwOTI2Nw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 18,
                 "-1": 3,
@@ -550,6 +580,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUwOTUwMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -595,6 +626,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxMjI2OQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 4,
                 "-1": 23,
@@ -640,8 +672,9 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxMzY0MQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
-                "+1": 18,
+                "+1": 19,
                 "-1": 0,
                 "confused": 1,
                 "eyes": 0,
@@ -649,7 +682,7 @@
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 19,
+                "total_count": 20,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272513641/reactions"
             },
             "updated_at": "2017-01-13T18:39:43Z",
@@ -685,8 +718,9 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxNDY2Ng==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
-                "+1": 3,
+                "+1": 4,
                 "-1": 0,
                 "confused": 0,
                 "eyes": 0,
@@ -694,7 +728,7 @@
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 3,
+                "total_count": 4,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272514666/reactions"
             },
             "updated_at": "2017-01-13T18:43:53Z",
@@ -730,6 +764,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxNjMxNA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -775,6 +810,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxNjYzOA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -820,6 +856,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxNjgyNA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -865,6 +902,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxNzEwMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 5,
                 "-1": 0,
@@ -910,6 +948,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxNzQ2OA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -955,6 +994,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxODI2NQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -1000,6 +1040,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUxODkwMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1045,6 +1086,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMDkyMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 2,
                 "-1": 0,
@@ -1090,16 +1132,17 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMTUxNQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
-                "-1": 0,
+                "-1": 1,
                 "confused": 0,
                 "eyes": 0,
                 "heart": 0,
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 0,
+                "total_count": 1,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272521515/reactions"
             },
             "updated_at": "2017-01-13T19:11:33Z",
@@ -1135,6 +1178,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMjM5NA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -1180,6 +1224,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMjYxMQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1225,6 +1270,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMjgxNQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1270,6 +1316,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMzE5Mg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1315,6 +1362,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMzQyOA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -1360,6 +1408,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyMzQzNQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1405,6 +1454,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyNDA0NQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1450,6 +1500,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyNTA3MQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1495,6 +1546,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyNjUxNg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1540,6 +1592,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyNjgzMQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1585,6 +1638,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyNjg3Ng==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1630,6 +1684,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyNzY0NQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 7,
                 "-1": 1,
@@ -1675,6 +1730,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUyODgwMw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 3,
                 "-1": 0,
@@ -1720,6 +1776,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUzMDA5Nw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -1765,6 +1822,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUzMzAzNw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -1810,6 +1868,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjUzODAwMA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 5,
                 "-1": 1,
@@ -1855,6 +1914,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU0MTM3OQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 3,
                 "-1": 5,
@@ -1900,6 +1960,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU0MjM3Ng==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -1945,6 +2006,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU3ODAzMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 14,
                 "-1": 2,
@@ -1990,6 +2052,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU5NDU3Mg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 1,
@@ -2035,8 +2098,9 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU5NjkzOQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
-                "+1": 0,
+                "+1": 1,
                 "-1": 0,
                 "confused": 0,
                 "eyes": 0,
@@ -2044,7 +2108,7 @@
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 0,
+                "total_count": 1,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272596939/reactions"
             },
             "updated_at": "2017-01-14T03:03:48Z",
@@ -2080,16 +2144,17 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU5NzI2MQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 3,
-                "-1": 1,
+                "-1": 2,
                 "confused": 0,
                 "eyes": 0,
                 "heart": 0,
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 4,
+                "total_count": 5,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272597261/reactions"
             },
             "updated_at": "2017-01-14T03:08:34Z",
@@ -2125,16 +2190,17 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjYyMjY3OA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 5,
                 "-1": 2,
                 "confused": 3,
-                "eyes": 0,
+                "eyes": 1,
                 "heart": 0,
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 10,
+                "total_count": 11,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272622678/reactions"
             },
             "updated_at": "2017-01-14T12:59:18Z",
@@ -2170,6 +2236,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjYzNTYxOQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 7,
                 "-1": 0,
@@ -2215,8 +2282,9 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjYzODc1Mw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
-                "+1": 18,
+                "+1": 19,
                 "-1": 6,
                 "confused": 0,
                 "eyes": 0,
@@ -2224,7 +2292,7 @@
                 "hooray": 0,
                 "laugh": 0,
                 "rocket": 0,
-                "total_count": 24,
+                "total_count": 25,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/272638753/reactions"
             },
             "updated_at": "2017-01-14T19:08:12Z",
@@ -2260,6 +2328,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjYzOTM2OA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 3,
                 "-1": 0,
@@ -2305,6 +2374,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NjA1Mw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 2,
                 "-1": 3,
@@ -2350,6 +2420,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NjU4OQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 8,
                 "-1": 3,
@@ -2395,6 +2466,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NjY5Nw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -2440,6 +2512,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NzIyMA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2485,6 +2558,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NzI1OQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2530,6 +2604,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NzY1MQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 2,
                 "-1": 0,
@@ -2575,6 +2650,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0NzcwOA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -2620,6 +2696,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY0Nzc4Nw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -2665,6 +2742,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjQ3NjMxOQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2710,6 +2788,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjUyMDM4Ng==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2755,6 +2834,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjU1Mzk1MQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2800,6 +2880,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjU1NDkzMQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2845,6 +2926,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjU1OTc2MA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2890,6 +2972,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjYwMzEyNg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -2935,6 +3018,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDMzMzY5NzAyMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -2980,6 +3064,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc1OTE5MDAxMg==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3025,6 +3110,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc1OTI0MDQ0MQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3070,6 +3156,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc1OTUxMTU5Mw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 9,
                 "-1": 0,
@@ -3115,6 +3202,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc1OTcxNDY4NA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3160,6 +3248,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc1OTczOTAxMA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 3,
                 "-1": 0,
@@ -3205,6 +3294,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc2MDM5NjMwOQ==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 4,
                 "-1": 0,
@@ -3250,6 +3340,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDc2MTU3MDY1Mw==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3295,6 +3386,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "MDEyOklzc3VlQ29tbWVudDg3MzU2MjA4OA==",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 5,
@@ -3340,6 +3432,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5MXkt5",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3385,6 +3478,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5Wh1wb",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3430,6 +3524,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5b0yXl",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3475,6 +3570,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5b8d4Z",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3520,6 +3616,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5b8j1i",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3565,6 +3662,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5eivNj",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 1,
                 "-1": 0,
@@ -3610,6 +3708,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5ejJpy",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3655,6 +3754,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5hha5U",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3700,6 +3800,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs5hhcKe",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3745,6 +3846,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs6BOFN7",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -3790,6 +3892,7 @@
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
             "node_id": "IC_kwDOA7zIGs6KDFYa",
             "performed_via_github_app": null,
+            "pin": null,
             "reactions": {
                 "+1": 0,
                 "-1": 0,
@@ -9742,6 +9845,169 @@
             "node_id": "SE_lADOA7zIGs4L9cG6zwAAAAUvUSzs",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/22268685548"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+                "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+                "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+                "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+                "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/toktok-releaser",
+                "id": 41485111,
+                "login": "toktok-releaser",
+                "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+                "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+                "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+                "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/toktok-releaser",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-03-01T00:10:59Z",
+            "event": "closed",
+            "id": 23162776618,
+            "node_id": "CE_lADOA7zIGs4L9cG6zwAAAAVkm-wq",
+            "performed_via_github_app": null,
+            "state_reason": null,
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/23162776618"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-03-03T21:57:55Z",
+            "event": "reopened",
+            "id": 23240595754,
+            "node_id": "REE_lADOA7zIGs4L9cG6zwAAAAVpP1kq",
+            "performed_via_github_app": null,
+            "state_reason": "reopened",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/23240595754"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-04-13T09:18:31Z",
+            "event": "demilestoned",
+            "id": 24439733607,
+            "milestone": {
+                "title": "v0.2.23"
+            },
+            "node_id": "DEME_lADOA7zIGs4L9cG6zwAAAAWwuL1n",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/24439733607"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-04-13T09:18:31Z",
+            "event": "milestoned",
+            "id": 24439733627,
+            "milestone": {
+                "title": "v0.2.24"
+            },
+            "node_id": "MIE_lADOA7zIGs4L9cG6zwAAAAWwuL17",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/24439733627"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/114114?v=4",
+                "events_url": "https://api.github.com/users/weakish/events{/privacy}",
+                "followers_url": "https://api.github.com/users/weakish/followers",
+                "following_url": "https://api.github.com/users/weakish/following{/other_user}",
+                "gists_url": "https://api.github.com/users/weakish/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/weakish",
+                "id": 114114,
+                "login": "weakish",
+                "node_id": "MDQ6VXNlcjExNDExNA==",
+                "organizations_url": "https://api.github.com/users/weakish/orgs",
+                "received_events_url": "https://api.github.com/users/weakish/received_events",
+                "repos_url": "https://api.github.com/users/weakish/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/weakish/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/weakish/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/weakish",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-04-30T04:24:48Z",
+            "event": "unsubscribed",
+            "id": 25018460380,
+            "node_id": "UE_lADOA7zIGs4L9cG6zwAAAAXTN2jc",
+            "performed_via_github_app": null,
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/events/25018460380"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426/events",
@@ -9777,8 +10043,8 @@
     "locked": false,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 2,
-        "created_at": "2025-05-15T19:52:30Z",
+        "closed_issues": 0,
+        "created_at": "2026-04-13T09:16:07Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
             "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
@@ -9802,22 +10068,23 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/c-toxcore/milestone/52",
-        "id": 12903734,
-        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52/labels",
-        "node_id": "MI_kwDOA7zIGs4AxOU2",
-        "number": 52,
-        "open_issues": 21,
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/53",
+        "id": 15516002,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53/labels",
+        "node_id": "MI_kwDOA7zIGs4A7MFi",
+        "number": 53,
+        "open_issues": 22,
         "state": "open",
-        "title": "v0.2.23",
-        "updated_at": "2026-02-03T13:05:20Z",
-        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52"
+        "title": "v0.2.24",
+        "updated_at": "2026-05-09T08:04:10Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53"
     },
     "node_id": "MDU6SXNzdWUyMDA2NTUyOTA=",
     "number": 426,
     "performed_via_github_app": null,
+    "pinned_comment": null,
     "reactions": {
-        "+1": 79,
+        "+1": 80,
         "-1": 0,
         "confused": 5,
         "eyes": 0,
@@ -9825,12 +10092,12 @@
         "hooray": 1,
         "laugh": 0,
         "rocket": 1,
-        "total_count": 88,
+        "total_count": 89,
         "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426/reactions"
     },
     "repository_url": "https://api.github.com/repos/TokTok/c-toxcore",
     "state": "open",
-    "state_reason": null,
+    "state_reason": "reopened",
     "sub_issues_summary": {
         "completed": 0,
         "percent_completed": 0,
@@ -9839,7 +10106,7 @@
     "timeline_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426/timeline",
     "title": "Tox Handshake Vulnerable to KCI",
     "type": null,
-    "updated_at": "2025-09-30T15:29:21Z",
+    "updated_at": "2026-04-13T09:18:31Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/426",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10643?v=4",

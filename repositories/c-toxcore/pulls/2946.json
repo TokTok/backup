@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/eea6fb8efb5b5b3ca272535b3f45863436c9f2b5"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/34febcd723aaa9152b00182aad7079504185eb3f"
         }
     },
     "active_lock_reason": null,
-    "additions": 2630,
+    "additions": 3469,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 305,
-            "forks_count": 305,
+            "forks": 303,
+            "forks_count": 303,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 211,
+            "open_issues_count": 211,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-02-03T19:52:57Z",
+            "pushed_at": "2026-05-09T19:41:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23338,
+            "size": 23486,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2554,
+            "stargazers_count": 2636,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,14 +143,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-02-03T15:32:01Z",
+            "updated_at": "2026-05-08T22:37:37Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2554,
-            "watchers_count": 2554,
+            "watchers": 2636,
+            "watchers_count": 2636,
             "web_commit_signoff_required": true
         },
-        "sha": "815ae9ce9dc606c204b5f7e01b71c43b5102e45a",
+        "sha": "123650c600ebb8bdf64e17ee6b83406b070dffbb",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -172,9 +174,1393 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2946)\n<!-- Reviewable:end -->\n",
-    "changed_files": 35,
-    "closed_at": null,
-    "comment_data": [],
+    "changed_files": 34,
+    "closed_at": "2026-03-01T00:10:58Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595656"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595656"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Comparison result is always the same\n\nComparison is always false because encrypted_length >= 17.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/112)",
+            "commit_id": "4e3fdf977bd1aafc31e5d2ef00ea57abf460ee76",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -488,3 +494,418 @@\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+/* Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34) */\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long plain_length = 0;\n+\n+    if (crypto_aead_chacha20poly1305_ietf_decrypt(plain, NULL, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (encrypted_length <= crypto_aead_chacha20poly1305_IETF_ABYTES || encrypted_length >= INT32_MAX) {",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595656",
+            "id": 2861595656,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwI",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 542,
+            "original_position": 113,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595656/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595656",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595662"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595662"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Comparison result is always the same\n\nComparison is always false because encrypted_length >= 17.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/111)",
+            "commit_id": "4e3fdf977bd1aafc31e5d2ef00ea57abf460ee76",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -488,3 +494,418 @@\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+/* Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34) */\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long plain_length = 0;\n+\n+    if (crypto_aead_chacha20poly1305_ietf_decrypt(plain, NULL, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (encrypted_length <= crypto_aead_chacha20poly1305_IETF_ABYTES || encrypted_length >= INT32_MAX) {\n+        return -1;\n+    }\n+    return (int32_t)(encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_xchacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_xchacha20poly1305_ietf_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES)  */\n+    // unsigned long long plain_length = 0;\n+\n+    if (crypto_aead_xchacha20poly1305_ietf_decrypt(plain, NULL, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (encrypted_length <= crypto_aead_xchacha20poly1305_ietf_ABYTES || encrypted_length >= INT32_MAX) {",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595662",
+            "id": 2861595662,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwO",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 590,
+            "original_position": 161,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595662/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595662",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595666"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595666"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Commented-out code\n\nThis comment appears to contain commented-out code.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/108)",
+            "commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -488,3 +494,418 @@\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+/* Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34) */\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595666",
+            "id": 2861595666,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwS",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 510,
+            "original_position": 81,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595666/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595666",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595674"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595674"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Commented-out code\n\nThis comment appears to contain commented-out code.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/107)",
+            "commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -488,3 +494,418 @@\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+/* Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34) */\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long plain_length = 0;",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595674",
+            "id": 2861595674,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwa",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 535,
+            "original_position": 106,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595674/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595674",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595680"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595680"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Commented-out code\n\nThis comment appears to contain commented-out code.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/106)",
+            "commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -488,3 +494,418 @@\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+/* Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34) */\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long plain_length = 0;\n+\n+    if (crypto_aead_chacha20poly1305_ietf_decrypt(plain, NULL, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (encrypted_length <= crypto_aead_chacha20poly1305_IETF_ABYTES || encrypted_length >= INT32_MAX) {\n+        return -1;\n+    }\n+    return (int32_t)(encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595680",
+            "id": 2861595680,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwg",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 558,
+            "original_position": 129,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595680/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595680",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595682"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595682"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Commented-out code\n\nThis comment appears to contain commented-out code.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/105)",
+            "commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -488,3 +494,418 @@\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+/* Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34) */\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES)  */\n+    // unsigned long long plain_length = 0;\n+\n+    if (crypto_aead_chacha20poly1305_ietf_decrypt(plain, NULL, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (encrypted_length <= crypto_aead_chacha20poly1305_IETF_ABYTES || encrypted_length >= INT32_MAX) {\n+        return -1;\n+    }\n+    return (int32_t)(encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0; encrypted_length is calculated by libsodium */\n+    if (plain_length == 0 || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES)  */\n+    // unsigned long long encrypted_length = 0;\n+\n+    /* nsec is not used by this particular construction and should always be NULL. */\n+    if (crypto_aead_xchacha20poly1305_ietf_encrypt(encrypted, NULL, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+\n+    if (plain_length >= INT32_MAX - crypto_aead_xchacha20poly1305_ietf_ABYTES) {\n+        return -1;\n+    }\n+    return (int32_t)(plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    /* Additional data ad can be a NULL pointer with ad_length equal to 0;  plain_length is calculated by libsodium */\n+    if (encrypted_length <= CRYPTO_MAC_SIZE || shared_key == nullptr || nonce == nullptr || encrypted == nullptr\n+            || plain == nullptr) {\n+        return -1;\n+    }\n+\n+    /* Passing NULL instead, encrypted length is clear anwyay (plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES)  */\n+    // unsigned long long plain_length = 0;",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595682",
+            "id": 2861595682,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwi",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 583,
+            "original_position": 154,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595682/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595682",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595688"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595688"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Commented-out code\n\nThis comment appears to contain commented-out code.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/110)",
+            "commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -1666,47 +2048,198 @@\n         return -1;\n     }\n \n-    if (create_send_handshake(c, crypt_connection_id, cookie, conn->dht_public_key) != 0) {\n+    if (conn->noise_handshake != nullptr) {\n+        if (conn->noise_handshake->initiator) {\n+            LOGGER_DEBUG(c->log, \"INITIATOR: Noise handshake\");\n+            if (create_send_handshake(c, crypt_connection_id, cookie, conn->peer_dht_public_key) != 0) {\n+                return -1;\n+            }\n+        } else {\n+            return -1;\n+        }\n+    } else if (c->handshake_mode != CRYPTO_HANDSHAKE_MODE_NOISE_ONLY) {\n+        /* non-Noise handshake */\n+        LOGGER_DEBUG(c->log, \"non-Noise handshake\");\n+        if (create_send_handshake(c, crypt_connection_id, cookie, conn->peer_dht_public_key) != 0) {\n+            return -1;\n+        }\n+    } else {\n         return -1;\n     }\n \n     conn->status = CRYPTO_CONN_HANDSHAKE_SENT;\n     return 0;\n }\n \n-static int handle_packet_crypto_hs(const Net_Crypto *_Nonnull c, int crypt_connection_id, const uint8_t *_Nonnull packet, uint16_t length,\n+/**\n+ * @brief Handles receive handshake packets. Currently supports non-Noise and Noise-based handshake.\n+ *\n+ * @return -1 in case of failure\n+ * @return 0 if successful\n+ */\n+static int handle_packet_crypto_hs(Net_Crypto *_Nonnull c, int crypt_connection_id, const uint8_t *_Nonnull packet, uint16_t length,\n                                    void *_Nullable userdata)\n {\n     Crypto_Connection *conn = get_crypto_connection(c, crypt_connection_id);\n     if (conn == nullptr) {\n         return -1;\n     }\n \n-    if (conn->status != CRYPTO_CONN_COOKIE_REQUESTING\n-            && conn->status != CRYPTO_CONN_HANDSHAKE_SENT\n-            && conn->status != CRYPTO_CONN_NOT_CONFIRMED) {\n-        return -1;\n+    if (conn->noise_handshake != nullptr) {\n+        if (conn->status != CRYPTO_CONN_COOKIE_REQUESTING\n+                && conn->status != CRYPTO_CONN_HANDSHAKE_SENT) {\n+            return -1;\n+        }\n+    } else {\n+        if (conn->status != CRYPTO_CONN_COOKIE_REQUESTING\n+                && conn->status != CRYPTO_CONN_HANDSHAKE_SENT\n+                && conn->status != CRYPTO_CONN_NOT_CONFIRMED) {\n+            return -1;\n+        }\n     }\n \n-    uint8_t peer_real_pk[CRYPTO_PUBLIC_KEY_SIZE];\n+    /* necessary for Noise and non-Noise */\n     uint8_t dht_public_key[CRYPTO_PUBLIC_KEY_SIZE];\n+    /* necessary for Noise RESPONDER and non-Noise */\n     uint8_t cookie[COOKIE_LENGTH];\n \n-    if (!handle_crypto_handshake(c, conn->recv_nonce, conn->peersessionpublic_key, peer_real_pk, dht_public_key, cookie,\n-                                 packet, length, conn->public_key)) {\n-        return -1;\n+    if (conn->noise_handshake_enabled) {\n+        if (conn->noise_handshake == nullptr) { // TODO(goldroom): Is this check necessary?\n+            return -1;\n+        }\n+\n+        /* NOISE_BOTH: received a legacy-length packet while Noise is active.\n+         * Try legacy validation FIRST; only destroy Noise state on success. */\n+        if (length == HANDSHAKE_PACKET_LENGTH\n+                && c->handshake_mode == CRYPTO_HANDSHAKE_MODE_NOISE_BOTH) {\n+            uint8_t peer_id_public_key[CRYPTO_PUBLIC_KEY_SIZE];\n+            if (!handle_crypto_handshake(c, conn->recv_nonce, conn->peer_ephemeral_public_key,\n+                    peer_id_public_key, dht_public_key, cookie,\n+                    packet, length, conn->peer_id_public_key, nullptr)) {\n+                return -1;  // invalid packet, Noise state preserved\n+            }\n+            /* Validated. Now safe to switch to legacy. */\n+            crypto_memzero(conn->noise_handshake, sizeof(Noise_Handshake));\n+            mem_delete(c->mem, conn->noise_handshake);\n+            conn->noise_handshake = nullptr;\n+            conn->noise_handshake_enabled = false;\n+            crypto_new_keypair(c->rng, conn->ephemeral_public_key, conn->ephemeral_secret_key);\n+            random_nonce(c->rng, conn->send_nonce);\n+            conn->legacy_ephemeral_keys_set = true;\n+        } else if (conn->noise_handshake->initiator) {\n+            if (length == NOISE_HANDSHAKE_PACKET_LENGTH_RESPONDER) {\n+                LOGGER_DEBUG(c->log, \"INITIATOR: Noise handshake -> normal\");\n+                if (!handle_crypto_handshake(c, nullptr, nullptr, nullptr, dht_public_key, nullptr,\n+                                             packet, length, nullptr, conn->noise_handshake)) {\n+                    return -1;\n+                }\n+            } else if (length == NOISE_HANDSHAKE_PACKET_LENGTH_INITIATOR) { /* At least in auto tests this only happens for UDP connections */\n+                const int cmp = memcmp(c->self_id_public_key, conn->noise_handshake->remote_static, CRYPTO_PUBLIC_KEY_SIZE);\n+                if (cmp == 0) {\n+                    LOGGER_WARNING(c->log, \"Simultaneous Open: peer has same public key, rejecting\");\n+                    return -1;\n+                }\n+                if (cmp > 0) {\n+                    LOGGER_DEBUG(c->log, \"INITIATOR: Simultaneous Open - Staying INITIATOR, ignoring packet\");\n+                    return 0;\n+                }\n+                LOGGER_DEBUG(c->log, \"INITIATOR: Noise handshake -> CHANGE TO RESPONDER\");\n+                crypto_memzero(conn->noise_handshake, sizeof(Noise_Handshake));\n+                if (noise_handshake_init(conn->noise_handshake, c->self_id_secret_key, nullptr, false, nullptr, 0) != 0) {\n+                    return -1;\n+                }\n+\n+                /* Noise: create and set ephemeral private+public */\n+                crypto_new_keypair(c->rng, conn->noise_handshake->ephemeral_public, conn->noise_handshake->ephemeral_private);\n+\n+                /* Noise: peer_id_public_key (=conn->peer_id_public_key) not necessary for NoiseIK */\n+                if (!handle_crypto_handshake(c, nullptr, nullptr, nullptr, dht_public_key, cookie,\n+                                             packet, length, nullptr, conn->noise_handshake)) {\n+                    return -1;\n+                }\n+\n+                /* Noise RESPONDER needs to send handshake packet, afterwards finished */\n+                if (create_send_handshake(c, crypt_connection_id, cookie, dht_public_key) != 0) {\n+                    return -1;\n+                }\n+\n+                conn->status = CRYPTO_CONN_HANDSHAKE_SENT;\n+            } else {\n+                return -1;\n+            }\n+        } else { /* Case where RESPONDER with and without change from INITIATOR */\n+            // TODO(goldroom): if status CRYPTO_CONN_NOT_CONFIRMED is handled this does happen (which is necessary for auto_reconnect_test)\n+            if (length == NOISE_HANDSHAKE_PACKET_LENGTH_INITIATOR) {\n+                LOGGER_DEBUG(c->log, \"RESPONDER: Noise handshake -> NOISE_HANDSHAKE_PACKET_LENGTH_INITIATOR\");\n+                /* necessary, otherwise broken after INITIATOR to RESPONDER change; also necessary without change */\n+                crypto_memzero(conn->noise_handshake, sizeof(Noise_Handshake));\n+                if (noise_handshake_init(conn->noise_handshake, c->self_id_secret_key, nullptr, false, nullptr, 0) != 0) {\n+                    return -1;\n+                }\n+\n+                /* Noise: create and set ephemeral private+public */\n+                crypto_new_keypair(c->rng, conn->noise_handshake->ephemeral_public, conn->noise_handshake->ephemeral_private);\n+\n+                /* Noise: peer_real_pk (=conn->public_key) not necessary here */\n+                if (!handle_crypto_handshake(c, nullptr, nullptr, nullptr, dht_public_key, cookie,\n+                                             packet, length, nullptr, conn->noise_handshake)) {\n+                    return -1;\n+                }\n+                /* RESPONDER needs to send handshake packet, afterwards finished */\n+                if (create_send_handshake(c, crypt_connection_id, cookie, dht_public_key) != 0) {\n+                    return -1;\n+                }\n+                // TODO(goldroom): here?\n+                conn->status = CRYPTO_CONN_HANDSHAKE_SENT;\n+            } else if (length == NOISE_HANDSHAKE_PACKET_LENGTH_RESPONDER) {\n+                /* cannot change to INITIATOR here, connection broken */\n+                // TODO(goldroom): if status CRYPTO_CONN_NOT_CONFIRMED is handled this does happen (which is necessary for auto_reconnect_test)\n+                LOGGER_DEBUG(c->log, \"RESPONDER: NOISE_HANDSHAKE_PACKET_LENGTH_RESPONDER\");\n+                // connection_kill(c, crypt_connection_id, userdata); // TODO(goldroom): leave here? leads to weird behavior in real-world tests\n+                return -1;\n+            }\n+        }\n+    } else { /* non-Noise handshake (already switched previously) */\n+        LOGGER_DEBUG(c->log, \"non-Noise handshake\");\n+        /* necessary only for non-Noise */\n+        uint8_t peer_id_public_key[CRYPTO_PUBLIC_KEY_SIZE];\n+        if (!handle_crypto_handshake(c, conn->recv_nonce, conn->peer_ephemeral_public_key, peer_id_public_key, dht_public_key, cookie,\n+                                     packet, length, conn->peer_id_public_key, nullptr)) {\n+            return -1;\n+        }\n     }\n \n-    if (pk_equal(dht_public_key, conn->dht_public_key)) {\n-        encrypt_precompute(conn->peersessionpublic_key, conn->sessionsecret_key, conn->shared_key);\n+    // TODO(goldroom): adapt for NoiseIK, makes only sense for RESPONDER not initiator?\n+    if (pk_equal(dht_public_key, conn->peer_dht_public_key)) {\n+        if (conn->noise_handshake_enabled && conn->noise_handshake != nullptr) {\n+            conn->status = CRYPTO_CONN_NOT_CONFIRMED;\n+            LOGGER_DEBUG(c->log, \"conn->status: set to CRYPTO_CONN_NOT_CONFIRMED (%u)\", conn->status);\n+            if (conn->noise_handshake->initiator) {\n+                /* INITIATOR Noise Split(), nonces already set in crypto connection */\n+                crypto_hkdf(conn->send_key, CRYPTO_SYMMETRIC_KEY_SIZE, conn->recv_key, CRYPTO_SYMMETRIC_KEY_SIZE, nullptr, 0, conn->noise_handshake->chaining_key);\n+                LOGGER_DEBUG(c->log, \"INITIATOR: After Noise Split()\");\n+            } else { /* Noise RESPONDER */\n+                /* RESPONDER Noise Split(): vice-verse keys in comparison to initiator */\n+                crypto_hkdf(conn->recv_key, CRYPTO_SYMMETRIC_KEY_SIZE, conn->send_key, CRYPTO_SYMMETRIC_KEY_SIZE, nullptr, 0, conn->noise_handshake->chaining_key);\n+                LOGGER_DEBUG(c->log, \"RESPONDER: After Noise Split()\");\n+            }\n \n-        if (conn->status == CRYPTO_CONN_COOKIE_REQUESTING) {\n+            /* Noise handshake no longer needed after Split(): free immediately */\n+            crypto_memzero(conn->noise_handshake, sizeof(Noise_Handshake));\n+            mem_delete(c->mem, conn->noise_handshake);\n+            conn->noise_handshake = nullptr;\n+        } else { /* Backwards compatibility: non-Noise handshake case */\n+            LOGGER_DEBUG(c->log, \"non-Noise handshake\");\n+            // if (conn->status == CRYPTO_CONN_COOKIE_REQUESTING) { // TODO(goldroom): doesn't work if Noise handshake packet was sent before\n             if (create_send_handshake(c, crypt_connection_id, cookie, dht_public_key) != 0) {\n                 return -1;\n             }\n+            // }",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595688",
+            "id": 2861595688,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwo",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 2237,
+            "original_position": 1014,
+            "original_start_line": null,
+            "path": "toxcore/net_crypto.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595688/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595688",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595691"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595691"
+                }
+            },
+            "author_association": "NONE",
+            "body": "## Commented-out code\n\nThis comment appears to contain commented-out code.\n\n[Show more details](https://github.com/TokTok/c-toxcore/security/code-scanning/109)",
+            "commit_id": "4e3fdf977bd1aafc31e5d2ef00ea57abf460ee76",
+            "created_at": "2026-02-26T22:30:18Z",
+            "diff_hunk": "@@ -1948,52 +2505,158 @@\n     }\n \n     New_Connection n_c = {{{{0}}}};\n-    n_c.cookie = cookie;\n+    n_c.peer_cookie = cookie;\n     n_c.source = *source;\n     n_c.cookie_length = COOKIE_LENGTH;\n \n-    if (!handle_crypto_handshake(c, n_c.recv_nonce, n_c.peersessionpublic_key, n_c.public_key, n_c.dht_public_key,\n-                                 n_c.cookie, data, length, nullptr)) {\n-        mem_delete(c->mem, n_c.cookie);\n+\n+    /* Backwards comptability: Differention between non-Noise and Noise-based handshake based on received HS packet length */\n+    // TODO(goldroom): In tests this also happens for Noise INITIATOR => how to handle this case?\n+    if (length != HANDSHAKE_PACKET_LENGTH) {\n+        /* Noise handshake packet: accept only if not LEGACY_ONLY */\n+        if (c->handshake_mode == CRYPTO_HANDSHAKE_MODE_LEGACY_ONLY) {\n+            mem_delete(c->mem, n_c.peer_cookie);\n+            return -1;\n+        }\n+\n+        Noise_Handshake *noise_hs = (Noise_Handshake *)mem_alloc(c->mem, sizeof(Noise_Handshake));\n+        if (noise_hs == nullptr) {\n+            mem_delete(c->mem, n_c.peer_cookie);\n+            return -1;\n+        }\n+        n_c.noise_handshake = noise_hs;\n+        if (noise_handshake_init(n_c.noise_handshake, c->self_id_secret_key, nullptr, false, nullptr, 0) != 0) {\n+            crypto_memzero(n_c.noise_handshake, sizeof(Noise_Handshake));\n+            mem_delete(c->mem, n_c.noise_handshake);\n+            n_c.noise_handshake = nullptr;\n+            mem_delete(c->mem, n_c.peer_cookie);\n+            return -1;\n+        }\n+\n+        /* Noise: create and set ephemeral private+public */\n+        crypto_new_keypair(c->rng, n_c.noise_handshake->ephemeral_public, n_c.noise_handshake->ephemeral_private);\n+\n+        LOGGER_DEBUG(c->log, \"Noise RESPONDER: After Handshake init\");\n+\n+        if (!handle_crypto_handshake(c, nullptr, nullptr, n_c.peer_id_public_key, n_c.peer_dht_public_key,\n+                                     n_c.peer_cookie, packet, length, nullptr, n_c.noise_handshake)) {\n+            crypto_memzero(n_c.noise_handshake, sizeof(Noise_Handshake));\n+            mem_delete(c->mem, n_c.noise_handshake);\n+            n_c.noise_handshake = nullptr;\n+            mem_delete(c->mem, n_c.peer_cookie);\n+            return -1;\n+        }\n+    } else if (c->handshake_mode != CRYPTO_HANDSHAKE_MODE_NOISE_ONLY) { /* case non-Noise handshake */\n+        LOGGER_DEBUG(c->log, \"non-Noise handshake\");\n+        /* Necessary for backwards compatibility */\n+        n_c.noise_handshake = nullptr;\n+        if (!handle_crypto_handshake(c, n_c.recv_nonce, n_c.peer_ephemeral_public_key, n_c.peer_id_public_key, n_c.peer_dht_public_key,\n+                                     n_c.peer_cookie, packet, length, nullptr, nullptr)) {\n+            mem_delete(c->mem, n_c.peer_cookie);\n+            return -1;\n+        }\n+    } else {\n+        mem_delete(c->mem, n_c.peer_cookie);\n         return -1;\n     }\n \n-    const int crypt_connection_id = getcryptconnection_id(c, n_c.public_key);\n+    const int crypt_connection_id = getcryptconnection_id(c, n_c.peer_id_public_key);\n \n     if (crypt_connection_id != -1) {\n         Crypto_Connection *conn = get_crypto_connection(c, crypt_connection_id);\n \n         if (conn == nullptr) {\n+            if (n_c.noise_handshake != nullptr) {\n+                crypto_memzero(n_c.noise_handshake, sizeof(Noise_Handshake));\n+                mem_delete(c->mem, n_c.noise_handshake);\n+            }\n+            mem_delete(c->mem, n_c.peer_cookie);\n             return -1;\n         }\n \n-        if (!pk_equal(n_c.dht_public_key, conn->dht_public_key)) {\n+        if (!pk_equal(n_c.peer_dht_public_key, conn->peer_dht_public_key)) {\n             connection_kill(c, crypt_connection_id, userdata);\n-        } else {\n+        } else if (length != HANDSHAKE_PACKET_LENGTH) { /* case NoiseIK handshake */\n             if (conn->status != CRYPTO_CONN_COOKIE_REQUESTING && conn->status != CRYPTO_CONN_HANDSHAKE_SENT) {\n-                mem_delete(c->mem, n_c.cookie);\n+                crypto_memzero(n_c.noise_handshake, sizeof(Noise_Handshake));\n+                mem_delete(c->mem, n_c.noise_handshake);\n+                mem_delete(c->mem, n_c.peer_cookie);\n+                return -1;\n+            }\n+            /* Data from new_crypto_connection():conn->noise_handshake is overwritten here */\n+            *conn->noise_handshake = *n_c.noise_handshake;\n+\n+            crypto_connection_add_source(c, crypt_connection_id, source);\n+\n+            if (create_send_handshake(c, crypt_connection_id, n_c.peer_cookie, n_c.peer_dht_public_key) != 0) {\n+                crypto_memzero(n_c.noise_handshake, sizeof(Noise_Handshake));\n+                mem_delete(c->mem, n_c.noise_handshake);\n+                mem_delete(c->mem, n_c.peer_cookie);\n                 return -1;\n             }\n \n+            conn->status = CRYPTO_CONN_NOT_CONFIRMED;\n+\n+            /* RESPONDER Noise Split(): vice-verse keys in comparison to initiator */\n+            crypto_hkdf(conn->recv_key, CRYPTO_SYMMETRIC_KEY_SIZE, conn->send_key, CRYPTO_SYMMETRIC_KEY_SIZE, nullptr, 0, conn->noise_handshake->chaining_key);\n+\n+            /* Noise handshake no longer needed after Split(): free immediately */\n+            crypto_memzero(conn->noise_handshake, sizeof(Noise_Handshake));\n+            mem_delete(c->mem, conn->noise_handshake);\n+            conn->noise_handshake = nullptr;\n+\n+            crypto_memzero(n_c.noise_handshake, sizeof(Noise_Handshake));\n+            mem_delete(c->mem, n_c.noise_handshake);\n+            n_c.noise_handshake = nullptr;\n+\n+            mem_delete(c->mem, n_c.peer_cookie);\n+            return 0;\n+        } else { /* case non-Noise handshake */\n+            LOGGER_DEBUG(c->log, \"non-Noise handshake\");\n+            conn->noise_handshake_enabled = false;\n+\n+            /* necessary for compatiblity to non-Noise handshake; */",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2861595691",
+            "id": 2861595691,
+            "line": null,
+            "node_id": "PRRC_kwDOA7zIGs6qkHwr",
+            "original_commit_id": "b7fb335c158488245cb6db22d36f516135610bc8",
+            "original_line": 2618,
+            "original_position": 1231,
+            "original_start_line": null,
+            "path": "toxcore/net_crypto.c",
+            "position": 1,
+            "pull_request_review_id": 3863885918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595691/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-02-26T22:30:19Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2861595691",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/in/57789?v=4",
+                "events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                "followers_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                "following_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                "gists_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/apps/github-advanced-security",
+                "id": 62310815,
+                "login": "github-advanced-security[bot]",
+                "node_id": "MDM6Qm90NjIzMTA4MTU=",
+                "organizations_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                "received_events_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                "repos_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                "type": "Bot",
+                "url": "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2868833130"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868833130"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "the .c implements HKDF-BLAKE2b-512",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T11:06:26Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NOISE_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                    size_t encrypted_length,\n+                                    uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull plain, size_t plain_length,\n+                                     uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                     size_t encrypted_length,\n+                                     uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Computes the number of provides outputs (=keys) with HKDF-SHA512.",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2868833130",
+            "id": 2868833130,
+            "line": 508,
+            "node_id": "PRRC_kwDOA7zIGs6q_utq",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 508,
+            "original_position": 119,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 119,
+            "pull_request_review_id": 3871909293,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868833130/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T11:06:26Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868833130",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2868836417"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868836417"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Also this function is named too generic, might make use in the future ambiguous.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T11:08:31Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NOISE_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                    size_t encrypted_length,\n+                                    uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull plain, size_t plain_length,\n+                                     uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                     size_t encrypted_length,\n+                                     uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Computes the number of provides outputs (=keys) with HKDF-SHA512.",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2868836417",
+            "id": 2868836417,
+            "in_reply_to_id": 2868833130,
+            "line": 508,
+            "node_id": "PRRC_kwDOA7zIGs6q_vhB",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 508,
+            "original_position": 119,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 119,
+            "pull_request_review_id": 3871914553,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868836417/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T11:08:31Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868836417",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2868998651"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868998651"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Only the function declarations should have the documentation above them too.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T13:02:32Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NOISE_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                    size_t encrypted_length,\n+                                    uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull plain, size_t plain_length,\n+                                     uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                     size_t encrypted_length,\n+                                     uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Computes the number of provides outputs (=keys) with HKDF-SHA512.",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2868998651",
+            "id": 2868998651,
+            "in_reply_to_id": 2868833130,
+            "line": 508,
+            "node_id": "PRRC_kwDOA7zIGs6rAXH7",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 508,
+            "original_position": 119,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 119,
+            "pull_request_review_id": 3872068918,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868998651/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T13:02:32Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2868998651",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869006526"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869006526"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "`first_len` and `second_len` need size checks.\n\nThe code assumes `<= CRYPTO_NOISE_BLAKE2B_HASH_SIZE + 1`, but it is probably better to require them to be at most `CRYPTO_NOISE_BLAKE2B_HASH_SIZE`.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T13:09:27Z",
+            "diff_hunk": "@@ -488,3 +493,420 @@ void random_bytes(const Random *rng, uint8_t *bytes, size_t length)\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    if (plain_length == 0 || plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES\n+            || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(encrypted, plain, plain_length);\n+    memzero(encrypted + plain_length, crypto_aead_chacha20poly1305_IETF_ABYTES);\n+#else\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, nullptr, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    if (encrypted_length <= crypto_aead_chacha20poly1305_IETF_ABYTES || encrypted_length >= INT32_MAX\n+            || shared_key == nullptr || nonce == nullptr || encrypted == nullptr || plain == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(plain, encrypted, encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+#else\n+    if (crypto_aead_chacha20poly1305_ietf_decrypt(plain, nullptr, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    if (plain_length == 0 || plain_length >= INT32_MAX - crypto_aead_xchacha20poly1305_ietf_ABYTES\n+            || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(encrypted, plain, plain_length);\n+    memzero(encrypted + plain_length, crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+#else\n+    if (crypto_aead_xchacha20poly1305_ietf_encrypt(encrypted, nullptr, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    if (encrypted_length <= crypto_aead_xchacha20poly1305_ietf_ABYTES || encrypted_length >= INT32_MAX\n+            || shared_key == nullptr || nonce == nullptr || encrypted == nullptr || plain == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(plain, encrypted, encrypted_length - crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+#else\n+    if (crypto_aead_xchacha20poly1305_ietf_decrypt(plain, nullptr, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(encrypted_length - crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+}\n+\n+/**\n+ * cf. Noise sections 4.3, 5.1 and 12.8: HMAC-BLAKE2b-512\n+ * HASH(input): BLAKE2b with digest length 64\n+ * HASHLEN = 64\n+ * BLOCKLEN = 128\n+ * Applies HMAC from RFC2104 (https://www.ietf.org/rfc/rfc2104.txt) using the HASH() (=BLAKE2b) function.\n+ * This function is only called via `crypto_hkdf()`.\n+ * Necessary for Noise (cf. sections 4.3 and 12.8) to return 64 bytes (BLAKE2b HASHLEN).\n+ * Cf. https://doc.libsodium.org/hashing/generic_hashing\n+ * key is CRYPTO_BLAKE2b_HASH_SIZE bytes because this function is only called via crypto_hkdf() where the key (ck, temp_key)\n+ * is always HASHLEN bytes.\n+ */\n+static void crypto_hmac_blake2b_512(uint8_t *out_hmac, const uint8_t *in, size_t in_length, const uint8_t *key,\n+                                    size_t key_length)\n+{\n+    crypto_generichash_blake2b_state state;\n+\n+    /*\n+     * (1) append zeros to the end of K to create a B byte string (e.g., if K is of length 20 bytes and B=64,\n+     * then K will be appended with 44 zero bytes 0x00)\n+     * B = Blake2b block length = 128\n+     * L the byte-length of Blake2b hash output = 64\n+     */\n+    uint8_t x_key[CRYPTO_BLAKE2B_BLOCK_SIZE] = { 0 };\n+    uint8_t i_hash[CRYPTO_NOISE_BLAKE2B_HASH_SIZE];\n+\n+    /*\n+     * The authentication key K can be of any length up to B, the\n+     * block length of the hash function.  Applications that use keys longer\n+     * than B bytes will first hash the key using H and then use the\n+     * resultant L byte string as the actual key to HMAC.\n+     * In any case the minimal recommended length for K is L bytes (as the hash output\n+     * length).\n+     */\n+    if (key_length > CRYPTO_BLAKE2B_BLOCK_SIZE) {\n+        crypto_generichash_blake2b_init(&state, nullptr, 0, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+        crypto_generichash_blake2b_update(&state, key, key_length);\n+        crypto_generichash_blake2b_final(&state, x_key, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    } else {\n+        memcpy(x_key, key, key_length);\n+    }\n+\n+    /*\n+     * K XOR ipad, ipad = the byte 0x36 repeated B times\n+     * (2) XOR (bitwise exclusive-OR) the B byte string computed in step\n+     * (1) with ipad\n+     */\n+    for (int i = 0; i < CRYPTO_BLAKE2B_BLOCK_SIZE; ++i) {\n+        x_key[i] ^= 0x36;\n+    }\n+\n+    /*\n+     * H(K XOR ipad, text)\n+     * (3) append the stream of data `text` to the B byte string resulting\n+     *   from step (2)\n+     *   (4) apply H to the stream generated in step (3)\n+     */\n+    crypto_generichash_blake2b_init(&state, nullptr, 0, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    crypto_generichash_blake2b_update(&state, x_key, CRYPTO_BLAKE2B_BLOCK_SIZE);\n+    crypto_generichash_blake2b_update(&state, in, in_length);\n+    crypto_generichash_blake2b_final(&state, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+\n+    /*\n+     * K XOR opad, opad = the byte 0x5C repeated B times\n+     * (5) XOR (bitwise exclusive-OR) the B byte string computed in\n+     *   step (1) with opad\n+     */\n+    for (int i = 0; i < CRYPTO_BLAKE2B_BLOCK_SIZE; ++i) {\n+        x_key[i] ^= 0x5c ^ 0x36;\n+    }\n+\n+    /*\n+     * H(K XOR opad, H(K XOR ipad, text))\n+     * (6) append the H result from step (4) to the B byte string\n+     *   resulting from step (5)\n+     *   (7) apply H to the stream generated in step (6) and output\n+     *   the result\n+     */\n+    crypto_generichash_blake2b_init(&state, nullptr, 0, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    crypto_generichash_blake2b_update(&state, x_key, CRYPTO_BLAKE2B_BLOCK_SIZE);\n+    crypto_generichash_blake2b_update(&state, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    crypto_generichash_blake2b_final(&state, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+\n+    memcpy(out_hmac, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+\n+    /* Clear sensitive data from stack */\n+    crypto_memzero(x_key, CRYPTO_BLAKE2B_BLOCK_SIZE);\n+    crypto_memzero(i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+}\n+\n+/* This is Hugo Krawczyk's HKDF (i.e. HKDF-BLAKE2b-512):\n+ * - https://eprint.iacr.org/2010/264.pdf\n+ * - https://tools.ietf.org/html/rfc5869\n+ * HKDF(chaining_key, input_key_material, num_outputs): Takes a\n+ * chaining_key byte sequence of length HASHLEN, and an input_key_material\n+ * byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes.\n+ * Returns a pair or triple of byte sequences each of length HASHLEN,\n+ * depending on whether num_outputs is two or three:\n+ * – Sets temp_key = HMAC-HASH(chaining_key, input_key_material).\n+ * – Sets output1 = HMAC-HASH(temp_key, byte(0x01)).\n+ * – Sets output2 = HMAC-HASH(temp_key, output1 || byte(0x02)).\n+ * – If num_outputs == 2 then returns the pair (output1, output2).\n+ * – Sets output3 = HMAC-HASH(temp_key, output2 || byte(0x03)).\n+ * – Returns the triple (output1, output2, output3).\n+ * Note that temp_key, output1, output2, and output3 are all HASHLEN bytes in\n+ * length. Also note that the HKDF() function is simply HKDF with the\n+ * chaining_key as HKDF salt, and zero-length HKDF info.\n+ *\n+ * HASH(input): BLAKE2b with digest length 64.\n+ * HASHLEN = 64\n+ * BLOCKLEN = 128\n+ *\n+ * Verified using Noise_IK_25519_ChaChaPoly_BLAKE2b test vectors.\n+ */\n+void crypto_hkdf(uint8_t *output1, size_t first_len, uint8_t *output2,\n+                 size_t second_len, const uint8_t *data,\n+                 size_t data_len, const uint8_t chaining_key[CRYPTO_NOISE_BLAKE2B_HASH_SIZE])\n+{",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869006526",
+            "id": 2869006526,
+            "line": 702,
+            "node_id": "PRRC_kwDOA7zIGs6rAZC-",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 702,
+            "original_position": 289,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 289,
+            "pull_request_review_id": 3872074763,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869006526/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T13:09:27Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869006526",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869009881"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869009881"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Also general null and >0 checks missing.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T13:12:57Z",
+            "diff_hunk": "@@ -488,3 +493,420 @@ void random_bytes(const Random *rng, uint8_t *bytes, size_t length)\n {\n     rng_bytes(rng, bytes, length);\n }\n+\n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    if (plain_length == 0 || plain_length >= INT32_MAX - crypto_aead_chacha20poly1305_IETF_ABYTES\n+            || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(encrypted, plain, plain_length);\n+    memzero(encrypted + plain_length, crypto_aead_chacha20poly1305_IETF_ABYTES);\n+#else\n+    if (crypto_aead_chacha20poly1305_ietf_encrypt(encrypted, nullptr, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(plain_length + crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NOISE_NONCE_SIZE],\n+                                    const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                    const uint8_t *ad, size_t ad_length)\n+{\n+    if (encrypted_length <= crypto_aead_chacha20poly1305_IETF_ABYTES || encrypted_length >= INT32_MAX\n+            || shared_key == nullptr || nonce == nullptr || encrypted == nullptr || plain == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(plain, encrypted, encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+#else\n+    if (crypto_aead_chacha20poly1305_ietf_decrypt(plain, nullptr, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(encrypted_length - crypto_aead_chacha20poly1305_IETF_ABYTES);\n+}\n+\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *plain, size_t plain_length, uint8_t *encrypted,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    if (plain_length == 0 || plain_length >= INT32_MAX - crypto_aead_xchacha20poly1305_ietf_ABYTES\n+            || shared_key == nullptr || nonce == nullptr || plain == nullptr || encrypted == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(encrypted, plain, plain_length);\n+    memzero(encrypted + plain_length, crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+#else\n+    if (crypto_aead_xchacha20poly1305_ietf_encrypt(encrypted, nullptr, plain, plain_length,\n+            ad, ad_length, nullptr, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(plain_length + crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+}\n+\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[CRYPTO_NONCE_SIZE],\n+                                     const uint8_t *encrypted, size_t encrypted_length, uint8_t *plain,\n+                                     const uint8_t *ad, size_t ad_length)\n+{\n+    if (encrypted_length <= crypto_aead_xchacha20poly1305_ietf_ABYTES || encrypted_length >= INT32_MAX\n+            || shared_key == nullptr || nonce == nullptr || encrypted == nullptr || plain == nullptr) {\n+        return -1;\n+    }\n+\n+#ifdef FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION\n+    memcpy(plain, encrypted, encrypted_length - crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+#else\n+    if (crypto_aead_xchacha20poly1305_ietf_decrypt(plain, nullptr, nullptr, encrypted,\n+            encrypted_length, ad, ad_length, nonce, shared_key) != 0) {\n+        return -1;\n+    }\n+#endif /* FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION */\n+\n+    return (int32_t)(encrypted_length - crypto_aead_xchacha20poly1305_ietf_ABYTES);\n+}\n+\n+/**\n+ * cf. Noise sections 4.3, 5.1 and 12.8: HMAC-BLAKE2b-512\n+ * HASH(input): BLAKE2b with digest length 64\n+ * HASHLEN = 64\n+ * BLOCKLEN = 128\n+ * Applies HMAC from RFC2104 (https://www.ietf.org/rfc/rfc2104.txt) using the HASH() (=BLAKE2b) function.\n+ * This function is only called via `crypto_hkdf()`.\n+ * Necessary for Noise (cf. sections 4.3 and 12.8) to return 64 bytes (BLAKE2b HASHLEN).\n+ * Cf. https://doc.libsodium.org/hashing/generic_hashing\n+ * key is CRYPTO_BLAKE2b_HASH_SIZE bytes because this function is only called via crypto_hkdf() where the key (ck, temp_key)\n+ * is always HASHLEN bytes.\n+ */\n+static void crypto_hmac_blake2b_512(uint8_t *out_hmac, const uint8_t *in, size_t in_length, const uint8_t *key,\n+                                    size_t key_length)\n+{\n+    crypto_generichash_blake2b_state state;\n+\n+    /*\n+     * (1) append zeros to the end of K to create a B byte string (e.g., if K is of length 20 bytes and B=64,\n+     * then K will be appended with 44 zero bytes 0x00)\n+     * B = Blake2b block length = 128\n+     * L the byte-length of Blake2b hash output = 64\n+     */\n+    uint8_t x_key[CRYPTO_BLAKE2B_BLOCK_SIZE] = { 0 };\n+    uint8_t i_hash[CRYPTO_NOISE_BLAKE2B_HASH_SIZE];\n+\n+    /*\n+     * The authentication key K can be of any length up to B, the\n+     * block length of the hash function.  Applications that use keys longer\n+     * than B bytes will first hash the key using H and then use the\n+     * resultant L byte string as the actual key to HMAC.\n+     * In any case the minimal recommended length for K is L bytes (as the hash output\n+     * length).\n+     */\n+    if (key_length > CRYPTO_BLAKE2B_BLOCK_SIZE) {\n+        crypto_generichash_blake2b_init(&state, nullptr, 0, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+        crypto_generichash_blake2b_update(&state, key, key_length);\n+        crypto_generichash_blake2b_final(&state, x_key, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    } else {\n+        memcpy(x_key, key, key_length);\n+    }\n+\n+    /*\n+     * K XOR ipad, ipad = the byte 0x36 repeated B times\n+     * (2) XOR (bitwise exclusive-OR) the B byte string computed in step\n+     * (1) with ipad\n+     */\n+    for (int i = 0; i < CRYPTO_BLAKE2B_BLOCK_SIZE; ++i) {\n+        x_key[i] ^= 0x36;\n+    }\n+\n+    /*\n+     * H(K XOR ipad, text)\n+     * (3) append the stream of data `text` to the B byte string resulting\n+     *   from step (2)\n+     *   (4) apply H to the stream generated in step (3)\n+     */\n+    crypto_generichash_blake2b_init(&state, nullptr, 0, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    crypto_generichash_blake2b_update(&state, x_key, CRYPTO_BLAKE2B_BLOCK_SIZE);\n+    crypto_generichash_blake2b_update(&state, in, in_length);\n+    crypto_generichash_blake2b_final(&state, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+\n+    /*\n+     * K XOR opad, opad = the byte 0x5C repeated B times\n+     * (5) XOR (bitwise exclusive-OR) the B byte string computed in\n+     *   step (1) with opad\n+     */\n+    for (int i = 0; i < CRYPTO_BLAKE2B_BLOCK_SIZE; ++i) {\n+        x_key[i] ^= 0x5c ^ 0x36;\n+    }\n+\n+    /*\n+     * H(K XOR opad, H(K XOR ipad, text))\n+     * (6) append the H result from step (4) to the B byte string\n+     *   resulting from step (5)\n+     *   (7) apply H to the stream generated in step (6) and output\n+     *   the result\n+     */\n+    crypto_generichash_blake2b_init(&state, nullptr, 0, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    crypto_generichash_blake2b_update(&state, x_key, CRYPTO_BLAKE2B_BLOCK_SIZE);\n+    crypto_generichash_blake2b_update(&state, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+    crypto_generichash_blake2b_final(&state, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+\n+    memcpy(out_hmac, i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+\n+    /* Clear sensitive data from stack */\n+    crypto_memzero(x_key, CRYPTO_BLAKE2B_BLOCK_SIZE);\n+    crypto_memzero(i_hash, CRYPTO_NOISE_BLAKE2B_HASH_SIZE);\n+}\n+\n+/* This is Hugo Krawczyk's HKDF (i.e. HKDF-BLAKE2b-512):\n+ * - https://eprint.iacr.org/2010/264.pdf\n+ * - https://tools.ietf.org/html/rfc5869\n+ * HKDF(chaining_key, input_key_material, num_outputs): Takes a\n+ * chaining_key byte sequence of length HASHLEN, and an input_key_material\n+ * byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes.\n+ * Returns a pair or triple of byte sequences each of length HASHLEN,\n+ * depending on whether num_outputs is two or three:\n+ * – Sets temp_key = HMAC-HASH(chaining_key, input_key_material).\n+ * – Sets output1 = HMAC-HASH(temp_key, byte(0x01)).\n+ * – Sets output2 = HMAC-HASH(temp_key, output1 || byte(0x02)).\n+ * – If num_outputs == 2 then returns the pair (output1, output2).\n+ * – Sets output3 = HMAC-HASH(temp_key, output2 || byte(0x03)).\n+ * – Returns the triple (output1, output2, output3).\n+ * Note that temp_key, output1, output2, and output3 are all HASHLEN bytes in\n+ * length. Also note that the HKDF() function is simply HKDF with the\n+ * chaining_key as HKDF salt, and zero-length HKDF info.\n+ *\n+ * HASH(input): BLAKE2b with digest length 64.\n+ * HASHLEN = 64\n+ * BLOCKLEN = 128\n+ *\n+ * Verified using Noise_IK_25519_ChaChaPoly_BLAKE2b test vectors.\n+ */\n+void crypto_hkdf(uint8_t *output1, size_t first_len, uint8_t *output2,\n+                 size_t second_len, const uint8_t *data,\n+                 size_t data_len, const uint8_t chaining_key[CRYPTO_NOISE_BLAKE2B_HASH_SIZE])\n+{",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869009881",
+            "id": 2869009881,
+            "in_reply_to_id": 2869006526,
+            "line": 702,
+            "node_id": "PRRC_kwDOA7zIGs6rAZ3Z",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 702,
+            "original_position": 289,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 289,
+            "pull_request_review_id": 3872077354,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869009881/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T13:13:06Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869009881",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869284644"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869284644"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Comment and parameter using different defines.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:00:16Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869284644",
+            "id": 2869284644,
+            "line": 454,
+            "node_id": "PRRC_kwDOA7zIGs6rBc8k",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 454,
+            "original_position": 65,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 65,
+            "pull_request_review_id": 3872561976,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869284644/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:00:16Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869284644",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869288067"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869288067"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "length -> encrypted_length",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:03:18Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869288067",
+            "id": 2869288067,
+            "line": 469,
+            "node_id": "PRRC_kwDOA7zIGs6rBdyD",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 469,
+            "original_position": 80,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 80,
+            "pull_request_review_id": 3872567481,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869288067/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:03:18Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869288067",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869297958"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869297958"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Wouldn't something like\n```\nuint8_t _Nonnull encrypted[/*! plain_length + CRYPTO_MAC_SIZE */]\n```\nwork?",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:08:11Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869297958",
+            "id": 2869297958,
+            "line": 463,
+            "node_id": "PRRC_kwDOA7zIGs6rBgMm",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 463,
+            "original_position": 74,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 74,
+            "pull_request_review_id": 3872579350,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869297958/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:08:11Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869297958",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869377111"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869377111"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Oddly duplicated and conflicting info.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:27:23Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NOISE_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                    size_t encrypted_length,\n+                                    uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull plain, size_t plain_length,\n+                                     uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                     size_t encrypted_length,\n+                                     uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Computes the number of provides outputs (=keys) with HKDF-SHA512.\n+ *\n+ * cf. Noise sections 4.3 and 5.1\n+ *\n+ * This is Hugo Krawczyk's HKDF:\n+ * - https://eprint.iacr.org/2010/264.pdf\n+ * - https://tools.ietf.org/html/rfc5869\n+ * HKDF(chaining_key, input_key_material, num_outputs): Takes a\n+ * chaining_key byte sequence of length HASHLEN, and an input_key_material\n+ * byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes.\n+ * Returns a pair or triple of byte sequences each of length HASHLEN,\n+ * depending on whether num_outputs is two or three:\n+ * – Sets temp_key = HMAC-HASH(chaining_key, input_key_material).\n+ * – Sets output1 = HMAC-HASH(temp_key, byte(0x01)).\n+ * – Sets output2 = HMAC-HASH(temp_key, output1 || byte(0x02)).\n+ * – If num_outputs == 2 then returns the pair (output1, output2).\n+ * – Sets output3 = HMAC-HASH(temp_key, output2 || byte(0x03)).\n+ * – Returns the triple (output1, output2, output3).\n+ * Note that temp_key, output1, output2, and output3 are all HASHLEN bytes in\n+ * length. Also note that the HKDF() function is simply HKDF with the\n+ * chaining_key as HKDF salt, and zero-length HKDF info.\n+ *\n+ * @param output1 First key to compute\n+ * @param first_len Length of output1/key\n+ * @param output2 Second key to compute\n+ * @param second_len Length of output2/key\n+ * @param data HKDF input_key_material byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes\n+ * @param data_len length of either zero bytes, 32 bytes, or DHLEN bytes\n+ * @param chaining_key Noise 64 byte chaining key as HKDF salt\n+ */\n+void crypto_hkdf(uint8_t *_Nonnull output1, size_t first_len, uint8_t *_Nonnull output2,\n+                 size_t second_len, const uint8_t *_Nullable data,\n+                 size_t data_len, const uint8_t chaining_key[_Nonnull CRYPTO_SHA512_SIZE]);\n+\n+/**\n+ * @brief Initializes a Noise Handshake State.\n+ *\n+ * The long-term identity keys are NOT stored in the handshake struct; they are\n+ * only used here for the pre-message MixHash and must be passed separately to\n+ * create_crypto_handshake / handle_crypto_handshake.\n+ *\n+ * cf. Noise section 5.3\n+ * Calls InitializeSymmetric(protocol_name).\n+ * Calls MixHash(prologue).\n+ * Sets the initiator, e, rs, and re variables to the corresponding arguments.\n+ * Calls MixHash() once for each public key listed in the pre-messages.\n+ *\n+ * @param noise_handshake Noise handshake struct to save the necessary values to\n+ * @param self_id_public_key static public ID X25519 key of this Tox instance\n+ * @param peer_id_public_key static public ID X25519 key from the peer to connect to (initiator only)\n+ * @param initiator specifies if this Tox instance is the initiator of this crypto connection\n+ * @param prologue specifies the Noise prologue, used in call to MixHash(prologue) which maybe zero-length\n+ * @param prologue_length length of Noise prologue in bytes\n+ *\n+ * @return -1 on failure\n+ * @return 0 on success\n+ */\n+int noise_handshake_init(Noise_Handshake *_Nonnull noise_handshake,\n+                         const uint8_t self_id_public_key[_Nonnull CRYPTO_PUBLIC_KEY_SIZE],\n+                         const uint8_t peer_id_public_key[_Nullable CRYPTO_PUBLIC_KEY_SIZE], bool initiator,\n+                         const uint8_t *_Nullable prologue, size_t prologue_length);\n+\n+/**\n+ * @brief Noise MixKey(input_key_material)\n+ *\n+ * cf. Noise section 5.2\n+ * Executes the following steps:\n+ * - Sets ck, temp_k = HKDF(ck, input_key_material, 2).\n+ * - If HASHLEN is 64, then truncates temp_k to 32 bytes\n+ * - Calls InitializeKey(temp_k).\n+ * input_key_material = DH_X25519(private, public)\n+ *\n+ * @param chaining_key 64 byte Noise ck\n+ * @param shared_key 32 byte secret key to be calculated\n+ * @param private_key X25519 private key\n+ * @param public_key X25519 public key\n+ */\n+int32_t noise_mix_key(uint8_t chaining_key[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE], uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE],\n+                      const uint8_t private_key[_Nonnull CRYPTO_SECRET_KEY_SIZE],\n+                      const uint8_t public_key[_Nonnull CRYPTO_PUBLIC_KEY_SIZE]);\n+\n+/**\n+ * @brief Noise MixHash(data): Sets h = HASH(h || data).\n+ *\n+ * cf. Noise section 5.2\n+ *\n+ * @param hash Contains current hash, is updated with new hash\n+ * @param data to add to hash\n+ * @param data_len length of data to hash\n+ *\n+ */\n+void noise_mix_hash(uint8_t hash[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE], const uint8_t *_Nullable data, size_t data_len);\n+\n+/**\n+ * @brief Noise EncryptAndHash(plaintext): Sets ciphertext = EncryptWithAd(h,\n+ * plaintext), calls MixHash(ciphertext), and returns ciphertext. Note\n+ * that if k is empty, the EncryptWithAd() call will set ciphertext equal\n+ * to plaintext.",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869377111",
+            "id": 2869377111,
+            "line": 605,
+            "node_id": "PRRC_kwDOA7zIGs6rBzhX",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 605,
+            "original_position": 216,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 216,
+            "pull_request_review_id": 3872660528,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869377111/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:27:23Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869377111",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869383112"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869383112"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Inconsistent parameter naming; sometimes `cyphertext`, sometimes `encrypted`.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:28:44Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NOISE_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                    size_t encrypted_length,\n+                                    uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull plain, size_t plain_length,\n+                                     uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                     size_t encrypted_length,\n+                                     uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Computes the number of provides outputs (=keys) with HKDF-SHA512.\n+ *\n+ * cf. Noise sections 4.3 and 5.1\n+ *\n+ * This is Hugo Krawczyk's HKDF:\n+ * - https://eprint.iacr.org/2010/264.pdf\n+ * - https://tools.ietf.org/html/rfc5869\n+ * HKDF(chaining_key, input_key_material, num_outputs): Takes a\n+ * chaining_key byte sequence of length HASHLEN, and an input_key_material\n+ * byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes.\n+ * Returns a pair or triple of byte sequences each of length HASHLEN,\n+ * depending on whether num_outputs is two or three:\n+ * – Sets temp_key = HMAC-HASH(chaining_key, input_key_material).\n+ * – Sets output1 = HMAC-HASH(temp_key, byte(0x01)).\n+ * – Sets output2 = HMAC-HASH(temp_key, output1 || byte(0x02)).\n+ * – If num_outputs == 2 then returns the pair (output1, output2).\n+ * – Sets output3 = HMAC-HASH(temp_key, output2 || byte(0x03)).\n+ * – Returns the triple (output1, output2, output3).\n+ * Note that temp_key, output1, output2, and output3 are all HASHLEN bytes in\n+ * length. Also note that the HKDF() function is simply HKDF with the\n+ * chaining_key as HKDF salt, and zero-length HKDF info.\n+ *\n+ * @param output1 First key to compute\n+ * @param first_len Length of output1/key\n+ * @param output2 Second key to compute\n+ * @param second_len Length of output2/key\n+ * @param data HKDF input_key_material byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes\n+ * @param data_len length of either zero bytes, 32 bytes, or DHLEN bytes\n+ * @param chaining_key Noise 64 byte chaining key as HKDF salt\n+ */\n+void crypto_hkdf(uint8_t *_Nonnull output1, size_t first_len, uint8_t *_Nonnull output2,\n+                 size_t second_len, const uint8_t *_Nullable data,\n+                 size_t data_len, const uint8_t chaining_key[_Nonnull CRYPTO_SHA512_SIZE]);\n+\n+/**\n+ * @brief Initializes a Noise Handshake State.\n+ *\n+ * The long-term identity keys are NOT stored in the handshake struct; they are\n+ * only used here for the pre-message MixHash and must be passed separately to\n+ * create_crypto_handshake / handle_crypto_handshake.\n+ *\n+ * cf. Noise section 5.3\n+ * Calls InitializeSymmetric(protocol_name).\n+ * Calls MixHash(prologue).\n+ * Sets the initiator, e, rs, and re variables to the corresponding arguments.\n+ * Calls MixHash() once for each public key listed in the pre-messages.\n+ *\n+ * @param noise_handshake Noise handshake struct to save the necessary values to\n+ * @param self_id_public_key static public ID X25519 key of this Tox instance\n+ * @param peer_id_public_key static public ID X25519 key from the peer to connect to (initiator only)\n+ * @param initiator specifies if this Tox instance is the initiator of this crypto connection\n+ * @param prologue specifies the Noise prologue, used in call to MixHash(prologue) which maybe zero-length\n+ * @param prologue_length length of Noise prologue in bytes\n+ *\n+ * @return -1 on failure\n+ * @return 0 on success\n+ */\n+int noise_handshake_init(Noise_Handshake *_Nonnull noise_handshake,\n+                         const uint8_t self_id_public_key[_Nonnull CRYPTO_PUBLIC_KEY_SIZE],\n+                         const uint8_t peer_id_public_key[_Nullable CRYPTO_PUBLIC_KEY_SIZE], bool initiator,\n+                         const uint8_t *_Nullable prologue, size_t prologue_length);\n+\n+/**\n+ * @brief Noise MixKey(input_key_material)\n+ *\n+ * cf. Noise section 5.2\n+ * Executes the following steps:\n+ * - Sets ck, temp_k = HKDF(ck, input_key_material, 2).\n+ * - If HASHLEN is 64, then truncates temp_k to 32 bytes\n+ * - Calls InitializeKey(temp_k).\n+ * input_key_material = DH_X25519(private, public)\n+ *\n+ * @param chaining_key 64 byte Noise ck\n+ * @param shared_key 32 byte secret key to be calculated\n+ * @param private_key X25519 private key\n+ * @param public_key X25519 public key\n+ */\n+int32_t noise_mix_key(uint8_t chaining_key[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE], uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE],\n+                      const uint8_t private_key[_Nonnull CRYPTO_SECRET_KEY_SIZE],\n+                      const uint8_t public_key[_Nonnull CRYPTO_PUBLIC_KEY_SIZE]);\n+\n+/**\n+ * @brief Noise MixHash(data): Sets h = HASH(h || data).\n+ *\n+ * cf. Noise section 5.2\n+ *\n+ * @param hash Contains current hash, is updated with new hash\n+ * @param data to add to hash\n+ * @param data_len length of data to hash\n+ *\n+ */\n+void noise_mix_hash(uint8_t hash[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE], const uint8_t *_Nullable data, size_t data_len);\n+\n+/**\n+ * @brief Noise EncryptAndHash(plaintext): Sets ciphertext = EncryptWithAd(h,\n+ * plaintext), calls MixHash(ciphertext), and returns ciphertext. Note\n+ * that if k is empty, the EncryptWithAd() call will set ciphertext equal\n+ * to plaintext.\n+ *\n+ * cf. Noise section 5.2\n+ * \"Noise spec: Note that if k is empty, the EncryptWithAd() call will set ciphertext equal to plaintext.\"\n+ * This is not the case in Tox.\n+ *\n+ * @param ciphertext stores encrypted plaintext\n+ * @param plaintext to be encrypted\n+ * @param plain_length length of plaintext\n+ * @param shared_key used for AEAD encryption\n+ * @param hash stores hash value, used as associated data in AEAD\n+ *\n+ * @retval -1 on encryption failure.\n+ * @retval 0 on success.\n+ */\n+int noise_encrypt_and_hash(uint8_t *_Nonnull ciphertext, const uint8_t *_Nonnull plaintext,",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869383112",
+            "id": 2869383112,
+            "line": 620,
+            "node_id": "PRRC_kwDOA7zIGs6rB0_I",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 620,
+            "original_position": 231,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 231,
+            "pull_request_review_id": 3872666133,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869383112/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:28:44Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869383112",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869385803"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869385803"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Same issue as above.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:29:25Z",
+            "diff_hunk": "@@ -417,6 +445,202 @@ bool crypto_memunlock(void *_Nonnull data, size_t length);\n  */\n void new_hmac_key(const Random *_Nonnull rng, uint8_t key[_Nonnull CRYPTO_HMAC_KEY_SIZE]);\n \n+// Necessary functions for Noise, cf. https://noiseprotocol.org/noise.html (Revision 34)\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NOISE_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull plain,\n+                                    size_t plain_length,\n+                                    uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using ChaCha20-Poly1305-IETF (RFC7539).\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NOISE_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_aead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NOISE_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                    size_t encrypted_length,\n+                                    uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Encrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Encrypts plain of plain_length to encrypted of plain_length + @ref CRYPTO_MAC_SIZE\n+ * using a shared key @ref CRYPTO_SYMMETRIC_KEY_SIZE big and a @ref CRYPTO_NONCE_SIZE\n+ * byte nonce. The encrypted message, as well as a tag authenticating both the confidential\n+ * message m and adlen bytes of non-confidential data ad, are put into encrypted.\n+ *\n+ * @retval -1 if there was a problem.\n+ * @return length of encrypted data if everything was fine.\n+ */\n+int32_t encrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull plain, size_t plain_length,\n+                                     uint8_t *_Nonnull encrypted, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Decrypt message with precomputed shared key using XChaCha20-Poly1305.\n+ *\n+ * Decrypts encrypted of encrypted_length to plain of length\n+ * `length - CRYPTO_MAC_SIZE` using a shared key @ref CRYPTO_SHARED_KEY_SIZE\n+ * big and a @ref CRYPTO_NONCE_SIZE byte nonce.\n+ *\n+ * @retval -1 if there was a problem (decryption failed).\n+ * @return length of plain data if everything was fine.\n+ */\n+int32_t decrypt_data_symmetric_xaead(const uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE], const uint8_t nonce[_Nonnull CRYPTO_NONCE_SIZE], const uint8_t *_Nonnull encrypted,\n+                                     size_t encrypted_length,\n+                                     uint8_t *_Nonnull plain, const uint8_t *_Nullable ad, size_t ad_length);\n+\n+/**\n+ * @brief Computes the number of provides outputs (=keys) with HKDF-SHA512.\n+ *\n+ * cf. Noise sections 4.3 and 5.1\n+ *\n+ * This is Hugo Krawczyk's HKDF:\n+ * - https://eprint.iacr.org/2010/264.pdf\n+ * - https://tools.ietf.org/html/rfc5869\n+ * HKDF(chaining_key, input_key_material, num_outputs): Takes a\n+ * chaining_key byte sequence of length HASHLEN, and an input_key_material\n+ * byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes.\n+ * Returns a pair or triple of byte sequences each of length HASHLEN,\n+ * depending on whether num_outputs is two or three:\n+ * – Sets temp_key = HMAC-HASH(chaining_key, input_key_material).\n+ * – Sets output1 = HMAC-HASH(temp_key, byte(0x01)).\n+ * – Sets output2 = HMAC-HASH(temp_key, output1 || byte(0x02)).\n+ * – If num_outputs == 2 then returns the pair (output1, output2).\n+ * – Sets output3 = HMAC-HASH(temp_key, output2 || byte(0x03)).\n+ * – Returns the triple (output1, output2, output3).\n+ * Note that temp_key, output1, output2, and output3 are all HASHLEN bytes in\n+ * length. Also note that the HKDF() function is simply HKDF with the\n+ * chaining_key as HKDF salt, and zero-length HKDF info.\n+ *\n+ * @param output1 First key to compute\n+ * @param first_len Length of output1/key\n+ * @param output2 Second key to compute\n+ * @param second_len Length of output2/key\n+ * @param data HKDF input_key_material byte sequence with length either zero bytes, 32 bytes, or DHLEN bytes\n+ * @param data_len length of either zero bytes, 32 bytes, or DHLEN bytes\n+ * @param chaining_key Noise 64 byte chaining key as HKDF salt\n+ */\n+void crypto_hkdf(uint8_t *_Nonnull output1, size_t first_len, uint8_t *_Nonnull output2,\n+                 size_t second_len, const uint8_t *_Nullable data,\n+                 size_t data_len, const uint8_t chaining_key[_Nonnull CRYPTO_SHA512_SIZE]);\n+\n+/**\n+ * @brief Initializes a Noise Handshake State.\n+ *\n+ * The long-term identity keys are NOT stored in the handshake struct; they are\n+ * only used here for the pre-message MixHash and must be passed separately to\n+ * create_crypto_handshake / handle_crypto_handshake.\n+ *\n+ * cf. Noise section 5.3\n+ * Calls InitializeSymmetric(protocol_name).\n+ * Calls MixHash(prologue).\n+ * Sets the initiator, e, rs, and re variables to the corresponding arguments.\n+ * Calls MixHash() once for each public key listed in the pre-messages.\n+ *\n+ * @param noise_handshake Noise handshake struct to save the necessary values to\n+ * @param self_id_public_key static public ID X25519 key of this Tox instance\n+ * @param peer_id_public_key static public ID X25519 key from the peer to connect to (initiator only)\n+ * @param initiator specifies if this Tox instance is the initiator of this crypto connection\n+ * @param prologue specifies the Noise prologue, used in call to MixHash(prologue) which maybe zero-length\n+ * @param prologue_length length of Noise prologue in bytes\n+ *\n+ * @return -1 on failure\n+ * @return 0 on success\n+ */\n+int noise_handshake_init(Noise_Handshake *_Nonnull noise_handshake,\n+                         const uint8_t self_id_public_key[_Nonnull CRYPTO_PUBLIC_KEY_SIZE],\n+                         const uint8_t peer_id_public_key[_Nullable CRYPTO_PUBLIC_KEY_SIZE], bool initiator,\n+                         const uint8_t *_Nullable prologue, size_t prologue_length);\n+\n+/**\n+ * @brief Noise MixKey(input_key_material)\n+ *\n+ * cf. Noise section 5.2\n+ * Executes the following steps:\n+ * - Sets ck, temp_k = HKDF(ck, input_key_material, 2).\n+ * - If HASHLEN is 64, then truncates temp_k to 32 bytes\n+ * - Calls InitializeKey(temp_k).\n+ * input_key_material = DH_X25519(private, public)\n+ *\n+ * @param chaining_key 64 byte Noise ck\n+ * @param shared_key 32 byte secret key to be calculated\n+ * @param private_key X25519 private key\n+ * @param public_key X25519 public key\n+ */\n+int32_t noise_mix_key(uint8_t chaining_key[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE], uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE],\n+                      const uint8_t private_key[_Nonnull CRYPTO_SECRET_KEY_SIZE],\n+                      const uint8_t public_key[_Nonnull CRYPTO_PUBLIC_KEY_SIZE]);\n+\n+/**\n+ * @brief Noise MixHash(data): Sets h = HASH(h || data).\n+ *\n+ * cf. Noise section 5.2\n+ *\n+ * @param hash Contains current hash, is updated with new hash\n+ * @param data to add to hash\n+ * @param data_len length of data to hash\n+ *\n+ */\n+void noise_mix_hash(uint8_t hash[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE], const uint8_t *_Nullable data, size_t data_len);\n+\n+/**\n+ * @brief Noise EncryptAndHash(plaintext): Sets ciphertext = EncryptWithAd(h,\n+ * plaintext), calls MixHash(ciphertext), and returns ciphertext. Note\n+ * that if k is empty, the EncryptWithAd() call will set ciphertext equal\n+ * to plaintext.\n+ *\n+ * cf. Noise section 5.2\n+ * \"Noise spec: Note that if k is empty, the EncryptWithAd() call will set ciphertext equal to plaintext.\"\n+ * This is not the case in Tox.\n+ *\n+ * @param ciphertext stores encrypted plaintext\n+ * @param plaintext to be encrypted\n+ * @param plain_length length of plaintext\n+ * @param shared_key used for AEAD encryption\n+ * @param hash stores hash value, used as associated data in AEAD\n+ *\n+ * @retval -1 on encryption failure.\n+ * @retval 0 on success.\n+ */\n+int noise_encrypt_and_hash(uint8_t *_Nonnull ciphertext, const uint8_t *_Nonnull plaintext,\n+                           size_t plain_length, uint8_t shared_key[_Nonnull CRYPTO_SHARED_KEY_SIZE],\n+                           uint8_t hash[_Nonnull CRYPTO_NOISE_BLAKE2B_HASH_SIZE]);\n+\n+/**\n+ * @brief DecryptAndHash(ciphertext): Sets plaintext = DecryptWithAd(h,\n+ * ciphertext), calls MixHash(ciphertext), and returns plaintext. Note\n+ * that if k is empty, the DecryptWithAd() call will set plaintext equal to",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869385803",
+            "id": 2869385803,
+            "line": 627,
+            "node_id": "PRRC_kwDOA7zIGs6rB1pL",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 627,
+            "original_position": 238,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.h",
+            "position": 238,
+            "pull_request_review_id": 3872668668,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869385803/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:29:25Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869385803",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869422848"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869422848"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Why is there a `NOISE` inside the hash define.\nAlso comment and message differ from actual define.",
+            "commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "created_at": "2026-03-01T16:38:47Z",
+            "diff_hunk": "@@ -46,6 +48,16 @@ static_assert(CRYPTO_SIGN_PUBLIC_KEY_SIZE == crypto_sign_PUBLICKEYBYTES,\n static_assert(CRYPTO_SIGN_SECRET_KEY_SIZE == crypto_sign_SECRETKEYBYTES,\n               \"CRYPTO_SIGN_SECRET_KEY_SIZE should be equal to crypto_sign_SECRETKEYBYTES\");\n \n+/* CRYPTO_BLAKE2b_HASH_SIZE -> crypto_generichash_blake2b_BYTES_MAX (libsodium) */\n+static_assert(CRYPTO_NOISE_BLAKE2B_HASH_SIZE == crypto_generichash_blake2b_BYTES_MAX,\n+              \"CRYPTO_BLAKE2b_HASH_SIZE should be equal to crypto_generichash_blake2b_BYTES_MAX\");",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2946#discussion_r2869422848",
+            "id": 2869422848,
+            "line": 53,
+            "node_id": "PRRC_kwDOA7zIGs6rB-sA",
+            "original_commit_id": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "original_line": 53,
+            "original_position": 15,
+            "original_start_line": null,
+            "path": "toxcore/crypto_core.c",
+            "position": 15,
+            "pull_request_review_id": 3872701050,
+            "pull_request_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869422848/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-03-01T16:38:47Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments/2869422848",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        }
+    ],
     "comment_regular_data": [],
     "comments": 0,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2946/comments",
@@ -201,7 +1587,7 @@
                 "url": "https://api.github.com/users/goldroom",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/eea6fb8efb5b5b3ca272535b3f45863436c9f2b5/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/34febcd723aaa9152b00182aad7079504185eb3f/comments",
             "commit": {
                 "author": {
                     "date": "2026-01-03T18:56:37Z",
@@ -210,22 +1596,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-01-08T13:46:35Z",
+                    "date": "2026-02-28T20:31:01Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Noise IK handshake implementation",
                 "tree": {
-                    "sha": "c06da7a648e3fee9fea6d333d059ecfae359b19d",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/c06da7a648e3fee9fea6d333d059ecfae359b19d"
+                    "sha": "8364802d68e93b068a588a02d862810a3101a12a",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/8364802d68e93b068a588a02d862810a3101a12a"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/eea6fb8efb5b5b3ca272535b3f45863436c9f2b5",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/34febcd723aaa9152b00182aad7079504185eb3f",
                 "verification": {
-                    "payload": "tree c06da7a648e3fee9fea6d333d059ecfae359b19d\nparent 815ae9ce9dc606c204b5f7e01b71c43b5102e45a\nauthor goldroom <goldroom@users.noreply.github.com> 1767466597 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1767879995 +0000\n\nfeat: Noise IK handshake implementation\n",
+                    "payload": "tree 8364802d68e93b068a588a02d862810a3101a12a\nparent 123650c600ebb8bdf64e17ee6b83406b070dffbb\nauthor goldroom <goldroom@users.noreply.github.com> 1767466597 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1772310661 +0000\n\nfeat: Noise IK handshake implementation\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmlftTsACgkQOFXbotdE\nA8km+Qf+IRUOLoqNzisNMbFMVxP5a/tkfthal68jY4/arj2DkiDgN3QvRB2hmtBA\nq35HkubTxRX/4UCqZp20tzyNGjVaRJTvJjkUyxnorv0JSQL28RCj0uTB7BRQS0WC\noMhOll2d+ar71U+dqhXJl8+smk7PyY2ElSaFNKZxIcdelAjJBq82ddGk6Ck2Lyx6\nLra9JvwiBD7pW3lD0wD6lCef6nf5kppVQ2Q3sCRuifajcucw8DZA4R7ZnGI5QyHD\n/TXLrfmOzt6ZFkuWSNMUqRUsnQ9cyaraElDCNr0rl/9B3OC1U+PBSGRIR6k+V3zu\n4tJ61q1dqfbWAncqF0mzm+OaoPYHng==\n=AbU9\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmjUIYACgkQOFXbotdE\nA8lx+gf+Oi9SrUFZ7h0Bp2evbUm5ziz3Jmpj15f/fTWBvcEVHNyjSVQVvz9Zymml\n4DnSXAjp/xwpMb3U1K77NA9vhEL9wjGVAJYoPTcevtS/fuh2QOspGDK+GM1T6cuV\nRlccmVTY1Kd3Sb7tjO5RsvOxUAFJAN/4fKPidt4jq5u59qKfo+Xbx5VASSj1mm5f\naRPhIPkxzlaBUSbwhuWC1mTDnZyO6KULwnSDF3SfO3ZPtyqq5DQ7Hc3TbDhl/Rjo\n70qNN8hAK6KdtM1n+60bgF28wKAtCFgCwTACyx9+zc5efsjzQrCnrij/o3TnLTPT\nYAaBHSADyXK2fAnYMuFFoazveaiVGA==\n=iqrv\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-01-08T15:28:20Z"
+                    "verified_at": "2026-02-28T20:31:17Z"
                 }
             },
             "committer": {
@@ -249,25 +1635,25 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/eea6fb8efb5b5b3ca272535b3f45863436c9f2b5",
-            "node_id": "C_kwDOA7z7wtoAKGVlYTZmYjhlZmI1YjViM2NhMjcyNTM1YjNmNDU4NjM0MzZjOWYyYjU",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/34febcd723aaa9152b00182aad7079504185eb3f",
+            "node_id": "C_kwDOA7z7wtoAKDM0ZmViY2Q3MjNhYWE5MTUyYjAwMTgyYWFkNzA3OTUwNDE4NWViM2Y",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/815ae9ce9dc606c204b5f7e01b71c43b5102e45a",
-                    "sha": "815ae9ce9dc606c204b5f7e01b71c43b5102e45a",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/815ae9ce9dc606c204b5f7e01b71c43b5102e45a"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/123650c600ebb8bdf64e17ee6b83406b070dffbb",
+                    "sha": "123650c600ebb8bdf64e17ee6b83406b070dffbb",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/123650c600ebb8bdf64e17ee6b83406b070dffbb"
                 }
             ],
-            "sha": "eea6fb8efb5b5b3ca272535b3f45863436c9f2b5",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/eea6fb8efb5b5b3ca272535b3f45863436c9f2b5"
+            "sha": "34febcd723aaa9152b00182aad7079504185eb3f",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/34febcd723aaa9152b00182aad7079504185eb3f"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946/commits",
     "created_at": "2026-01-03T21:18:52Z",
-    "deletions": 242,
+    "deletions": 247,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2946.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:noise-ik",
         "ref": "noise-ik",
@@ -306,6 +1692,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/iphydf/c-toxcore/hooks",
@@ -356,10 +1743,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-02-03T13:05:20Z",
+            "pushed_at": "2026-03-04T22:53:59Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 20804,
+            "size": 20662,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -378,14 +1766,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-02-03T12:58:03Z",
+            "updated_at": "2026-03-02T23:07:56Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "eea6fb8efb5b5b3ca272535b3f45863436c9f2b5",
+        "sha": "34febcd723aaa9152b00182aad7079504185eb3f",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -423,16 +1811,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": null,
-    "mergeable": false,
-    "mergeable_state": "dirty",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "34febcd723aaa9152b00182aad7079504185eb3f",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-03-01T00:10:58Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 2,
+        "closed_issues": 18,
         "created_at": "2025-05-15T19:52:30Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
@@ -462,25 +1870,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52/labels",
         "node_id": "MI_kwDOA7zIGs4AxOU2",
         "number": 52,
-        "open_issues": 21,
+        "open_issues": 2,
         "state": "open",
         "title": "v0.2.23",
-        "updated_at": "2026-02-03T13:05:20Z",
+        "updated_at": "2026-05-09T08:07:11Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52"
     },
     "node_id": "PR_kwDOA7zIGs67Y6aS",
     "number": 2946,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/2946.patch",
-    "rebaseable": false,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
-    "review_comments": 0,
+    "review_comments": 20,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/eea6fb8efb5b5b3ca272535b3f45863436c9f2b5",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/34febcd723aaa9152b00182aad7079504185eb3f",
     "title": "feat: Noise IK handshake implementation",
-    "updated_at": "2026-01-08T15:28:33Z",
+    "updated_at": "2026-03-01T16:38:48Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2946",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

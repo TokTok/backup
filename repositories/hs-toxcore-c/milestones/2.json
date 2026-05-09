@@ -30,9 +30,9 @@
     "labels_url": "https://api.github.com/repos/TokTok/hs-toxcore-c/milestones/2/labels",
     "node_id": "MI_kwDOBBTGr84AvB3U",
     "number": 2,
-    "open_issues": 1,
+    "open_issues": 2,
     "state": "open",
     "title": "v0.2.20",
-    "updated_at": "2025-02-20T16:50:53Z",
+    "updated_at": "2026-02-17T18:47:03Z",
     "url": "https://api.github.com/repos/TokTok/hs-toxcore-c/milestones/2"
 }
