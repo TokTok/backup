@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/dockerfiles/pulls/274"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/dockerfiles/statuses/a08ebbe67922e0a1ce733c370485497d124d6d23"
+            "href": "https://api.github.com/repos/TokTok/dockerfiles/statuses/05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5"
         }
     },
     "active_lock_reason": null,
@@ -122,9 +122,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls{/number}",
-            "pushed_at": "2026-05-08T11:49:50Z",
+            "pushed_at": "2026-05-29T12:27:25Z",
             "releases_url": "https://api.github.com/repos/TokTok/dockerfiles/releases{/id}",
-            "size": 542,
+            "size": 547,
             "ssh_url": "git@github.com:TokTok/dockerfiles.git",
             "stargazers_count": 8,
             "stargazers_url": "https://api.github.com/repos/TokTok/dockerfiles/stargazers",
@@ -144,14 +144,14 @@
                 "windows"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees{/sha}",
-            "updated_at": "2026-05-08T11:49:46Z",
+            "updated_at": "2026-05-29T12:27:23Z",
             "url": "https://api.github.com/repos/TokTok/dockerfiles",
             "visibility": "public",
             "watchers": 8,
             "watchers_count": 8,
             "web_commit_signoff_required": true
         },
-        "sha": "6509afc8aa1276214fd6ee9cfa7a227e6f4890ba",
+        "sha": "53d9b49d8639b5c51e81598883a5461d649f7957",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -204,7 +204,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/commits/a08ebbe67922e0a1ce733c370485497d124d6d23/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/dockerfiles/commits/05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5/comments",
             "commit": {
                 "author": {
                     "date": "2026-03-01T21:31:23Z",
@@ -213,22 +213,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-03-01T21:31:23Z",
+                    "date": "2026-05-14T20:15:16Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Add Raspberry Pi cross compilation images for qtox.",
                 "tree": {
-                    "sha": "4425837431bc6c9f5d45ac501da9ced0dd3afcfc",
-                    "url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees/4425837431bc6c9f5d45ac501da9ced0dd3afcfc"
+                    "sha": "83729e2885726e29f4c0a555211d46a25c8941b1",
+                    "url": "https://api.github.com/repos/TokTok/dockerfiles/git/trees/83729e2885726e29f4c0a555211d46a25c8941b1"
                 },
-                "url": "https://api.github.com/repos/TokTok/dockerfiles/git/commits/a08ebbe67922e0a1ce733c370485497d124d6d23",
+                "url": "https://api.github.com/repos/TokTok/dockerfiles/git/commits/05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5",
                 "verification": {
-                    "payload": "tree 4425837431bc6c9f5d45ac501da9ced0dd3afcfc\nparent f911be5f8a0814a62ebecfcd8cf8d329e57b3faa\nauthor iphydf <iphydf@users.noreply.github.com> 1772400683 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1772400683 +0000\n\nfeat: Add Raspberry Pi cross compilation images for qtox.\n",
+                    "payload": "tree 83729e2885726e29f4c0a555211d46a25c8941b1\nparent c479bb8d5a6563afa8a24ac9a47adafe78176a6f\nauthor iphydf <iphydf@users.noreply.github.com> 1772400683 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1778789716 +0000\n\nfeat: Add Raspberry Pi cross compilation images for qtox.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmksE4ACgkQOFXbotdE\nA8lhmAf9GOw/BXOtKRuuVYMZS/NQTuPLQbkVLbWQbJq0gB5huX3JpR5H/9fa/peu\nzxPKSSGTWZClsL0s5Yzj1BvbzlWqF54IMuZow2euhA+ARtHugvvvEKAs1sRGMcy+\nug9rxvKURKSoJhjyaENJ7Nr2H8Irr1Sy8JxlN3pcm90qSYu2c+93Qt4Tk/vsxAz1\nzCjgmlBDuaqrG2LJGf1zqwUQ3ATTruJ3z+sWITA2u4celmF10pjBBnPF+nQO44Em\nuMZoGljw97utsA5d1cJqsWI5DNHjrkvmXRdbPYvS5hjL5xL/qVV2+jNkEwTWpTn/\npXsD9MAG3NfuJijYQZIYBXdZcRDVHw==\n=JMiC\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoGLVQACgkQOFXbotdE\nA8kM5AgAgm5G6u126U/pwFGnhc9579JJJAtwCx/Vc+8tTVtQFOAWn3K+RKUh7jy3\nWEGinXZ/SN/HUPtn0LV8YejjwGBR85HH9GJhzwOJ9XoknqkL59X7fjnIaKMtqLCZ\ncraNsw3PI9I1H7X4+6z4dJwMd60TluyPYHwhssJeKlY8FN3kK7zBaU5EPxc3w0Ce\n4wJyWw2iwlQ+K6ykV61eLJN92vWdfR+Z/EQbyECWAGTgj4v2S6RwJeUCiIVUi/Ms\n4dxOJusO+1JKEDOcNpSs32763YtdCwnufrRRCxKoXVlhD3kjTdR/EikITREwIXjS\nyud4CDMYD3tr1Yz8ZVtfHDvtc3Lhqg==\n=VHa6\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-03-01T21:32:05Z"
+                    "verified_at": "2026-05-14T20:15:35Z"
                 }
             },
             "committer": {
@@ -252,17 +252,17 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/dockerfiles/commit/a08ebbe67922e0a1ce733c370485497d124d6d23",
-            "node_id": "C_kwDOBBks79oAKGEwOGViYmU2NzkyMmUwYTFjZTczM2MzNzA0ODU0OTdkMTI0ZDZkMjM",
+            "html_url": "https://github.com/TokTok/dockerfiles/commit/05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5",
+            "node_id": "C_kwDOBBks79oAKDA1ZGMxOTg3YTQ0YmM1NTVlOTgwZmNhYzBjZjZjN2EwYzRmZmRmZjU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/dockerfiles/commit/f911be5f8a0814a62ebecfcd8cf8d329e57b3faa",
-                    "sha": "f911be5f8a0814a62ebecfcd8cf8d329e57b3faa",
-                    "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/f911be5f8a0814a62ebecfcd8cf8d329e57b3faa"
+                    "html_url": "https://github.com/TokTok/dockerfiles/commit/c479bb8d5a6563afa8a24ac9a47adafe78176a6f",
+                    "sha": "c479bb8d5a6563afa8a24ac9a47adafe78176a6f",
+                    "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/c479bb8d5a6563afa8a24ac9a47adafe78176a6f"
                 }
             ],
-            "sha": "a08ebbe67922e0a1ce733c370485497d124d6d23",
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/a08ebbe67922e0a1ce733c370485497d124d6d23"
+            "sha": "05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5",
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/commits/05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5"
         }
     ],
     "commits": 1,
@@ -362,9 +362,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/dockerfiles/pulls{/number}",
-            "pushed_at": "2026-03-01T21:32:05Z",
+            "pushed_at": "2026-05-14T20:18:35Z",
             "releases_url": "https://api.github.com/repos/iphydf/dockerfiles/releases{/id}",
-            "size": 523,
+            "size": 538,
             "ssh_url": "git@github.com:iphydf/dockerfiles.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/dockerfiles/stargazers",
@@ -384,14 +384,14 @@
                 "windows"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/dockerfiles/git/trees{/sha}",
-            "updated_at": "2026-02-10T10:24:17Z",
+            "updated_at": "2026-05-14T20:18:28Z",
             "url": "https://api.github.com/repos/iphydf/dockerfiles",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "a08ebbe67922e0a1ce733c370485497d124d6d23",
+        "sha": "05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -430,7 +430,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "9d136653b0ed2d47e606817c6807105563ad7cd2",
+    "merge_commit_sha": "a3e1c3f8736b0b2bc469374f26255077a51a40df",
     "mergeable": true,
     "mergeable_state": "behind",
     "merged": false,
@@ -438,7 +438,7 @@
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 230,
+        "closed_issues": 232,
         "created_at": "2020-04-25T11:18:21Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -471,7 +471,7 @@
         "open_issues": 1,
         "state": "open",
         "title": "master",
-        "updated_at": "2026-05-08T11:49:44Z",
+        "updated_at": "2026-05-29T12:27:01Z",
         "url": "https://api.github.com/repos/TokTok/dockerfiles/milestones/1"
     },
     "node_id": "PR_kwDOBBORvM7HLvk3",
@@ -484,9 +484,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/274/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/dockerfiles/statuses/a08ebbe67922e0a1ce733c370485497d124d6d23",
+    "statuses_url": "https://api.github.com/repos/TokTok/dockerfiles/statuses/05dc1987a44bc555e980fcac0cf6c7a0c4ffdff5",
     "title": "feat: Add Raspberry Pi cross compilation images for qtox.",
-    "updated_at": "2026-03-01T21:32:44Z",
+    "updated_at": "2026-05-14T20:15:49Z",
     "url": "https://api.github.com/repos/TokTok/dockerfiles/pulls/274",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

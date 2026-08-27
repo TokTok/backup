@@ -181,6 +181,7 @@
             "html_url": "https://github.com/TokTok/website/pull/282#issuecomment-4387360795",
             "id": 4387360795,
             "issue_url": "https://api.github.com/repos/TokTok/website/issues/282",
+            "minimized": null,
             "node_id": "IC_kwDOBKoWmc8AAAABBYHQGw",
             "performed_via_github_app": {
                 "client_id": "Iv1.05c79e9ad1f6bdfa",
@@ -255,6 +256,7 @@
                     "copilot_requests": "write",
                     "deployments": "write",
                     "discussions": "write",
+                    "drives": "write",
                     "issues": "write",
                     "merge_queues": "write",
                     "metadata": "read",
@@ -269,7 +271,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2026-05-05T14:51:38Z"
+                "updated_at": "2026-06-18T16:17:48Z"
             },
             "reactions": {
                 "+1": 0,
@@ -516,7 +518,7 @@
             "git_tags_url": "https://api.github.com/repos/nilFinx/tox-website/git/tags{/sha}",
             "git_url": "git://github.com/nilFinx/tox-website.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,

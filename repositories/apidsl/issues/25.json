@@ -49,6 +49,13 @@
     "events_url": "https://api.github.com/repos/TokTok/apidsl/issues/25/events",
     "html_url": "https://github.com/TokTok/apidsl/issues/25",
     "id": 198950973,
+    "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "blocking": 0,
+        "total_blocked_by": 0,
+        "total_blocking": 0
+    },
+    "issue_field_values": [],
     "labels": [],
     "labels_url": "https://api.github.com/repos/TokTok/apidsl/issues/25/labels{/name}",
     "locked": false,
@@ -93,6 +100,7 @@
     "node_id": "MDU6SXNzdWUxOTg5NTA5NzM=",
     "number": 25,
     "performed_via_github_app": null,
+    "pinned_comment": null,
     "reactions": {
         "+1": 0,
         "-1": 0,
@@ -115,6 +123,7 @@
     },
     "timeline_url": "https://api.github.com/repos/TokTok/apidsl/issues/25/timeline",
     "title": "Generate a .c file with definition, new/free, and accessors for structs",
+    "type": null,
     "updated_at": "2025-01-22T20:03:08Z",
     "url": "https://api.github.com/repos/TokTok/apidsl/issues/25",
     "user": {

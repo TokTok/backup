@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2927"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/9c4138f739135b6c2e4dcb459db67932d8ba8ef7"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/1a04a2a21fa2d9b857f7add17acb876357638819"
         }
     },
     "active_lock_reason": null,
-    "additions": 51,
+    "additions": 94,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 303,
-            "forks_count": 303,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -96,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 211,
-            "open_issues_count": 211,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,11 +122,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-05-09T19:41:33Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23486,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2636,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -143,14 +143,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-05-08T22:37:37Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2636,
-            "watchers_count": 2636,
+            "watchers": 2676,
+            "watchers_count": 2676,
             "web_commit_signoff_required": true
         },
-        "sha": "123650c600ebb8bdf64e17ee6b83406b070dffbb",
+        "sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -174,11 +174,104 @@
         }
     },
     "body": "Replaces the recursive implementation of add_to_closest in with an equivalent iterative loop. This eliminates the risk of stack overflow during deep peer eviction chains.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/2927)\n<!-- Reviewable:end -->\n",
-    "changed_files": 1,
+    "changed_files": 6,
     "closed_at": null,
     "comment_data": [],
-    "comment_regular_data": [],
-    "comments": 0,
+    "comment_regular_data": [
+        {
+            "author_association": "MEMBER",
+            "body": "This accidentally absorbed some unrelated changes to get bazel 8 working. The last commit is also what toktok-stack is now pointing too, so I will extract them into a different pr.",
+            "created_at": "2026-05-29T11:55:51Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2927#issuecomment-4574665837",
+            "id": 4574665837,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2927",
+            "minimized": null,
+            "node_id": "IC_kwDOA7zIGs8AAAABEKvcbQ",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/4574665837/reactions"
+            },
+            "updated_at": "2026-05-29T11:55:51Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/4574665837",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "author_association": "MEMBER",
+            "body": "> This accidentally absorbed some unrelated changes to get bazel 8 working. The last commit is also what toktok-stack is now pointing too, so I will extract them into a different pr.\r\n\r\nActually never mind. This pr did, but those changes are also on master now.\r\n\r\nStill need to repoint toktok-stack though.",
+            "created_at": "2026-05-29T12:10:56Z",
+            "html_url": "https://github.com/TokTok/c-toxcore/pull/2927#issuecomment-4574791781",
+            "id": 4574791781,
+            "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2927",
+            "minimized": null,
+            "node_id": "IC_kwDOA7zIGs8AAAABEK3IZQ",
+            "performed_via_github_app": null,
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/4574791781/reactions"
+            },
+            "updated_at": "2026-05-29T12:10:56Z",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/4574791781",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 2,
     "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2927/comments",
     "commit_data": [
         {
@@ -203,7 +296,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9c4138f739135b6c2e4dcb459db67932d8ba8ef7/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/1a04a2a21fa2d9b857f7add17acb876357638819/comments",
             "commit": {
                 "author": {
                     "date": "2025-11-02T23:48:22Z",
@@ -212,22 +305,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-01-27T10:34:10Z",
+                    "date": "2026-05-16T15:19:12Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "perf: Make the code for adding group peers non-recursive.\n\nReplaces the recursive implementation of add_to_closest in with an\nequivalent iterative loop. This eliminates the risk of stack overflow\nduring deep peer eviction chains.",
                 "tree": {
-                    "sha": "4b19ec680702c1da0618348cb97cdbc287218885",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/4b19ec680702c1da0618348cb97cdbc287218885"
+                    "sha": "926aee850a817971c8615c5ae72542793a8a1c32",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/926aee850a817971c8615c5ae72542793a8a1c32"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/9c4138f739135b6c2e4dcb459db67932d8ba8ef7",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/1a04a2a21fa2d9b857f7add17acb876357638819",
                 "verification": {
-                    "payload": "tree 4b19ec680702c1da0618348cb97cdbc287218885\nparent d5b5e879d0d57ecb5de91b8520461e7fd79c3ac1\nauthor iphydf <iphydf@users.noreply.github.com> 1762127302 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1769510050 +0000\n\nperf: Make the code for adding group peers non-recursive.\n\nReplaces the recursive implementation of add_to_closest in with an\nequivalent iterative loop. This eliminates the risk of stack overflow\nduring deep peer eviction chains.\n",
+                    "payload": "tree 926aee850a817971c8615c5ae72542793a8a1c32\nparent bab03670b21f640dd97076f8eea81cc159b0f1e1\nauthor iphydf <iphydf@users.noreply.github.com> 1762127302 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1778944752 +0000\n\nperf: Make the code for adding group peers non-recursive.\n\nReplaces the recursive implementation of add_to_closest in with an\nequivalent iterative loop. This eliminates the risk of stack overflow\nduring deep peer eviction chains.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAml4lKIACgkQOFXbotdE\nA8l2xQgAgpSe50iAd+c4+sWDqMf7cb0wVW9BsiMtj0azWNNfrl0hl3uBvuy1S/hj\n92oAjnBmQKxjFz5AfyS1B6yBKH7npEDef+kn7ZnRq577s4SX3Mrl1hHaTZEka52M\nUqZmTfr540k8Cym27Zcd3cJw5WQpFvX7uGHB7uRhpZkk2JSTfW+Ze9Nws+NCKLyq\npfmJR53oUY4PolrWUoq0gtAuhEyElYF+yOeXSIspfp7EaBoMXxJgvQdZhrJ7qbaA\ndwR//HUArWl9SYLYfnT26B143U3EPfO1mQT1vu9zZV7gixWuthHW535MBXpT/vpX\nQzZM4bqo2tqR6tenjSm+clXHFp3rEw==\n=GUOV\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoIivAACgkQOFXbotdE\nA8mD0gf9Fmilwcw75vDbCZ2YkcLg1XfqYdnDRzvWasGKESAU2TF1EBYLzR2fchw5\nHMDJWxICnZpnMshefbvIiHSxV5URZ15VDjBQYwKKrAtanL0FLmajYMDnzLPnEADo\n8F8uQuz/oCYU26uKBJ1HyyZn4a9MQWoCbpZumzXNhz/4gHwYm59bKlvsVMcwfi81\nfBvEpOEmvlLZ0whUYw9sVQl/r6fEjCUUT8tz335usflvswc06z4/RIKV36B5+jU2\nbYZ7hoI4W4E/zM4Mg7bcUrdgqPUagUXUwTnC80Gf50MWOHQryWWPGYBInn8Ll6KT\ns4kjHGeHxvaEeY/uO16xR0YcUJ8sYA==\n=+2Ys\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-01-27T14:16:01Z"
+                    "verified_at": "2026-05-16T15:19:14Z"
                 }
             },
             "committer": {
@@ -251,23 +344,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/9c4138f739135b6c2e4dcb459db67932d8ba8ef7",
-            "node_id": "C_kwDOA7z7wtoAKDljNDEzOGY3MzkxMzViNmMyZTRkY2I0NTlkYjY3OTMyZDhiYThlZjc",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/1a04a2a21fa2d9b857f7add17acb876357638819",
+            "node_id": "C_kwDOA7z7wtoAKDFhMDRhMmEyMWZhMmQ5Yjg1N2Y3YWRkMTdhY2I4NzYzNTc2Mzg4MTk",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/d5b5e879d0d57ecb5de91b8520461e7fd79c3ac1",
-                    "sha": "d5b5e879d0d57ecb5de91b8520461e7fd79c3ac1",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/d5b5e879d0d57ecb5de91b8520461e7fd79c3ac1"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/bab03670b21f640dd97076f8eea81cc159b0f1e1",
+                    "sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bab03670b21f640dd97076f8eea81cc159b0f1e1"
                 }
             ],
-            "sha": "9c4138f739135b6c2e4dcb459db67932d8ba8ef7",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/9c4138f739135b6c2e4dcb459db67932d8ba8ef7"
+            "sha": "1a04a2a21fa2d9b857f7add17acb876357638819",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/1a04a2a21fa2d9b857f7add17acb876357638819"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2927/commits",
     "created_at": "2025-11-02T23:50:39Z",
-    "deletions": 41,
+    "deletions": 72,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/2927.diff",
     "draft": false,
     "head": {
@@ -361,9 +454,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-03-04T22:53:59Z",
+            "pushed_at": "2026-08-17T21:35:02Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 20662,
+            "size": 20760,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -382,14 +475,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-03-02T23:07:56Z",
+            "updated_at": "2026-08-17T21:37:57Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "9c4138f739135b6c2e4dcb459db67932d8ba8ef7",
+        "sha": "1a04a2a21fa2d9b857f7add17acb876357638819",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -428,15 +521,15 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "ad4ec98f35d18768d3454bcc6867faf63d704cd5",
-    "mergeable": true,
-    "mergeable_state": "behind",
+    "merge_commit_sha": null,
+    "mergeable": false,
+    "mergeable_state": "dirty",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 6,
         "created_at": "2026-04-13T09:16:07Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
@@ -466,25 +559,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53/labels",
         "node_id": "MI_kwDOA7zIGs4A7MFi",
         "number": 53,
-        "open_issues": 22,
+        "open_issues": 16,
         "state": "open",
         "title": "v0.2.24",
-        "updated_at": "2026-05-09T08:04:10Z",
+        "updated_at": "2026-08-25T18:33:47Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53"
     },
     "node_id": "PR_kwDOA7zIGs6xFl3-",
     "number": 2927,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/2927.patch",
-    "rebaseable": true,
+    "rebaseable": false,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2927/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/9c4138f739135b6c2e4dcb459db67932d8ba8ef7",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/1a04a2a21fa2d9b857f7add17acb876357638819",
     "title": "perf: Make the code for adding group peers non-recursive.",
-    "updated_at": "2026-04-13T09:17:46Z",
+    "updated_at": "2026-05-29T12:10:56Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2927",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

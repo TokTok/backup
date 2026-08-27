@@ -22,7 +22,7 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3039"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/5f4f38f9d7bd9c203738b00af7ba691cf15f9088"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/bab03670b21f640dd97076f8eea81cc159b0f1e1"
         }
     },
     "active_lock_reason": null,
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 303,
-            "forks_count": 303,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -96,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 211,
-            "open_issues_count": 211,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,11 +122,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-05-09T19:41:33Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23486,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2636,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -143,11 +143,11 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-05-08T22:37:37Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2636,
-            "watchers_count": 2636,
+            "watchers": 2676,
+            "watchers_count": 2676,
             "web_commit_signoff_required": true
         },
         "sha": "71c354bfea8720f0fbdc40d3c67290799a64df51",
@@ -175,7 +175,7 @@
     },
     "body": "<!-- Releaser:start -->\nThis release mostly focuses on fixes, but also brings some new apis.\n<!-- Releaser:end -->\n\n\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/3039)\n<!-- Reviewable:end -->\n",
     "changed_files": 8,
-    "closed_at": null,
+    "closed_at": "2026-05-14T09:47:36Z",
     "comment_data": [],
     "comment_regular_data": [
         {
@@ -185,6 +185,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/3039#issuecomment-4413502208",
             "id": 4413502208,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/3039",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs8AAAABBxCzAA",
             "performed_via_github_app": {
                 "client_id": "Iv1.9d88ef6ecc903626",
@@ -306,31 +307,31 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5f4f38f9d7bd9c203738b00af7ba691cf15f9088/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bab03670b21f640dd97076f8eea81cc159b0f1e1/comments",
             "commit": {
                 "author": {
-                    "date": "2026-05-09T19:41:23Z",
+                    "date": "2026-05-14T09:22:40Z",
                     "email": "41898282+github-actions[bot]@users.noreply.github.com",
                     "name": "github-actions[bot]"
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-05-09T19:41:23Z",
+                    "date": "2026-05-14T09:22:40Z",
                     "email": "noreply@github.com",
                     "name": "GitHub"
                 },
                 "message": "chore: Release v0.2.23-rc.1\n\nThis release mostly focuses on fixes, but also brings some new apis.",
                 "tree": {
-                    "sha": "77683aec4d56d96ec376f792c20aab54d6829c14",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/77683aec4d56d96ec376f792c20aab54d6829c14"
+                    "sha": "dd3c8177f6ad9a7b10e46c658a157d0cbcb811b3",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/dd3c8177f6ad9a7b10e46c658a157d0cbcb811b3"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/5f4f38f9d7bd9c203738b00af7ba691cf15f9088",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/bab03670b21f640dd97076f8eea81cc159b0f1e1",
                 "verification": {
-                    "payload": "tree 77683aec4d56d96ec376f792c20aab54d6829c14\nparent 71c354bfea8720f0fbdc40d3c67290799a64df51\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1778355683 +0000\ncommitter GitHub <noreply@github.com> 1778355683 +0000\n\nchore: Release v0.2.23-rc.1\n\nThis release mostly focuses on fixes, but also brings some new apis.",
+                    "payload": "tree dd3c8177f6ad9a7b10e46c658a157d0cbcb811b3\nparent 71c354bfea8720f0fbdc40d3c67290799a64df51\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1778750560 +0000\ncommitter GitHub <noreply@github.com> 1778750560 +0000\n\nchore: Release v0.2.23-rc.1\n\nThis release mostly focuses on fixes, but also brings some new apis.",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp/43jCRC1aQ7uu5UhlAAA4xcQAGoReoot/dxW70kiN6AJ8keU\nvr5etHUaiRASMOKxalwFJXLpiHetygXzuCPsIALMQtesKwPO6znEuREiI4f7DJAu\nYta7HeAsSbRnd3dtEH6IwEbvvuJ+RCkcpQgVN/W+4mwD1tVmt8FNFGIgV7QYLfOz\nTijHM6yXFX2x7HzKi5up/aitQYiohJ+/wOBxY7dTwpF/vOssw9ZnSvrY4Vq224OI\nZKOw4aH7xEuenEs3Hty/ZYKbMhoaVPEYMwdmZHoudrRoW2q9xEXhuKP8MsgJb4++\ndcdWR0Dq8BfA6wAIYTuuLm9wwTee8X1M5uokOueB4xd4xJZRic2oJfHX7PQ/rVfI\ncXWcROMoKqR66/5OWrysrhYhuQcvCocLZkzYqIBAL4OsZBqH3dnFemOs2TZI8fhe\nQjnd0BD9BDhUlvtS6rKXiHE8eCCjFo7N6vhewVRkuTxVLGnFSA3eiLv4zOoNNjsi\n1E36gJlC3+pz09GpqKbrxICocnFt3jW6QshxyH2gkHiJvdLrj5ESnCbQCyJ3KQOH\nZeyssvsGcC0rXAMEoPXzVNf8rrnYg0bD/qhnrhTEl4yvvgXGoPsXgItF3VCvgIjg\nMAe7lTOfrmyAS7x7wUox8CpKp87AgwMkwR5dXiQLhM1RnCwavHcyOPSEDdTSheNb\nGpP1aXydbKPzJQhnEFof\n=Y+rt\n-----END PGP SIGNATURE-----\n",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqBZRgCRC1aQ7uu5UhlAAAQqYQAASofQsBDFuozjJjk5J/Y3XM\nVUCn/Vy+xcPl/y253x9rzo9Lw6IZK/JA0A4rwn1s3+CCl5mu/fSKsXBcT0Pcx5fi\nrA9M+nCqfjsvYD3rn5MIBqPPv1bHGWv4Rz7wr+U+gBMINi/KMVJzxG1zxHmUBext\nmzhm/HHsFJA1yRdHCpWk+0siLG5awKSljJSkRcpdagHRtKIZqW+zl3M83vnyJ41p\nuJ7ZBG18gWFA7xq4APOpw5nOb3azVhlxyGONRDgQE4A2iEXX8Yx2yv8vQT8t3eJ7\nkI/FyrQQV/f56vnGj4LjRtVlEX0Fim0LoY2KY0zPkX+r2/44vh7/r02WdCi48G/A\nwjEBZ1yPzGbnWrJDx7hmr3sosISELjmSNVBUJP5zbb8wWrKWIsxQchDF6ENU2ztx\nH0jJtgSdiBgyllogc25t8c5mHylyff/SFdMZZXjsuiai+VXraqJtB0LhtwdkLlR4\nq9ODaCEasZqhqvz9s1rxlBvzA42cS/9WE4+92sKmRFrfvdZun5UH1jb4d1946Fml\nSViqKLBQtArbZxlM4EsUJ3mUlHzhn4t50rR7bHjobEvFMuwtnWhJX8zyqZI/Esyp\nxZnOnMhh7S1VqLpPtH9P6jX4YB60Hw8aizDBO0u+eqO309rSal08gVT3KJNCW1aY\nJpDvBHU1nT2Ldw+s+kj5\n=t2BP\n-----END PGP SIGNATURE-----\n",
                     "verified": true,
-                    "verified_at": "2026-05-09T19:41:23Z"
+                    "verified_at": "2026-05-14T09:22:41Z"
                 }
             },
             "committer": {
@@ -354,8 +355,8 @@
                 "url": "https://api.github.com/users/web-flow",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/5f4f38f9d7bd9c203738b00af7ba691cf15f9088",
-            "node_id": "C_kwDOA7zIGtoAKDVmNGYzOGY5ZDdiZDljMjAzNzM4YjAwYWY3YmE2OTFjZjE1ZjkwODg",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/bab03670b21f640dd97076f8eea81cc159b0f1e1",
+            "node_id": "C_kwDOA7zIGtoAKGJhYjAzNjcwYjIxZjY0MGRkOTcwNzZmOGVlYTgxY2MxNTliMGYxZTE",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/c-toxcore/commit/71c354bfea8720f0fbdc40d3c67290799a64df51",
@@ -363,8 +364,8 @@
                     "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/71c354bfea8720f0fbdc40d3c67290799a64df51"
                 }
             ],
-            "sha": "5f4f38f9d7bd9c203738b00af7ba691cf15f9088",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/5f4f38f9d7bd9c203738b00af7ba691cf15f9088"
+            "sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bab03670b21f640dd97076f8eea81cc159b0f1e1"
         }
     ],
     "commits": 1,
@@ -398,8 +399,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 303,
-            "forks_count": 303,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -438,8 +439,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 211,
-            "open_issues_count": 211,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -464,11 +465,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-05-09T19:41:33Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23486,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2636,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -485,14 +486,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-05-08T22:37:37Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2636,
-            "watchers_count": 2636,
+            "watchers": 2676,
+            "watchers_count": 2676,
             "web_commit_signoff_required": true
         },
-        "sha": "5f4f38f9d7bd9c203738b00af7ba691cf15f9088",
+        "sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -531,15 +532,35 @@
     ],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "7bea64f3e12f319d3149fda6caaf392186e9fc2a",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "merge_commit_sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-05-14T09:47:36Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+        "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Green-Sky/followers",
+        "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Green-Sky",
+        "id": 2938071,
+        "login": "Green-Sky",
+        "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+        "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+        "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+        "repos_url": "https://api.github.com/users/Green-Sky/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Green-Sky",
+        "user_view_type": "public"
+    },
     "milestone": {
-        "closed_at": null,
-        "closed_issues": 18,
+        "closed_at": "2026-06-03T20:34:35Z",
+        "closed_issues": 34,
         "created_at": "2025-05-15T19:52:30Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
@@ -569,25 +590,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52/labels",
         "node_id": "MI_kwDOA7zIGs4AxOU2",
         "number": 52,
-        "open_issues": 2,
-        "state": "open",
+        "open_issues": 0,
+        "state": "closed",
         "title": "v0.2.23",
-        "updated_at": "2026-05-09T08:07:11Z",
+        "updated_at": "2026-06-03T20:34:36Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/52"
     },
     "node_id": "PR_kwDOA7zIGs7Zz8ic",
     "number": 3039,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/3039.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3039/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/5f4f38f9d7bd9c203738b00af7ba691cf15f9088",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/bab03670b21f640dd97076f8eea81cc159b0f1e1",
     "title": "chore: Release v0.2.23-rc.1",
-    "updated_at": "2026-05-09T19:41:35Z",
+    "updated_at": "2026-05-14T09:47:36Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3039",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",

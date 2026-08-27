@@ -3,16 +3,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-ios-arm64.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:52:04Z",
-            "digest": "sha256:e0e16c8d6cdc6c22a06fecf8ddc79081999a00b409aeef76cdd590d8bd1a85c6",
-            "download_count": 0,
-            "id": 415233170,
+            "created_at": "2026-05-29T12:30:42Z",
+            "digest": "sha256:94d825890243fdb138a1f62bae42d29409dad9e9af28ec7c671d957f5169b637",
+            "download_count": 17,
+            "id": 433012041,
             "label": "",
             "name": "qt-static-ios-arm64.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_SS",
+            "node_id": "RA_kwDOBBORvM4Zzz1J",
             "size": 27089716,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:52:05Z",
+            "updated_at": "2026-05-29T12:30:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -34,21 +34,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415233170"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433012041"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-iphonesimulator-arm64.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:52:06Z",
-            "digest": "sha256:fda4d3a02b457e99e71c0fac93be91b7bc228ecc16287946f81412b0e0e15593",
-            "download_count": 0,
-            "id": 415233183,
+            "created_at": "2026-05-29T12:31:04Z",
+            "digest": "sha256:1fece254faef199b7346ad7763ddc6f7b15376999ffaebaf185f9038e6cf0c7c",
+            "download_count": 9,
+            "id": 433012326,
             "label": "",
             "name": "qt-static-iphonesimulator-arm64.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_Sf",
+            "node_id": "RA_kwDOBBORvM4Zzz5m",
             "size": 27072100,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:52:07Z",
+            "updated_at": "2026-05-29T12:31:05Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -70,21 +70,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415233183"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433012326"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-iphonesimulator-x86_64.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:52:52Z",
-            "digest": "sha256:70fb6fe2acc386c5ab38db5269cdaf44d2b87d5c4f6ced686c0d1a31da57617b",
-            "download_count": 0,
-            "id": 415233968,
+            "created_at": "2026-05-29T12:31:44Z",
+            "digest": "sha256:95a8f27469dde914713158d2b4d66ae3f5ba3b16629aa7b293ac8f27d98c888b",
+            "download_count": 9,
+            "id": 433012819,
             "label": "",
             "name": "qt-static-iphonesimulator-x86_64.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_ew",
+            "node_id": "RA_kwDOBBORvM4Zz0BT",
             "size": 26118332,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:52:54Z",
+            "updated_at": "2026-05-29T12:31:46Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -106,21 +106,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415233968"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433012819"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-macos-arm64-10.15.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:50:26Z",
-            "digest": "sha256:a75ce207e46fa4ab7050b78c9efbaaaf4ff8d39aada4f9de1d2bae8d02be7354",
-            "download_count": 7,
-            "id": 415232263,
+            "created_at": "2026-05-29T12:28:01Z",
+            "digest": "sha256:e34e02fc792db27b7f01368ff8d56b95862a1d1a3f74045c6e5a33143e6edd40",
+            "download_count": 256,
+            "id": 433010131,
             "label": "",
             "name": "qt-static-macos-arm64-10.15.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_EH",
+            "node_id": "RA_kwDOBBORvM4ZzzXT",
             "size": 52762472,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:50:29Z",
+            "updated_at": "2026-05-29T12:28:04Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -142,21 +142,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415232263"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433010131"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-macos-arm64-12.0.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:50:25Z",
-            "digest": "sha256:4f8718ad326d40479a520086bddb60f5ce8c0144df2bbd36a8f6b563e4faaad6",
-            "download_count": 3,
-            "id": 415232254,
+            "created_at": "2026-05-29T12:27:57Z",
+            "digest": "sha256:60b209032b0c2dd1d2ff17a90a8dfe3147e3917e3953207fe84161561d013296",
+            "download_count": 240,
+            "id": 433010068,
             "label": "",
             "name": "qt-static-macos-arm64-12.0.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_D-",
+            "node_id": "RA_kwDOBBORvM4ZzzWU",
             "size": 45992864,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:50:27Z",
+            "updated_at": "2026-05-29T12:27:59Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -178,21 +178,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415232254"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433010068"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-macos-x86_64-10.15.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:51:26Z",
-            "digest": "sha256:44a9621e1b4b98fe051c4553f1c0642517f1bbc4bec8f188c234baa2a9f67804",
-            "download_count": 3,
-            "id": 415232837,
+            "created_at": "2026-05-29T12:29:00Z",
+            "digest": "sha256:b43f27f786a3d3fde83a52713ce26725f15cdf1be004968a5bbc29e53e4ed083",
+            "download_count": 210,
+            "id": 433010789,
             "label": "",
             "name": "qt-static-macos-x86_64-10.15.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_NF",
+            "node_id": "RA_kwDOBBORvM4Zzzhl",
             "size": 56770834,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:51:29Z",
+            "updated_at": "2026-05-29T12:29:03Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -214,21 +214,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415232837"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433010789"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qt-static-macos-x86_64-12.0.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-08T11:51:21Z",
-            "digest": "sha256:c68cccb9e46fe1650a083f764814e576d538c1a665072b1d15adb3f84a881f41",
-            "download_count": 3,
-            "id": 415232763,
+            "created_at": "2026-05-29T12:28:28Z",
+            "digest": "sha256:bea5a568d69721827bdbfaebf9227936fcbd8ea04adde7fff0dbb7e2c9f8d48e",
+            "download_count": 210,
+            "id": 433010454,
             "label": "",
             "name": "qt-static-macos-x86_64-12.0.tar.gz",
-            "node_id": "RA_kwDOBBORvM4Yv_L7",
+            "node_id": "RA_kwDOBBORvM4ZzzcW",
             "size": 49527710,
             "state": "uploaded",
-            "updated_at": "2026-05-08T11:51:23Z",
+            "updated_at": "2026-05-29T12:28:31Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -250,7 +250,7 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/415232763"
+            "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/assets/433010454"
         },
         {
             "browser_download_url": "https://github.com/TokTok/dockerfiles/releases/download/nightly/qtox-wasm-buildhome.tar.gz",
@@ -312,7 +312,7 @@
         "user_view_type": "public"
     },
     "body": "",
-    "created_at": "2026-05-08T07:06:54Z",
+    "created_at": "2026-05-25T15:00:54Z",
     "draft": false,
     "html_url": "https://github.com/TokTok/dockerfiles/releases/tag/nightly",
     "id": 198878243,
@@ -324,7 +324,7 @@
     "tag_name": "nightly",
     "tarball_url": "https://api.github.com/repos/TokTok/dockerfiles/tarball/nightly",
     "target_commitish": "master",
-    "updated_at": "2026-05-08T11:52:54Z",
+    "updated_at": "2026-05-29T12:31:46Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/dockerfiles/releases/198878243/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/dockerfiles/releases/198878243",
     "zipball_url": "https://api.github.com/repos/TokTok/dockerfiles/zipball/nightly"

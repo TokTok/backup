@@ -4,8 +4,28 @@
     "assignees": [],
     "author_association": "NONE",
     "body": "### Contact Details (e.g. Tox ID or email)\n\n_No response_\n\n### qTox Version\n\n_No response_\n\n### Commit Hash\n\naeef7e241c4c994661c32109f78c9458771f425a\n\n### Toxcore Version\n\n0.2.20\n\n### Qt Version\n\n6.9.2\n\n### Steps to reproduce\n\n## Affected Component\n\n`src/persistence/settingsserializer.cpp` — `readStream(QDataStream&, QByteArray&)` function\n\n## Affected Versions\n\nAll versions containing the `SettingsSerializer` binary format deserializer.\n\n## Description\n\nThe `readStream()` function in `SettingsSerializer` implements a custom variable-length integer (VInt) decoder to read a size prefix from serialized settings data, then allocates a `QByteArray` of that size:\n\n```cpp\nQDataStream& readStream(QDataStream& dataStream, QByteArray& data)\n{\n    char num3;\n    int num = 0;\n    int num2 = 0;\n    do {\n        dataStream.readRawData(&num3, 1);\n        num |= (num3 & 0x7f) << num2;    // BUG 1: signed left-shift UB\n        num2 += 7;\n    } while ((num3 & 0x80) != 0);        // BUG 2: no bounds check\n    data.resize(num);                      // BUG 3: unbounded allocation\n    dataStream.readRawData(data.data(), num);\n    return dataStream;\n}\n```\n\nThree related bugs exist:\n\n1. **Signed integer overflow / undefined behavior in shift**: When `num2` reaches 28 and the byte value has bit 6 set (`num3 & 0x7f ≥ 64`), the expression `(num3 & 0x7f) << num2` produces signed integer overflow, which is undefined behavior per the C++ standard. Compilers may optimize away subsequent checks or produce unpredictable control flow.\n\n2. **No upper bound on VInt size or shift count**: The loop has no guard on `num2` or the accumulated `num` value before calling `data.resize(num)`. A crafted settings file can encode a VInt that decodes to `0x7FFFFFFF` (2GB), causing `QByteArray::resize(2147483647)` — an out-of-memory crash. This contrasts with `dataToVInt()` in `src/persistence/serialize.cpp`, which correctly checks `num2 > intWidth` before the shift and returns 0 on overflow.\n\n3. **No `QDataStream` error status check**: After `readRawData`, the stream may be in an error state (e.g. premature EOF), but the code never checks `dataStream.status()`. On a truncated file, `data.resize(num)` allocates a buffer but `readRawData` reads fewer bytes, leaving uninitialized heap memory in the `QByteArray`.\n\n## Attack Vector\n\n- **Local**: A crafted `<profile>.ini` file placed in the qTox settings directory (`~/.config/tox/` on Linux)\n- The settings file is read on startup before any password prompt for non-encrypted profiles\n-  For encrypted profiles, the encrypted file still passes through `readStream()` after decryption\n- **Trigger**: The `SettingsSerializer::isSerializedFormat()` check only looks for the `QTOX` magic bytes (`0x51 0x54 0x4F 0x58`) at the start of the file to route to the binary deserializer — easily crafted\n\n## Impact\n\n- **Denial of Service (crash)**: Unbounded `QByteArray::resize()` with a huge value causes OOM and immediate process termination\n- **Potential code execution**: If the compiler exploits the signed overflow UB to produce an unexpectedly small `num`, the subsequent `data.resize(num)` could under-allocate and `readRawData` could write past the buffer — a heap buffer overflow\n- **Information leak**: On truncated files, uninitialized heap data may be accessible through the under-filled `QByteArray`\n\n## Comparison with `dataToVInt()`\n\nThe sibling function `dataToVInt()` in `src/persistence/serialize.cpp` correctly handles these cases:\n\n```cpp\nint dataToVInt(const QByteArray& data)\n{\n    char num3;\n    int num = 0;\n    size_t num2 = 0;\n    int i = 0;\n    do {\n        if (i >= data.size()) { return 0; }      // bounds check\n        num3 = data[i++];\n        num |= static_cast<int>(num3 & 0x7f) << num2;\n        num2 += 7;\n        if (num2 > intWidth) { return 0; }         // overflow guard\n    } while ((num3 & 0x80) != 0);\n    return num;\n}\n```\n\n`readStream()` was missing both the bounds check and the overflow guard.\n\n## Fix\n\nApplied to `src/persistence/settingsserializer.cpp`:\n\n```cpp\nQDataStream& readStream(QDataStream& dataStream, QByteArray& data)\n{\n    char num3;\n    int num = 0;\n    int num2 = 0;\n    do {\n        if (dataStream.status() != QDataStream::Ok) {\n            data.clear();\n            return dataStream;\n        }\n        dataStream.readRawData(&num3, 1);\n        num |= (num3 & 0x7f) << num2;\n        num2 += 7;\n        if (num2 > static_cast<int>(sizeof(int) * CHAR_BIT)) {\n            data.clear();\n            return dataStream;\n        }\n    } while ((num3 & 0x80) != 0);\n    if (num <= 0 || dataStream.status() != QDataStream::Ok) {\n        data.clear();\n        return dataStream;\n    }\n    data.resize(num);\n    dataStream.readRawData(data.data(), num);\n    return dataStream;\n}\n```\n\n### Changes\n\n1. **Stream status check before each read**: Checks `dataStream.status() != QDataStream::Ok` at the top of the loop to detect premature EOF or I/O errors. Returns with `data` cleared on failure.\n\n2. **Overflow guard matching `dataToVInt()`**: Added `num2 > sizeof(int) * CHAR_BIT` check after the shift. Since `num2` increments by 7, the guard fires after at most 5 iterations (shifts 0, 7, 14, 21, 28), rejecting any VInt that would require more than 32 bits. This caps the maximum decoded value to `2^31 - 1` and prevents both signed overflow and unbounded allocation.\n\n3. **Post-loop validity check**: Added `num <= 0 || dataStream.status() != QDataStream::Ok` guard after the loop. This rejects zero or negative sizes before `data.resize()` and catches streams that reached EOF during the VInt read.\n\n4. **Added `#include <climits>`**: Required for the `CHAR_BIT` macro used in the overflow guard.\n\n## Proof of Concept\n\nLocated at [tools/poc_settingsserializer_crash.py](https://github.com/lggcs/qTox/commit/c0fe72703208aa6260bf46c5774937d3cec05e7b). Generates a minimal settings file starting with the `QTOX` magic bytes followed by a VInt-encoded size of `0x7FFFFFFF`. When placed as `<profile>.ini` in the settings directory and qTox is started, the unpatched code crashes with OOM. The patched code rejects the file gracefully.\n\n## References\n\n- Companion function: `src/persistence/serialize.cpp` — `dataToVInt()` (has correct guards)\n- Fuzzer test: `test/persistence/serialize_fuzz_test.cpp` — fuzzes `dataToVInt()` but not `readStream()`\n- Settings file format: `src/persistence/settingsserializer.cpp` — `readSerialized()` and `isSerializedFormat()`\n- Settings file location: `src/persistence/settings.cpp:621` — `SettingsSerializer ps(filePath, profile.getPasskey())`\n\n### Observed Behavior\n\nCrashes\n\n### Expected Behavior\n\nShould properly handle and not crash.\n\n### Reproducibility\n\nAlways\n\n### Operating System\n\nLinux\n\n### Operating System version/distro/name/etc.\n\nUbuntu 25.10\n\n### Relevant log output\n\n```shell\n:0 : Warning: QSocketNotifier: Can only be used with threads started with QThread\nDebug: \"Loading settings from /home/user/.config/tox/qtox.ini\"\nipc.cpp:61 : Debug: Our global IPC ID is  13996095774899496091\nmain.cpp:305 : Debug: commit:  build without git\npersistence/profile.cpp:146 : Debug: Loading tox save  \"/home/user/.config/tox/test.tox\"\npersistence/settings.cpp:490 : Debug: Loading personal settings from \"/home/user/.config/tox/test.ini\"\npersistence/settingsserializer.cpp:344 : Warning: We have a password, but the settings file is not encrypted\nterminate called after throwing an instance of 'std::bad_alloc'\n  what():  std::bad_alloc\nAborted\n```",
-    "closed_at": null,
-    "closed_by": null,
+    "closed_at": "2026-08-21T07:02:42Z",
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+        "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+        "followers_url": "https://api.github.com/users/Green-Sky/followers",
+        "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/Green-Sky",
+        "id": 2938071,
+        "login": "Green-Sky",
+        "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+        "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+        "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+        "repos_url": "https://api.github.com/users/Green-Sky/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/Green-Sky",
+        "user_view_type": "public"
+    },
     "comment_data": [],
     "comments": 0,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/706/comments",
@@ -38,6 +58,7 @@
             "created_at": "2026-04-15T17:14:31Z",
             "event": "labeled",
             "id": 24537735960,
+            "intent": null,
             "label": {
                 "color": "ee0701",
                 "name": "bug"
@@ -73,9 +94,48 @@
             "created_at": "2026-04-15T17:14:32Z",
             "event": "issue_type_added",
             "id": 24537736137,
+            "intent": null,
+            "issue_type": {
+                "color": "red",
+                "id": 2333477,
+                "name": "Bug"
+            },
             "node_id": "ITAE_lADOA9gydM7-iqm-zwAAAAW2kCPJ",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/24537736137"
+        },
+        {
+            "actor": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            },
+            "commit_id": null,
+            "commit_url": null,
+            "created_at": "2026-08-21T07:02:42Z",
+            "event": "closed",
+            "id": 29788522784,
+            "intent": null,
+            "node_id": "CE_lADOA9gydM7-iqm-zwAAAAbviMkg",
+            "performed_via_github_app": null,
+            "state_reason": null,
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/events/29788522784"
         }
     ],
     "events_url": "https://api.github.com/repos/TokTok/qTox/issues/706/events",
@@ -87,6 +147,7 @@
         "total_blocked_by": 0,
         "total_blocking": 0
     },
+    "issue_field_values": [],
     "labels": [
         {
             "color": "ee0701",
@@ -118,8 +179,8 @@
         "url": "https://api.github.com/repos/TokTok/qTox/issues/706/reactions"
     },
     "repository_url": "https://api.github.com/repos/TokTok/qTox",
-    "state": "open",
-    "state_reason": null,
+    "state": "closed",
+    "state_reason": "completed",
     "sub_issues_summary": {
         "completed": 0,
         "percent_completed": 0,
@@ -137,7 +198,7 @@
         "node_id": "IT_kwDOAQnqk84AI5sl",
         "updated_at": "2024-07-26T10:39:38Z"
     },
-    "updated_at": "2026-04-15T17:14:30Z",
+    "updated_at": "2026-08-21T07:02:42Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/706",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/2497938?v=4",

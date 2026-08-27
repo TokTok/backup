@@ -111,6 +111,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://toktok.ltd",
             "hooks_url": "https://api.github.com/repos/TokTok/zig-toxcore-c/hooks",
@@ -161,6 +162,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/zig-toxcore-c/pulls{/number}",
             "pushed_at": "2025-01-12T23:35:21Z",
             "releases_url": "https://api.github.com/repos/TokTok/zig-toxcore-c/releases{/id}",
@@ -187,7 +189,7 @@
             "visibility": "public",
             "watchers": 2,
             "watchers_count": 2,
-            "web_commit_signoff_required": false
+            "web_commit_signoff_required": true
         },
         "sha": "23385b2e0e93a47abd60b5943072023c060f0fa8",
         "user": {
@@ -343,10 +345,11 @@
             "git_tags_url": "https://api.github.com/repos/iphydf/zig-toxcore-c/git/tags{/sha}",
             "git_url": "git://github.com/iphydf/zig-toxcore-c.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": true,
             "homepage": null,
             "hooks_url": "https://api.github.com/repos/iphydf/zig-toxcore-c/hooks",
@@ -397,6 +400,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/zig-toxcore-c/pulls{/number}",
             "pushed_at": "2025-01-12T23:35:25Z",
             "releases_url": "https://api.github.com/repos/iphydf/zig-toxcore-c/releases{/id}",

@@ -3,16 +3,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/arm64.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:11:32Z",
-            "digest": "sha256:23f25420dc617d718a4b67f0ff34fb98db069f3b475f1a3bbf2eae9512559b3e",
+            "created_at": "2026-08-02T05:49:20Z",
+            "digest": "sha256:a4feb0b32d1a1977e99e6ca1a65634b94efc3c95310c77717998eab720ea6f1f",
             "download_count": 0,
-            "id": 336060158,
+            "id": 498610669,
             "label": "",
             "name": "arm64.tar",
-            "node_id": "RA_kwDOBAGDkM4UB97-",
-            "size": 980746240,
+            "node_id": "RA_kwDOBAGDkM4duDHt",
+            "size": 966420480,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:11:55Z",
+            "updated_at": "2026-08-02T05:49:55Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -34,21 +34,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336060158"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498610669"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/asan.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:10:41Z",
-            "digest": "sha256:1ce7ed7b9d193e1d16952dce804513060e596fb3d72b4accc924577cb58693a0",
-            "download_count": 500,
-            "id": 336059935,
+            "created_at": "2026-08-02T05:48:40Z",
+            "digest": "sha256:7c2ed962c91d6b4bae394945025288c7cd6b4765ce64abcf2a16da5971b67600",
+            "download_count": 16,
+            "id": 498609765,
             "label": "",
             "name": "asan.tar",
-            "node_id": "RA_kwDOBAGDkM4UB94f",
-            "size": 435988480,
+            "node_id": "RA_kwDOBAGDkM4duC5l",
+            "size": 779264000,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:10:57Z",
+            "updated_at": "2026-08-02T05:49:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -70,21 +70,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336059935"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498609765"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/debug.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:11:20Z",
-            "digest": "sha256:4c82d0c22f62f6a82b68fe3a48d8aa7996f29e84175ac787de851e226fabb763",
-            "download_count": 506,
-            "id": 336060117,
+            "created_at": "2026-08-02T06:45:58Z",
+            "digest": "sha256:9c8446e5b1ecca16dbae899c3b98bf69d98b2d4d53ae91a7660fe9f6ce0efc47",
+            "download_count": 17,
+            "id": 498651618,
             "label": "",
             "name": "debug.tar",
-            "node_id": "RA_kwDOBAGDkM4UB97V",
-            "size": 987770880,
+            "node_id": "RA_kwDOBAGDkM4duNHi",
+            "size": 641249280,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:11:38Z",
+            "updated_at": "2026-08-02T06:46:24Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -106,21 +106,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336060117"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498651618"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/fastbuild.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:11:43Z",
-            "digest": "sha256:ec08a36414dc888a969694196f15536c43f83d4af35c11b041c59c55db9aead4",
+            "created_at": "2026-08-02T06:34:08Z",
+            "digest": "sha256:10a15f1071118570dc8a92c05333961c364a0e1040e2a149ec3bb83bc89037ab",
             "download_count": 0,
-            "id": 336060212,
+            "id": 498644148,
             "label": "",
             "name": "fastbuild.tar",
-            "node_id": "RA_kwDOBAGDkM4UB980",
-            "size": 855900160,
+            "node_id": "RA_kwDOBAGDkM4duLS0",
+            "size": 869908480,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:12:12Z",
+            "updated_at": "2026-08-02T06:34:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -142,21 +142,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336060212"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498644148"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/msan.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:10:31Z",
-            "digest": "sha256:43d3cab499a10e9366b6a5ed2848a104f2d855a74aad133e4bc924d69c78b5c9",
-            "download_count": 512,
-            "id": 336059823,
+            "created_at": "2026-08-02T05:48:43Z",
+            "digest": "sha256:211be2105d18b09bc029276d37db9c1c5876df48f4e3b7ae8188faf01d8966d7",
+            "download_count": 16,
+            "id": 498609793,
             "label": "",
             "name": "msan.tar",
-            "node_id": "RA_kwDOBAGDkM4UB92v",
-            "size": 183050240,
+            "node_id": "RA_kwDOBAGDkM4duC6B",
+            "size": 278763520,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:10:35Z",
+            "updated_at": "2026-08-02T05:48:53Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -178,21 +178,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336059823"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498609793"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/release.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:11:32Z",
-            "digest": "sha256:0d4ee3d0da4b82c0b57346c91be3e58d7b03aa358d478ff2e601855b1883a0fc",
-            "download_count": 1273,
-            "id": 336060157,
+            "created_at": "2026-08-02T05:49:26Z",
+            "digest": "sha256:f3eb19950d7ca07f2e37198b24a4f573124874381327d0a11ccdd16cc5d35fba",
+            "download_count": 66,
+            "id": 498610783,
             "label": "",
             "name": "release.tar",
-            "node_id": "RA_kwDOBAGDkM4UB979",
-            "size": 913203200,
+            "node_id": "RA_kwDOBAGDkM4duDJf",
+            "size": 931287040,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:11:52Z",
+            "updated_at": "2026-08-02T05:49:59Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -214,21 +214,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336060157"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498610783"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/tsan.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:11:29Z",
-            "digest": "sha256:343d2437a4174048b7d4bc2c900e3f6635708a598aabf8c4b5a7592910226f53",
+            "created_at": "2026-08-02T05:48:20Z",
+            "digest": "sha256:29e634c1a8570d3ec0af20ed455278b41238c4d01727001b2af91445868f0c9f",
             "download_count": 0,
-            "id": 336060151,
+            "id": 498609586,
             "label": "",
             "name": "tsan.tar",
-            "node_id": "RA_kwDOBAGDkM4UB973",
-            "size": 382586880,
+            "node_id": "RA_kwDOBAGDkM4duC2y",
+            "size": 688107520,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:11:38Z",
+            "updated_at": "2026-08-02T05:48:37Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -250,21 +250,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336060151"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498609586"
         },
         {
             "browser_download_url": "https://github.com/TokTok/toktok-stack/releases/download/nightly/windows.tar",
             "content_type": "raw",
-            "created_at": "2026-01-04T04:11:12Z",
-            "digest": "sha256:71e5f6d71f60dfd35b8bd05510b17a566f7635479b8ea5dd0a037b5ba34b8082",
+            "created_at": "2026-08-02T05:49:24Z",
+            "digest": "sha256:a9e987e7b47ff1bcf56311b3070444d94c0b4ddb5b1b8118d2816655f1a20d55",
             "download_count": 0,
-            "id": 336060047,
+            "id": 498610755,
             "label": "",
             "name": "windows.tar",
-            "node_id": "RA_kwDOBAGDkM4UB96P",
-            "size": 673280000,
+            "node_id": "RA_kwDOBAGDkM4duDJD",
+            "size": 1017384960,
             "state": "uploaded",
-            "updated_at": "2026-01-04T04:11:27Z",
+            "updated_at": "2026-08-02T05:49:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -286,7 +286,7 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/336060047"
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/assets/498610755"
         }
     ],
     "assets_url": "https://api.github.com/repos/TokTok/toktok-stack/releases/201025932/assets",
@@ -324,7 +324,7 @@
     "tag_name": "nightly",
     "tarball_url": "https://api.github.com/repos/TokTok/toktok-stack/tarball/nightly",
     "target_commitish": "master",
-    "updated_at": "2026-01-04T04:12:12Z",
+    "updated_at": "2026-08-02T06:46:24Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/toktok-stack/releases/201025932/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/toktok-stack/releases/201025932",
     "zipball_url": "https://api.github.com/repos/TokTok/toktok-stack/zipball/nightly"

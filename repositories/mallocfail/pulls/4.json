@@ -65,10 +65,11 @@
             "git_tags_url": "https://api.github.com/repos/TokTok/mallocfail/git/tags{/sha}",
             "git_url": "git://github.com/TokTok/mallocfail.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": true,
             "homepage": "",
             "hooks_url": "https://api.github.com/repos/TokTok/mallocfail/hooks",
@@ -119,6 +120,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/mallocfail/pulls{/number}",
             "pushed_at": "2024-01-12T02:10:08Z",
             "releases_url": "https://api.github.com/repos/TokTok/mallocfail/releases{/id}",
@@ -139,7 +141,7 @@
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
-            "web_commit_signoff_required": false
+            "web_commit_signoff_required": true
         },
         "sha": "efd16e04595b7e2943c750acdcf64a1d6b2ec6cb",
         "user": {
@@ -295,10 +297,11 @@
             "git_tags_url": "https://api.github.com/repos/iphydf/mallocfail/git/tags{/sha}",
             "git_url": "git://github.com/iphydf/mallocfail.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": true,
             "homepage": "",
             "hooks_url": "https://api.github.com/repos/iphydf/mallocfail/hooks",
@@ -349,6 +352,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/mallocfail/pulls{/number}",
             "pushed_at": "2024-01-12T02:10:12Z",
             "releases_url": "https://api.github.com/repos/iphydf/mallocfail/releases{/id}",

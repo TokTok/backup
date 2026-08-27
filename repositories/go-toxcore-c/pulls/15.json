@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://toktok.ltd/",
             "hooks_url": "https://api.github.com/repos/TokTok/go-toxcore-c/hooks",
@@ -95,8 +96,8 @@
             "name": "go-toxcore-c",
             "node_id": "MDEwOlJlcG9zaXRvcnkxMTg0NzY5MTg=",
             "notifications_url": "https://api.github.com/repos/TokTok/go-toxcore-c/notifications{?since,all,participating}",
-            "open_issues": 3,
-            "open_issues_count": 3,
+            "open_issues": 6,
+            "open_issues_count": 6,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls{/number}",
-            "pushed_at": "2025-01-16T19:48:50Z",
+            "pushed_at": "2026-05-17T13:44:13Z",
             "releases_url": "https://api.github.com/repos/TokTok/go-toxcore-c/releases{/id}",
-            "size": 298,
+            "size": 333,
             "ssh_url": "git@github.com:TokTok/go-toxcore-c.git",
-            "stargazers_count": 63,
+            "stargazers_count": 71,
             "stargazers_url": "https://api.github.com/repos/TokTok/go-toxcore-c/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/go-toxcore-c/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/go-toxcore-c/subscribers",
@@ -136,12 +138,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/trees{/sha}",
-            "updated_at": "2024-12-29T11:21:22Z",
+            "updated_at": "2026-05-17T13:44:17Z",
             "url": "https://api.github.com/repos/TokTok/go-toxcore-c",
             "visibility": "public",
-            "watchers": 63,
-            "watchers_count": 63,
-            "web_commit_signoff_required": false
+            "watchers": 71,
+            "watchers_count": 71,
+            "web_commit_signoff_required": true
         },
         "sha": "a0b2284c7ca912b6ce27c6ea632153cc0928e3dd",
         "user": {
@@ -173,11 +175,12 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/go-toxcore-c?pullRequest=15) <br/>Thank you for your submission, we really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/go-toxcore-c?pullRequest=15) before we can accept your contribution.<br/>**2** out of **3** committers have signed the CLA.<br/><br/>:white_check_mark: iphydf<br/>:white_check_mark: envsh<br/>:x: kitech<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/go-toxcore-c?pullRequest=15) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/go-toxcore-c?pullRequest=15) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/go-toxcore-c?pullRequest=15) before we can accept your contribution.<br/>**1** out of **3** committers have signed the CLA.<br/><br/>:white_check_mark: iphydf<br/>:x: kitech<br/>:x: envsh<br/><hr/>**envsh** seems not to be a GitHub user. You need a GitHub account to be able to sign the CLA. If you have already a GitHub account, please [add the email address used for this commit to your account](https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user/#commits-are-not-linked-to-any-user).<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/go-toxcore-c?pullRequest=15) it.</sub>",
             "created_at": "2018-06-19T15:32:57Z",
             "html_url": "https://github.com/TokTok/go-toxcore-c/pull/15#issuecomment-398442767",
             "id": 398442767,
             "issue_url": "https://api.github.com/repos/TokTok/go-toxcore-c/issues/15",
+            "minimized": null,
             "node_id": "MDEyOklzc3VlQ29tbWVudDM5ODQ0Mjc2Nw==",
             "performed_via_github_app": null,
             "reactions": {
@@ -192,7 +195,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/go-toxcore-c/issues/comments/398442767/reactions"
             },
-            "updated_at": "2018-07-26T11:14:34Z",
+            "updated_at": "2026-06-17T21:13:54Z",
             "url": "https://api.github.com/repos/TokTok/go-toxcore-c/issues/comments/398442767",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -223,6 +226,7 @@
             "html_url": "https://github.com/TokTok/go-toxcore-c/pull/15#issuecomment-399703019",
             "id": 399703019,
             "issue_url": "https://api.github.com/repos/TokTok/go-toxcore-c/issues/15",
+            "minimized": null,
             "node_id": "MDEyOklzc3VlQ29tbWVudDM5OTcwMzAxOQ==",
             "performed_via_github_app": null,
             "reactions": {
@@ -636,10 +640,11 @@
             "git_tags_url": "https://api.github.com/repos/envsh/go-toxcore-c/git/tags{/sha}",
             "git_url": "git://github.com/envsh/go-toxcore-c.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "",
             "hooks_url": "https://api.github.com/repos/envsh/go-toxcore-c/hooks",
@@ -690,10 +695,11 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/envsh/go-toxcore-c/pulls{/number}",
-            "pushed_at": "2019-05-08T21:17:27Z",
+            "pushed_at": "2026-05-06T08:14:57Z",
             "releases_url": "https://api.github.com/repos/envsh/go-toxcore-c/releases{/id}",
-            "size": 243,
+            "size": 12897,
             "ssh_url": "git@github.com:envsh/go-toxcore-c.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/envsh/go-toxcore-c/stargazers",
@@ -705,7 +711,7 @@
             "teams_url": "https://api.github.com/repos/envsh/go-toxcore-c/teams",
             "topics": [],
             "trees_url": "https://api.github.com/repos/envsh/go-toxcore-c/git/trees{/sha}",
-            "updated_at": "2018-07-26T11:03:11Z",
+            "updated_at": "2026-04-14T15:27:30Z",
             "url": "https://api.github.com/repos/envsh/go-toxcore-c",
             "visibility": "public",
             "watchers": 0,
@@ -780,7 +786,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/go-toxcore-c/statuses/5ab0076a86fb89b9ac7918cf35380dadb0631f8f",
     "title": "Some fixes about group identity and AV",
-    "updated_at": "2018-08-04T20:23:09Z",
+    "updated_at": "2026-06-17T21:13:54Z",
     "url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls/15",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/32005197?v=4",

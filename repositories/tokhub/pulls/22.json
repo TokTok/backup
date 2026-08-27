@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/tokhub/downloads",
             "events_url": "https://api.github.com/repos/TokTok/tokhub/events",
             "fork": false,
-            "forks": 2,
-            "forks_count": 2,
+            "forks": 1,
+            "forks_count": 1,
             "forks_url": "https://api.github.com/repos/TokTok/tokhub/forks",
             "full_name": "TokTok/tokhub",
             "git_commits_url": "https://api.github.com/repos/TokTok/tokhub/git/commits{/sha}",
@@ -65,7 +65,7 @@
             "git_tags_url": "https://api.github.com/repos/TokTok/tokhub/git/tags{/sha}",
             "git_url": "git://github.com/TokTok/tokhub.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": true,
             "has_pages": true,
             "has_projects": false,
@@ -178,6 +178,7 @@
             "html_url": "https://github.com/TokTok/tokhub/pull/22#issuecomment-2676371492",
             "id": 2676371492,
             "issue_url": "https://api.github.com/repos/TokTok/tokhub/issues/22",
+            "minimized": null,
             "node_id": "IC_kwDONMGdTc6fhjAk",
             "performed_via_github_app": {
                 "client_id": "Iv1.05c79e9ad1f6bdfa",
@@ -252,6 +253,7 @@
                     "copilot_requests": "write",
                     "deployments": "write",
                     "discussions": "write",
+                    "drives": "write",
                     "issues": "write",
                     "merge_queues": "write",
                     "metadata": "read",
@@ -266,7 +268,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2026-05-05T14:51:38Z"
+                "updated_at": "2026-06-18T16:17:48Z"
             },
             "reactions": {
                 "+1": 0,
@@ -311,6 +313,7 @@
             "html_url": "https://github.com/TokTok/tokhub/pull/22#issuecomment-2676372486",
             "id": 2676372486,
             "issue_url": "https://api.github.com/repos/TokTok/tokhub/issues/22",
+            "minimized": null,
             "node_id": "IC_kwDONMGdTc6fhjQG",
             "performed_via_github_app": {
                 "client_id": "Iv1.9d88ef6ecc903626",
@@ -524,8 +527,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/tokhub/downloads",
             "events_url": "https://api.github.com/repos/TokTok/tokhub/events",
             "fork": false,
-            "forks": 2,
-            "forks_count": 2,
+            "forks": 1,
+            "forks_count": 1,
             "forks_url": "https://api.github.com/repos/TokTok/tokhub/forks",
             "full_name": "TokTok/tokhub",
             "git_commits_url": "https://api.github.com/repos/TokTok/tokhub/git/commits{/sha}",
@@ -533,7 +536,7 @@
             "git_tags_url": "https://api.github.com/repos/TokTok/tokhub/git/tags{/sha}",
             "git_url": "git://github.com/TokTok/tokhub.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": true,
             "has_pages": true,
             "has_projects": false,

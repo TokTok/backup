@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/toktok-stack/statuses/c7efe158d68d21e4d779aeaa0bde55bad8a7261f"
+            "href": "https://api.github.com/repos/TokTok/toktok-stack/statuses/1dc818aa0734f4a55e50a22cadc5c6413babc2f7"
         }
     },
     "active_lock_reason": null,
-    "additions": 2668,
+    "additions": 3027,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -122,9 +122,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls{/number}",
-            "pushed_at": "2026-05-05T12:46:49Z",
+            "pushed_at": "2026-08-17T21:35:30Z",
             "releases_url": "https://api.github.com/repos/TokTok/toktok-stack/releases{/id}",
-            "size": 5445,
+            "size": 5461,
             "ssh_url": "git@github.com:TokTok/toktok-stack.git",
             "stargazers_count": 17,
             "stargazers_url": "https://api.github.com/repos/TokTok/toktok-stack/stargazers",
@@ -139,7 +139,7 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees{/sha}",
-            "updated_at": "2026-02-20T07:28:49Z",
+            "updated_at": "2026-05-30T12:09:39Z",
             "url": "https://api.github.com/repos/TokTok/toktok-stack",
             "visibility": "public",
             "watchers": 17,
@@ -170,9 +170,149 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toktok-stack/1033)\n<!-- Reviewable:end -->\n",
-    "changed_files": 100,
-    "closed_at": null,
-    "comment_data": [],
+    "changed_files": 115,
+    "closed_at": "2026-05-16T20:16:10Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toktok-stack/pull/1033#discussion_r3253337385"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments/3253337385"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Really?",
+            "commit_id": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+            "created_at": "2026-05-16T19:20:49Z",
+            "diff_hunk": "@@ -1,4 +1,4 @@\n-#!/usr/bin/env bash\n+#!/bin/bash",
+            "html_url": "https://github.com/TokTok/toktok-stack/pull/1033#discussion_r3253337385",
+            "id": 3253337385,
+            "line": 1,
+            "node_id": "PRRC_kwDOBAGDkM7B6f0p",
+            "original_commit_id": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+            "original_line": 1,
+            "original_position": 2,
+            "original_start_line": null,
+            "path": "tools/project/mkstamp_c.sh",
+            "position": 2,
+            "pull_request_review_id": 4304129136,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments/3253337385/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-05-16T19:20:49Z",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments/3253337385",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
+                "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
+                "followers_url": "https://api.github.com/users/Green-Sky/followers",
+                "following_url": "https://api.github.com/users/Green-Sky/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Green-Sky/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/Green-Sky",
+                "id": 2938071,
+                "login": "Green-Sky",
+                "node_id": "MDQ6VXNlcjI5MzgwNzE=",
+                "organizations_url": "https://api.github.com/users/Green-Sky/orgs",
+                "received_events_url": "https://api.github.com/users/Green-Sky/received_events",
+                "repos_url": "https://api.github.com/users/Green-Sky/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/Green-Sky/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Green-Sky/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/Green-Sky",
+                "user_view_type": "public"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/TokTok/toktok-stack/pull/1033#discussion_r3253364430"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments/3253364430"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I can do a follow-up? It's likely that GitHub actions will fail and we'll need a follow-up anyway. Waiting another 159 minutes for the one line change is probably not worth it now.",
+            "commit_id": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+            "created_at": "2026-05-16T19:44:19Z",
+            "diff_hunk": "@@ -1,4 +1,4 @@\n-#!/usr/bin/env bash\n+#!/bin/bash",
+            "html_url": "https://github.com/TokTok/toktok-stack/pull/1033#discussion_r3253364430",
+            "id": 3253364430,
+            "in_reply_to_id": 3253337385,
+            "line": 1,
+            "node_id": "PRRC_kwDOBAGDkM7B6mbO",
+            "original_commit_id": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+            "original_line": 1,
+            "original_position": 2,
+            "original_start_line": null,
+            "path": "tools/project/mkstamp_c.sh",
+            "position": 2,
+            "pull_request_review_id": 4304151278,
+            "pull_request_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments/3253364430/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "subject_type": "line",
+            "updated_at": "2026-05-16T19:44:19Z",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments/3253364430",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+                "followers_url": "https://api.github.com/users/iphydf/followers",
+                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/iphydf",
+                "id": 10647936,
+                "login": "iphydf",
+                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+                "organizations_url": "https://api.github.com/users/iphydf/orgs",
+                "received_events_url": "https://api.github.com/users/iphydf/received_events",
+                "repos_url": "https://api.github.com/users/iphydf/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/iphydf",
+                "user_view_type": "public"
+            }
+        }
+    ],
     "comment_regular_data": [],
     "comments": 0,
     "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/1033/comments",
@@ -199,7 +339,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/c7efe158d68d21e4d779aeaa0bde55bad8a7261f/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/toktok-stack/commits/1dc818aa0734f4a55e50a22cadc5c6413babc2f7/comments",
             "commit": {
                 "author": {
                     "date": "2026-01-16T19:07:56Z",
@@ -208,22 +348,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-21T19:20:56Z",
+                    "date": "2026-05-16T15:21:06Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "chore: Upgrade to bazel 8.",
                 "tree": {
-                    "sha": "d90610b4792c373f3631bc7e7def92d839bacf00",
-                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/d90610b4792c373f3631bc7e7def92d839bacf00"
+                    "sha": "c4863c0f9591766772b0ac6cabc8c0afe548d595",
+                    "url": "https://api.github.com/repos/TokTok/toktok-stack/git/trees/c4863c0f9591766772b0ac6cabc8c0afe548d595"
                 },
-                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/c7efe158d68d21e4d779aeaa0bde55bad8a7261f",
+                "url": "https://api.github.com/repos/TokTok/toktok-stack/git/commits/1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
                 "verification": {
-                    "payload": "tree d90610b4792c373f3631bc7e7def92d839bacf00\nparent 8cd6a371f74a69c42a740d21e652d07fcf897811\nauthor iphydf <iphydf@users.noreply.github.com> 1768590476 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1771701656 +0000\n\nchore: Upgrade to bazel 8.\n",
+                    "payload": "tree c4863c0f9591766772b0ac6cabc8c0afe548d595\nparent 8cd6a371f74a69c42a740d21e652d07fcf897811\nauthor iphydf <iphydf@users.noreply.github.com> 1768590476 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1778944866 +0000\n\nchore: Upgrade to bazel 8.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmaBZkACgkQOFXbotdE\nA8k6QQf/bzTQCQThSr/btjkH2pJr9SVO38FpHrSQDp0VTGWxuVGQ1ZyzQ480TpwX\n7qMaXVhHSVUnjyoxY/veWubocwP1gseMV8cS4aRfM98/kjsAhb3qCdq6sPWtReJq\n3j+sypoWVCmY4VweLW/gjTr4/O/9wOO1n/xeASwTFpDTAX0pfDxGWeL9KYvDa2rL\njIZ9uoPEvGfZmLV0pTvjkQ0oU2OHMJBArFmnfDJga3y4MqnWrBBU43KXvmEDxbJZ\ntllMELbRwynp1dwjGEis7HWWlq7I6EBfedvZRnus9aoNgBTKVRkfnGt48adO4FzP\n+ZsTyAXmCjUx6HzAH2mYRF4V6IsaLA==\n=jAU5\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoIi2IACgkQOFXbotdE\nA8kB8QgAlRbX42dZWysr2kz8Mj0JYSWoIJY+yzhZLVp/2j5NTsOHoq7xoQ8OvPrs\n4Qc2wpd1cRpFlToj3jwzN1wnruEU+BtzrnUbbC3uo2KMGxT4EoDqnC+KpTw/XTsS\nxscvLC5PLfXrW0zH4kp5D1325q2HvblL55d6t+0wPqPHx5ID87Pcb/2EqUPmBKFW\nrO1Qv7wXQdjPkz85fco67VrmZVoX4JRVCw4v9+lMjHmlIor4GV2Dj7KizpRKMPpi\nf8O42SxLw1960AZwvduALjkrBoQMj1lhdTVn8hRZAhAKpkn4kyx4PaSOP1LhetjC\nQynmcg4FioSQMKXTCzJYDE5D27eGfA==\n=w4xT\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-21T19:21:06Z"
+                    "verified_at": "2026-05-16T15:21:07Z"
                 }
             },
             "committer": {
@@ -247,8 +387,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/toktok-stack/commit/c7efe158d68d21e4d779aeaa0bde55bad8a7261f",
-            "node_id": "C_kwDOK6SO-NoAKGM3ZWZlMTU4ZDY4ZDIxZTRkNzc5YWVhYTBiZGU1NWJhZDhhNzI2MWY",
+            "html_url": "https://github.com/TokTok/toktok-stack/commit/1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+            "node_id": "C_kwDOK6SO-NoAKDFkYzgxOGFhMDczNGY0YTU1ZTUwYTIyY2FkYzVjNjQxM2JhYmMyZjc",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/toktok-stack/commit/8cd6a371f74a69c42a740d21e652d07fcf897811",
@@ -256,16 +396,16 @@
                     "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/8cd6a371f74a69c42a740d21e652d07fcf897811"
                 }
             ],
-            "sha": "c7efe158d68d21e4d779aeaa0bde55bad8a7261f",
-            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/c7efe158d68d21e4d779aeaa0bde55bad8a7261f"
+            "sha": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+            "url": "https://api.github.com/repos/TokTok/toktok-stack/commits/1dc818aa0734f4a55e50a22cadc5c6413babc2f7"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033/commits",
     "created_at": "2026-01-16T19:08:40Z",
-    "deletions": 5904,
+    "deletions": 5999,
     "diff_url": "https://github.com/TokTok/toktok-stack/pull/1033.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:bazel-8",
         "ref": "bazel-8",
@@ -300,7 +440,7 @@
             "git_tags_url": "https://api.github.com/repos/iphydf/toktok-stack/git/tags{/sha}",
             "git_url": "git://github.com/iphydf/toktok-stack.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
@@ -357,9 +497,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/toktok-stack/pulls{/number}",
-            "pushed_at": "2026-02-21T19:21:05Z",
+            "pushed_at": "2026-08-17T21:35:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/toktok-stack/releases{/id}",
-            "size": 5132,
+            "size": 5149,
             "ssh_url": "git@github.com:iphydf/toktok-stack.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/toktok-stack/stargazers",
@@ -371,14 +511,14 @@
             "teams_url": "https://api.github.com/repos/iphydf/toktok-stack/teams",
             "topics": [],
             "trees_url": "https://api.github.com/repos/iphydf/toktok-stack/git/trees{/sha}",
-            "updated_at": "2025-07-12T17:20:35Z",
+            "updated_at": "2026-05-16T20:16:14Z",
             "url": "https://api.github.com/repos/iphydf/toktok-stack",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "c7efe158d68d21e4d779aeaa0bde55bad8a7261f",
+        "sha": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -406,16 +546,36 @@
     "issue_url": "https://api.github.com/repos/TokTok/toktok-stack/issues/1033",
     "labels": [],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "0bc1844533272d1d7a50a5f4b1952bc98b7dc99f",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-05-16T20:16:10Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
+        "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
+        "followers_url": "https://api.github.com/users/iphydf/followers",
+        "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/iphydf",
+        "id": 10647936,
+        "login": "iphydf",
+        "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
+        "organizations_url": "https://api.github.com/users/iphydf/orgs",
+        "received_events_url": "https://api.github.com/users/iphydf/received_events",
+        "repos_url": "https://api.github.com/users/iphydf/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/iphydf",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 549,
+        "closed_issues": 551,
         "created_at": "2020-04-26T16:15:59Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -445,25 +605,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/toktok-stack/milestones/1/labels",
         "node_id": "MDk6TWlsZXN0b25lNTM1MDI4Mw==",
         "number": 1,
-        "open_issues": 2,
+        "open_issues": 1,
         "state": "open",
         "title": "master",
-        "updated_at": "2026-05-05T12:54:49Z",
+        "updated_at": "2026-05-30T12:09:37Z",
         "url": "https://api.github.com/repos/TokTok/toktok-stack/milestones/1"
     },
     "node_id": "PR_kwDOBAGDkM69ruUQ",
     "number": 1033,
     "patch_url": "https://github.com/TokTok/toktok-stack/pull/1033.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/comments{/number}",
-    "review_comments": 0,
+    "review_comments": 2,
     "review_comments_url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/c7efe158d68d21e4d779aeaa0bde55bad8a7261f",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toktok-stack/statuses/1dc818aa0734f4a55e50a22cadc5c6413babc2f7",
     "title": "chore: Upgrade to bazel 8.",
-    "updated_at": "2026-02-21T19:21:06Z",
+    "updated_at": "2026-05-16T20:16:14Z",
     "url": "https://api.github.com/repos/TokTok/toktok-stack/pulls/1033",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/qTox/pulls/696"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/qTox/statuses/f949b05bd80559d3192f83c2dd6e3f6d998de910"
+            "href": "https://api.github.com/repos/TokTok/qTox/statuses/74329de0e2a00dc03fa056f250caa5563e5c3b70"
         }
     },
     "active_lock_reason": null,
-    "additions": 1169,
+    "additions": 1173,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/qTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/qTox/events",
             "fork": true,
-            "forks": 37,
-            "forks_count": 37,
+            "forks": 44,
+            "forks_count": 44,
             "forks_url": "https://api.github.com/repos/TokTok/qTox/forks",
             "full_name": "TokTok/qTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/qTox/git/commits{/sha}",
@@ -96,8 +96,8 @@
             "name": "qTox",
             "node_id": "MDEwOlJlcG9zaXRvcnk2NDUwMDM0MA==",
             "notifications_url": "https://api.github.com/repos/TokTok/qTox/notifications{?since,all,participating}",
-            "open_issues": 111,
-            "open_issues_count": 111,
+            "open_issues": 118,
+            "open_issues_count": 118,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,11 +122,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/qTox/pulls{/number}",
-            "pushed_at": "2026-05-09T01:05:19Z",
+            "pushed_at": "2026-08-24T23:46:33Z",
             "releases_url": "https://api.github.com/repos/TokTok/qTox/releases{/id}",
-            "size": 62278,
+            "size": 63340,
             "ssh_url": "git@github.com:TokTok/qTox.git",
-            "stargazers_count": 343,
+            "stargazers_count": 402,
             "stargazers_url": "https://api.github.com/repos/TokTok/qTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/qTox/subscribers",
@@ -139,11 +139,11 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/qTox/git/trees{/sha}",
-            "updated_at": "2026-05-09T06:09:51Z",
+            "updated_at": "2026-08-27T05:11:01Z",
             "url": "https://api.github.com/repos/TokTok/qTox",
             "visibility": "public",
-            "watchers": 343,
-            "watchers_count": 343,
+            "watchers": 402,
+            "watchers_count": 402,
             "web_commit_signoff_required": true
         },
         "sha": "aeef7e241c4c994661c32109f78c9458771f425a",
@@ -170,7 +170,7 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/qTox/696)\n<!-- Reviewable:end -->\n",
-    "changed_files": 17,
+    "changed_files": 19,
     "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [
@@ -181,6 +181,7 @@
             "html_url": "https://github.com/TokTok/qTox/pull/696#issuecomment-4008616514",
             "id": 4008616514,
             "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/696",
+            "minimized": null,
             "node_id": "IC_kwDOA9gydM7u7qJC",
             "performed_via_github_app": {
                 "client_id": "Iv1.05c79e9ad1f6bdfa",
@@ -255,6 +256,7 @@
                     "copilot_requests": "write",
                     "deployments": "write",
                     "discussions": "write",
+                    "drives": "write",
                     "issues": "write",
                     "merge_queues": "write",
                     "metadata": "read",
@@ -269,7 +271,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2026-05-05T14:51:38Z"
+                "updated_at": "2026-06-18T16:17:48Z"
             },
             "reactions": {
                 "+1": 0,
@@ -283,7 +285,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/4008616514/reactions"
             },
-            "updated_at": "2026-03-06T00:24:39Z",
+            "updated_at": "2026-05-15T22:05:43Z",
             "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/4008616514",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
@@ -333,7 +335,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/f949b05bd80559d3192f83c2dd6e3f6d998de910/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/qTox/commits/74329de0e2a00dc03fa056f250caa5563e5c3b70/comments",
             "commit": {
                 "author": {
                     "date": "2026-03-01T08:17:44Z",
@@ -342,22 +344,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-03-06T00:14:19Z",
+                    "date": "2026-05-15T21:54:13Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "refactor: Extract call/typing/status logic from ChatForm into FriendChatState",
                 "tree": {
-                    "sha": "97ab36c54b5e0582a300e464cad420309a4bd1aa",
-                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/97ab36c54b5e0582a300e464cad420309a4bd1aa"
+                    "sha": "4105155e63c914f5e4e092f33ece199579de9561",
+                    "url": "https://api.github.com/repos/TokTok/qTox/git/trees/4105155e63c914f5e4e092f33ece199579de9561"
                 },
-                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/f949b05bd80559d3192f83c2dd6e3f6d998de910",
+                "url": "https://api.github.com/repos/TokTok/qTox/git/commits/74329de0e2a00dc03fa056f250caa5563e5c3b70",
                 "verification": {
-                    "payload": "tree 97ab36c54b5e0582a300e464cad420309a4bd1aa\nparent aeef7e241c4c994661c32109f78c9458771f425a\nauthor iphydf <iphydf@users.noreply.github.com> 1772353064 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1772756059 +0000\n\nrefactor: Extract call/typing/status logic from ChatForm into FriendChatState\n",
+                    "payload": "tree 4105155e63c914f5e4e092f33ece199579de9561\nparent aeef7e241c4c994661c32109f78c9458771f425a\nauthor iphydf <iphydf@users.noreply.github.com> 1772353064 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1778882053 +0000\n\nrefactor: Extract call/typing/status logic from ChatForm into FriendChatState\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmqHFwACgkQOFXbotdE\nA8ni2gf/WtYCIddBFbMUzCtXgdPtwOBvuts4hAoygonemOTyn73cYzKJFTbztQxx\nWOYWh2JxNJlG4Bk7w8Y+P7sBBr4a6KAQob+sNnvYHCVKnte3LRa/pj6KZA01BgPq\nUYlz8PD4IJFOGEcvD5dIS4v97aNzvEmYgY/vMTmcDUiFE8lgUxccwUqAM+9n7YhP\nUZPLLSIPDy6v0Y9AuzkrEMdNEX8raWLQnJXxSfPV+l3206DAihUcr8rGy/LpmdXU\nl5enVq+cPSgRJ4v1UlJRIpZCnz8RBzHjd4W0MERr1WxqZ3zGAS8u4NNd67fpIHpL\nMU+WZnc3J/wa0GGMyoV7ZIIt7xva0Q==\n=gQfn\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoHlgUACgkQOFXbotdE\nA8l/RggAhStZ1QL2Jr4TO0bu5PoVjGTPLJ0qG5gZ/Ugq4ujW8XouItgQWFdCBPc8\nBIcXafq95iZTKkuwEaIaO/LqiJ8yiCW1EHsVkDSamSoFLQwRlL4aC8c2/BVC2fky\nEzMJqZ4e+lJjHLoCpoCm7f5MRCDn7/xGrrY5ivyU7Ze3lq/nWgW9fZZoL4afnzrh\nXrDeHmwzKoOoJBrEO9vzriUp/g44NeG0FAOd3GKBImKr0DRdfEaUA8GewgF+jhm4\nlzTMzU4PeX5Cd6HKCA5PTthDnf+QcNmb6dpD4mXrTNFW/fs03aKG1U9gddXsDxw2\nU4Y9CuFSix5I/TQF1aXB7EJ0zvxJ9g==\n=uNcP\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-03-06T00:14:32Z"
+                    "verified_at": "2026-05-15T21:55:37Z"
                 }
             },
             "committer": {
@@ -381,8 +383,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/qTox/commit/f949b05bd80559d3192f83c2dd6e3f6d998de910",
-            "node_id": "C_kwDOBF7DatoAKGY5NDliMDViZDgwNTU5ZDMxOTJmODNjMmRkNmUzZjZkOTk4ZGU5MTA",
+            "html_url": "https://github.com/TokTok/qTox/commit/74329de0e2a00dc03fa056f250caa5563e5c3b70",
+            "node_id": "C_kwDOBF7DatoAKDc0MzI5ZGUwZTJhMDBkYzAzZmEwNTZmMjUwY2FhNTU2M2U1YzNiNzA",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/qTox/commit/aeef7e241c4c994661c32109f78c9458771f425a",
@@ -390,8 +392,8 @@
                     "url": "https://api.github.com/repos/TokTok/qTox/commits/aeef7e241c4c994661c32109f78c9458771f425a"
                 }
             ],
-            "sha": "f949b05bd80559d3192f83c2dd6e3f6d998de910",
-            "url": "https://api.github.com/repos/TokTok/qTox/commits/f949b05bd80559d3192f83c2dd6e3f6d998de910"
+            "sha": "74329de0e2a00dc03fa056f250caa5563e5c3b70",
+            "url": "https://api.github.com/repos/TokTok/qTox/commits/74329de0e2a00dc03fa056f250caa5563e5c3b70"
         }
     ],
     "commits": 1,
@@ -491,9 +493,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/qTox/pulls{/number}",
-            "pushed_at": "2026-03-06T00:14:31Z",
+            "pushed_at": "2026-05-18T08:53:18Z",
             "releases_url": "https://api.github.com/repos/iphydf/qTox/releases{/id}",
-            "size": 60291,
+            "size": 61217,
             "ssh_url": "git@github.com:iphydf/qTox.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/qTox/stargazers",
@@ -508,14 +510,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/qTox/git/trees{/sha}",
-            "updated_at": "2026-03-26T20:16:56Z",
+            "updated_at": "2026-05-18T08:53:22Z",
             "url": "https://api.github.com/repos/iphydf/qTox",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "f949b05bd80559d3192f83c2dd6e3f6d998de910",
+        "sha": "74329de0e2a00dc03fa056f250caa5563e5c3b70",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -554,15 +556,15 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "f7ca55b7623ce647d45333d91ed18e2b554ceeff",
+    "merge_commit_sha": "ddbe73fc0c7ac1ca7ba36c5110ec50ae7b42081f",
     "mergeable": true,
-    "mergeable_state": "blocked",
+    "mergeable_state": "behind",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 0,
+        "closed_issues": 5,
         "created_at": "2026-05-08T15:08:50Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
@@ -592,10 +594,10 @@
         "labels_url": "https://api.github.com/repos/TokTok/qTox/milestones/9/labels",
         "node_id": "MI_kwDOA9gydM4A8dwE",
         "number": 9,
-        "open_issues": 20,
+        "open_issues": 57,
         "state": "open",
         "title": "v1.18.6",
-        "updated_at": "2026-05-08T15:36:14Z",
+        "updated_at": "2026-08-24T08:58:21Z",
         "url": "https://api.github.com/repos/TokTok/qTox/milestones/9"
     },
     "node_id": "PR_kwDOA9gydM7IW5v7",
@@ -608,9 +610,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/qTox/pulls/696/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/f949b05bd80559d3192f83c2dd6e3f6d998de910",
+    "statuses_url": "https://api.github.com/repos/TokTok/qTox/statuses/74329de0e2a00dc03fa056f250caa5563e5c3b70",
     "title": "refactor: Extract call/typing/status logic from ChatForm into FriendChatState.",
-    "updated_at": "2026-05-08T15:09:23Z",
+    "updated_at": "2026-05-15T22:05:43Z",
     "url": "https://api.github.com/repos/TokTok/qTox/pulls/696",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

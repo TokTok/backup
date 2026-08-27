@@ -3,16 +3,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-10.15.dmg",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:17Z",
-            "digest": "sha256:0aee710a6ea709ec72fae1f14b266a37903577688c3707eb0c851d39a88ee060",
+            "created_at": "2026-08-21T08:38:42Z",
+            "digest": "sha256:715eeebc5a5369f567d933ec6386b431d42f87c994097c871debe67602081afc",
             "download_count": 0,
-            "id": 414604837,
+            "id": 523470906,
             "label": "",
             "name": "CiTools-nightly-arm64-10.15.dmg",
-            "node_id": "RA_kwDOCHK2RM4Ytl4l",
-            "size": 8725668,
+            "node_id": "RA_kwDOCHK2RM4fM4g6",
+            "size": 8720092,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:18Z",
+            "updated_at": "2026-08-21T08:38:43Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -34,21 +34,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604837"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470906"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-10.15.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:18Z",
-            "digest": "sha256:01df138118113b13f9092cb437484490884a06223fdea859d630df10d2ba96d6",
+            "created_at": "2026-08-21T08:38:43Z",
+            "digest": "sha256:7e5778343a4b2075b2125273c7b3bae2918ebb8bdfa8a76b58c5284fe1c4bf17",
             "download_count": 0,
-            "id": 414604841,
+            "id": 523470925,
             "label": "",
             "name": "CiTools-nightly-arm64-10.15.dmg.sha256",
-            "node_id": "RA_kwDOCHK2RM4Ytl4p",
+            "node_id": "RA_kwDOCHK2RM4fM4hN",
             "size": 90,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:19Z",
+            "updated_at": "2026-08-21T08:38:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -70,21 +70,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604841"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470925"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-12.0.dmg",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:17Z",
-            "digest": "sha256:638914b909b1dc3997eda72d4ab28babd3026cf4a4453877b925b4d96d2eef2c",
+            "created_at": "2026-08-21T08:36:32Z",
+            "digest": "sha256:4efcd20bfa41d47de25daee7d33ccac39ceffb0d8d98127e4a86eb5e026eafdc",
             "download_count": 0,
-            "id": 414604839,
+            "id": 523468812,
             "label": "",
             "name": "CiTools-nightly-arm64-12.0.dmg",
-            "node_id": "RA_kwDOCHK2RM4Ytl4n",
-            "size": 8933582,
+            "node_id": "RA_kwDOCHK2RM4fM4AM",
+            "size": 8933570,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:18Z",
+            "updated_at": "2026-08-21T08:36:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -106,21 +106,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604839"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523468812"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-12.0.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:19Z",
-            "digest": "sha256:2a5df615cd0a784a6cb6505c6d045c3e46119e737a5a0df8b9f633c6e9ca29e2",
+            "created_at": "2026-08-21T08:36:33Z",
+            "digest": "sha256:54e10b50f5eb267e38aa0844ff158acf48e469da83acf044561f389587d666d4",
             "download_count": 0,
-            "id": 414604843,
+            "id": 523468832,
             "label": "",
             "name": "CiTools-nightly-arm64-12.0.dmg.sha256",
-            "node_id": "RA_kwDOCHK2RM4Ytl4r",
+            "node_id": "RA_kwDOCHK2RM4fM4Ag",
             "size": 89,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:19Z",
+            "updated_at": "2026-08-21T08:36:34Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -142,21 +142,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604843"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523468832"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-v8a-debug-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:06:20Z",
-            "digest": "sha256:31c3f950e206ad0abcffb12d7cdeb1a8f2e84344cb2b95adf45cccf41f2ff7ac",
+            "created_at": "2026-08-21T08:38:43Z",
+            "digest": "sha256:b15dc59214ca407f1bc9bc475b603a1461a7a759c734588094ff876bb27c1a93",
             "download_count": 0,
-            "id": 414605398,
+            "id": 523470916,
             "label": "",
             "name": "CiTools-nightly-arm64-v8a-debug-6.2.4.apk",
-            "node_id": "RA_kwDOCHK2RM4YtmBW",
+            "node_id": "RA_kwDOCHK2RM4fM4hE",
             "size": 15257649,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:21Z",
+            "updated_at": "2026-08-21T08:38:44Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -178,21 +178,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605398"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470916"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-v8a-debug-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:05:54Z",
-            "digest": "sha256:0b1b770783e8d296567e26512766cbbc5c858ca8df826e9aa0ef376f2e876df4",
+            "created_at": "2026-08-21T08:37:35Z",
+            "digest": "sha256:5176495b2a5a22770b2a3bd6446de0f64dcea97b5a3294d615fc37db47bb4a97",
             "download_count": 0,
-            "id": 414605117,
+            "id": 523469788,
             "label": "",
             "name": "CiTools-nightly-arm64-v8a-debug-6.8.1.apk",
-            "node_id": "RA_kwDOCHK2RM4Ytl89",
+            "node_id": "RA_kwDOCHK2RM4fM4Pc",
             "size": 20306191,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:55Z",
+            "updated_at": "2026-08-21T08:37:35Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -214,21 +214,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605117"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469788"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-v8a-release-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:05:54Z",
-            "digest": "sha256:a4ebd78d42875783e19fe912a63b7402fbe9710825bbaff4752e5945507469a9",
+            "created_at": "2026-08-21T08:37:42Z",
+            "digest": "sha256:b7bf50276977ff98db7893b78510d4e24d1e8fc7222d23e1bde929602e4c9939",
             "download_count": 0,
-            "id": 414605111,
+            "id": 523469886,
             "label": "",
             "name": "CiTools-nightly-arm64-v8a-release-6.2.4.apk",
-            "node_id": "RA_kwDOCHK2RM4Ytl83",
+            "node_id": "RA_kwDOCHK2RM4fM4Q-",
             "size": 8859313,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:54Z",
+            "updated_at": "2026-08-21T08:37:43Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -250,21 +250,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605111"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469886"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-arm64-v8a-release-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:06:52Z",
+            "created_at": "2026-08-21T08:38:48Z",
             "digest": "sha256:388e30fe55f667f1554480f52e81b4f9085a825a648497740c333ab24e87c87c",
             "download_count": 0,
-            "id": 414605624,
+            "id": 523470999,
             "label": "",
             "name": "CiTools-nightly-arm64-v8a-release-6.8.1.apk",
-            "node_id": "RA_kwDOCHK2RM4YtmE4",
+            "node_id": "RA_kwDOCHK2RM4fM4iX",
             "size": 10678075,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:53Z",
+            "updated_at": "2026-08-21T08:38:49Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -286,21 +286,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605624"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470999"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-armeabi-v7a-debug-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:05:46Z",
-            "digest": "sha256:9f766a338cd695abc24825dab1adaa7910c57ea1b3ca5798f88aefba6df054ab",
+            "created_at": "2026-08-21T08:39:13Z",
+            "digest": "sha256:32a13740dd6c78653177c79ab28829fd2283f8cb2c07b429c2a19807c787b032",
             "download_count": 0,
-            "id": 414605052,
+            "id": 523471385,
             "label": "",
             "name": "CiTools-nightly-armeabi-v7a-debug-6.2.4.apk",
-            "node_id": "RA_kwDOCHK2RM4Ytl78",
+            "node_id": "RA_kwDOCHK2RM4fM4oZ",
             "size": 11541455,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:47Z",
+            "updated_at": "2026-08-21T08:39:14Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -322,21 +322,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605052"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523471385"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-armeabi-v7a-debug-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:06:06Z",
-            "digest": "sha256:6c3e0c2e7040945e96f91b9668704e7c64de759c3bdc2d7699f44449658f0311",
+            "created_at": "2026-08-21T08:37:52Z",
+            "digest": "sha256:4ac6c2b6323f895e0366ed42d83c223f7495b9346c02e894814facf87583ab82",
             "download_count": 0,
-            "id": 414605270,
+            "id": 523470076,
             "label": "",
             "name": "CiTools-nightly-armeabi-v7a-debug-6.8.1.apk",
-            "node_id": "RA_kwDOCHK2RM4Ytl_W",
+            "node_id": "RA_kwDOCHK2RM4fM4T8",
             "size": 15477057,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:07Z",
+            "updated_at": "2026-08-21T08:37:53Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -358,21 +358,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605270"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470076"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-armeabi-v7a-release-6.2.4.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:05:45Z",
-            "digest": "sha256:ade483ba11bb19e7b8865b830190052546b0f3d585880bbf2e7be29261c54ca2",
+            "created_at": "2026-08-21T08:38:17Z",
+            "digest": "sha256:fd2df93603f764f6dc4d92618fdea6453561bb559201177498557a2745bc0697",
             "download_count": 0,
-            "id": 414605034,
+            "id": 523470523,
             "label": "",
             "name": "CiTools-nightly-armeabi-v7a-release-6.2.4.apk",
-            "node_id": "RA_kwDOCHK2RM4Ytl7q",
+            "node_id": "RA_kwDOCHK2RM4fM4a7",
             "size": 7331327,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:46Z",
+            "updated_at": "2026-08-21T08:38:18Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -394,21 +394,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605034"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470523"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-armeabi-v7a-release-6.8.1.apk",
             "content_type": "application/vnd.android.package-archive",
-            "created_at": "2026-05-07T18:06:01Z",
+            "created_at": "2026-08-21T08:37:39Z",
             "digest": "sha256:e861b7efe727e4babe188661328eaeb92bc93cd38229f5a17f215995de412fc7",
             "download_count": 0,
-            "id": 414605159,
+            "id": 523469836,
             "label": "",
             "name": "CiTools-nightly-armeabi-v7a-release-6.8.1.apk",
-            "node_id": "RA_kwDOCHK2RM4Ytl9n",
+            "node_id": "RA_kwDOCHK2RM4fM4QM",
             "size": 9162605,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:02Z",
+            "updated_at": "2026-08-21T08:37:39Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -430,21 +430,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605159"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469836"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-i686-Debug.zip",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:10Z",
-            "digest": "sha256:06433ac908735f56a6d5d3fd417043ea28423d98d1e6acc761beeebefeca73cc",
+            "created_at": "2026-08-21T08:37:40Z",
+            "digest": "sha256:d08d8b7a0f8c5036bc0848cb25756255666fd109ac3b0661c7904ef8bfac4d50",
             "download_count": 0,
-            "id": 414605288,
+            "id": 523469856,
             "label": "",
             "name": "citools-nightly-i686-Debug.zip",
-            "node_id": "RA_kwDOCHK2RM4Ytl_o",
-            "size": 84801439,
+            "node_id": "RA_kwDOCHK2RM4fM4Qg",
+            "size": 84801432,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:12Z",
+            "updated_at": "2026-08-21T08:37:42Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -466,21 +466,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605288"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469856"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-i686-Debug.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:13Z",
-            "digest": "sha256:488bdf67859918d0797dcf60ebcf1c8aaff8c59f8c81da13a616d420653f0c92",
+            "created_at": "2026-08-21T08:37:43Z",
+            "digest": "sha256:884414e4c0240f263f99d00d81b09849dfab7f43d265ff6e181d3c125541a55e",
             "download_count": 0,
-            "id": 414605345,
+            "id": 523469889,
             "label": "",
             "name": "citools-nightly-i686-Debug.zip.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmAh",
+            "node_id": "RA_kwDOCHK2RM4fM4RB",
             "size": 97,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:13Z",
+            "updated_at": "2026-08-21T08:37:43Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -502,21 +502,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605345"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469889"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-i686-Release.exe",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:21Z",
-            "digest": "sha256:8401663e8f05b2fd5bb49018939ca81708af4c522b16f77c97aefb4fcb29f803",
+            "created_at": "2026-08-21T08:38:09Z",
+            "digest": "sha256:d341e06236ed7883297d55bd766f27d44dc85be72d62ba529bd920b780b8719e",
             "download_count": 0,
-            "id": 414605404,
+            "id": 523470382,
             "label": "",
             "name": "citools-nightly-i686-Release.exe",
-            "node_id": "RA_kwDOCHK2RM4YtmBc",
-            "size": 12737844,
+            "node_id": "RA_kwDOCHK2RM4fM4Yu",
+            "size": 12738131,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:22Z",
+            "updated_at": "2026-08-21T08:38:11Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -538,21 +538,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605404"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470382"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-i686-Release.exe.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:23Z",
-            "digest": "sha256:8c26ee6003afaff7cef8173c786db6b1398505c3b4dff201016118f80c3c0686",
+            "created_at": "2026-08-21T08:38:11Z",
+            "digest": "sha256:84fecf25e5b6f38a2e766e4e834dac415cc1ea3d60418d3e7f77b36b9d25857f",
             "download_count": 0,
-            "id": 414605414,
+            "id": 523470423,
             "label": "",
             "name": "citools-nightly-i686-Release.exe.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmBm",
+            "node_id": "RA_kwDOCHK2RM4fM4ZX",
             "size": 99,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:23Z",
+            "updated_at": "2026-08-21T08:38:12Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -574,21 +574,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605414"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470423"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-i686-Release.zip",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:16Z",
-            "digest": "sha256:393f30dc5894d67e5282b15577253fd95067287fe308abe9dcdd3282abe7fc8f",
+            "created_at": "2026-08-21T08:38:05Z",
+            "digest": "sha256:9e9b66bebcabfbf1a6bb7f96a1d33649e5b45face16fd848696a107862be2d20",
             "download_count": 0,
-            "id": 414605375,
+            "id": 523470317,
             "label": "",
             "name": "citools-nightly-i686-Release.zip",
-            "node_id": "RA_kwDOCHK2RM4YtmA_",
-            "size": 17008294,
+            "node_id": "RA_kwDOCHK2RM4fM4Xt",
+            "size": 17008286,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:18Z",
+            "updated_at": "2026-08-21T08:38:06Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -610,21 +610,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605375"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470317"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-i686-Release.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:18Z",
-            "digest": "sha256:b81a260b91cef6d26baa6fa22e61a852f37fd2aeed1ebd7a4f65ad48dd176e95",
+            "created_at": "2026-08-21T08:38:07Z",
+            "digest": "sha256:ddaa74721eb677128626ed6a49c9fe6af22de0bccfab06f1abdd55d1c32a0d11",
             "download_count": 0,
-            "id": 414605391,
+            "id": 523470332,
             "label": "",
             "name": "citools-nightly-i686-Release.zip.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmBP",
+            "node_id": "RA_kwDOCHK2RM4fM4X8",
             "size": 99,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:18Z",
+            "updated_at": "2026-08-21T08:38:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -646,21 +646,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605391"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470332"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-ios-arm64-15.0.ipa",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:32Z",
-            "digest": "sha256:17397321c0f03eefaca0e832a7af5eed339ed678614303f5cd8b07663227d182",
+            "created_at": "2026-08-21T08:38:55Z",
+            "digest": "sha256:391e9fe30c5319cfde3888598a2db977c2b09adbc250c85ac107238765ac686e",
             "download_count": 0,
-            "id": 414605478,
+            "id": 523471099,
             "label": "",
             "name": "CiTools-nightly-ios-arm64-15.0.ipa",
-            "node_id": "RA_kwDOCHK2RM4YtmCm",
+            "node_id": "RA_kwDOCHK2RM4fM4j7",
             "size": 7672553,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:32Z",
+            "updated_at": "2026-08-21T08:38:56Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -682,21 +682,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605478"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523471099"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-ios-arm64-15.0.ipa.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:33Z",
-            "digest": "sha256:3f4fb945a8b293dd70e7ba21ddaa8de8ddb2b8e016170e4f7a30e960cfbed837",
+            "created_at": "2026-08-21T08:38:56Z",
+            "digest": "sha256:ac9684ff26614785cac0930447b81d9f9e2f70f8dd69504d7e4be4efcfaf72cf",
             "download_count": 0,
-            "id": 414605485,
+            "id": 523471123,
             "label": "",
             "name": "CiTools-nightly-ios-arm64-15.0.ipa.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmCt",
+            "node_id": "RA_kwDOCHK2RM4fM4kT",
             "size": 93,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:33Z",
+            "updated_at": "2026-08-21T08:38:56Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -718,21 +718,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605485"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523471123"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-iphonesimulator-arm64-15.0.ipa",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:07:06Z",
-            "digest": "sha256:3de2539e6a306c1bb91d7fd927ec306f1a4aa85031e5ab059216f6ce4a3a8bdb",
+            "created_at": "2026-08-21T08:37:09Z",
+            "digest": "sha256:b5c7d18422f32af4a480d93ad82ba744f92e1c1a9747eab8ee2e4f6ce93ba6f4",
             "download_count": 0,
-            "id": 414605798,
+            "id": 523469430,
             "label": "",
             "name": "CiTools-nightly-iphonesimulator-arm64-15.0.ipa",
-            "node_id": "RA_kwDOCHK2RM4YtmHm",
-            "size": 7856688,
+            "node_id": "RA_kwDOCHK2RM4fM4J2",
+            "size": 7856689,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:07:07Z",
+            "updated_at": "2026-08-21T08:37:10Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -754,21 +754,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605798"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469430"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-iphonesimulator-arm64-15.0.ipa.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:07:08Z",
-            "digest": "sha256:045a6e6e7dc675435b795d36a154ef7586613d65e0cd39c7465bec37690ba7bc",
+            "created_at": "2026-08-21T08:37:11Z",
+            "digest": "sha256:82a23c78750e93a2562255939c8c4fa604ebb45f5cf507e93a4d6d62bbcd70e9",
             "download_count": 0,
-            "id": 414605813,
+            "id": 523469445,
             "label": "",
             "name": "CiTools-nightly-iphonesimulator-arm64-15.0.ipa.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmH1",
+            "node_id": "RA_kwDOCHK2RM4fM4KF",
             "size": 105,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:07:08Z",
+            "updated_at": "2026-08-21T08:37:11Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -790,21 +790,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605813"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469445"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-iphonesimulator-x86_64-15.0.ipa",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:18Z",
-            "digest": "sha256:9653f50ee9194871a5712393b246b6fbc276da551ddde8ca5d59225476a70944",
+            "created_at": "2026-08-21T08:36:47Z",
+            "digest": "sha256:5dfa2284407f3fe3f6e82071ba13094ac3f83981c64499cbc34260f756ce4f24",
             "download_count": 0,
-            "id": 414604842,
+            "id": 523469075,
             "label": "",
             "name": "CiTools-nightly-iphonesimulator-x86_64-15.0.ipa",
-            "node_id": "RA_kwDOCHK2RM4Ytl4q",
-            "size": 8772820,
+            "node_id": "RA_kwDOCHK2RM4fM4ET",
+            "size": 8772818,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:19Z",
+            "updated_at": "2026-08-21T08:36:47Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -826,21 +826,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604842"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469075"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-iphonesimulator-x86_64-15.0.ipa.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:20Z",
-            "digest": "sha256:abf50272e16a1208a59ef086237ca10cedfdb02ffd772f617822fbc81c1cf0c1",
+            "created_at": "2026-08-21T08:36:48Z",
+            "digest": "sha256:556cc80a8b7189360d98f6fef86acff6ffbffbc3d9c9e63ed3caea5b23df4554",
             "download_count": 0,
-            "id": 414604850,
+            "id": 523469108,
             "label": "",
             "name": "CiTools-nightly-iphonesimulator-x86_64-15.0.ipa.sha256",
-            "node_id": "RA_kwDOCHK2RM4Ytl4y",
+            "node_id": "RA_kwDOCHK2RM4fM4E0",
             "size": 106,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:20Z",
+            "updated_at": "2026-08-21T08:36:48Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -862,21 +862,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604850"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469108"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64-10.15.dmg",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:07:01Z",
-            "digest": "sha256:a7473fab5357c4eda5b72ad3e8f2e0996be010c7e994c81fb44bdfbb039397f2",
+            "created_at": "2026-08-21T08:38:10Z",
+            "digest": "sha256:d498c4462067e4c9b5e81ef232b7a439cfe6e2d1294c544a1a455454067d3e79",
             "download_count": 0,
-            "id": 414605740,
+            "id": 523470402,
             "label": "",
             "name": "CiTools-nightly-x86_64-10.15.dmg",
-            "node_id": "RA_kwDOCHK2RM4YtmGs",
-            "size": 9506498,
+            "node_id": "RA_kwDOCHK2RM4fM4ZC",
+            "size": 9506388,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:07:02Z",
+            "updated_at": "2026-08-21T08:38:11Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -898,21 +898,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605740"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470402"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64-10.15.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:07:03Z",
-            "digest": "sha256:4578229412d83a728166959ce204cd1c2866c1aa0be0656b3f42e04a2d39f309",
+            "created_at": "2026-08-21T08:38:11Z",
+            "digest": "sha256:00a891357201ebb8ed93dba8908c50aab9715bfa9395470a16635d1f91d9c756",
             "download_count": 0,
-            "id": 414605778,
+            "id": 523470420,
             "label": "",
             "name": "CiTools-nightly-x86_64-10.15.dmg.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmHS",
+            "node_id": "RA_kwDOCHK2RM4fM4ZU",
             "size": 91,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:07:03Z",
+            "updated_at": "2026-08-21T08:38:11Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -934,21 +934,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605778"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470420"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64-12.0.dmg",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:16Z",
-            "digest": "sha256:1b10df42cc23e431a2da239f6dd03c55922b1f04a1c963f3136c107450bf9634",
+            "created_at": "2026-08-21T08:37:36Z",
+            "digest": "sha256:f5c40e8722fa4c852c718de060380efd8da3db02bec36baa39c382ced739ed34",
             "download_count": 0,
-            "id": 414605374,
+            "id": 523469801,
             "label": "",
             "name": "CiTools-nightly-x86_64-12.0.dmg",
-            "node_id": "RA_kwDOCHK2RM4YtmA-",
-            "size": 9969901,
+            "node_id": "RA_kwDOCHK2RM4fM4Pp",
+            "size": 9966336,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:17Z",
+            "updated_at": "2026-08-21T08:37:37Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -970,21 +970,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605374"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469801"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64-12.0.dmg.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:18Z",
-            "digest": "sha256:474bed7ad8e70dc6cecc416028861f44ae3affc9bad798386ff330a664d25158",
+            "created_at": "2026-08-21T08:37:38Z",
+            "digest": "sha256:23959c6044d5b66d8b9b1c36ba72a1a08847160dc18f260a1cbcc52cbad66634",
             "download_count": 0,
-            "id": 414605387,
+            "id": 523469819,
             "label": "",
             "name": "CiTools-nightly-x86_64-12.0.dmg.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmBL",
+            "node_id": "RA_kwDOCHK2RM4fM4P7",
             "size": 90,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:18Z",
+            "updated_at": "2026-08-21T08:37:38Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1006,21 +1006,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605387"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523469819"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-x86_64-Debug.zip",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:40Z",
-            "digest": "sha256:37560527be1d71230dca0dd99496e56eed61c0272a94d47d3a0022223c24074b",
+            "created_at": "2026-08-21T08:37:52Z",
+            "digest": "sha256:0d96dfb4c45b156e03b043e6fa8ef29546e9875779ff531579b8a905d8b95783",
             "download_count": 0,
-            "id": 414605533,
+            "id": 523470073,
             "label": "",
             "name": "citools-nightly-x86_64-Debug.zip",
-            "node_id": "RA_kwDOCHK2RM4YtmDd",
-            "size": 86406531,
+            "node_id": "RA_kwDOCHK2RM4fM4T5",
+            "size": 86406534,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:44Z",
+            "updated_at": "2026-08-21T08:37:55Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1042,21 +1042,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605533"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470073"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-x86_64-Debug.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:44Z",
-            "digest": "sha256:9e02f10b10c36aa2422774337522ed9ebf1579d99ad9f0ce1eb704918adfb3fd",
+            "created_at": "2026-08-21T08:37:55Z",
+            "digest": "sha256:84af44686541d3bba267178f2ff1e5ed760ba092d3496017eca6ec0af7334cdc",
             "download_count": 0,
-            "id": 414605561,
+            "id": 523470131,
             "label": "",
             "name": "citools-nightly-x86_64-Debug.zip.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmD5",
+            "node_id": "RA_kwDOCHK2RM4fM4Uz",
             "size": 99,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:45Z",
+            "updated_at": "2026-08-21T08:37:55Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1078,21 +1078,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605561"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470131"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-x86_64-Release.exe",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:49Z",
-            "digest": "sha256:3fdab26455356394b335f7dcc7792ee0a2c00a9448958715ba7f051e81ef5d64",
+            "created_at": "2026-08-21T08:38:17Z",
+            "digest": "sha256:8ead57dd1f62dcb8e031ef5857a8f349036e4116628c9838b7b700b25bce89e0",
             "download_count": 0,
-            "id": 414605603,
+            "id": 523470520,
             "label": "",
             "name": "citools-nightly-x86_64-Release.exe",
-            "node_id": "RA_kwDOCHK2RM4YtmEj",
-            "size": 12735917,
+            "node_id": "RA_kwDOCHK2RM4fM4a4",
+            "size": 12734363,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:50Z",
+            "updated_at": "2026-08-21T08:38:18Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1114,21 +1114,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605603"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470520"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-x86_64-Release.exe.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:51Z",
-            "digest": "sha256:d3223a601d0e64275095331fdcc290fe2d8919b8612679dc604ddaaa5bd043c8",
+            "created_at": "2026-08-21T08:38:18Z",
+            "digest": "sha256:d1acba31478cf9bf7c8d5e322f9fdbcdef97c1b47d86f71da475a6319e88307a",
             "download_count": 0,
-            "id": 414605613,
+            "id": 523470526,
             "label": "",
             "name": "citools-nightly-x86_64-Release.exe.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmEt",
+            "node_id": "RA_kwDOCHK2RM4fM4a-",
             "size": 101,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:51Z",
+            "updated_at": "2026-08-21T08:38:18Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1150,21 +1150,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605613"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470526"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-x86_64-Release.zip",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:45Z",
-            "digest": "sha256:2ed5bdec36e931cf4b64ff4b63cbf166ad8edb1580b9569cf2cd3e3f85e7ab4c",
+            "created_at": "2026-08-21T08:38:13Z",
+            "digest": "sha256:fe7a235d31fc54940a099d559e278df8797a952e527274cc1927d7cedc7eb062",
             "download_count": 0,
-            "id": 414605565,
+            "id": 523470461,
             "label": "",
             "name": "citools-nightly-x86_64-Release.zip",
-            "node_id": "RA_kwDOCHK2RM4YtmD9",
-            "size": 17033257,
+            "node_id": "RA_kwDOCHK2RM4fM4Z9",
+            "size": 17033254,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:46Z",
+            "updated_at": "2026-08-21T08:38:14Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1186,21 +1186,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605565"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470461"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/citools-nightly-x86_64-Release.zip.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:06:46Z",
-            "digest": "sha256:1aaddaeaea0db2fa1df093e993b88ab862922bd5ad500bf78e223d108a7acd29",
+            "created_at": "2026-08-21T08:38:14Z",
+            "digest": "sha256:999ec3e8cee1490d04adab0faa743d407c5bd7da67375dea076c7240de6feede",
             "download_count": 0,
-            "id": 414605572,
+            "id": 523470478,
             "label": "",
             "name": "citools-nightly-x86_64-Release.zip.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmEE",
+            "node_id": "RA_kwDOCHK2RM4fM4aO",
             "size": 101,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:06:46Z",
+            "updated_at": "2026-08-21T08:38:15Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1222,21 +1222,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414605572"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523470478"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64.AppImage",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:38Z",
-            "digest": "sha256:fc5696201dddb0350dfcbf3533659078c3983b929737220122a67c4c73fea793",
+            "created_at": "2026-08-21T08:36:30Z",
+            "digest": "sha256:0f45975b3c7b71c57fdc1565cbcf2f387856a802569d810e82d7b0e0c34da782",
             "download_count": 0,
-            "id": 414604948,
+            "id": 523468764,
             "label": "",
             "name": "CiTools-nightly-x86_64.AppImage",
-            "node_id": "RA_kwDOCHK2RM4Ytl6U",
-            "size": 20386104,
+            "node_id": "RA_kwDOCHK2RM4fM3_c",
+            "size": 20390200,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:39Z",
+            "updated_at": "2026-08-21T08:36:31Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1258,21 +1258,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604948"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523468764"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64.AppImage.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:39Z",
-            "digest": "sha256:fed2dbdd9ff2c387d986d2ea935385d7f5062b568d29346a2db1d7d1b3dd7e08",
+            "created_at": "2026-08-21T08:36:31Z",
+            "digest": "sha256:6320e45f606471ed10ce20696867a694ee57b01080b370502e38d4198f52a11d",
             "download_count": 0,
-            "id": 414604958,
+            "id": 523468800,
             "label": "",
             "name": "CiTools-nightly-x86_64.AppImage.sha256",
-            "node_id": "RA_kwDOCHK2RM4Ytl6e",
+            "node_id": "RA_kwDOCHK2RM4fM4AA",
             "size": 98,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:39Z",
+            "updated_at": "2026-08-21T08:36:32Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1294,21 +1294,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604958"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523468800"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly-x86_64.AppImage.zsync",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:05:40Z",
-            "digest": "sha256:8dd00e28bdd6dce2a3cf31bf918c80eab7bc7f87bb622383039f7b52a8835bc3",
+            "created_at": "2026-08-21T08:36:32Z",
+            "digest": "sha256:ebb2b93d33f3f5a147cb4e67ce8b2e708d5124b06abf40d616607253a94e5662",
             "download_count": 0,
-            "id": 414604964,
+            "id": 523468809,
             "label": "",
             "name": "CiTools-nightly-x86_64.AppImage.zsync",
-            "node_id": "RA_kwDOCHK2RM4Ytl6k",
-            "size": 69938,
+            "node_id": "RA_kwDOCHK2RM4fM4AJ",
+            "size": 69952,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:05:40Z",
+            "updated_at": "2026-08-21T08:36:32Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1330,21 +1330,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604964"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523468809"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly.flatpak",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:07:38Z",
-            "digest": "sha256:39252a07cc7a838e2db99e45cdaad53f05f8348b27a13175a3aea5fa33bdb47d",
+            "created_at": "2026-08-21T08:40:09Z",
+            "digest": "sha256:2cf5feb9fdaeada9ee21c71c5bec514d8f7855ad40bdb3951ebf702f05e8c963",
             "download_count": 0,
-            "id": 414606085,
+            "id": 523472227,
             "label": "",
             "name": "CiTools-nightly.flatpak",
-            "node_id": "RA_kwDOCHK2RM4YtmMF",
-            "size": 69672,
+            "node_id": "RA_kwDOCHK2RM4fM41j",
+            "size": 69680,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:07:39Z",
+            "updated_at": "2026-08-21T08:40:10Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1366,21 +1366,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414606085"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523472227"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/CiTools-nightly.flatpak.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:07:39Z",
-            "digest": "sha256:fba0af884570401ac5639f4d02a4c54fd9e1c9f11d65535970ac4388f17b35d9",
+            "created_at": "2026-08-21T08:40:10Z",
+            "digest": "sha256:e8670a46556c18be6dfe31beb14d32554f7d02e2f3972dc5418cd5936af9c2d8",
             "download_count": 0,
-            "id": 414606090,
+            "id": 523472234,
             "label": "",
             "name": "CiTools-nightly.flatpak.sha256",
-            "node_id": "RA_kwDOCHK2RM4YtmMK",
+            "node_id": "RA_kwDOCHK2RM4fM41q",
             "size": 82,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:07:39Z",
+            "updated_at": "2026-08-21T08:40:10Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1402,21 +1402,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414606090"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523472234"
         },
         {
             "browser_download_url": "https://github.com/TokTok/ci-tools/releases/download/nightly/README-nightly.md",
             "content_type": "raw",
-            "created_at": "2026-05-07T18:04:24Z",
+            "created_at": "2026-08-21T08:36:05Z",
             "digest": "sha256:c9f0baf7d7aa72dec58d554b44c04614384405eca703d6496eb3989281a5dbcc",
             "download_count": 0,
-            "id": 414604443,
+            "id": 523468309,
             "label": "",
             "name": "README-nightly.md",
-            "node_id": "RA_kwDOCHK2RM4Ytlyb",
+            "node_id": "RA_kwDOCHK2RM4fM34V",
             "size": 375,
             "state": "uploaded",
-            "updated_at": "2026-05-07T18:04:24Z",
+            "updated_at": "2026-08-21T08:36:05Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -1438,7 +1438,7 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/414604443"
+            "url": "https://api.github.com/repos/TokTok/ci-tools/releases/assets/523468309"
         }
     ],
     "assets_url": "https://api.github.com/repos/TokTok/ci-tools/releases/200535114/assets",
@@ -1464,7 +1464,7 @@
         "user_view_type": "public"
     },
     "body": "",
-    "created_at": "2026-05-06T03:18:08Z",
+    "created_at": "2026-08-20T07:07:33Z",
     "draft": false,
     "html_url": "https://github.com/TokTok/ci-tools/releases/tag/nightly",
     "id": 200535114,
@@ -1476,7 +1476,7 @@
     "tag_name": "nightly",
     "tarball_url": "https://api.github.com/repos/TokTok/ci-tools/tarball/nightly",
     "target_commitish": "master",
-    "updated_at": "2026-05-07T18:07:39Z",
+    "updated_at": "2026-08-21T08:40:10Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/ci-tools/releases/200535114/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/ci-tools/releases/200535114",
     "zipball_url": "https://api.github.com/repos/TokTok/ci-tools/zipball/nightly"

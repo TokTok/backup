@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -69,6 +69,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -95,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -119,12 +120,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -141,12 +143,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2676,
+            "watchers_count": 2676,
+            "web_commit_signoff_required": true
         },
         "sha": "03a511482ffa643a636cd5bcce596f110ca2d8e0",
         "user": {
@@ -178,11 +180,12 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1538) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1538) before we can accept your contribution.<br/>**1** out of **2** committers have signed the CLA.<br/><br/>:white_check_mark: redmanmale<br/>:x: restyled-commits<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=1538) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=1538) <br/>All committers have signed the CLA.",
             "created_at": "2020-05-09T17:22:32Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1538#issuecomment-626208825",
             "id": 626208825,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1538",
+            "minimized": null,
             "node_id": "MDEyOklzc3VlQ29tbWVudDYyNjIwODgyNQ==",
             "performed_via_github_app": null,
             "reactions": {
@@ -197,7 +200,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/626208825/reactions"
             },
-            "updated_at": "2020-05-09T17:27:26Z",
+            "updated_at": "2026-08-04T11:56:07Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/626208825",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -223,11 +226,12 @@
         },
         {
             "author_association": "NONE",
-            "body": "# [Codecov](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=h1) Report\n> Merging [#1538](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=desc) into [master](https://codecov.io/gh/TokTok/c-toxcore/commit/03a511482ffa643a636cd5bcce596f110ca2d8e0&el=desc) will **decrease** coverage by `0.07%`.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/graphs/tree.svg?width=650&height=150&src=pr&token=BRfCKo02De)](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff             @@\n##           master    #1538      +/-   ##\n==========================================\n- Coverage   84.22%   84.14%   -0.08%     \n==========================================\n  Files          87       87              \n  Lines       16245    16245              \n==========================================\n- Hits        13682    13670      -12     \n- Misses       2563     2575      +12     \n```\n\n\n| [Impacted Files](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [toxcore/crypto\\_core\\_test.cc](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/diff?src=pr&el=tree#diff-dG94Y29yZS9jcnlwdG9fY29yZV90ZXN0LmNj) | `89.28% <0.00%> (-10.72%)` | :arrow_down: |\n| [toxav/groupav.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/diff?src=pr&el=tree#diff-dG94YXYvZ3JvdXBhdi5j) | `81.78% <0.00%> (-1.22%)` | :arrow_down: |\n| [toxcore/friend\\_connection.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/diff?src=pr&el=tree#diff-dG94Y29yZS9mcmllbmRfY29ubmVjdGlvbi5j) | `94.31% <0.00%> (-1.14%)` | :arrow_down: |\n| [toxcore/onion\\_client.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/diff?src=pr&el=tree#diff-dG94Y29yZS9vbmlvbl9jbGllbnQuYw==) | `95.78% <0.00%> (-0.61%)` | :arrow_down: |\n| [toxcore/net\\_crypto.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/diff?src=pr&el=tree#diff-dG94Y29yZS9uZXRfY3J5cHRvLmM=) | `94.50% <0.00%> (-0.10%)` | :arrow_down: |\n| [auto\\_tests/save\\_friend\\_test.c](https://codecov.io/gh/TokTok/c-toxcore/pull/1538/diff?src=pr&el=tree#diff-YXV0b190ZXN0cy9zYXZlX2ZyaWVuZF90ZXN0LmM=) | `100.00% <0.00%> (+4.83%)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=footer). Last update [03a5114...72eb2d0](https://codecov.io/gh/TokTok/c-toxcore/pull/1538?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n",
+            "body": "## [Codecov](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1538?dropdown=coverage&src=pr&el=h1&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok) Report\n:white_check_mark: All modified and coverable lines are covered by tests.\n:white_check_mark: Project coverage is 84.14%. Comparing base ([`03a5114`](https://app.codecov.io/gh/TokTok/c-toxcore/commit/03a511482ffa643a636cd5bcce596f110ca2d8e0?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok)) to head ([`72eb2d0`](https://app.codecov.io/gh/TokTok/c-toxcore/commit/72eb2d028382640611c87541839c5a43c942c463?dropdown=coverage&el=desc&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok)).\n:warning: Report is 972 commits behind head on master.\n\n<details><summary>Additional details and impacted files</summary>\n\n\n\n```diff\n@@            Coverage Diff             @@\n##           master    #1538      +/-   ##\n==========================================\n- Coverage   84.22%   84.14%   -0.08%     \n==========================================\n  Files          87       87              \n  Lines       16245    16245              \n==========================================\n- Hits        13682    13670      -12     \n- Misses       2563     2575      +12     \n```\n</details>\n\n[:umbrella: View full report in Codecov by Harness](https://app.codecov.io/gh/TokTok/c-toxcore/pull/1538?dropdown=coverage&src=pr&el=continue&utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).   \n:loudspeaker: Have feedback on the report? [Share it here](https://about.codecov.io/codecov-pr-comment-feedback/?utm_medium=referral&utm_source=github&utm_content=comment&utm_campaign=pr+comments&utm_term=TokTok).\n<details><summary> :rocket: New features to boost your workflow: </summary>\n\n- :snowflake: [Test Analytics](https://docs.codecov.com/docs/test-analytics): Detect flaky tests, report on failures, and find test suite problems.\n- :package: [JS Bundle Analysis](https://docs.codecov.com/docs/javascript-bundle-analysis): Save yourself from yourself by tracking and limiting bundle sizes in JS merges.\n</details>",
             "created_at": "2020-05-09T17:33:41Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/1538#issuecomment-626210294",
             "id": 626210294,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/1538",
+            "minimized": null,
             "node_id": "MDEyOklzc3VlQ29tbWVudDYyNjIxMDI5NA==",
             "performed_via_github_app": null,
             "reactions": {
@@ -242,7 +246,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/626210294/reactions"
             },
-            "updated_at": "2020-05-27T16:42:14Z",
+            "updated_at": "2026-08-04T11:56:43Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/626210294",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/254?v=4",
@@ -630,8 +634,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -643,6 +647,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -669,8 +674,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -693,12 +698,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -715,12 +721,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2676,
+            "watchers_count": 2676,
+            "web_commit_signoff_required": true
         },
         "sha": "72eb2d028382640611c87541839c5a43c942c463",
         "user": {
@@ -759,7 +765,7 @@
     "merged_by": null,
     "milestone": {
         "closed_at": null,
-        "closed_issues": 369,
+        "closed_issues": 370,
         "created_at": "2016-10-25T20:25:56Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/243408?v=4",
@@ -783,7 +789,7 @@
             "user_view_type": "public"
         },
         "description": "",
-        "due_on": "2032-01-01T08:00:00Z",
+        "due_on": "2032-01-01T00:00:00Z",
         "html_url": "https://github.com/TokTok/c-toxcore/milestone/6",
         "id": 2093325,
         "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/6/labels",
@@ -792,7 +798,7 @@
         "open_issues": 1,
         "state": "open",
         "title": "z-meta",
-        "updated_at": "2024-03-28T01:33:44Z",
+        "updated_at": "2026-02-06T11:04:39Z",
         "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/6"
     },
     "node_id": "MDExOlB1bGxSZXF1ZXN0NDE1NjA0OTg2",
@@ -807,7 +813,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/72eb2d028382640611c87541839c5a43c942c463",
     "title": "Restyle Cygwin build",
-    "updated_at": "2022-02-04T20:46:15Z",
+    "updated_at": "2026-08-04T11:56:43Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/1538",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/in/5851?v=4",

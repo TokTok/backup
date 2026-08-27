@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls/70"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/go-toxcore-c/statuses/405530f5c2b9188d9f3ca4aacd59ea035f526feb"
+            "href": "https://api.github.com/repos/TokTok/go-toxcore-c/statuses/cffabb3a3ff1cac8e687080c9182c16e0b398950"
         }
     },
     "active_lock_reason": null,
-    "additions": 0,
+    "additions": 3,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/go-toxcore-c/downloads",
             "events_url": "https://api.github.com/repos/TokTok/go-toxcore-c/events",
             "fork": true,
-            "forks": 25,
-            "forks_count": 25,
+            "forks": 24,
+            "forks_count": 24,
             "forks_url": "https://api.github.com/repos/TokTok/go-toxcore-c/forks",
             "full_name": "TokTok/go-toxcore-c",
             "git_commits_url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/commits{/sha}",
@@ -96,8 +96,8 @@
             "name": "go-toxcore-c",
             "node_id": "MDEwOlJlcG9zaXRvcnkxMTg0NzY5MTg=",
             "notifications_url": "https://api.github.com/repos/TokTok/go-toxcore-c/notifications{?since,all,participating}",
-            "open_issues": 7,
-            "open_issues_count": 7,
+            "open_issues": 6,
+            "open_issues_count": 6,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,7 +122,7 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls{/number}",
-            "pushed_at": "2026-05-08T03:21:45Z",
+            "pushed_at": "2026-05-17T13:44:13Z",
             "releases_url": "https://api.github.com/repos/TokTok/go-toxcore-c/releases{/id}",
             "size": 333,
             "ssh_url": "git@github.com:TokTok/go-toxcore-c.git",
@@ -138,7 +138,7 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/trees{/sha}",
-            "updated_at": "2026-02-10T05:48:13Z",
+            "updated_at": "2026-05-17T13:44:17Z",
             "url": "https://api.github.com/repos/TokTok/go-toxcore-c",
             "visibility": "public",
             "watchers": 71,
@@ -169,8 +169,8 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/go-toxcore-c/70)\n<!-- Reviewable:end -->\n",
-    "changed_files": 1,
-    "closed_at": null,
+    "changed_files": 2,
+    "closed_at": "2026-05-17T13:44:15Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
@@ -198,7 +198,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/go-toxcore-c/commits/405530f5c2b9188d9f3ca4aacd59ea035f526feb/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/go-toxcore-c/commits/cffabb3a3ff1cac8e687080c9182c16e0b398950/comments",
             "commit": {
                 "author": {
                     "date": "2026-02-10T21:55:37Z",
@@ -207,22 +207,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-10T21:55:37Z",
+                    "date": "2026-05-17T13:32:30Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
-                "message": "chore: Increase test size in bazel from 5 seconds to 30.",
+                "message": "chore: Fix bazel CI.\n\n- Run Cirrus on toxchat/toktok-stack:latest; :latest-release is 15\n  months stale and has a broken bazel install.\n- Drop `size = \"small\"` so the test gets a 30s timeout instead of 5s.",
                 "tree": {
-                    "sha": "4a71987ab61b359b8af3df58bfc8194a59710d52",
-                    "url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/trees/4a71987ab61b359b8af3df58bfc8194a59710d52"
+                    "sha": "e395000b852772767e3c9585ceaa1c6a5d5fa92a",
+                    "url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/trees/e395000b852772767e3c9585ceaa1c6a5d5fa92a"
                 },
-                "url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/commits/405530f5c2b9188d9f3ca4aacd59ea035f526feb",
+                "url": "https://api.github.com/repos/TokTok/go-toxcore-c/git/commits/cffabb3a3ff1cac8e687080c9182c16e0b398950",
                 "verification": {
-                    "payload": "tree 4a71987ab61b359b8af3df58bfc8194a59710d52\nparent 0f7463080d5c62e747db7004ab0068f28dfcf72c\nauthor iphydf <iphydf@users.noreply.github.com> 1770760537 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770760537 +0000\n\nchore: Increase test size in bazel from 5 seconds to 30.\n",
+                    "payload": "tree e395000b852772767e3c9585ceaa1c6a5d5fa92a\nparent 0f7463080d5c62e747db7004ab0068f28dfcf72c\nauthor iphydf <iphydf@users.noreply.github.com> 1770760537 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1779024750 +0000\n\nchore: Fix bazel CI.\n\n- Run Cirrus on toxchat/toktok-stack:latest; :latest-release is 15\n  months stale and has a broken bazel install.\n- Drop `size = \"small\"` so the test gets a 30s timeout instead of 5s.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmLqWYACgkQOFXbotdE\nA8m1gwf+OgyvH+DewT8eFkpMA3cJKEkN64Suaq7KeUgInXCvpm3c4M/Xvc7y+gIg\nYf+SUqBAY0X043MgV5U5bIMkm9SlK/aD9fULf/oI1XoIeP/se1TpbIP5EfskYEVs\nl4/YyvTMu4nt0/zWuZy3YQWoLCUSFPsiYClFrblx1R5dkXFSYiy+8Ec4yCUbULLq\nW69yMsldFyQ05aWoAQW9l3uKQ61V1VXGFraZiBUeCWk1TuoVz+pHyxhGt/LS4ein\nxbL4XS1gVREDeF+X+8jbEhG+w7t4k9Ms79tJSPeoey9/t+zxvQgHIZ8W27OimqLI\ndr99Wgo/k/5kNyQobC2AN/qiro+Fmg==\n=Btix\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoJw24ACgkQOFXbotdE\nA8ky/AgAjSX5xZ99YmeqLt2rDFRbndAegLOwoTT/iz7gdEYE0JM3kqukYw3I8fnG\n5yPjN+VnozKSLZPezdKEiGBocNB3FQVzY/uMClhJ1CwCuXKxt2Cl7+Uk0YALCkYt\npNoRwa0z8cbyosfRC5yI5NV22fSJ9MQUbfj3XYbZdT25AXMyfA/e8jNmdNgrY2rJ\n/oDm9o+V3Tr0+huDJKBhlcNgLT+0ClnREWJJbODrOfYdqopJn0N7T0bT6MK+DIMJ\nWGfm78KEuTJMtsJrhovnjJgWvXY3u/jRfLlumVuBkEzT6ddqQW3J+Gju1GZlAFkP\n4At+qzVOU7Ccw4fkmccu2rU4NBZ9kA==\n=djZF\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-10T21:55:55Z"
+                    "verified_at": "2026-05-17T13:32:32Z"
                 }
             },
             "committer": {
@@ -246,8 +246,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/go-toxcore-c/commit/405530f5c2b9188d9f3ca4aacd59ea035f526feb",
-            "node_id": "C_kwDOBw_UXdoAKDQwNTUzMGY1YzJiOTE4OGQ5ZjNjYTRhYWNkNTllYTAzNWY1MjZmZWI",
+            "html_url": "https://github.com/TokTok/go-toxcore-c/commit/cffabb3a3ff1cac8e687080c9182c16e0b398950",
+            "node_id": "C_kwDOBw_UXdoAKGNmZmFiYjNhM2ZmMWNhYzhlNjg3MDgwYzkxODJjMTZlMGIzOTg5NTA",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/go-toxcore-c/commit/0f7463080d5c62e747db7004ab0068f28dfcf72c",
@@ -255,16 +255,16 @@
                     "url": "https://api.github.com/repos/TokTok/go-toxcore-c/commits/0f7463080d5c62e747db7004ab0068f28dfcf72c"
                 }
             ],
-            "sha": "405530f5c2b9188d9f3ca4aacd59ea035f526feb",
-            "url": "https://api.github.com/repos/TokTok/go-toxcore-c/commits/405530f5c2b9188d9f3ca4aacd59ea035f526feb"
+            "sha": "cffabb3a3ff1cac8e687080c9182c16e0b398950",
+            "url": "https://api.github.com/repos/TokTok/go-toxcore-c/commits/cffabb3a3ff1cac8e687080c9182c16e0b398950"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls/70/commits",
     "created_at": "2026-02-10T21:56:01Z",
-    "deletions": 1,
+    "deletions": 4,
     "diff_url": "https://github.com/TokTok/go-toxcore-c/pull/70.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:small",
         "ref": "small",
@@ -356,9 +356,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/go-toxcore-c/pulls{/number}",
-            "pushed_at": "2026-02-10T21:55:53Z",
+            "pushed_at": "2026-05-17T13:46:33Z",
             "releases_url": "https://api.github.com/repos/iphydf/go-toxcore-c/releases{/id}",
-            "size": 305,
+            "size": 293,
             "ssh_url": "git@github.com:iphydf/go-toxcore-c.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/go-toxcore-c/stargazers",
@@ -372,14 +372,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/go-toxcore-c/git/trees{/sha}",
-            "updated_at": "2025-02-16T20:32:42Z",
+            "updated_at": "2026-05-17T13:46:36Z",
             "url": "https://api.github.com/repos/iphydf/go-toxcore-c",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "405530f5c2b9188d9f3ca4aacd59ea035f526feb",
+        "sha": "cffabb3a3ff1cac8e687080c9182c16e0b398950",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -417,16 +417,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "1e55c1619389a5e7aae8ff981255787931ca810e",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "cffabb3a3ff1cac8e687080c9182c16e0b398950",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-05-17T13:44:15Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 19,
+        "closed_issues": 20,
         "created_at": "2021-11-26T14:25:03Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -456,25 +476,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/go-toxcore-c/milestones/1/labels",
         "node_id": "MI_kwDOBw_Qds4AcWuw",
         "number": 1,
-        "open_issues": 5,
+        "open_issues": 4,
         "state": "open",
         "title": "v0.2.21",
-        "updated_at": "2026-02-10T21:56:01Z",
+        "updated_at": "2026-05-17T13:44:15Z",
         "url": "https://api.github.com/repos/TokTok/go-toxcore-c/milestones/1"
     },
     "node_id": "PR_kwDOBw_Qds7C3BcQ",
     "number": 70,
     "patch_url": "https://github.com/TokTok/go-toxcore-c/pull/70.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls/70/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/go-toxcore-c/statuses/405530f5c2b9188d9f3ca4aacd59ea035f526feb",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/go-toxcore-c/statuses/cffabb3a3ff1cac8e687080c9182c16e0b398950",
     "title": "chore: Increase test size in bazel from 5 seconds to 30.",
-    "updated_at": "2026-02-10T21:56:41Z",
+    "updated_at": "2026-05-17T13:46:34Z",
     "url": "https://api.github.com/repos/TokTok/go-toxcore-c/pulls/70",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

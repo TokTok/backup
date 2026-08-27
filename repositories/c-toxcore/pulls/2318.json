@@ -71,7 +71,7 @@
             "user_view_type": "public"
         }
     ],
-    "author_association": "MEMBER",
+    "author_association": "NONE",
     "auto_merge": null,
     "base": {
         "label": "TokTok:master",
@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 292,
-            "forks_count": 292,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -111,6 +111,7 @@
             "has_issues": true,
             "has_pages": false,
             "has_projects": false,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat",
             "hooks_url": "https://api.github.com/repos/TokTok/c-toxcore/hooks",
@@ -137,8 +138,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 210,
-            "open_issues_count": 210,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -161,12 +162,13 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2025-01-24T18:18:40Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 25245,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2329,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -183,12 +185,12 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2025-01-24T22:05:30Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2329,
-            "watchers_count": 2329,
-            "web_commit_signoff_required": false
+            "watchers": 2676,
+            "watchers_count": 2676,
+            "web_commit_signoff_required": true
         },
         "sha": "50094b73851b96081f370318cdbc1b5656722433",
         "user": {
@@ -220,11 +222,12 @@
     "comment_regular_data": [
         {
             "author_association": "NONE",
-            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=2318) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=2318) before we can accept your contribution.<br/>**2** out of **3** committers have signed the CLA.<br/><br/>:white_check_mark: sudden6<br/>:white_check_mark: iphydf<br/>:x: dependabot[bot]<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=2318) it.</sub>",
+            "body": "[![CLA assistant check](https://cla-assistant.io/pull/badge/not_signed)](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=2318) <br/>Thank you for your submission! We really appreciate it. Like many open source projects, we ask that you all sign our [Contributor License Agreement](https://cla-assistant.io/TokTok/c-toxcore?pullRequest=2318) before we can accept your contribution.<br/>**2** out of **3** committers have signed the CLA.<br/><br/>:white_check_mark: iphydf<br/>:white_check_mark: sudden6<br/>:x: dependabot[bot]<br/><sub>You have signed the CLA already but the status is still pending? Let us [recheck](https://cla-assistant.io/check/TokTok/c-toxcore?pullRequest=2318) it.</sub>",
             "created_at": "2022-05-24T19:17:10Z",
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2318#issuecomment-1136339815",
             "id": 1136339815,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2318",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs5Duytn",
             "performed_via_github_app": null,
             "reactions": {
@@ -239,7 +242,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/1136339815/reactions"
             },
-            "updated_at": "2022-05-25T18:56:36Z",
+            "updated_at": "2026-07-05T17:35:17Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore/issues/comments/1136339815",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/11571300?v=4",
@@ -270,6 +273,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2318#issuecomment-1137757344",
             "id": 1137757344,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2318",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs5D0Myg",
             "performed_via_github_app": null,
             "reactions": {
@@ -927,10 +931,11 @@
             "git_tags_url": "https://api.github.com/repos/sudden6/c-toxcore/git/tags{/sha}",
             "git_url": "git://github.com/sudden6/c-toxcore.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
+            "has_pull_requests": true,
             "has_wiki": false,
             "homepage": "https://tox.chat/",
             "hooks_url": "https://api.github.com/repos/sudden6/c-toxcore/hooks",
@@ -981,6 +986,7 @@
                 "user_view_type": "public"
             },
             "private": false,
+            "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/sudden6/c-toxcore/pulls{/number}",
             "pushed_at": "2023-01-03T23:21:37Z",
             "releases_url": "https://api.github.com/repos/sudden6/c-toxcore/releases{/id}",
@@ -1118,7 +1124,7 @@
     "state": "closed",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/9a265804f8813f27d6d98197bbf5a91748b81aff",
     "title": "chore: disable warning about pre C99 code",
-    "updated_at": "2022-05-27T07:20:13Z",
+    "updated_at": "2026-07-05T17:35:17Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2318",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/5585762?v=4",

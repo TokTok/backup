@@ -3,16 +3,16 @@
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/c-toxcore-nightly.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:50Z",
-            "digest": "sha256:a2640555a645bd106c9d16869ffe47c5db4f55d4d9484314354aa4b94dcb3098",
+            "created_at": "2026-08-25T18:35:16Z",
+            "digest": "sha256:f4b58462d80e0f9b0fa4939bd6365e870539b001830b6f736115522d94b2ceb3",
             "download_count": 0,
-            "id": 414424229,
+            "id": 529614436,
             "label": "",
             "name": "c-toxcore-nightly.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys5yl",
-            "size": 1409832,
+            "node_id": "RA_kwDOA7zIGs4fkUZk",
+            "size": 1416979,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:50Z",
+            "updated_at": "2026-08-25T18:35:16Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -34,21 +34,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424229"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614436"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/c-toxcore-nightly.tar.xz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:51Z",
-            "digest": "sha256:3768c2c11f4cd7ed1b577f4f9ef14b29212d7f1e43b663aaabe9da8c11c2c142",
+            "created_at": "2026-08-25T18:35:17Z",
+            "digest": "sha256:c1236488774c79b97a5c735be36b1a9a5d44dcc5a3c32da392b87e76be5e6ee9",
             "download_count": 0,
-            "id": 414424245,
+            "id": 529614449,
             "label": "",
             "name": "c-toxcore-nightly.tar.xz",
-            "node_id": "RA_kwDOA7zIGs4Ys5y1",
-            "size": 996264,
+            "node_id": "RA_kwDOA7zIGs4fkUZx",
+            "size": 999968,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:51Z",
+            "updated_at": "2026-08-25T18:35:17Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -70,93 +70,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424245"
-        },
-        {
-            "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/nightly.tar.gz",
-            "content_type": "raw",
-            "created_at": "2025-10-05T19:49:38Z",
-            "digest": "sha256:e642b9aca7b0df0085b5f70e1958c70315444c7b3913d864e50f3daa8000cf6d",
-            "download_count": 9,
-            "id": 300832902,
-            "label": "",
-            "name": "nightly.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4R7liG",
-            "size": 955401,
-            "state": "uploaded",
-            "updated_at": "2025-10-05T19:49:38Z",
-            "uploader": {
-                "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-                "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-                "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-                "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-                "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/apps/github-actions",
-                "id": 41898282,
-                "login": "github-actions[bot]",
-                "node_id": "MDM6Qm90NDE4OTgyODI=",
-                "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-                "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-                "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-                "type": "Bot",
-                "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-                "user_view_type": "public"
-            },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/300832902"
-        },
-        {
-            "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/nightly.tar.xz",
-            "content_type": "raw",
-            "created_at": "2025-10-05T19:49:38Z",
-            "digest": "sha256:762a8f61a4ac52ca033485c681358d8a4335dbe354b12a2f8b88e37649a6a638",
-            "download_count": 6,
-            "id": 300832903,
-            "label": "",
-            "name": "nightly.tar.xz",
-            "node_id": "RA_kwDOA7zIGs4R7liH",
-            "size": 668652,
-            "state": "uploaded",
-            "updated_at": "2025-10-05T19:49:39Z",
-            "uploader": {
-                "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-                "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-                "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-                "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-                "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/apps/github-actions",
-                "id": 41898282,
-                "login": "github-actions[bot]",
-                "node_id": "MDM6Qm90NDE4OTgyODI=",
-                "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-                "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-                "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-                "type": "Bot",
-                "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-                "user_view_type": "public"
-            },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/300832903"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614449"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-arm64-v8a.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:42Z",
-            "digest": "sha256:124777de2cda2bf3d6c83f3aad3a658f05ce3c5248e105c0363cb65fbd4d35d2",
-            "download_count": 1,
-            "id": 414424173,
+            "created_at": "2026-08-25T18:35:14Z",
+            "digest": "sha256:f8044ce263267f3ab051a5715f6a02b10e8b1dbd96e6bca84e77338436cfa3ab",
+            "download_count": 0,
+            "id": 529614402,
             "label": "",
             "name": "toxcore-nightly-android-arm64-v8a.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys5xt",
-            "size": 1715545,
+            "node_id": "RA_kwDOA7zIGs4fkUZC",
+            "size": 1717968,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:42Z",
+            "updated_at": "2026-08-25T18:35:15Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -178,21 +106,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424173"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614402"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-arm64-v8a.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:42Z",
-            "digest": "sha256:68ee53fb9c35685d1031a7393d68fbc9cd209de35ec75e0a8d16b3f564652fbe",
+            "created_at": "2026-08-25T18:35:15Z",
+            "digest": "sha256:ce4476c5386644a04696552c40cf225e9a6108cda498bd574b075efb06fc2d01",
             "download_count": 0,
-            "id": 414424180,
+            "id": 529614419,
             "label": "",
             "name": "toxcore-nightly-android-arm64-v8a.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys5x0",
+            "node_id": "RA_kwDOA7zIGs4fkUZT",
             "size": 107,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:43Z",
+            "updated_at": "2026-08-25T18:35:15Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -214,21 +142,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424180"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614419"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-armeabi-v7a.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:38Z",
-            "digest": "sha256:724b48a3a300b346795e1a12bb4875f6b058bf642ca99bbba12740735a0161cb",
-            "download_count": 1,
-            "id": 414424144,
+            "created_at": "2026-08-25T18:34:44Z",
+            "digest": "sha256:102eaee664d31282545244d835917e70fd31c97431e212d502b984c3fb9bdfaf",
+            "download_count": 0,
+            "id": 529613888,
             "label": "",
             "name": "toxcore-nightly-android-armeabi-v7a.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys5xQ",
-            "size": 1796348,
+            "node_id": "RA_kwDOA7zIGs4fkURA",
+            "size": 1798280,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:38Z",
+            "updated_at": "2026-08-25T18:34:45Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -250,21 +178,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424144"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529613888"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-armeabi-v7a.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:38Z",
-            "digest": "sha256:4c77f2e34fe1b4023024a09f7ec40ebf6c66e2a37f8d5d783e879a57661f5a72",
+            "created_at": "2026-08-25T18:34:45Z",
+            "digest": "sha256:f370cc5897bfc9a47ca188ecb2add280f381885e3fcd9dba1b3fc00a37bb8d81",
             "download_count": 0,
-            "id": 414424151,
+            "id": 529613904,
             "label": "",
             "name": "toxcore-nightly-android-armeabi-v7a.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys5xX",
+            "node_id": "RA_kwDOA7zIGs4fkURQ",
             "size": 109,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:39Z",
+            "updated_at": "2026-08-25T18:34:45Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -286,21 +214,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424151"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529613904"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-x86.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:36Z",
-            "digest": "sha256:914f704a0f0f9189b5aefe98398d25770a8e21043a011ff927c47ca256732141",
-            "download_count": 1,
-            "id": 414424132,
+            "created_at": "2026-08-25T18:35:06Z",
+            "digest": "sha256:7fe6442aedb7da444a24762dfc1a07d3f4d402a6eff2631e60dc507365193c09",
+            "download_count": 0,
+            "id": 529614296,
             "label": "",
             "name": "toxcore-nightly-android-x86.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys5xE",
-            "size": 1929900,
+            "node_id": "RA_kwDOA7zIGs4fkUXY",
+            "size": 1931965,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:37Z",
+            "updated_at": "2026-08-25T18:35:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -322,21 +250,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424132"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614296"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-x86.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:37Z",
-            "digest": "sha256:68f08b84909cb93aea98c82ca5a98792bd890fa87ad9b836e4117adb58a61f3c",
+            "created_at": "2026-08-25T18:35:07Z",
+            "digest": "sha256:2df6656c4404af1f98e68ff3c2259a6d8eacd96582ad8db9e103ebbcafbae720",
             "download_count": 0,
-            "id": 414424139,
+            "id": 529614302,
             "label": "",
             "name": "toxcore-nightly-android-x86.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys5xL",
+            "node_id": "RA_kwDOA7zIGs4fkUXe",
             "size": 101,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:38Z",
+            "updated_at": "2026-08-25T18:35:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -358,21 +286,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424139"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614302"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-x86_64.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:30Z",
-            "digest": "sha256:77bf193b503cf049aba1da4ee5e1d912a8e429e8d71ec5d3817f11e07397cf19",
-            "download_count": 1,
-            "id": 414424045,
+            "created_at": "2026-08-25T18:35:06Z",
+            "digest": "sha256:4cf1d4f77e8af535436f902be6c15391973c631212572b305dc77726fcb44df7",
+            "download_count": 0,
+            "id": 529614298,
             "label": "",
             "name": "toxcore-nightly-android-x86_64.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys5vt",
-            "size": 1807969,
+            "node_id": "RA_kwDOA7zIGs4fkUXa",
+            "size": 1809907,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:31Z",
+            "updated_at": "2026-08-25T18:35:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -394,21 +322,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424045"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614298"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-android-x86_64.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:31Z",
-            "digest": "sha256:9582368d7f08b9bb621ffd59c7ace37503a0f6494b83f4c606e9a036a9f4d74e",
+            "created_at": "2026-08-25T18:35:07Z",
+            "digest": "sha256:744f8d921eb4e88a3816bd766b45f8eb8abff2e8444204381653511735bce46a",
             "download_count": 0,
-            "id": 414424066,
+            "id": 529614305,
             "label": "",
             "name": "toxcore-nightly-android-x86_64.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys5wC",
+            "node_id": "RA_kwDOA7zIGs4fkUXh",
             "size": 104,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:32Z",
+            "updated_at": "2026-08-25T18:35:07Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -430,21 +358,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424066"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614305"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-av.c",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:20Z",
-            "digest": "sha256:ad74eb610d2ff319dcf271c2dae2c797259aebaab129532fcbd9db924ff52905",
+            "created_at": "2026-08-25T18:35:02Z",
+            "digest": "sha256:ef0e3ebf8ea7564a93f835b68130eb3547b92bd5748eaa9417999b753e6973de",
             "download_count": 0,
-            "id": 414423931,
+            "id": 529614221,
             "label": "",
             "name": "toxcore-nightly-av.c",
-            "node_id": "RA_kwDOA7zIGs4Ys5t7",
-            "size": 2958148,
+            "node_id": "RA_kwDOA7zIGs4fkUWN",
+            "size": 2962938,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:20Z",
+            "updated_at": "2026-08-25T18:35:02Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -466,21 +394,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414423931"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614221"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-core.c",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:21Z",
-            "digest": "sha256:503a9559054c04bdbc55f71f541d966a71a0e71590adbb288c3896aff203cda2",
+            "created_at": "2026-08-25T18:35:03Z",
+            "digest": "sha256:f8dfbe03a2168aedcbfe6ab3a822d2de75265d1c2d1381e7070d48c6e30eb057",
             "download_count": 0,
-            "id": 414423944,
+            "id": 529614238,
             "label": "",
             "name": "toxcore-nightly-core.c",
-            "node_id": "RA_kwDOA7zIGs4Ys5uI",
-            "size": 2723312,
+            "node_id": "RA_kwDOA7zIGs4fkUWe",
+            "size": 2728102,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:21Z",
+            "updated_at": "2026-08-25T18:35:03Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -502,21 +430,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414423944"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529614238"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-linux-aarch64.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:26:03Z",
-            "digest": "sha256:a6749f86dd31654cf0240af0735eda7165387bd0668db956d0931dc74cf38eb0",
+            "created_at": "2026-08-25T18:34:32Z",
+            "digest": "sha256:71306f62a05d798074e1d829b684ee75d6fa983a41fef88c2f9864d8eeed27d4",
             "download_count": 0,
-            "id": 414424351,
+            "id": 529613668,
             "label": "",
             "name": "toxcore-nightly-linux-aarch64.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys50f",
-            "size": 1057743,
+            "node_id": "RA_kwDOA7zIGs4fkUNk",
+            "size": 1057730,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:26:03Z",
+            "updated_at": "2026-08-25T18:34:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -538,21 +466,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424351"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529613668"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-linux-aarch64.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:26:04Z",
-            "digest": "sha256:19bff48feebb75eabf3d4f82e4f83996f8931c96f07b5a6de07722848b056bcc",
+            "created_at": "2026-08-25T18:34:33Z",
+            "digest": "sha256:254d962a1510a058744dc543d08caf49a3fb75be4d9d627f741f21bea5b7f5c5",
             "download_count": 0,
-            "id": 414424367,
+            "id": 529613681,
             "label": "",
             "name": "toxcore-nightly-linux-aarch64.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys50v",
+            "node_id": "RA_kwDOA7zIGs4fkUNx",
             "size": 103,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:26:04Z",
+            "updated_at": "2026-08-25T18:34:33Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -574,21 +502,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424367"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529613681"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-linux-x86_64.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:45Z",
-            "digest": "sha256:66970e9b1aaa18b24128ebc0bed13e3eadab4cf2177cf024304945671349193f",
-            "download_count": 1,
-            "id": 414424195,
+            "created_at": "2026-08-25T18:34:39Z",
+            "digest": "sha256:f9a2848a573916417aa1045011434bcab825774467c59933f71e5889d72ce75d",
+            "download_count": 2,
+            "id": 529613806,
             "label": "",
             "name": "toxcore-nightly-linux-x86_64.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys5yD",
-            "size": 1220268,
+            "node_id": "RA_kwDOA7zIGs4fkUPu",
+            "size": 1222395,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:45Z",
+            "updated_at": "2026-08-25T18:34:39Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -610,21 +538,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424195"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529613806"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-linux-x86_64.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:25:46Z",
-            "digest": "sha256:f51de2c124222712c82473d837093905324a9f8dff53ba1778ee1b0a2a8e3303",
+            "created_at": "2026-08-25T18:34:40Z",
+            "digest": "sha256:45401efeac4ee8ba808b66dea1e6b280c33edcd0cfd0fd2e92cff3d592e4777d",
             "download_count": 0,
-            "id": 414424203,
+            "id": 529613813,
             "label": "",
             "name": "toxcore-nightly-linux-x86_64.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys5yL",
+            "node_id": "RA_kwDOA7zIGs4fkUP1",
             "size": 102,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:25:46Z",
+            "updated_at": "2026-08-25T18:34:40Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -646,21 +574,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424203"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529613813"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-wasm.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:27:04Z",
-            "digest": "sha256:7be14149e36744ef372fe308b418aed4bf1c2eb174cb905fe5ba550e9980c84f",
+            "created_at": "2026-08-25T18:36:01Z",
+            "digest": "sha256:ad30e4351ecb267934cbf3c931e28986a65f829eee6035654312b2bd8c0f88ce",
             "download_count": 0,
-            "id": 414424827,
+            "id": 529615111,
             "label": "",
             "name": "toxcore-nightly-wasm.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys577",
-            "size": 1400769,
+            "node_id": "RA_kwDOA7zIGs4fkUkH",
+            "size": 1400996,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:27:05Z",
+            "updated_at": "2026-08-25T18:36:01Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -682,21 +610,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414424827"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529615111"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-xcframework.tar.gz",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:31:36Z",
-            "digest": "sha256:221fa185c6713e9c96582d5d3403e78fe64fa4ee251e0ad16d895dc92cf4f137",
-            "download_count": 1,
-            "id": 414427757,
+            "created_at": "2026-08-25T18:39:28Z",
+            "digest": "sha256:250edb6149837411813978369f65244086d9425c7abc3a8ef6f15ced2c4f2eaa",
+            "download_count": 0,
+            "id": 529618825,
             "label": "",
             "name": "toxcore-nightly-xcframework.tar.gz",
-            "node_id": "RA_kwDOA7zIGs4Ys6pt",
-            "size": 6540297,
+            "node_id": "RA_kwDOA7zIGs4fkVeJ",
+            "size": 6540738,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:31:37Z",
+            "updated_at": "2026-08-25T18:39:29Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -718,21 +646,21 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414427757"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529618825"
         },
         {
             "browser_download_url": "https://github.com/TokTok/c-toxcore/releases/download/nightly/toxcore-nightly-xcframework.tar.gz.sha256",
             "content_type": "raw",
-            "created_at": "2026-05-07T13:31:38Z",
-            "digest": "sha256:e3f3bca557c0f5b05ba7b945cee99383f239df8ab89e4741774334f8fb5b123c",
+            "created_at": "2026-08-25T18:39:30Z",
+            "digest": "sha256:05771e6cba7672f63c22078c7150bbcd61b58ec8e6ce3a8ef2b817d8241b515a",
             "download_count": 0,
-            "id": 414427766,
+            "id": 529618851,
             "label": "",
             "name": "toxcore-nightly-xcframework.tar.gz.sha256",
-            "node_id": "RA_kwDOA7zIGs4Ys6p2",
+            "node_id": "RA_kwDOA7zIGs4fkVej",
             "size": 93,
             "state": "uploaded",
-            "updated_at": "2026-05-07T13:31:38Z",
+            "updated_at": "2026-08-25T18:39:30Z",
             "uploader": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
                 "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
@@ -754,7 +682,7 @@
                 "url": "https://api.github.com/users/github-actions%5Bbot%5D",
                 "user_view_type": "public"
             },
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/414427766"
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/assets/529618851"
         }
     ],
     "assets_url": "https://api.github.com/repos/TokTok/c-toxcore/releases/196965470/assets",
@@ -780,7 +708,7 @@
         "user_view_type": "public"
     },
     "body": "",
-    "created_at": "2026-05-07T09:02:13Z",
+    "created_at": "2026-08-25T08:20:00Z",
     "draft": false,
     "html_url": "https://github.com/TokTok/c-toxcore/releases/tag/nightly",
     "id": 196965470,
@@ -792,7 +720,7 @@
     "tag_name": "nightly",
     "tarball_url": "https://api.github.com/repos/TokTok/c-toxcore/tarball/nightly",
     "target_commitish": "master",
-    "updated_at": "2026-05-07T13:31:38Z",
+    "updated_at": "2026-08-25T18:39:30Z",
     "upload_url": "https://uploads.github.com/repos/TokTok/c-toxcore/releases/196965470/assets{?name,label}",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/releases/196965470",
     "zipball_url": "https://api.github.com/repos/TokTok/c-toxcore/zipball/nightly"

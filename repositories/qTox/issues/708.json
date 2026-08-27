@@ -6,8 +6,56 @@
     "body": "### Contact Details (e.g. Tox ID or email)\n\n_No response_\n\n### Feature Description\n\nIt would be very cool if _qTox_ had a mode of operation in the **\"Advanced\"** settings - **\"Use VPN or LAN network only\"**, with selecting one or more network interfaces that the user would like to use for broadcast and connection.\nIt is also worth notifying the user who enables this option to make sure that his firewall allows the ports that will be required for _qTox_.\nThis feature, at least for advanced users, can make _qTox_ more private in use - significantly reduce the amount of metadata for ISP, due to the less number of random Internet connections.\n\n### Contribution\n\n- [ ] I would like to contribute to this feature",
     "closed_at": null,
     "closed_by": null,
-    "comment_data": [],
-    "comments": 0,
+    "comment_data": [
+        {
+            "author_association": "NONE",
+            "body": "> due to the less number of random Internet connections\n\nIf this feature is implemented there shouldn't merely be \"less\" internet connections, but zero internet connections.\nAll tox traffic should stay within the LAN.\n\nAlso I would love it if this were implemented the following way.\n\n1. During startup, qtox must always search LAN for tox users first. Have them become \"online\" and reachable first.\n2. If **\"VPN or LAN network only\"** is ON, then STOP. Do not connect to the internet.\n3. If **\"VPN or LAN network only\"** is OFF, only then qtox must initiate its first packet to connect to the internet and search for other tox users.\n4. Also if a user moves from being connected to another user over the internet, to coming back home and being connected over LAN, sever all tox related internet connections, and connect the two users over LAN automatically.\n",
+            "created_at": "2026-05-17T11:07:57Z",
+            "html_url": "https://github.com/TokTok/qTox/issues/708#issuecomment-4470382121",
+            "id": 4470382121,
+            "issue_url": "https://api.github.com/repos/TokTok/qTox/issues/708",
+            "minimized": null,
+            "node_id": "IC_kwDOA9gydM8AAAABCnSeKQ",
+            "performed_via_github_app": null,
+            "pin": null,
+            "reactions": {
+                "+1": 2,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 2,
+                "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/4470382121/reactions"
+            },
+            "updated_at": "2026-05-17T11:07:57Z",
+            "url": "https://api.github.com/repos/TokTok/qTox/issues/comments/4470382121",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/70430094?v=4",
+                "events_url": "https://api.github.com/users/barkoder/events{/privacy}",
+                "followers_url": "https://api.github.com/users/barkoder/followers",
+                "following_url": "https://api.github.com/users/barkoder/following{/other_user}",
+                "gists_url": "https://api.github.com/users/barkoder/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/barkoder",
+                "id": 70430094,
+                "login": "barkoder",
+                "node_id": "MDQ6VXNlcjcwNDMwMDk0",
+                "organizations_url": "https://api.github.com/users/barkoder/orgs",
+                "received_events_url": "https://api.github.com/users/barkoder/received_events",
+                "repos_url": "https://api.github.com/users/barkoder/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/barkoder/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/barkoder/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/barkoder",
+                "user_view_type": "public"
+            }
+        }
+    ],
+    "comments": 1,
     "comments_url": "https://api.github.com/repos/TokTok/qTox/issues/708/comments",
     "created_at": "2026-04-20T09:13:20Z",
     "event_data": [
@@ -38,6 +86,7 @@
             "created_at": "2026-04-20T09:13:22Z",
             "event": "labeled",
             "id": 24670096346,
+            "intent": null,
             "label": {
                 "color": "84b6eb",
                 "name": "enhancement"
@@ -73,6 +122,12 @@
             "created_at": "2026-04-20T09:13:22Z",
             "event": "issue_type_added",
             "id": 24670096644,
+            "intent": null,
+            "issue_type": {
+                "color": "blue",
+                "id": 2333480,
+                "name": "Feature"
+            },
             "node_id": "ITAE_lADOA9gydM7_-RQ_zwAAAAW-c80E",
             "performed_via_github_app": null,
             "url": "https://api.github.com/repos/TokTok/qTox/issues/events/24670096644"
@@ -87,6 +142,7 @@
         "total_blocked_by": 0,
         "total_blocking": 0
     },
+    "issue_field_values": [],
     "labels": [
         {
             "color": "84b6eb",
@@ -106,7 +162,7 @@
     "performed_via_github_app": null,
     "pinned_comment": null,
     "reactions": {
-        "+1": 0,
+        "+1": 2,
         "-1": 0,
         "confused": 0,
         "eyes": 0,
@@ -114,7 +170,7 @@
         "hooray": 0,
         "laugh": 0,
         "rocket": 0,
-        "total_count": 0,
+        "total_count": 2,
         "url": "https://api.github.com/repos/TokTok/qTox/issues/708/reactions"
     },
     "repository_url": "https://api.github.com/repos/TokTok/qTox",
@@ -137,7 +193,7 @@
         "node_id": "IT_kwDOAQnqk84AI5so",
         "updated_at": "2024-10-08T09:59:59Z"
     },
-    "updated_at": "2026-04-20T09:13:20Z",
+    "updated_at": "2026-05-17T11:07:57Z",
     "url": "https://api.github.com/repos/TokTok/qTox/issues/708",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/46261539?v=4",

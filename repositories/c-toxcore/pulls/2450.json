@@ -98,8 +98,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 303,
-            "forks_count": 303,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -138,8 +138,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 211,
-            "open_issues_count": 211,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -164,11 +164,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-05-09T19:41:33Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23486,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2636,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -185,11 +185,11 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-05-08T22:37:37Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2636,
-            "watchers_count": 2636,
+            "watchers": 2676,
+            "watchers_count": 2676,
             "web_commit_signoff_required": true
         },
         "sha": "123650c600ebb8bdf64e17ee6b83406b070dffbb",
@@ -367,6 +367,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-1845495627",
             "id": 1845495627,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs5uAAdL",
             "performed_via_github_app": null,
             "reactions": {
@@ -412,6 +413,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-1849007032",
             "id": 1849007032,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs5uNZu4",
             "performed_via_github_app": null,
             "reactions": {
@@ -457,6 +459,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-1850027451",
             "id": 1850027451,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs5uRS27",
             "performed_via_github_app": null,
             "reactions": {
@@ -502,6 +505,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-1851555008",
             "id": 1851555008,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs5uXHzA",
             "performed_via_github_app": null,
             "reactions": {
@@ -547,6 +551,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2161124132",
             "id": 2161124132,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6A0CMk",
             "performed_via_github_app": null,
             "reactions": {
@@ -592,6 +597,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2167698553",
             "id": 2167698553,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6BNHR5",
             "performed_via_github_app": null,
             "reactions": {
@@ -637,6 +643,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2167936745",
             "id": 2167936745,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6BOBbp",
             "performed_via_github_app": null,
             "reactions": {
@@ -682,6 +689,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2168195840",
             "id": 2168195840,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6BPAsA",
             "performed_via_github_app": null,
             "reactions": {
@@ -727,6 +735,9 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2381689646",
             "id": 2381689646,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": {
+                "reason": "resolved"
+            },
             "node_id": "IC_kwDOA7zIGs6N9bMu",
             "performed_via_github_app": null,
             "reactions": {
@@ -772,6 +783,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2535984591",
             "id": 2535984591,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6XKA3P",
             "performed_via_github_app": null,
             "reactions": {
@@ -817,6 +829,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2614081921",
             "id": 2614081921,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6bz7mB",
             "performed_via_github_app": null,
             "reactions": {
@@ -862,6 +875,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/2450#issuecomment-2643925431",
             "id": 2643925431,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/2450",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs6dlxm3",
             "performed_via_github_app": null,
             "reactions": {
@@ -14289,7 +14303,7 @@
             "git_tags_url": "https://api.github.com/repos/goldroom/c-toxcore/git/tags{/sha}",
             "git_url": "git://github.com/goldroom/c-toxcore.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
@@ -14350,7 +14364,7 @@
             "releases_url": "https://api.github.com/repos/goldroom/c-toxcore/releases{/id}",
             "size": 19658,
             "ssh_url": "git@github.com:goldroom/c-toxcore.git",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "stargazers_url": "https://api.github.com/repos/goldroom/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/goldroom/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/goldroom/c-toxcore/subscribers",
@@ -14360,11 +14374,11 @@
             "teams_url": "https://api.github.com/repos/goldroom/c-toxcore/teams",
             "topics": [],
             "trees_url": "https://api.github.com/repos/goldroom/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-02-27T12:51:23Z",
+            "updated_at": "2026-06-23T10:58:27Z",
             "url": "https://api.github.com/repos/goldroom/c-toxcore",
             "visibility": "public",
-            "watchers": 1,
-            "watchers_count": 1,
+            "watchers": 2,
+            "watchers_count": 2,
             "web_commit_signoff_required": false
         },
         "sha": "b1bf78246cc7189ba1173b0fc6f521834eb0db69",
@@ -14415,7 +14429,7 @@
     "milestone": {
         "closed_at": null,
         "closed_issues": 0,
-        "created_at": "2026-04-13T09:16:07Z",
+        "created_at": "2026-08-24T13:16:03Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
             "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
@@ -14439,16 +14453,16 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/c-toxcore/milestone/53",
-        "id": 15516002,
-        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53/labels",
-        "node_id": "MI_kwDOA7zIGs4A7MFi",
-        "number": 53,
-        "open_issues": 22,
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/54",
+        "id": 17448448,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/54/labels",
+        "node_id": "MI_kwDOA7zIGs4BCj4A",
+        "number": 54,
+        "open_issues": 12,
         "state": "open",
-        "title": "v0.2.24",
-        "updated_at": "2026-05-09T08:04:10Z",
-        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53"
+        "title": "v0.2.25",
+        "updated_at": "2026-08-24T13:17:15Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/54"
     },
     "node_id": "PR_kwDOA7zIGs5hGETP",
     "number": 2450,
@@ -14462,7 +14476,7 @@
     "state": "open",
     "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/b1bf78246cc7189ba1173b0fc6f521834eb0db69",
     "title": "feat: WIP NoiseIK handshake based on libsodium",
-    "updated_at": "2026-04-13T09:17:41Z",
+    "updated_at": "2026-08-24T13:17:07Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/2450",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10259855?v=4",

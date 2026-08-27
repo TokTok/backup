@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3028"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/30dacd1576b2e0e7962111f2b570c701aea9c33e"
+            "href": "https://api.github.com/repos/TokTok/c-toxcore/statuses/85a51896f2752e2e594c65fb02a744bc643fdfa3"
         }
     },
     "active_lock_reason": null,
-    "additions": 3386,
+    "additions": 3593,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/c-toxcore/downloads",
             "events_url": "https://api.github.com/repos/TokTok/c-toxcore/events",
             "fork": true,
-            "forks": 303,
-            "forks_count": 303,
+            "forks": 311,
+            "forks_count": 311,
             "forks_url": "https://api.github.com/repos/TokTok/c-toxcore/forks",
             "full_name": "TokTok/c-toxcore",
             "git_commits_url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits{/sha}",
@@ -96,8 +96,8 @@
             "name": "c-toxcore",
             "node_id": "MDEwOlJlcG9zaXRvcnk2MjcwMzY0Mg==",
             "notifications_url": "https://api.github.com/repos/TokTok/c-toxcore/notifications{?since,all,participating}",
-            "open_issues": 211,
-            "open_issues_count": 211,
+            "open_issues": 221,
+            "open_issues_count": 221,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,11 +122,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-05-09T19:41:33Z",
+            "pushed_at": "2026-08-26T11:59:05Z",
             "releases_url": "https://api.github.com/repos/TokTok/c-toxcore/releases{/id}",
-            "size": 23486,
+            "size": 32301,
             "ssh_url": "git@github.com:TokTok/c-toxcore.git",
-            "stargazers_count": 2636,
+            "stargazers_count": 2676,
             "stargazers_url": "https://api.github.com/repos/TokTok/c-toxcore/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/c-toxcore/subscribers",
@@ -143,14 +143,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-05-08T22:37:37Z",
+            "updated_at": "2026-08-25T18:34:08Z",
             "url": "https://api.github.com/repos/TokTok/c-toxcore",
             "visibility": "public",
-            "watchers": 2636,
-            "watchers_count": 2636,
+            "watchers": 2676,
+            "watchers_count": 2676,
             "web_commit_signoff_required": true
         },
-        "sha": "8ffeabe452938609c3516665db2f14785f259d30",
+        "sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -174,7 +174,7 @@
         }
     },
     "body": "Fixes #426.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/c-toxcore/3028)\n<!-- Reviewable:end -->\n",
-    "changed_files": 31,
+    "changed_files": 32,
     "closed_at": null,
     "comment_data": [
         {
@@ -325,6 +325,7 @@
             "html_url": "https://github.com/TokTok/c-toxcore/pull/3028#issuecomment-3982817585",
             "id": 3982817585,
             "issue_url": "https://api.github.com/repos/TokTok/c-toxcore/issues/3028",
+            "minimized": null,
             "node_id": "IC_kwDOA7zIGs7tZPkx",
             "performed_via_github_app": {
                 "client_id": "Iv1.9d88ef6ecc903626",
@@ -446,7 +447,7 @@
                 "url": "https://api.github.com/users/goldroom",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/30dacd1576b2e0e7962111f2b570c701aea9c33e/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/c-toxcore/commits/85a51896f2752e2e594c65fb02a744bc643fdfa3/comments",
             "commit": {
                 "author": {
                     "date": "2026-01-03T18:56:37Z",
@@ -455,22 +456,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-03-04T22:53:47Z",
+                    "date": "2026-05-14T16:52:07Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Noise IK handshake implementation",
                 "tree": {
-                    "sha": "559a34becb12f2b93be03b93d3a77652f10404ac",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/559a34becb12f2b93be03b93d3a77652f10404ac"
+                    "sha": "0f63c36b6bad893f95bb2ec6df76e36846634eae",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/git/trees/0f63c36b6bad893f95bb2ec6df76e36846634eae"
                 },
-                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/30dacd1576b2e0e7962111f2b570c701aea9c33e",
+                "url": "https://api.github.com/repos/TokTok/c-toxcore/git/commits/85a51896f2752e2e594c65fb02a744bc643fdfa3",
                 "verification": {
-                    "payload": "tree 559a34becb12f2b93be03b93d3a77652f10404ac\nparent 8ffeabe452938609c3516665db2f14785f259d30\nauthor goldroom <goldroom@users.noreply.github.com> 1767466597 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1772664827 +0000\n\nfeat: Noise IK handshake implementation\n",
+                    "payload": "tree 0f63c36b6bad893f95bb2ec6df76e36846634eae\nparent bab03670b21f640dd97076f8eea81cc159b0f1e1\nauthor goldroom <goldroom@users.noreply.github.com> 1767466597 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1778777527 +0000\n\nfeat: Noise IK handshake implementation\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmot/wACgkQOFXbotdE\nA8kV0Af/T6DI3kLugVJDdYpQsz4PhWCTIwOYGHLWZObBQlH4Kt77Nvp+YmYj8edX\n+tDSES5vH6eE8E3SYF+Bxtstb4w83wtHBp2jpqJK4BRzUxmC2WN+gzfgos2zut2q\nYt34OERTmu9YXswSTbBBGJf28jWasTSvuIzBXuTf2PwikUBlbAWhcFXO9XhyI65l\nHKHnZ8RQNDLjkWMgO8zCAtBYdPNnj+31zdNj6rzfBSJfYwEHFeAA2/8MFiIvBK5V\nhGFLaXBb2pdNVsqTB/txLswk9s4X0AcGJ4hUsHhuGh6iGAw7XpgBCiBkQpxiSaQA\nA/kORxSTCTZaCF95r5aJAcit8q/3TA==\n=gzm8\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoF/bcACgkQOFXbotdE\nA8mxfwf+M8chJ24q2oXY9CWBumESppmW21stgHFtNCDbislyzJ6KNiLd76jOOs0w\n7oDaEbMga97oKQLcPI4kA1E8XbromhQKw3i6eYdD4AkWm/D9NDcBaJY9cPhQghbI\ntp8XTw/tHaI8l3NTpSdkhDgBDHJSwZJ3yhtX1akV5o/lrljwUFygLjy/JEzvUrzh\n4n2qCnoOWZ/3QikvBLmeHoOeOrqrfDOYbbGTIyrPRuOEP+17dBuW/M19nvud7En+\nRhbqDTkRQhDSpqkNSa5P2XP9xVa0qPWwHZn/VKSNa9P4EOhKb2Fb//Ev1yhSxFsp\ns6rbRzSCHT5z1QRE8q5BAociE8LKIg==\n=IBli\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-03-04T22:54:00Z"
+                    "verified_at": "2026-05-14T16:52:15Z"
                 }
             },
             "committer": {
@@ -494,23 +495,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/c-toxcore/commit/30dacd1576b2e0e7962111f2b570c701aea9c33e",
-            "node_id": "C_kwDOA7z7wtoAKDMwZGFjZDE1NzZiMmUwZTc5NjIxMTFmMmI1NzBjNzAxYWVhOWMzM2U",
+            "html_url": "https://github.com/TokTok/c-toxcore/commit/85a51896f2752e2e594c65fb02a744bc643fdfa3",
+            "node_id": "C_kwDOA7z7wtoAKDg1YTUxODk2ZjI3NTJlMmU1OTRjNjVmYjAyYTc0NGJjNjQzZmRmYTM",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/c-toxcore/commit/8ffeabe452938609c3516665db2f14785f259d30",
-                    "sha": "8ffeabe452938609c3516665db2f14785f259d30",
-                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/8ffeabe452938609c3516665db2f14785f259d30"
+                    "html_url": "https://github.com/TokTok/c-toxcore/commit/bab03670b21f640dd97076f8eea81cc159b0f1e1",
+                    "sha": "bab03670b21f640dd97076f8eea81cc159b0f1e1",
+                    "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/bab03670b21f640dd97076f8eea81cc159b0f1e1"
                 }
             ],
-            "sha": "30dacd1576b2e0e7962111f2b570c701aea9c33e",
-            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/30dacd1576b2e0e7962111f2b570c701aea9c33e"
+            "sha": "85a51896f2752e2e594c65fb02a744bc643fdfa3",
+            "url": "https://api.github.com/repos/TokTok/c-toxcore/commits/85a51896f2752e2e594c65fb02a744bc643fdfa3"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3028/commits",
     "created_at": "2026-03-01T19:18:06Z",
-    "deletions": 195,
+    "deletions": 196,
     "diff_url": "https://github.com/TokTok/c-toxcore/pull/3028.diff",
     "draft": false,
     "head": {
@@ -604,9 +605,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/c-toxcore/pulls{/number}",
-            "pushed_at": "2026-03-04T22:53:59Z",
+            "pushed_at": "2026-08-17T21:35:02Z",
             "releases_url": "https://api.github.com/repos/iphydf/c-toxcore/releases{/id}",
-            "size": 20662,
+            "size": 20760,
             "ssh_url": "git@github.com:iphydf/c-toxcore.git",
             "stargazers_count": 3,
             "stargazers_url": "https://api.github.com/repos/iphydf/c-toxcore/stargazers",
@@ -625,14 +626,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/c-toxcore/git/trees{/sha}",
-            "updated_at": "2026-03-02T23:07:56Z",
+            "updated_at": "2026-08-17T21:37:57Z",
             "url": "https://api.github.com/repos/iphydf/c-toxcore",
             "visibility": "public",
             "watchers": 3,
             "watchers_count": 3,
             "web_commit_signoff_required": false
         },
-        "sha": "30dacd1576b2e0e7962111f2b570c701aea9c33e",
+        "sha": "85a51896f2752e2e594c65fb02a744bc643fdfa3",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -671,16 +672,16 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "305ba5fd3666065662943fa9182533c216c7ad58",
-    "mergeable": true,
-    "mergeable_state": "behind",
+    "merge_commit_sha": null,
+    "mergeable": false,
+    "mergeable_state": "dirty",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
     "milestone": {
         "closed_at": null,
         "closed_issues": 0,
-        "created_at": "2026-04-13T09:16:07Z",
+        "created_at": "2026-08-24T13:16:03Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/2938071?v=4",
             "events_url": "https://api.github.com/users/Green-Sky/events{/privacy}",
@@ -704,21 +705,21 @@
         },
         "description": "",
         "due_on": null,
-        "html_url": "https://github.com/TokTok/c-toxcore/milestone/53",
-        "id": 15516002,
-        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53/labels",
-        "node_id": "MI_kwDOA7zIGs4A7MFi",
-        "number": 53,
-        "open_issues": 22,
+        "html_url": "https://github.com/TokTok/c-toxcore/milestone/54",
+        "id": 17448448,
+        "labels_url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/54/labels",
+        "node_id": "MI_kwDOA7zIGs4BCj4A",
+        "number": 54,
+        "open_issues": 12,
         "state": "open",
-        "title": "v0.2.24",
-        "updated_at": "2026-05-09T08:04:10Z",
-        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/53"
+        "title": "v0.2.25",
+        "updated_at": "2026-08-24T13:17:15Z",
+        "url": "https://api.github.com/repos/TokTok/c-toxcore/milestones/54"
     },
     "node_id": "PR_kwDOA7zIGs7HK7Y8",
     "number": 3028,
     "patch_url": "https://github.com/TokTok/c-toxcore/pull/3028.patch",
-    "rebaseable": true,
+    "rebaseable": false,
     "requested_reviewers": [
         {
             "avatar_url": "https://avatars.githubusercontent.com/u/1646057?v=4",
@@ -747,9 +748,9 @@
     "review_comments": 2,
     "review_comments_url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3028/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/30dacd1576b2e0e7962111f2b570c701aea9c33e",
+    "statuses_url": "https://api.github.com/repos/TokTok/c-toxcore/statuses/85a51896f2752e2e594c65fb02a744bc643fdfa3",
     "title": "feat: Noise IK handshake implementation",
-    "updated_at": "2026-04-13T09:17:51Z",
+    "updated_at": "2026-08-24T13:17:14Z",
     "url": "https://api.github.com/repos/TokTok/c-toxcore/pulls/3028",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

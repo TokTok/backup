@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/toxins/pulls/45"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/toxins/statuses/e6fcfc3b32b3ef9e21db298d720a9a48d02d6485"
+            "href": "https://api.github.com/repos/TokTok/toxins/statuses/3bf056ca98173b01afa0593829b2e71865b94542"
         }
     },
     "active_lock_reason": null,
-    "additions": 2,
+    "additions": 4,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -96,8 +96,8 @@
             "name": "toxins",
             "node_id": "MDEwOlJlcG9zaXRvcnkxMTk5NzQ3NTc=",
             "notifications_url": "https://api.github.com/repos/TokTok/toxins/notifications{?since,all,participating}",
-            "open_issues": 2,
-            "open_issues_count": 2,
+            "open_issues": 1,
+            "open_issues_count": 1,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,7 +122,7 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/toxins/pulls{/number}",
-            "pushed_at": "2026-02-10T21:54:58Z",
+            "pushed_at": "2026-05-17T14:02:40Z",
             "releases_url": "https://api.github.com/repos/TokTok/toxins/releases{/id}",
             "size": 91,
             "ssh_url": "git@github.com:TokTok/toxins.git",
@@ -138,7 +138,7 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/toxins/git/trees{/sha}",
-            "updated_at": "2026-03-23T21:54:38Z",
+            "updated_at": "2026-05-17T14:02:44Z",
             "url": "https://api.github.com/repos/TokTok/toxins",
             "visibility": "public",
             "watchers": 17,
@@ -169,8 +169,8 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toxins/45)\n<!-- Reviewable:end -->\n",
-    "changed_files": 1,
-    "closed_at": null,
+    "changed_files": 2,
+    "closed_at": "2026-05-17T14:02:41Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
@@ -198,7 +198,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/toxins/commits/e6fcfc3b32b3ef9e21db298d720a9a48d02d6485/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/toxins/commits/3bf056ca98173b01afa0593829b2e71865b94542/comments",
             "commit": {
                 "author": {
                     "date": "2026-02-10T21:54:21Z",
@@ -207,22 +207,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-10T21:54:21Z",
+                    "date": "2026-05-17T13:50:36Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "cleanup: Fix new clang warnings: malloc needs to be cast.",
                 "tree": {
-                    "sha": "594a286c2a016d4f8022cfe55ab34b054f9005be",
-                    "url": "https://api.github.com/repos/TokTok/toxins/git/trees/594a286c2a016d4f8022cfe55ab34b054f9005be"
+                    "sha": "4130e3cbb5e2d65459ced54f7d6c5f2be9723133",
+                    "url": "https://api.github.com/repos/TokTok/toxins/git/trees/4130e3cbb5e2d65459ced54f7d6c5f2be9723133"
                 },
-                "url": "https://api.github.com/repos/TokTok/toxins/git/commits/e6fcfc3b32b3ef9e21db298d720a9a48d02d6485",
+                "url": "https://api.github.com/repos/TokTok/toxins/git/commits/3bf056ca98173b01afa0593829b2e71865b94542",
                 "verification": {
-                    "payload": "tree 594a286c2a016d4f8022cfe55ab34b054f9005be\nparent 376fb6f0d2844b151a3f7af59f23294bbd4609be\nauthor iphydf <iphydf@users.noreply.github.com> 1770760461 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770760461 +0000\n\ncleanup: Fix new clang warnings: malloc needs to be cast.\n",
+                    "payload": "tree 4130e3cbb5e2d65459ced54f7d6c5f2be9723133\nparent 376fb6f0d2844b151a3f7af59f23294bbd4609be\nauthor iphydf <iphydf@users.noreply.github.com> 1770760461 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1779025836 +0000\n\ncleanup: Fix new clang warnings: malloc needs to be cast.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmLqR8ACgkQOFXbotdE\nA8lMxAf+KTDvVQo5AP6U3PHnvWAcJSnWMZCEeHletGjzKu3ob1ImPkyI7wkJw2HN\nDKuD0Sxnqe0IkUJMYNBan8WP/ED+TuxP6bEk4QAd7N90fPXXNK1YcgQxT9f9aMk2\nzSBgq5122qKuq/yEt9mSTpY6q/bsDtsmfJYY1/bqOTZJA6ePkY3TV+zD8RN9Vx9c\nqN9PWpLPxH435UyCAJTAfwvHc+P72j9ambw4AwPSu/3H/FpPpGPKaE/psoWvu/Z2\nLh7LSWS7rXgSKSokjFpfPB3nkxaLgMnZGSa5heQ484tYBW8BiOOGcq9+l1y/7uNq\n0LIsStHw9rE0IiP6IB72ENuTUyUlYA==\n=tfUd\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoJx6wACgkQOFXbotdE\nA8m/CQf/SmiRyh752M2LPC91h+xKq6xRp80l3HdiO6wL0z2PTuDLVGPLu4pLk5Qa\nBMAjFTu0FIfvIa3Og+VqDzX5u7AlawrnCbYFyADZuUtGohTWyMhp1ZBEDvYU1pzm\n4gXmpjKAbuhCUYDi/NoxVHyFlNQjos708IpzxToCXDWo9eny6ODizOQuSMgvu5QD\nDZec7TIJVNrKGW9gIAWLJjkOC/s/0Yij/CtaMe6BPA2EvX/gOv1VDYK3PEL5xynh\n1VK5JEOU36YNxmoh9sH9aIM3kJWWruZMjkwkSrsgOwL7Dfxv/M438Sv6KmJsXCGl\nmxcYiHyjEu05PpgWID1LZigM6OnRpg==\n=hWpn\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-10T21:54:42Z"
+                    "verified_at": "2026-05-17T13:50:38Z"
                 }
             },
             "committer": {
@@ -246,8 +246,8 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/toxins/commit/e6fcfc3b32b3ef9e21db298d720a9a48d02d6485",
-            "node_id": "C_kwDOBya46doAKGU2ZmNmYzNiMzJiM2VmOWUyMWRiMjk4ZDcyMGE5YTQ4ZDAyZDY0ODU",
+            "html_url": "https://github.com/TokTok/toxins/commit/3bf056ca98173b01afa0593829b2e71865b94542",
+            "node_id": "C_kwDOBya46doAKDNiZjA1NmNhOTgxNzNiMDFhZmEwNTkzODI5YjJlNzE4NjViOTQ1NDI",
             "parents": [
                 {
                     "html_url": "https://github.com/TokTok/toxins/commit/376fb6f0d2844b151a3f7af59f23294bbd4609be",
@@ -255,16 +255,16 @@
                     "url": "https://api.github.com/repos/TokTok/toxins/commits/376fb6f0d2844b151a3f7af59f23294bbd4609be"
                 }
             ],
-            "sha": "e6fcfc3b32b3ef9e21db298d720a9a48d02d6485",
-            "url": "https://api.github.com/repos/TokTok/toxins/commits/e6fcfc3b32b3ef9e21db298d720a9a48d02d6485"
+            "sha": "3bf056ca98173b01afa0593829b2e71865b94542",
+            "url": "https://api.github.com/repos/TokTok/toxins/commits/3bf056ca98173b01afa0593829b2e71865b94542"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/toxins/pulls/45/commits",
     "created_at": "2026-02-10T21:54:50Z",
-    "deletions": 2,
+    "deletions": 4,
     "diff_url": "https://github.com/TokTok/toxins/pull/45.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:warns",
         "ref": "warns",
@@ -356,7 +356,7 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/toxins/pulls{/number}",
-            "pushed_at": "2026-02-10T21:54:41Z",
+            "pushed_at": "2026-05-17T14:04:33Z",
             "releases_url": "https://api.github.com/repos/iphydf/toxins/releases{/id}",
             "size": 89,
             "ssh_url": "git@github.com:iphydf/toxins.git",
@@ -372,14 +372,14 @@
                 "toxcore"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/toxins/git/trees{/sha}",
-            "updated_at": "2025-02-17T23:37:34Z",
+            "updated_at": "2026-05-17T14:04:34Z",
             "url": "https://api.github.com/repos/iphydf/toxins",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "e6fcfc3b32b3ef9e21db298d720a9a48d02d6485",
+        "sha": "3bf056ca98173b01afa0593829b2e71865b94542",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -417,16 +417,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "823be834f750572544bd4ff333014a68ee077ba3",
-    "mergeable": true,
-    "mergeable_state": "blocked",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "3bf056ca98173b01afa0593829b2e71865b94542",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-05-17T14:02:41Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 17,
+        "closed_issues": 18,
         "created_at": "2020-04-26T17:07:42Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -456,25 +476,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/toxins/milestones/1/labels",
         "node_id": "MDk6TWlsZXN0b25lNTM1MDM1Ng==",
         "number": 1,
-        "open_issues": 2,
+        "open_issues": 1,
         "state": "open",
         "title": "master",
-        "updated_at": "2026-02-10T21:54:50Z",
+        "updated_at": "2026-05-17T14:02:41Z",
         "url": "https://api.github.com/repos/TokTok/toxins/milestones/1"
     },
     "node_id": "PR_kwDOByarZc7C3AmH",
     "number": 45,
     "patch_url": "https://github.com/TokTok/toxins/pull/45.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/toxins/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/toxins/pulls/45/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/toxins/statuses/e6fcfc3b32b3ef9e21db298d720a9a48d02d6485",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toxins/statuses/3bf056ca98173b01afa0593829b2e71865b94542",
     "title": "cleanup: Fix new clang warnings: malloc needs to be cast.",
-    "updated_at": "2026-02-10T21:55:38Z",
+    "updated_at": "2026-05-17T14:04:33Z",
     "url": "https://api.github.com/repos/TokTok/toxins/pulls/45",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/bTox/pulls/91"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/bTox/statuses/0eaf0af74f61a73a4dc059b0e9422c7c58d668cf"
+            "href": "https://api.github.com/repos/TokTok/bTox/statuses/ca8ff2d293877132f6e5d5c57ff55ce1ff48067f"
         }
     },
     "active_lock_reason": null,
-    "additions": 1029,
+    "additions": 1232,
     "assignee": null,
     "assignees": [],
     "author_association": "NONE",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/bTox/downloads",
             "events_url": "https://api.github.com/repos/TokTok/bTox/events",
             "fork": false,
-            "forks": 7,
-            "forks_count": 7,
+            "forks": 6,
+            "forks_count": 6,
             "forks_url": "https://api.github.com/repos/TokTok/bTox/forks",
             "full_name": "TokTok/bTox",
             "git_commits_url": "https://api.github.com/repos/TokTok/bTox/git/commits{/sha}",
@@ -122,11 +122,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/bTox/pulls{/number}",
-            "pushed_at": "2026-05-05T12:11:47Z",
+            "pushed_at": "2026-08-12T09:30:06Z",
             "releases_url": "https://api.github.com/repos/TokTok/bTox/releases{/id}",
-            "size": 3907,
+            "size": 3915,
             "ssh_url": "git@github.com:TokTok/bTox.git",
-            "stargazers_count": 17,
+            "stargazers_count": 16,
             "stargazers_url": "https://api.github.com/repos/TokTok/bTox/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/bTox/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/bTox/subscribers",
@@ -146,11 +146,11 @@
                 "web"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/bTox/git/trees{/sha}",
-            "updated_at": "2026-02-10T18:38:48Z",
+            "updated_at": "2026-06-07T15:11:15Z",
             "url": "https://api.github.com/repos/TokTok/bTox",
             "visibility": "public",
-            "watchers": 17,
-            "watchers_count": 17,
+            "watchers": 16,
+            "watchers_count": 16,
             "web_commit_signoff_required": true
         },
         "sha": "51087ea584f55e5ae42c13950a210aa6ad0de832",
@@ -177,7 +177,7 @@
         }
     },
     "body": "Translations update from [Hosted Weblate](https://hosted.weblate.org) for [qTox/bTox](https://hosted.weblate.org/projects/qtox/bTox/).\n\n\n\nCurrent translation status:\n\n![Weblate translation status](https://hosted.weblate.org/widget/qtox/bTox/horizontal-auto.svg)\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/bTox/91)\n<!-- Reviewable:end -->\n",
-    "changed_files": 8,
+    "changed_files": 10,
     "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [
@@ -188,6 +188,7 @@
             "html_url": "https://github.com/TokTok/bTox/pull/91#issuecomment-3040184543",
             "id": 3040184543,
             "issue_url": "https://api.github.com/repos/TokTok/bTox/issues/91",
+            "minimized": null,
             "node_id": "IC_kwDOGwPtrc61NYjf",
             "performed_via_github_app": {
                 "client_id": "Iv1.05c79e9ad1f6bdfa",
@@ -262,6 +263,7 @@
                     "copilot_requests": "write",
                     "deployments": "write",
                     "discussions": "write",
+                    "drives": "write",
                     "issues": "write",
                     "merge_queues": "write",
                     "metadata": "read",
@@ -276,7 +278,7 @@
                     "vulnerability_alerts": "read"
                 },
                 "slug": "github-actions",
-                "updated_at": "2026-05-05T14:51:38Z"
+                "updated_at": "2026-06-18T16:17:48Z"
             },
             "reactions": {
                 "+1": 0,
@@ -290,7 +292,7 @@
                 "total_count": 0,
                 "url": "https://api.github.com/repos/TokTok/bTox/issues/comments/3040184543/reactions"
             },
-            "updated_at": "2026-05-05T12:12:46Z",
+            "updated_at": "2026-08-12T09:30:15Z",
             "url": "https://api.github.com/repos/TokTok/bTox/issues/comments/3040184543",
             "user": {
                 "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
@@ -321,6 +323,7 @@
             "html_url": "https://github.com/TokTok/bTox/pull/91#issuecomment-3041234246",
             "id": 3041234246,
             "issue_url": "https://api.github.com/repos/TokTok/bTox/issues/91",
+            "minimized": null,
             "node_id": "IC_kwDOGwPtrc61RY1G",
             "performed_via_github_app": {
                 "client_id": "Iv1.9d88ef6ecc903626",
@@ -483,27 +486,7 @@
             "url": "https://api.github.com/repos/TokTok/bTox/commits/af3981eadbe6032af5e7ce554a9494ef4a5b83a1"
         },
         {
-            "author": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/225727514?v=4",
-                "events_url": "https://api.github.com/users/sparonson/events{/privacy}",
-                "followers_url": "https://api.github.com/users/sparonson/followers",
-                "following_url": "https://api.github.com/users/sparonson/following{/other_user}",
-                "gists_url": "https://api.github.com/users/sparonson/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/sparonson",
-                "id": 225727514,
-                "login": "sparonson",
-                "node_id": "U_kgDODXRUGg",
-                "organizations_url": "https://api.github.com/users/sparonson/orgs",
-                "received_events_url": "https://api.github.com/users/sparonson/received_events",
-                "repos_url": "https://api.github.com/users/sparonson/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/sparonson/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/sparonson/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/sparonson",
-                "user_view_type": "public"
-            },
+            "author": null,
             "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/08adb64bd4119d02512202f2d81f343666906703/comments",
             "commit": {
                 "author": {
@@ -565,27 +548,7 @@
             "url": "https://api.github.com/repos/TokTok/bTox/commits/08adb64bd4119d02512202f2d81f343666906703"
         },
         {
-            "author": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/225727514?v=4",
-                "events_url": "https://api.github.com/users/sparonson/events{/privacy}",
-                "followers_url": "https://api.github.com/users/sparonson/followers",
-                "following_url": "https://api.github.com/users/sparonson/following{/other_user}",
-                "gists_url": "https://api.github.com/users/sparonson/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/sparonson",
-                "id": 225727514,
-                "login": "sparonson",
-                "node_id": "U_kgDODXRUGg",
-                "organizations_url": "https://api.github.com/users/sparonson/orgs",
-                "received_events_url": "https://api.github.com/users/sparonson/received_events",
-                "repos_url": "https://api.github.com/users/sparonson/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/sparonson/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/sparonson/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/sparonson",
-                "user_view_type": "public"
-            },
+            "author": null,
             "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/d0ef24aa87bddc4715ab9aa945ed25e5dcabfcd1/comments",
             "commit": {
                 "author": {
@@ -1329,27 +1292,7 @@
             "url": "https://api.github.com/repos/TokTok/bTox/commits/41464afafe7946baa0bfbc0f044673d4a4a11040"
         },
         {
-            "author": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/225727514?v=4",
-                "events_url": "https://api.github.com/users/sparonson/events{/privacy}",
-                "followers_url": "https://api.github.com/users/sparonson/followers",
-                "following_url": "https://api.github.com/users/sparonson/following{/other_user}",
-                "gists_url": "https://api.github.com/users/sparonson/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/sparonson",
-                "id": 225727514,
-                "login": "sparonson",
-                "node_id": "U_kgDODXRUGg",
-                "organizations_url": "https://api.github.com/users/sparonson/orgs",
-                "received_events_url": "https://api.github.com/users/sparonson/received_events",
-                "repos_url": "https://api.github.com/users/sparonson/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/sparonson/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/sparonson/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/sparonson",
-                "user_view_type": "public"
-            },
+            "author": null,
             "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/5f8822d3dfd5dc83c6ce63608c8ca5a850a9a80e/comments",
             "commit": {
                 "author": {
@@ -1411,27 +1354,7 @@
             "url": "https://api.github.com/repos/TokTok/bTox/commits/5f8822d3dfd5dc83c6ce63608c8ca5a850a9a80e"
         },
         {
-            "author": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/225727514?v=4",
-                "events_url": "https://api.github.com/users/sparonson/events{/privacy}",
-                "followers_url": "https://api.github.com/users/sparonson/followers",
-                "following_url": "https://api.github.com/users/sparonson/following{/other_user}",
-                "gists_url": "https://api.github.com/users/sparonson/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/sparonson",
-                "id": 225727514,
-                "login": "sparonson",
-                "node_id": "U_kgDODXRUGg",
-                "organizations_url": "https://api.github.com/users/sparonson/orgs",
-                "received_events_url": "https://api.github.com/users/sparonson/received_events",
-                "repos_url": "https://api.github.com/users/sparonson/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/sparonson/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/sparonson/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/sparonson",
-                "user_view_type": "public"
-            },
+            "author": null,
             "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/749c7f58e7ddc15e38bc091abf39244d0257721a/comments",
             "commit": {
                 "author": {
@@ -1717,9 +1640,317 @@
             ],
             "sha": "0eaf0af74f61a73a4dc059b0e9422c7c58d668cf",
             "url": "https://api.github.com/repos/TokTok/bTox/commits/0eaf0af74f61a73a4dc059b0e9422c7c58d668cf"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/84ec0d213cde8ca04749fb803347c77bb68cf64c/comments",
+            "commit": {
+                "author": {
+                    "date": "2026-05-10T08:03:39Z",
+                    "email": "dadu042@users.noreply.hosted.weblate.org",
+                    "name": "David D."
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2026-05-11T08:11:32Z",
+                    "email": "hosted@weblate.org",
+                    "name": "Hosted Weblate"
+                },
+                "message": "docs: Translated using Weblate (French)\n\nCurrently translated at 100.0% (29 of 29 strings)\n\nTranslation: qTox/bTox\nTranslate-URL: https://hosted.weblate.org/projects/qtox/bTox/fr/",
+                "tree": {
+                    "sha": "6132f4755c4747f7de4e59c060bfae3b5e15f210",
+                    "url": "https://api.github.com/repos/TokTok/bTox/git/trees/6132f4755c4747f7de4e59c060bfae3b5e15f210"
+                },
+                "url": "https://api.github.com/repos/TokTok/bTox/git/commits/84ec0d213cde8ca04749fb803347c77bb68cf64c",
+                "verification": {
+                    "payload": "tree 6132f4755c4747f7de4e59c060bfae3b5e15f210\nparent 0eaf0af74f61a73a4dc059b0e9422c7c58d668cf\nauthor David D. <dadu042@users.noreply.hosted.weblate.org> 1778400219 +0200\ncommitter Hosted Weblate <hosted@weblate.org> 1778487092 +0200\n\ndocs: Translated using Weblate (French)\n\nCurrently translated at 100.0% (29 of 29 strings)\n\nTranslation: qTox/bTox\nTranslate-URL: https://hosted.weblate.org/projects/qtox/bTox/fr/\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEPCZ5If1Syf7h8HoKo/qqBuZWm0wFAmoBjzQACgkQo/qqBuZW\nm0w39Af7BZPFHznfbL0I0qwqFUMVKso+7C7NMb+tKkpwwxr02YbjlXEQ7LOHjL9k\n8DQgOv43o+1m076BpqCKSDcf8eSMWoaZQuzxiKe6zhPGodkoolCQ5RO+rW4qb3tA\nNEjFTU6rMhvf8vFxx4tvG10nNucnrqtlrXjvNaO3ybkwcHBFagLFYwnDVrAEmuPL\nZjcBtLnbD8rWa7/UkxLKJG4qKcy5ImdJwgr6wrhxlvNXGdwGU1XHFccS1aBxVmE6\nXUlw47XVM5LNRWa4G3cacWQNd6Y+YhMZkHEwTeS04h0sjcOK8EBZs6EubJOy96ok\nrJmdEYgnojeS2zXpaUJD8zYOUYuUpg==\n=woNk\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2026-05-11T08:12:31Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1607653?v=4",
+                "events_url": "https://api.github.com/users/weblate/events{/privacy}",
+                "followers_url": "https://api.github.com/users/weblate/followers",
+                "following_url": "https://api.github.com/users/weblate/following{/other_user}",
+                "gists_url": "https://api.github.com/users/weblate/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/weblate",
+                "id": 1607653,
+                "login": "weblate",
+                "node_id": "MDQ6VXNlcjE2MDc2NTM=",
+                "organizations_url": "https://api.github.com/users/weblate/orgs",
+                "received_events_url": "https://api.github.com/users/weblate/received_events",
+                "repos_url": "https://api.github.com/users/weblate/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/weblate/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/weblate/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/weblate",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/bTox/commit/84ec0d213cde8ca04749fb803347c77bb68cf64c",
+            "node_id": "C_kwDONxRWWNoAKDg0ZWMwZDIxM2NkZThjYTA0NzQ5ZmI4MDMzNDdjNzdiYjY4Y2Y2NGM",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/bTox/commit/0eaf0af74f61a73a4dc059b0e9422c7c58d668cf",
+                    "sha": "0eaf0af74f61a73a4dc059b0e9422c7c58d668cf",
+                    "url": "https://api.github.com/repos/TokTok/bTox/commits/0eaf0af74f61a73a4dc059b0e9422c7c58d668cf"
+                }
+            ],
+            "sha": "84ec0d213cde8ca04749fb803347c77bb68cf64c",
+            "url": "https://api.github.com/repos/TokTok/bTox/commits/84ec0d213cde8ca04749fb803347c77bb68cf64c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/31543615?v=4",
+                "events_url": "https://api.github.com/users/SantosSi/events{/privacy}",
+                "followers_url": "https://api.github.com/users/SantosSi/followers",
+                "following_url": "https://api.github.com/users/SantosSi/following{/other_user}",
+                "gists_url": "https://api.github.com/users/SantosSi/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/SantosSi",
+                "id": 31543615,
+                "login": "SantosSi",
+                "node_id": "MDQ6VXNlcjMxNTQzNjE1",
+                "organizations_url": "https://api.github.com/users/SantosSi/orgs",
+                "received_events_url": "https://api.github.com/users/SantosSi/received_events",
+                "repos_url": "https://api.github.com/users/SantosSi/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/SantosSi/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/SantosSi/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/SantosSi",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/0ad67d72e7504b726e5ab72be56f539e40a206c8/comments",
+            "commit": {
+                "author": {
+                    "date": "2026-06-04T21:05:08Z",
+                    "email": "ssantos@web.de",
+                    "name": "ssantos"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2026-06-04T21:05:08Z",
+                    "email": "hosted@weblate.org",
+                    "name": "Hosted Weblate"
+                },
+                "message": "feat: Added translation using Weblate (Portuguese)",
+                "tree": {
+                    "sha": "7181824e465fff97aa6736a980d888997df1babf",
+                    "url": "https://api.github.com/repos/TokTok/bTox/git/trees/7181824e465fff97aa6736a980d888997df1babf"
+                },
+                "url": "https://api.github.com/repos/TokTok/bTox/git/commits/0ad67d72e7504b726e5ab72be56f539e40a206c8",
+                "verification": {
+                    "payload": "tree 7181824e465fff97aa6736a980d888997df1babf\nparent 84ec0d213cde8ca04749fb803347c77bb68cf64c\nauthor ssantos <ssantos@web.de> 1780607108 +0200\ncommitter Hosted Weblate <hosted@weblate.org> 1780607108 +0200\n\nfeat: Added translation using Weblate (Portuguese)\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEPCZ5If1Syf7h8HoKo/qqBuZWm0wFAmoh6IQACgkQo/qqBuZW\nm0xOqQf/Yn6d9MB/uoEqSt/HVSVTiu+3DKkgi/9tPP3Bxp2yhaCM95LWWTzzWh/7\nLggYfY8dh/QKLQHcH+2XaupIxJa4hQDxnNAcXFCNGvjYEG6wd9AHuITfD47xG0NY\nzjPSt6WH6kMJ/flsXYEthSNrUb/njKa0ArHCuDUfQcncRXZpOvf7UNi553ZcCu7W\nb6L5m/5wqDXEe42iIheXF4RsqugG5LHZosqh44aMv70CxPjwfuGQJUKc7GpRzfUa\nU4DVQnMpiZTX8TiMwCazDDzLgVSkxnZBgnNc+pCUDoxeV5drIoyIIMh38QBWDv6D\n6z6QozxeBfVclsgETN4vrPHJf2OZfg==\n=e/7p\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2026-06-04T21:05:14Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1607653?v=4",
+                "events_url": "https://api.github.com/users/weblate/events{/privacy}",
+                "followers_url": "https://api.github.com/users/weblate/followers",
+                "following_url": "https://api.github.com/users/weblate/following{/other_user}",
+                "gists_url": "https://api.github.com/users/weblate/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/weblate",
+                "id": 1607653,
+                "login": "weblate",
+                "node_id": "MDQ6VXNlcjE2MDc2NTM=",
+                "organizations_url": "https://api.github.com/users/weblate/orgs",
+                "received_events_url": "https://api.github.com/users/weblate/received_events",
+                "repos_url": "https://api.github.com/users/weblate/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/weblate/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/weblate/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/weblate",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/bTox/commit/0ad67d72e7504b726e5ab72be56f539e40a206c8",
+            "node_id": "C_kwDONxRWWNoAKDBhZDY3ZDcyZTc1MDRiNzI2ZTVhYjcyYmU1NmY1MzllNDBhMjA2Yzg",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/bTox/commit/84ec0d213cde8ca04749fb803347c77bb68cf64c",
+                    "sha": "84ec0d213cde8ca04749fb803347c77bb68cf64c",
+                    "url": "https://api.github.com/repos/TokTok/bTox/commits/84ec0d213cde8ca04749fb803347c77bb68cf64c"
+                }
+            ],
+            "sha": "0ad67d72e7504b726e5ab72be56f539e40a206c8",
+            "url": "https://api.github.com/repos/TokTok/bTox/commits/0ad67d72e7504b726e5ab72be56f539e40a206c8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/31543615?v=4",
+                "events_url": "https://api.github.com/users/SantosSi/events{/privacy}",
+                "followers_url": "https://api.github.com/users/SantosSi/followers",
+                "following_url": "https://api.github.com/users/SantosSi/following{/other_user}",
+                "gists_url": "https://api.github.com/users/SantosSi/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/SantosSi",
+                "id": 31543615,
+                "login": "SantosSi",
+                "node_id": "MDQ6VXNlcjMxNTQzNjE1",
+                "organizations_url": "https://api.github.com/users/SantosSi/orgs",
+                "received_events_url": "https://api.github.com/users/SantosSi/received_events",
+                "repos_url": "https://api.github.com/users/SantosSi/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/SantosSi/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/SantosSi/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/SantosSi",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/f2b88768eae5171d67792f8cb35a60c35cf150f5/comments",
+            "commit": {
+                "author": {
+                    "date": "2026-06-04T21:05:41Z",
+                    "email": "ssantos@web.de",
+                    "name": "ssantos"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2026-06-05T22:01:02Z",
+                    "email": "hosted@weblate.org",
+                    "name": "Hosted Weblate"
+                },
+                "message": "docs: Translated using Weblate (Portuguese)\n\nCurrently translated at 100.0% (29 of 29 strings)\n\nTranslation: qTox/bTox\nTranslate-URL: https://hosted.weblate.org/projects/qtox/bTox/pt/",
+                "tree": {
+                    "sha": "bcf2aa28a1d5b2884923156ae07a12a9d6430d0e",
+                    "url": "https://api.github.com/repos/TokTok/bTox/git/trees/bcf2aa28a1d5b2884923156ae07a12a9d6430d0e"
+                },
+                "url": "https://api.github.com/repos/TokTok/bTox/git/commits/f2b88768eae5171d67792f8cb35a60c35cf150f5",
+                "verification": {
+                    "payload": "tree bcf2aa28a1d5b2884923156ae07a12a9d6430d0e\nparent 0ad67d72e7504b726e5ab72be56f539e40a206c8\nauthor ssantos <ssantos@web.de> 1780607141 +0200\ncommitter Hosted Weblate <hosted@weblate.org> 1780696862 +0000\n\ndocs: Translated using Weblate (Portuguese)\n\nCurrently translated at 100.0% (29 of 29 strings)\n\nTranslation: qTox/bTox\nTranslate-URL: https://hosted.weblate.org/projects/qtox/bTox/pt/\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEPCZ5If1Syf7h8HoKo/qqBuZWm0wFAmojRx4ACgkQo/qqBuZW\nm0wh2QgAsfRQSRVMKkC7kClPjQ0SA/2Fj6EIjCnFjzTFCoUUhstvp4vtXRYRRyqp\nF9s4jE28nLOHgUuT8VFYioB91YP8II2h6i8vGeVzLidwK2MM/yv11ng5WB58YYpP\nLe5dII1Q61r3CFAhxffQ0I+F9j9K5AxLAvYvGQOZOTpomzKl65N7ecZ+0DCJH4qG\nkqspSmVdKT13768lFU/JZWCfKBQGV/Hucd2RmD59uEqT/yHvvmx/U+kKpWlaM0hq\nQdWAf3Dlpt8ZVjlXpSPzD6YwhAhBGumcupSA7r0ftvxYIu/SxnnG567qhgbhLTPM\naAZFt4WESRAjj7WOb0xH44rMUyxXag==\n=5Tbx\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2026-06-05T22:01:09Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1607653?v=4",
+                "events_url": "https://api.github.com/users/weblate/events{/privacy}",
+                "followers_url": "https://api.github.com/users/weblate/followers",
+                "following_url": "https://api.github.com/users/weblate/following{/other_user}",
+                "gists_url": "https://api.github.com/users/weblate/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/weblate",
+                "id": 1607653,
+                "login": "weblate",
+                "node_id": "MDQ6VXNlcjE2MDc2NTM=",
+                "organizations_url": "https://api.github.com/users/weblate/orgs",
+                "received_events_url": "https://api.github.com/users/weblate/received_events",
+                "repos_url": "https://api.github.com/users/weblate/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/weblate/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/weblate/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/weblate",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/bTox/commit/f2b88768eae5171d67792f8cb35a60c35cf150f5",
+            "node_id": "C_kwDONxRWWNoAKGYyYjg4NzY4ZWFlNTE3MWQ2Nzc5MmY4Y2IzNWE2MGMzNWNmMTUwZjU",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/bTox/commit/0ad67d72e7504b726e5ab72be56f539e40a206c8",
+                    "sha": "0ad67d72e7504b726e5ab72be56f539e40a206c8",
+                    "url": "https://api.github.com/repos/TokTok/bTox/commits/0ad67d72e7504b726e5ab72be56f539e40a206c8"
+                }
+            ],
+            "sha": "f2b88768eae5171d67792f8cb35a60c35cf150f5",
+            "url": "https://api.github.com/repos/TokTok/bTox/commits/f2b88768eae5171d67792f8cb35a60c35cf150f5"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/315801146?v=4",
+                "events_url": "https://api.github.com/users/moruacat/events{/privacy}",
+                "followers_url": "https://api.github.com/users/moruacat/followers",
+                "following_url": "https://api.github.com/users/moruacat/following{/other_user}",
+                "gists_url": "https://api.github.com/users/moruacat/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/moruacat",
+                "id": 315801146,
+                "login": "moruacat",
+                "node_id": "U_kgDOEtK-Og",
+                "organizations_url": "https://api.github.com/users/moruacat/orgs",
+                "received_events_url": "https://api.github.com/users/moruacat/received_events",
+                "repos_url": "https://api.github.com/users/moruacat/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/moruacat/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/moruacat/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/moruacat",
+                "user_view_type": "public"
+            },
+            "comments_url": "https://api.github.com/repos/TokTok/bTox/commits/ca8ff2d293877132f6e5d5c57ff55ce1ff48067f/comments",
+            "commit": {
+                "author": {
+                    "date": "2026-08-12T09:29:50Z",
+                    "email": "M2131447782@outlook.com",
+                    "name": "moliang"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2026-08-12T09:29:50Z",
+                    "email": "hosted@weblate.org",
+                    "name": "Hosted Weblate"
+                },
+                "message": "feat: Added translation using Weblate (Chinese (Simplified Han script))",
+                "tree": {
+                    "sha": "0d31774862ae2f217eca5d3c4eafb8e949347a01",
+                    "url": "https://api.github.com/repos/TokTok/bTox/git/trees/0d31774862ae2f217eca5d3c4eafb8e949347a01"
+                },
+                "url": "https://api.github.com/repos/TokTok/bTox/git/commits/ca8ff2d293877132f6e5d5c57ff55ce1ff48067f",
+                "verification": {
+                    "payload": "tree 0d31774862ae2f217eca5d3c4eafb8e949347a01\nparent f2b88768eae5171d67792f8cb35a60c35cf150f5\nauthor moliang <M2131447782@outlook.com> 1786526990 +0200\ncommitter Hosted Weblate <hosted@weblate.org> 1786526990 +0200\n\nfeat: Added translation using Weblate (Chinese (Simplified Han script))\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEPCZ5If1Syf7h8HoKo/qqBuZWm0wFAmp8PQ4ACgkQo/qqBuZW\nm0wFWgf/bebZbZxG3L8dVB3z4/akDFQz9IXWmtnmFRVYB1WhRqTmVOr+n60eku1u\n8YA8f227THu67SwrVjBJJ8+BeOKbhusyWfroHI2cNp2SBLO+Y+CfoTuqe29ZC9zI\nDsuEg+ms2wmLw9KInx7WJPbXJD3x5hIsdxLSUKYPqqe789pkgIs8i5RVClNyRyyA\nHri9VKQ9ZVMKEzU8cWY78P4chyYzyegdmsc++ovOJ5gKjkzjbW+5i5KF+TeXRLjG\nMNqX0sCm9KEOrRL3G6R8uzN5ehRUOCOUXhrMbQF+0HJBSYPlQ+EsT/qo3NAzuskI\nzaKvNzSTmaPPPuf0Vc2VKmpDSBbm/A==\n=BcDd\n-----END PGP SIGNATURE-----",
+                    "verified": true,
+                    "verified_at": "2026-08-12T09:29:58Z"
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1607653?v=4",
+                "events_url": "https://api.github.com/users/weblate/events{/privacy}",
+                "followers_url": "https://api.github.com/users/weblate/followers",
+                "following_url": "https://api.github.com/users/weblate/following{/other_user}",
+                "gists_url": "https://api.github.com/users/weblate/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/weblate",
+                "id": 1607653,
+                "login": "weblate",
+                "node_id": "MDQ6VXNlcjE2MDc2NTM=",
+                "organizations_url": "https://api.github.com/users/weblate/orgs",
+                "received_events_url": "https://api.github.com/users/weblate/received_events",
+                "repos_url": "https://api.github.com/users/weblate/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/weblate/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/weblate/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/weblate",
+                "user_view_type": "public"
+            },
+            "html_url": "https://github.com/TokTok/bTox/commit/ca8ff2d293877132f6e5d5c57ff55ce1ff48067f",
+            "node_id": "C_kwDONxRWWNoAKGNhOGZmMmQyOTM4NzcxMzJmNmU1ZDVjNTdmZjU1Y2UxZmY0ODA2N2Y",
+            "parents": [
+                {
+                    "html_url": "https://github.com/TokTok/bTox/commit/f2b88768eae5171d67792f8cb35a60c35cf150f5",
+                    "sha": "f2b88768eae5171d67792f8cb35a60c35cf150f5",
+                    "url": "https://api.github.com/repos/TokTok/bTox/commits/f2b88768eae5171d67792f8cb35a60c35cf150f5"
+                }
+            ],
+            "sha": "ca8ff2d293877132f6e5d5c57ff55ce1ff48067f",
+            "url": "https://api.github.com/repos/TokTok/bTox/commits/ca8ff2d293877132f6e5d5c57ff55ce1ff48067f"
         }
     ],
-    "commits": 19,
+    "commits": 23,
     "commits_url": "https://api.github.com/repos/TokTok/bTox/pulls/91/commits",
     "created_at": "2025-07-05T21:02:34Z",
     "deletions": 159,
@@ -1759,7 +1990,7 @@
             "git_tags_url": "https://api.github.com/repos/weblate/btox/git/tags{/sha}",
             "git_url": "git://github.com/weblate/btox.git",
             "has_discussions": false,
-            "has_downloads": true,
+            "has_downloads": false,
             "has_issues": false,
             "has_pages": false,
             "has_projects": true,
@@ -1816,9 +2047,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/weblate/btox/pulls{/number}",
-            "pushed_at": "2026-05-05T12:11:37Z",
+            "pushed_at": "2026-08-12T09:29:54Z",
             "releases_url": "https://api.github.com/repos/weblate/btox/releases{/id}",
-            "size": 3059,
+            "size": 3067,
             "ssh_url": "git@github.com:weblate/btox.git",
             "stargazers_count": 1,
             "stargazers_url": "https://api.github.com/repos/weblate/btox/stargazers",
@@ -1837,7 +2068,7 @@
             "watchers_count": 1,
             "web_commit_signoff_required": false
         },
-        "sha": "0eaf0af74f61a73a4dc059b0e9422c7c58d668cf",
+        "sha": "ca8ff2d293877132f6e5d5c57ff55ce1ff48067f",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/1607653?v=4",
             "events_url": "https://api.github.com/users/weblate/events{/privacy}",
@@ -1876,7 +2107,7 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "767aa7f854a28d4e542dc38dd8d94fe01c375e69",
+    "merge_commit_sha": "eb6944ea82f209b38694f7821aa04a7b2662b842",
     "mergeable": true,
     "mergeable_state": "blocked",
     "merged": false,
@@ -1930,9 +2161,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/bTox/pulls/91/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/bTox/statuses/0eaf0af74f61a73a4dc059b0e9422c7c58d668cf",
+    "statuses_url": "https://api.github.com/repos/TokTok/bTox/statuses/ca8ff2d293877132f6e5d5c57ff55ce1ff48067f",
     "title": "docs: Translations update from Hosted Weblate",
-    "updated_at": "2026-05-05T12:12:46Z",
+    "updated_at": "2026-08-12T09:30:15Z",
     "url": "https://api.github.com/repos/TokTok/bTox/pulls/91",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/1607653?v=4",

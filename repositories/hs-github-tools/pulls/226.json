@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/hs-github-tools/pulls/226"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/hs-github-tools/statuses/9a649f3ac01e1d4852735ad29652ef85b0cc1fe4"
+            "href": "https://api.github.com/repos/TokTok/hs-github-tools/statuses/52c0ac8139655d884e6a067074739098417c6655"
         }
     },
     "active_lock_reason": null,
-    "additions": 21280,
+    "additions": 23322,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/hs-github-tools/downloads",
             "events_url": "https://api.github.com/repos/TokTok/hs-github-tools/events",
             "fork": false,
-            "forks": 7,
-            "forks_count": 7,
+            "forks": 6,
+            "forks_count": 6,
             "forks_url": "https://api.github.com/repos/TokTok/hs-github-tools/forks",
             "full_name": "TokTok/hs-github-tools",
             "git_commits_url": "https://api.github.com/repos/TokTok/hs-github-tools/git/commits{/sha}",
@@ -122,9 +122,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/hs-github-tools/pulls{/number}",
-            "pushed_at": "2026-02-21T21:04:46Z",
+            "pushed_at": "2026-05-15T23:33:14Z",
             "releases_url": "https://api.github.com/repos/TokTok/hs-github-tools/releases{/id}",
-            "size": 638,
+            "size": 651,
             "ssh_url": "git@github.com:TokTok/hs-github-tools.git",
             "stargazers_count": 5,
             "stargazers_url": "https://api.github.com/repos/TokTok/hs-github-tools/stargazers",
@@ -146,7 +146,7 @@
             "watchers_count": 5,
             "web_commit_signoff_required": true
         },
-        "sha": "2e48de89c1faf5788f229e8a0434d38c47c43732",
+        "sha": "325ce451fa5f49bc56795375a58e9719d4a99e64",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -170,7 +170,7 @@
         }
     },
     "body": "\n\n<!-- Reviewable:start -->\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/hs-github-tools/226)\n<!-- Reviewable:end -->\n",
-    "changed_files": 84,
+    "changed_files": 82,
     "closed_at": null,
     "comment_data": [],
     "comment_regular_data": [],
@@ -199,89 +199,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb/comments",
-            "commit": {
-                "author": {
-                    "date": "2026-02-17T18:08:03Z",
-                    "email": "iphydf@users.noreply.github.com",
-                    "name": "iphydf"
-                },
-                "comment_count": 0,
-                "committer": {
-                    "date": "2026-02-17T18:24:44Z",
-                    "email": "iphydf@users.noreply.github.com",
-                    "name": "iphydf"
-                },
-                "message": "fix: Add missing fields to repository model.",
-                "tree": {
-                    "sha": "f441d734cdb2ca2b410d35252433eb0e9c90588e",
-                    "url": "https://api.github.com/repos/TokTok/hs-github-tools/git/trees/f441d734cdb2ca2b410d35252433eb0e9c90588e"
-                },
-                "url": "https://api.github.com/repos/TokTok/hs-github-tools/git/commits/66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb",
-                "verification": {
-                    "payload": "tree f441d734cdb2ca2b410d35252433eb0e9c90588e\nparent 2e48de89c1faf5788f229e8a0434d38c47c43732\nauthor iphydf <iphydf@users.noreply.github.com> 1771351683 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1771352684 +0000\n\nfix: Add missing fields to repository model.\n",
-                    "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmUsm0ACgkQOFXbotdE\nA8kLNQf/eJ87+BpJm7hN2Py56dxIwU2iY87r9/i9n1PBIzVGAuY/XkWjzzRAvir9\nQlElkMe1OXZ9ZK5GuC4/kZSya7A665q+JPMXeYGoZYALX+0Q61rDb/yFaq2xSQID\nq0Dso6qjePLCLe4d6V18lDx1I7T8ZaFwZisymyzyd49mgVtfyrbsgz+9nJriD7tq\ngWMH0wuMIhQVsHhjhN3Lc7ddCErUjwFHEybIsu2w1Dzgbnnlq/LQKsGhbjxRvcTg\ngj9ZPjkwa4+1mmW8KY0vTuZcBOPE974PVOQckqPwU9qEr+hK50IuuSW0k/dXt8xu\nZJj0f0wJDtZNlM28zLFnV8WhcS9KzA==\n=HxK1\n-----END PGP SIGNATURE-----",
-                    "verified": true,
-                    "verified_at": "2026-02-17T18:24:49Z"
-                }
-            },
-            "committer": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
-                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
-                "followers_url": "https://api.github.com/users/iphydf/followers",
-                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
-                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/iphydf",
-                "id": 10647936,
-                "login": "iphydf",
-                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
-                "organizations_url": "https://api.github.com/users/iphydf/orgs",
-                "received_events_url": "https://api.github.com/users/iphydf/received_events",
-                "repos_url": "https://api.github.com/users/iphydf/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/iphydf",
-                "user_view_type": "public"
-            },
-            "html_url": "https://github.com/TokTok/hs-github-tools/commit/66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb",
-            "node_id": "C_kwDOBFjmu9oAKDY2Y2E2YWRkNTdkMmVjMjc5N2E5YjM2ZWE3Y2M3ZjljMGU0MjhkZWI",
-            "parents": [
-                {
-                    "html_url": "https://github.com/TokTok/hs-github-tools/commit/2e48de89c1faf5788f229e8a0434d38c47c43732",
-                    "sha": "2e48de89c1faf5788f229e8a0434d38c47c43732",
-                    "url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/2e48de89c1faf5788f229e8a0434d38c47c43732"
-                }
-            ],
-            "sha": "66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb",
-            "url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb"
-        },
-        {
-            "author": {
-                "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
-                "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
-                "followers_url": "https://api.github.com/users/iphydf/followers",
-                "following_url": "https://api.github.com/users/iphydf/following{/other_user}",
-                "gists_url": "https://api.github.com/users/iphydf/gists{/gist_id}",
-                "gravatar_id": "",
-                "html_url": "https://github.com/iphydf",
-                "id": 10647936,
-                "login": "iphydf",
-                "node_id": "MDQ6VXNlcjEwNjQ3OTM2",
-                "organizations_url": "https://api.github.com/users/iphydf/orgs",
-                "received_events_url": "https://api.github.com/users/iphydf/received_events",
-                "repos_url": "https://api.github.com/users/iphydf/repos",
-                "site_admin": false,
-                "starred_url": "https://api.github.com/users/iphydf/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/iphydf/subscriptions",
-                "type": "User",
-                "url": "https://api.github.com/users/iphydf",
-                "user_view_type": "public"
-            },
-            "comments_url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/9a649f3ac01e1d4852735ad29652ef85b0cc1fe4/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/52c0ac8139655d884e6a067074739098417c6655/comments",
             "commit": {
                 "author": {
                     "date": "2026-01-01T02:33:38Z",
@@ -290,22 +208,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-17T19:14:48Z",
+                    "date": "2026-05-15T23:33:04Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "feat: Add a git TUI for managing lots of feature branches.",
                 "tree": {
-                    "sha": "36901412971ae29bc644a9576e6a04e6f7cc027a",
-                    "url": "https://api.github.com/repos/TokTok/hs-github-tools/git/trees/36901412971ae29bc644a9576e6a04e6f7cc027a"
+                    "sha": "9d15429631c585f82b4b93921dbe3a2a8d6a2948",
+                    "url": "https://api.github.com/repos/TokTok/hs-github-tools/git/trees/9d15429631c585f82b4b93921dbe3a2a8d6a2948"
                 },
-                "url": "https://api.github.com/repos/TokTok/hs-github-tools/git/commits/9a649f3ac01e1d4852735ad29652ef85b0cc1fe4",
+                "url": "https://api.github.com/repos/TokTok/hs-github-tools/git/commits/52c0ac8139655d884e6a067074739098417c6655",
                 "verification": {
-                    "payload": "tree 36901412971ae29bc644a9576e6a04e6f7cc027a\nparent 66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb\nauthor iphydf <iphydf@users.noreply.github.com> 1767234818 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1771355688 +0000\n\nfeat: Add a git TUI for managing lots of feature branches.\n",
+                    "payload": "tree 9d15429631c585f82b4b93921dbe3a2a8d6a2948\nparent 325ce451fa5f49bc56795375a58e9719d4a99e64\nauthor iphydf <iphydf@users.noreply.github.com> 1767234818 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1778887984 +0000\n\nfeat: Add a git TUI for managing lots of feature branches.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmUvigACgkQOFXbotdE\nA8kg4gf/cB4OFGOd5i8JBRs1X6mmYbHTW871FbeZ9LhwjvVA4qi6TCeABx7i4puh\ngaIErXbW8Elkd8+ayrPF7AybT1dGXy7As4sRUEH0QRmAPKvIvRAeO0jK0L+xwOJe\n5d5pE3/Xzv96+FV4yybCSv7Et0po8AhKAR5o9Ytskd7KplSBqduKS6qxP1jxmCgt\nuRl76SEs/MOoaL0+JXnDON8bPMsLOA+JJE+xp27IFWP6iRh1f/1MCnOht35kZ6t1\nPUzipCOfDm1M7uYe8uoZTx046X39Oa0tfR/ctG/sY6IDBbrEcwszhlNa7ZHKuTIa\nHMQXfC6C5U5GB/PEv8ZwQsDhHbWXDQ==\n=LSpG\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoHrTAACgkQOFXbotdE\nA8kC5wf+KIPkLHta/z7Htdc/k9YaotABhVVypLryuoVcAZq5+j/baKeiNBmDdLRK\njV7HuiLlbacl3335ZF6x+QgspD2J9hA39s5zzv1XiWIC/pKNHVdVlIcMx5zVIDYG\nVbtoE0JWSxKWiAV8Hjre1Mc5ch7+Os94B6BKeFLXx/8x+FlUuNLamk+GURkTtPrQ\nOWWKb6j5zz3oogCpwEC2/6fB3i9AIfKdnlV6K9Wvf+rTLSVbFyk7TkNw3E5DCZuZ\nd6/d2AlOJGb8DH9u/EaZKtqVYx4CTT/ovo+57TOKDDXfwMh3PtHmvHX3lE3VHXkY\nW+yBT+fdrKjzizivxWikR+qrysKKGw==\n=p7yA\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-17T19:14:54Z"
+                    "verified_at": "2026-05-15T23:33:07Z"
                 }
             },
             "committer": {
@@ -329,23 +247,23 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/hs-github-tools/commit/9a649f3ac01e1d4852735ad29652ef85b0cc1fe4",
-            "node_id": "C_kwDOBFjmu9oAKDlhNjQ5ZjNhYzAxZTFkNDg1MjczNWFkMjk2NTJlZjg1YjBjYzFmZTQ",
+            "html_url": "https://github.com/TokTok/hs-github-tools/commit/52c0ac8139655d884e6a067074739098417c6655",
+            "node_id": "C_kwDOBFjmu9oAKDUyYzBhYzgxMzk2NTVkODg0ZTZhMDY3MDc0NzM5MDk4NDE3YzY2NTU",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/hs-github-tools/commit/66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb",
-                    "sha": "66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb",
-                    "url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/66ca6add57d2ec2797a9b36ea7cc7f9c0e428deb"
+                    "html_url": "https://github.com/TokTok/hs-github-tools/commit/325ce451fa5f49bc56795375a58e9719d4a99e64",
+                    "sha": "325ce451fa5f49bc56795375a58e9719d4a99e64",
+                    "url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/325ce451fa5f49bc56795375a58e9719d4a99e64"
                 }
             ],
-            "sha": "9a649f3ac01e1d4852735ad29652ef85b0cc1fe4",
-            "url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/9a649f3ac01e1d4852735ad29652ef85b0cc1fe4"
+            "sha": "52c0ac8139655d884e6a067074739098417c6655",
+            "url": "https://api.github.com/repos/TokTok/hs-github-tools/commits/52c0ac8139655d884e6a067074739098417c6655"
         }
     ],
-    "commits": 2,
+    "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/hs-github-tools/pulls/226/commits",
     "created_at": "2026-01-16T23:37:42Z",
-    "deletions": 125,
+    "deletions": 28,
     "diff_url": "https://github.com/TokTok/hs-github-tools/pull/226.diff",
     "draft": false,
     "head": {
@@ -439,9 +357,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/hs-github-tools/pulls{/number}",
-            "pushed_at": "2026-02-21T21:04:54Z",
+            "pushed_at": "2026-05-15T23:33:06Z",
             "releases_url": "https://api.github.com/repos/iphydf/hs-github-tools/releases{/id}",
-            "size": 595,
+            "size": 610,
             "ssh_url": "git@github.com:iphydf/hs-github-tools.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/hs-github-tools/stargazers",
@@ -463,7 +381,7 @@
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "9a649f3ac01e1d4852735ad29652ef85b0cc1fe4",
+        "sha": "52c0ac8139655d884e6a067074739098417c6655",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -502,9 +420,9 @@
     ],
     "locked": false,
     "maintainer_can_modify": true,
-    "merge_commit_sha": "ee345a4ef06b6990e5acf2609496090fd0ce0238",
+    "merge_commit_sha": "87c44fff95ec138cf2038d0918dd81649674ec59",
     "mergeable": true,
-    "mergeable_state": "behind",
+    "mergeable_state": "blocked",
     "merged": false,
     "merged_at": null,
     "merged_by": null,
@@ -556,9 +474,9 @@
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/hs-github-tools/pulls/226/comments",
     "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/hs-github-tools/statuses/9a649f3ac01e1d4852735ad29652ef85b0cc1fe4",
+    "statuses_url": "https://api.github.com/repos/TokTok/hs-github-tools/statuses/52c0ac8139655d884e6a067074739098417c6655",
     "title": "feat: Add a git TUI for managing lots of feature branches.",
-    "updated_at": "2026-02-17T19:15:06Z",
+    "updated_at": "2026-05-15T23:33:18Z",
     "url": "https://api.github.com/repos/TokTok/hs-github-tools/pulls/226",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",

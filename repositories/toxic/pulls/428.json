@@ -22,11 +22,11 @@
             "href": "https://api.github.com/repos/TokTok/toxic/pulls/428"
         },
         "statuses": {
-            "href": "https://api.github.com/repos/TokTok/toxic/statuses/801f48d0d5205e1e34bbf164c3c9d79617a9cf5d"
+            "href": "https://api.github.com/repos/TokTok/toxic/statuses/c3230e8f1384076f79619e673f78c3de1ac38a31"
         }
     },
     "active_lock_reason": null,
-    "additions": 2,
+    "additions": 21,
     "assignee": null,
     "assignees": [],
     "author_association": "MEMBER",
@@ -56,8 +56,8 @@
             "downloads_url": "https://api.github.com/repos/TokTok/toxic/downloads",
             "events_url": "https://api.github.com/repos/TokTok/toxic/events",
             "fork": true,
-            "forks": 5,
-            "forks_count": 5,
+            "forks": 6,
+            "forks_count": 6,
             "forks_url": "https://api.github.com/repos/TokTok/toxic/forks",
             "full_name": "TokTok/toxic",
             "git_commits_url": "https://api.github.com/repos/TokTok/toxic/git/commits{/sha}",
@@ -96,8 +96,8 @@
             "name": "toxic",
             "node_id": "MDEwOlJlcG9zaXRvcnkxMTgyNjk2Njk=",
             "notifications_url": "https://api.github.com/repos/TokTok/toxic/notifications{?since,all,participating}",
-            "open_issues": 9,
-            "open_issues_count": 9,
+            "open_issues": 8,
+            "open_issues_count": 8,
             "owner": {
                 "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
                 "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -122,11 +122,11 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/TokTok/toxic/pulls{/number}",
-            "pushed_at": "2026-02-24T14:51:58Z",
+            "pushed_at": "2026-07-14T15:24:06Z",
             "releases_url": "https://api.github.com/repos/TokTok/toxic/releases{/id}",
-            "size": 18168,
+            "size": 18171,
             "ssh_url": "git@github.com:TokTok/toxic.git",
-            "stargazers_count": 33,
+            "stargazers_count": 35,
             "stargazers_url": "https://api.github.com/repos/TokTok/toxic/stargazers",
             "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/{sha}",
             "subscribers_url": "https://api.github.com/repos/TokTok/toxic/subscribers",
@@ -154,14 +154,14 @@
                 "videochat"
             ],
             "trees_url": "https://api.github.com/repos/TokTok/toxic/git/trees{/sha}",
-            "updated_at": "2026-02-28T21:57:35Z",
+            "updated_at": "2026-08-18T18:56:36Z",
             "url": "https://api.github.com/repos/TokTok/toxic",
             "visibility": "public",
-            "watchers": 33,
-            "watchers_count": 33,
+            "watchers": 35,
+            "watchers_count": 35,
             "web_commit_signoff_required": true
         },
-        "sha": "32318986280ea3c0f3267593ad547ccebe45aa86",
+        "sha": "5cd1fb6102cf7975746a7cff6b2eb58acc5ca3aa",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/17427091?v=4",
             "events_url": "https://api.github.com/users/TokTok/events{/privacy}",
@@ -185,8 +185,8 @@
         }
     },
     "body": "Some curl weirdness. We didn't have this with our own custom curl build, but the bzlmod one has something weird about it. Still, better to use someone else's maintained curl build than our own, even with this slight oddity.\n\n<!-- Reviewable:start -->\n- - -\nThis change is [<img src=\"https://reviewable.io/review_button.svg\" height=\"34\" align=\"absmiddle\" alt=\"Reviewable\"/>](https://reviewable.io/reviews/TokTok/toxic/428)\n<!-- Reviewable:end -->\n",
-    "changed_files": 1,
-    "closed_at": null,
+    "changed_files": 6,
+    "closed_at": "2026-05-17T19:54:32Z",
     "comment_data": [],
     "comment_regular_data": [],
     "comments": 0,
@@ -214,7 +214,7 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/801f48d0d5205e1e34bbf164c3c9d79617a9cf5d/comments",
+            "comments_url": "https://api.github.com/repos/TokTok/toxic/commits/c3230e8f1384076f79619e673f78c3de1ac38a31/comments",
             "commit": {
                 "author": {
                     "date": "2026-02-10T21:52:02Z",
@@ -223,22 +223,22 @@
                 },
                 "comment_count": 0,
                 "committer": {
-                    "date": "2026-02-10T21:52:02Z",
+                    "date": "2026-05-17T14:32:20Z",
                     "email": "iphydf@users.noreply.github.com",
                     "name": "iphydf"
                 },
                 "message": "chore: Statically link tests in bazel.\n\nSome curl weirdness. We didn't have this with our own custom curl build,\nbut the bzlmod one has something weird about it. Still, better to use\nsomeone else's maintained curl build than our own, even with this slight\noddity.",
                 "tree": {
-                    "sha": "6273b51150985bf193389432e39eed14d26a8502",
-                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/6273b51150985bf193389432e39eed14d26a8502"
+                    "sha": "8b5f56f214774116f8cd3b0eb98e7623532d73de",
+                    "url": "https://api.github.com/repos/TokTok/toxic/git/trees/8b5f56f214774116f8cd3b0eb98e7623532d73de"
                 },
-                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/801f48d0d5205e1e34bbf164c3c9d79617a9cf5d",
+                "url": "https://api.github.com/repos/TokTok/toxic/git/commits/c3230e8f1384076f79619e673f78c3de1ac38a31",
                 "verification": {
-                    "payload": "tree 6273b51150985bf193389432e39eed14d26a8502\nparent 510d648b4a75b78c27e25619a7eaa1c7e2b4a4b8\nauthor iphydf <iphydf@users.noreply.github.com> 1770760322 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1770760322 +0000\n\nchore: Statically link tests in bazel.\n\nSome curl weirdness. We didn't have this with our own custom curl build,\nbut the bzlmod one has something weird about it. Still, better to use\nsomeone else's maintained curl build than our own, even with this slight\noddity.\n",
+                    "payload": "tree 8b5f56f214774116f8cd3b0eb98e7623532d73de\nparent 5cd1fb6102cf7975746a7cff6b2eb58acc5ca3aa\nauthor iphydf <iphydf@users.noreply.github.com> 1770760322 +0000\ncommitter iphydf <iphydf@users.noreply.github.com> 1779028340 +0000\n\nchore: Statically link tests in bazel.\n\nSome curl weirdness. We didn't have this with our own custom curl build,\nbut the bzlmod one has something weird about it. Still, better to use\nsomeone else's maintained curl build than our own, even with this slight\noddity.\n",
                     "reason": "valid",
-                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmmLqLkACgkQOFXbotdE\nA8mxugf/TF81Va/97aAnkVksxAm4K8r/oxbZ5OxgxvrbmZ7IpSYLdis6VWN94bBB\ne53FYNlr6kxFA6j0Z84dNzRhkaN+DcZ+o2wkaq+O97Z9jWP3Qp/pDpeW5iMk/w3w\neN7W9X65tarzVwZ6Nb3p8/1YjdpdS1FkQj6Dttk8de43zWr2Ll/f8yMxvG5vLEaS\nTAOPL+TA/o8yckzYQjanFe6ZIaTBnYdTiA18K2+HeTlQEz3nebsw6JkFyk5GEr3N\ncLb2Ebo0xGXpfPbhHb+DjrVA8xEQOIs7IxDZzNsMuAZHPF3L6M8R/lZZlLre6TvE\nHv/esxZBrFk0/RxK8mUdmpFT09kD/w==\n=yUXG\n-----END PGP SIGNATURE-----",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCgAdFiEEqQ4tlxH906HdaIgsOFXbotdEA8kFAmoJ0XQACgkQOFXbotdE\nA8nerQf/R6hs7v//kbwnCsiYKsJbjkmaXEKtgQYvGs9u0kNqSbPrZXsuIBGkqk99\nAM65+oT2ZmhoK2mTOqVFvlAhD1nJNM7HY5FQX6adBk+Z392S3u0Ih5FY/bwtvASG\n4zmXELKSH+YR3Tq1MPymFjo2ys4HpNAV5OMoz6baboAh+XWtqT5dFPoEcH06fPam\n3axgyrIldRrJrFpoOVWEXdpz2MCGdES2URI0pJYJSpgMhSgMOw/p0rFo9JdrGJrI\nChi00kMsqFTFAy2Xjrny2s99niuXuiLqA07RHK9s7zZe+nvqanJiV4ScTO35Eo0J\n1xFFoKjB61jiJ95h5mJuSJSI81T5Ng==\n=7BUw\n-----END PGP SIGNATURE-----",
                     "verified": true,
-                    "verified_at": "2026-02-10T21:53:02Z"
+                    "verified_at": "2026-05-17T14:32:22Z"
                 }
             },
             "committer": {
@@ -262,25 +262,25 @@
                 "url": "https://api.github.com/users/iphydf",
                 "user_view_type": "public"
             },
-            "html_url": "https://github.com/TokTok/toxic/commit/801f48d0d5205e1e34bbf164c3c9d79617a9cf5d",
-            "node_id": "C_kwDOB0nKrNoAKDgwMWY0OGQwZDUyMDVlMWUzNGJiZjE2NGMzYzlkNzk2MTdhOWNmNWQ",
+            "html_url": "https://github.com/TokTok/toxic/commit/c3230e8f1384076f79619e673f78c3de1ac38a31",
+            "node_id": "C_kwDOB0nKrNoAKGMzMjMwZThmMTM4NDA3NmY3OTYxOWU2NzNmNzhjM2RlMWFjMzhhMzE",
             "parents": [
                 {
-                    "html_url": "https://github.com/TokTok/toxic/commit/510d648b4a75b78c27e25619a7eaa1c7e2b4a4b8",
-                    "sha": "510d648b4a75b78c27e25619a7eaa1c7e2b4a4b8",
-                    "url": "https://api.github.com/repos/TokTok/toxic/commits/510d648b4a75b78c27e25619a7eaa1c7e2b4a4b8"
+                    "html_url": "https://github.com/TokTok/toxic/commit/5cd1fb6102cf7975746a7cff6b2eb58acc5ca3aa",
+                    "sha": "5cd1fb6102cf7975746a7cff6b2eb58acc5ca3aa",
+                    "url": "https://api.github.com/repos/TokTok/toxic/commits/5cd1fb6102cf7975746a7cff6b2eb58acc5ca3aa"
                 }
             ],
-            "sha": "801f48d0d5205e1e34bbf164c3c9d79617a9cf5d",
-            "url": "https://api.github.com/repos/TokTok/toxic/commits/801f48d0d5205e1e34bbf164c3c9d79617a9cf5d"
+            "sha": "c3230e8f1384076f79619e673f78c3de1ac38a31",
+            "url": "https://api.github.com/repos/TokTok/toxic/commits/c3230e8f1384076f79619e673f78c3de1ac38a31"
         }
     ],
     "commits": 1,
     "commits_url": "https://api.github.com/repos/TokTok/toxic/pulls/428/commits",
     "created_at": "2026-02-10T21:53:09Z",
-    "deletions": 0,
+    "deletions": 10,
     "diff_url": "https://github.com/TokTok/toxic/pull/428.diff",
-    "draft": true,
+    "draft": false,
     "head": {
         "label": "iphydf:static",
         "ref": "static",
@@ -372,9 +372,9 @@
             "private": false,
             "pull_request_creation_policy": "all",
             "pulls_url": "https://api.github.com/repos/iphydf/toxic/pulls{/number}",
-            "pushed_at": "2026-02-10T21:53:01Z",
+            "pushed_at": "2026-05-17T19:56:20Z",
             "releases_url": "https://api.github.com/repos/iphydf/toxic/releases{/id}",
-            "size": 18016,
+            "size": 18023,
             "ssh_url": "git@github.com:iphydf/toxic.git",
             "stargazers_count": 0,
             "stargazers_url": "https://api.github.com/repos/iphydf/toxic/stargazers",
@@ -390,14 +390,14 @@
                 "tox"
             ],
             "trees_url": "https://api.github.com/repos/iphydf/toxic/git/trees{/sha}",
-            "updated_at": "2026-01-27T19:03:10Z",
+            "updated_at": "2026-05-17T19:56:21Z",
             "url": "https://api.github.com/repos/iphydf/toxic",
             "visibility": "public",
             "watchers": 0,
             "watchers_count": 0,
             "web_commit_signoff_required": false
         },
-        "sha": "801f48d0d5205e1e34bbf164c3c9d79617a9cf5d",
+        "sha": "c3230e8f1384076f79619e673f78c3de1ac38a31",
         "user": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
             "events_url": "https://api.github.com/users/iphydf/events{/privacy}",
@@ -435,16 +435,36 @@
         }
     ],
     "locked": false,
-    "maintainer_can_modify": true,
-    "merge_commit_sha": "236b9d08e761729d5e721a3ae4f8afa0039fda98",
-    "mergeable": true,
-    "mergeable_state": "behind",
-    "merged": false,
-    "merged_at": null,
-    "merged_by": null,
+    "maintainer_can_modify": false,
+    "merge_commit_sha": "c3230e8f1384076f79619e673f78c3de1ac38a31",
+    "mergeable": null,
+    "mergeable_state": "unknown",
+    "merged": true,
+    "merged_at": "2026-05-17T19:54:32Z",
+    "merged_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41485111?v=4",
+        "events_url": "https://api.github.com/users/toktok-releaser/events{/privacy}",
+        "followers_url": "https://api.github.com/users/toktok-releaser/followers",
+        "following_url": "https://api.github.com/users/toktok-releaser/following{/other_user}",
+        "gists_url": "https://api.github.com/users/toktok-releaser/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/toktok-releaser",
+        "id": 41485111,
+        "login": "toktok-releaser",
+        "node_id": "MDQ6VXNlcjQxNDg1MTEx",
+        "organizations_url": "https://api.github.com/users/toktok-releaser/orgs",
+        "received_events_url": "https://api.github.com/users/toktok-releaser/received_events",
+        "repos_url": "https://api.github.com/users/toktok-releaser/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/toktok-releaser/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/toktok-releaser/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/toktok-releaser",
+        "user_view_type": "public"
+    },
     "milestone": {
         "closed_at": null,
-        "closed_issues": 9,
+        "closed_issues": 13,
         "created_at": "2026-02-12T18:24:14Z",
         "creator": {
             "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
@@ -474,25 +494,25 @@
         "labels_url": "https://api.github.com/repos/TokTok/toxic/milestones/19/labels",
         "node_id": "MI_kwDOBwym5c4A4buU",
         "number": 19,
-        "open_issues": 5,
+        "open_issues": 4,
         "state": "open",
         "title": "v0.16.3",
-        "updated_at": "2026-02-24T14:52:00Z",
+        "updated_at": "2026-07-14T15:21:49Z",
         "url": "https://api.github.com/repos/TokTok/toxic/milestones/19"
     },
     "node_id": "PR_kwDOBwym5c7C2_ZB",
     "number": 428,
     "patch_url": "https://github.com/TokTok/toxic/pull/428.patch",
-    "rebaseable": true,
+    "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/TokTok/toxic/pulls/comments{/number}",
     "review_comments": 0,
     "review_comments_url": "https://api.github.com/repos/TokTok/toxic/pulls/428/comments",
-    "state": "open",
-    "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/801f48d0d5205e1e34bbf164c3c9d79617a9cf5d",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/TokTok/toxic/statuses/c3230e8f1384076f79619e673f78c3de1ac38a31",
     "title": "chore: Statically link tests in bazel.",
-    "updated_at": "2026-02-12T18:24:35Z",
+    "updated_at": "2026-05-17T19:56:21Z",
     "url": "https://api.github.com/repos/TokTok/toxic/pulls/428",
     "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/10647936?v=4",
